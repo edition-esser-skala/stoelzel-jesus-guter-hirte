@@ -86,12 +86,53 @@ AchWoBinSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoAchWoBin
-		
+		a'16([ h)] h([\trill c)] c([ d)] d([\trill e)] e([ f)] f([ e)] e([ c)] a8
+		e16([ fis)] fis([\trill gis)] gis([\trill a)] a([ h)] h([\trill c)] c([ d)] d4
+		r16 c h c e c h c r c h c e c h c
+		a8 a'4 f8 f16([ d)] e([ c)] d8. c16
+		c4 r r2 %5
+		r2 r8 e4 f8
+		e16([ c)] a4 r8 r4 r8 f'
+		gis,16([ a)] a([\trill h)] h([ c)] c([\trill d)] d4 r
+		r16 a gis a c a gis a r a gis a c a gis a
+		d,8 f'4 d8 d16([ h)] c([ a)] h8. a16 %10
+		a4 r r2
+		R1*2
+		r8\fermata c8.([ e16)] d8 h16([ c)] c([ d)] d([ e)] e([ d)]
+		d([ h)] g8 r4 r8 d'4 e8 %15
+		f a d,8. e16 cis4 a16([ h!)] h([ cis)]
+		cis([ d)] d([ e)] e([ f)] f([ e)] e([ cis)] a8 r4
+		r4 f'8 e d c! b8. c16
+		a4 a16([ c)] h8 gis16([ a)] a([ h)] h([ c)] c[( h)]
+		h([ gis)] e8 e'4~ e8. f16 d8 e %20
+		cis d d16([ f)] e8 dis cis16([ h)] g'8 e
+		g,4( fis) e r
+		R1*3 \markDaCapo \bar "||" %25 finis
 	}
 }
 
 AchWoBinSopranoLyrics = \lyricmode {
+	Ach, wo bin ich hin -- ge -- ra -- then!
+	ach, wie hab ich mich ver -- irrt!
+	Wo bin ich hin -- ge -- ra -- then, wo bin ich hin -- ge -- ra -- then,
+	ach, ach, wie hab ich mich ver --
+	irrt! %5
+	Ach, wo
+	bin ich? Wie
+	hab ich mich ver -- irrt?
+	Wo bin ich hin -- ge -- ra -- then, wo bin ich hin -- ge -- ra -- then,
+	ach, ach, wie hab ich mich ver -- %10
+	irrt?
 	
+	We -- he mir ver -- laß -- nen
+	Ar -- men! Will ſich %15
+	mein ge -- treu -- er Hirt jetzt nicht
+	ü -- ber mich er -- bar -- men,
+	will ſich mein ge -- treu -- er
+	Hirt jetzt nicht ü -- ber mich er --
+	bar -- men, ſterb __ ich in den %20
+	Mi -- ße -- tha -- ten, in den Mi -- ße --
+	tha -- ten. %22 finis
 }
 
 % SopranoNotes = {
