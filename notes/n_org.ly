@@ -71,6 +71,18 @@ BetruebterFallBassFigures = \figuremode {
 	r <5! _+> %15 finis
 }
 
+AchWoBinOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoAchWoBin
+		a4 r r r8 d
+	}
+}
+
+AchWoBinBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

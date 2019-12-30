@@ -4,6 +4,14 @@
 
 \version "2.18.0"
 
+AchWoBinViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoAchWoBin
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -69,29 +69,67 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.2" "R E C I T A T I V" "Betrübter Fall"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das verlohrne" "Schäflein" } }
+% 					\new Voice = "Soprano" { \dynamicUp \BetruebterFallSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \BetruebterFallSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\BetruebterFallOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \BetruebterFallBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.2" "R E C I T A T I V" "Betrübter Fall"
+			movement = \movementTitle "1.3" "ARIA" "Ach wo bin ich hingerathen"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
-		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das verlohrne" "Schäflein" } }
-					\new Voice = "Soprano" { \dynamicUp \BetruebterFallSopranoNotes }
+					\set Staff.instrumentName = "Oboe solo"
+					\AchWoBinOboeI
 				}
-				\new Lyrics \lyricsto Soprano \BetruebterFallSopranoLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
+						\AchWoBinViolinoI
+					}
+				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Das verlohrne" "Schäflein" } }
+					\new Voice = "Soprano" { \dynamicUp \AchWoBinSopranoNotes }
+				}
+				\new Lyrics \lyricsto Soprano \AchWoBinSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\BetruebterFallOrgano
+						\AchWoBinOrgano
 					}
 				>>
-				\new FiguredBass { \BetruebterFallBassFigures }
+				\new FiguredBass { \AchWoBinBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

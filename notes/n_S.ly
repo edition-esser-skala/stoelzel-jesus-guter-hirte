@@ -82,6 +82,18 @@ BetruebterFallSopranoLyrics = \lyricmode {
 	ſo ge -- fal -- len bin! %15 finis
 }
 
+AchWoBinSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoAchWoBin
+		
+	}
+}
+
+AchWoBinSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

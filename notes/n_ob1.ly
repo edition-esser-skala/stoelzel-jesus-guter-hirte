@@ -4,3 +4,10 @@
 
 \version "2.18.0"
 
+AchWoBinOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoAchWoBin
+		
+	}
+}
