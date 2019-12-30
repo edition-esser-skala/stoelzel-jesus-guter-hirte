@@ -23,7 +23,7 @@
 		\header {
 			movement = \movementTitle "1.1" "C H O R A L" "Jeſu! frommer Menschenheerden"
 		}
-		\paper { indent = 3\cm }
+		\paper { indent = 3\cm systems-per-page = #2 }
 		\score {
 			<<
 				\new ChoirStaff <<

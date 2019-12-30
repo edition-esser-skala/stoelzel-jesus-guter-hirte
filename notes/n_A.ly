@@ -20,12 +20,26 @@ JesuFrommerAltoNotes = {
 		\clef treble
 		\key b \major \time 4/1 \autoBeamOff \tempoJesuFrommer
 			\set Staff.timeSignatureFraction = 4/4
-		
+		f2 f f f es es f f\fermata
+		b b c b b b a1\fermata
+		f2 f f f es es f f\fermata
+		b b c b b b a1\fermata
+		b2 b a f4( b,) c2 f f f\fermata %5
+		f b a a g g fis fis\fermata
+		g g a a b b b1\fermata
+		b2 b a g4( b) b2 a f1\fermata \bar "|." %8 finis
 	}
 }
 
 JesuFrommerAltoLyrics = \lyricmode {
-	
+	Je -- ſu! from -- mer Men -- ſchen -- heer -- den
+	gu -- ter und ge -- treu -- er Hirt,
+	laß mich auch dein Schäf -- lein wer -- den,
+	das dein Stab und Stim -- me führt.
+	Ach! du haſt aus Lieb dein Le -- ben %5
+	für die Scha -- fe hin -- ge -- ge -- ben,
+	und du gabſt es auch für mich,
+	laß mich wie -- der lie -- ben dich. %8 finis
 }
 
 % AltoNotes = {
