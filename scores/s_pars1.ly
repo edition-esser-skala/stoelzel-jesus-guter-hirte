@@ -101,11 +101,11 @@
 		\header {
 			movement = \movementTitle "1.3" "ARIA" "Ach wo bin ich hingerathen"
 		}
-% 		\paper {
-% 			system-system-spacing.basic-distance = #23
-% 			system-system-spacing.minimum-distance = #23
-% 			systems-per-page = #5
-% 		}
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #3
+		}
 		\score {
 			<<
 				\new Staff {
