@@ -262,6 +262,10 @@ pao = \partcombineApartOnce
 pa = \partcombineApart
 pd = \partcombineAutomatic
 
+markDaCapo = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "da capo" }
+}
 markFermata = \mark \markup { \musicglyph #"scripts.ufermata" }
 scriptOut = \once \override Script.avoid-slur = #'outside
 

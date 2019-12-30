@@ -75,12 +75,60 @@ AchWoBinOrgano = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 4/4 \tempoAchWoBin
+		\mvTr a4\pE-\soloE r r r8 d
+		e4 r r r8 e
+		a,4 r e' r
+		f r8 f g c, g' g,
+		c4 r8 e f4 r8 f %5
+		g4 g, c r8 d
 		a4 r r r8 d
+		e4 r e, r8 e'
+		a,4 r c r
+		d r8 d e a, e' e, %10
+		a4 r8 c d4 r8 d
+		e4 r8 e f fis g gis
+		a4 r8 f e a, e' e,
+		a4\fermata r8 fis g4 r
+		g r g8 g' f e %15
+		d c b b' a4 r
+		a, r a' r
+		a, a'8 a, b c d e
+		f e d dis e4 r
+		e, r e2 %20
+		a h~
+		h e,4 r8 g
+		a4 r8 a h4 r8 h
+		c cis d dis e2~
+		e e, \markDaCapo \bar "||" %25 finis
 	}
 }
 
 AchWoBinBassFigures = \figuremode {
-	
+	r1
+	r
+	r
+	r
+	r %5
+	r
+	r
+	r
+	r
+	r %10
+	r
+	r
+	r
+	r
+	r2. <6>8 q %15
+	r <6> <7> <6> <_+>2
+	r1
+	r4 <6>8 <5> r2
+	r1
+	r %20
+	r
+	r
+	r
+	r
+	r %25 finis
 }
 
 % Organo = {
