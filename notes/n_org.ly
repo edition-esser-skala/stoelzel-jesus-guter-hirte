@@ -34,13 +34,41 @@ JesuFrommerBassFigures = \figuremode {
 BetruebterFallOrgano = {
 	\relative c {
 		\clef bass
-		\key c \major \time 4/4 \tempoBetruebterFall
+		\key g \dorian \time 4/4 \tempoBetruebterFall
 		g2 a~
+		a b~
+		b a4 gis
+		a d b2~
+		b1~ %5
+		b~
+		b2 fis~
+		fis g
+		f e!~
+		e f %10
+		e d
+		g1~
+		g
+		f2 e
+		f e\fermata \bar "|." %15 finis
 	}
 }
 
 BetruebterFallBassFigures = \figuremode {
-	
+	r2 <6\\>
+	r <6>
+	r <_+>4 <7 _!>
+	<_+>1
+	r2 <6 4-> %5
+	<7 4- 2>1
+	<8 3>2 <6>
+	r1
+	<4! 2>2 <6>
+	r1 %10
+	<6\\>
+	<6->
+	<6! 4\+ 2>
+	<6>2 <5! _+>
+	r <5! _+> %15 finis
 }
 
 % Organo = {

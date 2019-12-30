@@ -73,11 +73,15 @@
 		\header {
 			movement = \movementTitle "1.2" "R E C I T A T I V" "Betrübter Fall"
 		}
-% 		\paper { indent = 3\cm systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
+		}
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das verlohrne" "Schäflein" "(Canto 1)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das verlohrne" "Schäflein" } }
 					\new Voice = "Soprano" { \dynamicUp \BetruebterFallSopranoNotes }
 				}
 				\new Lyrics \lyricsto Soprano \BetruebterFallSopranoLyrics
