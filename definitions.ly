@@ -278,6 +278,7 @@ tempoMarkup =
 %
 
 tempoJesuFrommer = \tempoMarkup "Choral"
+tempoBetruebterFall = \tempoMarkup "Recitativ"
 
 
 

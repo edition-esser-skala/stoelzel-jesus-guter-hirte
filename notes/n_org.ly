@@ -31,6 +31,18 @@ JesuFrommerBassFigures = \figuremode {
 	r2 <6> r1 <6 5> r %8 finis
 }
 
+BetruebterFallOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoBetruebterFall
+		g2 a~
+	}
+}
+
+BetruebterFallBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

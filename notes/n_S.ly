@@ -5,7 +5,7 @@
 \version "2.18.0"
 
 SopranoIncipit = \markup {
-	\center-column { "Soprano" "[Violino I]" "[Oboe I]" } \hspace #-20.5 \score {
+	\center-column { "Canto" "[Violino I]" "[Oboe I]" } \hspace #-20.5 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
@@ -40,6 +40,18 @@ JesuFrommerSopranoLyrics = \lyricmode {
 	für die Scha -- fe hin -- ge -- ge -- ben,
 	und du gabſt es auch für mich,
 	laß mich wie -- der lie -- ben dich. %8 finis
+}
+
+BetruebterFallSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoBetruebterFall
+		
+	}
+}
+
+BetruebterFallSopranoLyrics = \lyricmode {
+	
 }
 
 % SopranoNotes = {

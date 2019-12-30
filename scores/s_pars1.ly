@@ -19,56 +19,78 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.1" "C H O R A L" "Jeſu! frommer Menschenheerden"
+% 		}
+% 		\paper { indent = 3\cm systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \SopranoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Soprano" { \dynamicUp \JesuFrommerSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \JesuFrommerSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \AltoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Alto" { \dynamicUp \JesuFrommerAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \JesuFrommerAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \TenoreIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Tenore" { \dynamicUp \JesuFrommerTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \JesuFrommerTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \JesuFrommerBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \JesuFrommerBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\JesuFrommerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \JesuFrommerBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.1" "C H O R A L" "Jeſu! frommer Menschenheerden"
+			movement = \movementTitle "1.2" "R E C I T A T I V" "Betrübter Fall"
 		}
-		\paper { indent = 3\cm systems-per-page = #2 }
+% 		\paper { indent = 3\cm systems-per-page = #2 }
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \JesuFrommerSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \JesuFrommerSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \JesuFrommerAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \JesuFrommerAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Tenore" { \dynamicUp \JesuFrommerTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \JesuFrommerTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \JesuFrommerBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \JesuFrommerBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Das verlohrne" "Schäflein" "(Canto 1)" } }
+					\new Voice = "Soprano" { \dynamicUp \BetruebterFallSopranoNotes }
+				}
+				\new Lyrics \lyricsto Soprano \BetruebterFallSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\JesuFrommerOrgano
+						\BetruebterFallOrgano
 					}
 				>>
-				\new FiguredBass {
-					\JesuFrommerBassFigures
-				}
+				\new FiguredBass { \BetruebterFallBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
