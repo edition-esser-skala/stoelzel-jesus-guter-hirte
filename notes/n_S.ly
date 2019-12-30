@@ -85,15 +85,15 @@ BetruebterFallSopranoLyrics = \lyricmode {
 AchWoBinSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key a \minor \time 4/4 \autoBeamOff \tempoAchWoBin
-		a'16([ h)] h([\trill c)] c([ d)] d([\trill e)] e([ f)] f([ e)] e([ c)] a8
-		e16([ fis)] fis([\trill gis)] gis([\trill a)] a([ h)] h([\trill c)] c([ d)] d4
+		\key a \minor \time 4/4 \autoBeamOff \tempoAchWoBin \alwaysScriptOut
+		a'16([ h)] h([-+ c)] c([ d)] d([-+ e)] e([ f)] f([ e)] e([ c)] a8
+		e16([ fis)] fis([-+ gis)] gis([-+ a)] a([ h)] h([-+ c)] c([ d)] d4
 		r16 c h c e c h c r c h c e c h c
 		a8 a'4 f8 f16([ d)] e([ c)] d8. c16
 		c4 r r2 %5
 		r2 r8 e4 f8
 		e16([ c)] a4 r8 r4 r8 f'
-		gis,16([ a)] a([\trill h)] h([ c)] c([\trill d)] d4 r
+		gis,16([ a)] a([-+ h)] h([ c)] c([-+ d)] d4 r
 		r16 a gis a c a gis a r a gis a c a gis a
 		d,8 f'4 d8 d16([ h)] c([ a)] h8. a16 %10
 		a4 r r2

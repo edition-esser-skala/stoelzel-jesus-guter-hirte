@@ -268,6 +268,7 @@ markDaCapo = {
 }
 markFermata = \mark \markup { \musicglyph #"scripts.ufermata" }
 scriptOut = \once \override Script.avoid-slur = #'outside
+alwaysScriptOut = \override Script.avoid-slur = #'outside
 
 
 

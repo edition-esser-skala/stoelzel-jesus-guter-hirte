@@ -88,7 +88,7 @@ AchWoBinOrgano = {
 		a4 r8 c d4 r8 d
 		e4 r8 e f fis g gis
 		a4 r8 f e a, e' e,
-		a4\fermata r8 fis g4 r
+		a4\fermata r8 fis g!4 r
 		g r g8 g' f e %15
 		d c b b' a4 r
 		a, r a' r
