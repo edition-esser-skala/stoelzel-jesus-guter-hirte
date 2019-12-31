@@ -52,7 +52,7 @@
 % 					\new Lyrics \lyricsto Tenore \JesuFrommerTenoreLyrics
 % 					
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
+% 						\set Staff.instrumentName = "Basſo"
 % 						\new Voice = "Basso" { \dynamicUp \JesuFrommerBassoNotes }
 % 					}
 % 					\new Lyrics \lyricsto Basso \JesuFrommerBassoLyrics
@@ -97,39 +97,67 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.3" "ARIA" "Ach wo bin ich hingerathen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #22
+% 			system-system-spacing.minimum-distance = #22
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Oboe solo"
+% 					\AchWoBinOboeI
+% 				}
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
+% 						\AchWoBinViolinoI
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das verlohrne" "Schäflein" } }
+% 					\new Voice = "Soprano" { \dynamicUp \AchWoBinSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \AchWoBinSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\AchWoBinOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \AchWoBinBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.3" "ARIA" "Ach wo bin ich hingerathen"
+			movement = \movementTitle "1.4" "R E C I T A T I V" "Auf Sünde folget Fluch und Strafe"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #22
-			system-system-spacing.minimum-distance = #22
-			systems-per-page = #3
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #2
 		}
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = "Oboe solo"
-					\AchWoBinOboeI
+					\set Staff.instrumentName = "Das Geſetze"
+					\new Voice = "Basso" { \dynamicUp \AufSuendeBassoNotes }
 				}
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
-						\AchWoBinViolinoI
-					}
-				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das verlohrne" "Schäflein" } }
-					\new Voice = "Soprano" { \dynamicUp \AchWoBinSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \AchWoBinSopranoLyrics
+				\new Lyrics \lyricsto Basso \AufSuendeBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\AchWoBinOrgano
+						\AufSuendeOrgano
 					}
 				>>
-				\new FiguredBass { \AchWoBinBassFigures }
+				\new FiguredBass { \AufSuendeBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

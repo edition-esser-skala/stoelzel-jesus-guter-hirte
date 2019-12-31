@@ -131,6 +131,30 @@ AchWoBinBassFigures = \figuremode {
 	<\t \t> <5 _+>8 <6 4> <\t \t> <5 _+>4. %25 finis
 }
 
+AufSuendeOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAufSuende
+		c2 f,
+		g4 c h2
+		a1
+		g2 h
+		c e~ %5
+		e f4 d
+		e a, r2\fermata \bar "|." %7 finis
+	}
+}
+
+AufSuendeBassFigures = \figuremode {
+	r1
+	r2 <6\\>
+	<5> <6\\>
+	r <6>
+	r <6> %5
+	r1
+	<_+> %7 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

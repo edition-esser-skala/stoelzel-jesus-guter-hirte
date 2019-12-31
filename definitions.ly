@@ -285,6 +285,7 @@ tempoMarkup =
 tempoJesuFrommer = \tempoMarkup "Choral"
 tempoBetruebterFall = \tempoMarkup "Recitativ"
 tempoAchWoBin = \tempoMarkup "Aria"
+tempoAufSuende = \tempoMarkup "Recitativ"
 
 
 
