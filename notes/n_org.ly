@@ -158,13 +158,115 @@ AufSuendeBassFigures = \figuremode {
 WerEinParadiesOrgano = {
 	\relative c {
 		\clef bass
-		\key f \lydian \time 3/8 \timeWerEinParadies
+		\key f \major \time 3/8 \tempoWerEinParadies
 		r8 \mvTr f\pE-\soloE g
+		a8. b16 c d
+		e,8 c16 c' a c~
+		c b b, b' g b~
+		b a a, a' f a~ %5
+		a g g, g' e g
+		f b c8 c,
+		f, f' e
+		f f,16 g a b
+		c8 c,16 c'' a c~ %10
+		c b b, b' g b~
+		b a a, a' f a~
+		a g g, g' e g
+		f8 g g,
+		c, c' d %15
+		e8. f16 g a
+		b8 b, g
+		a f d
+		e r16 c'' a c~
+		c b b, b' g b~ %20
+		b a a, a' f a~
+		a g g, g' e g
+		f8 d4
+		c c'8
+		d b, c %25
+		f, r16 f'' d f~
+		f e e, e' c e~
+		e d d, d' b d
+		c f, c8[ c,]
+		f\fermata f'[ e] %30
+		d c b
+		a4 r8
+		r a' g
+		f e d
+		c4 r8 %35
+		cis4 a8
+		d, d' e
+		f8. g16 a b
+		e,8. f16 g a
+		d,8. e16 f g %40
+		c,8. d16 e f
+		h,!4 d8
+		c f4
+		e8 e,16 e' c e~
+		e d d, d' h! d %45
+		c8 c,16 c'' a c~
+		c h h, h' gis h~
+		h a a, a' f a~
+		a g g, g' e g~
+		g f f, f' d f %50
+		e4 e,8
+		a4 r8 \markDaCapo \bar "||" %52 finis
 	}
 }
 
 WerEinParadiesBassFigures = \figuremode {
-	
+	r4 <6>8
+	q4.
+	q4 q8
+	<\tt \tt>16 <5 3> r4
+	<\tt>16 <6> r4 %5
+	<\tt>16 <6> r4
+	r16 <6> r4
+	r <6>8
+	r4.
+	r4 <6>8 %10
+	<\tt \tt>16 <5 3> r4
+	<\tt>16 <6> r4
+	<\tt>16 <6> r4
+	r8 <6 4> <5 _!>
+	r4 <6!>8 %15
+	<6>4.
+	r4 <6>8
+	q4 <5>16 <6!>
+	r4 <6>8
+	<\tt \tt>16 <5 3> r4 %20
+	<\tt>16 <6> r4
+	<\tt>16 <6> r4
+	r8 <6!>4
+	r4 <6>8
+	r <6>4 %25
+	r4 <5>8
+	<\tt>16 <6> r4
+	<\tt>16 <6> r4
+	r4.
+	r4 <4>8 %30
+	r <6> q
+	<_+>4.
+	r
+	r8 <6> <6!>
+	r4. %35
+	<7->4 <_+>8
+	r4 <6\\>8
+	<6>4.
+	<7>8 <6>4
+	<7>8 <6!>4 %40
+	<[7!]>8 <6>4
+	<7>8 <6\\> <[6!] 4\+ 2>
+	<[6]>8 <6>4
+	<_+>4 <[6]>8
+	<\tt \tt>16 <5 3> r8 <6> %45
+	r4 <5 3>8
+	<\tt>16 <6\\> r8 <5 _!>
+	<\tt \tt>16 <5 3> r8 <5 3>
+	<\tt \tt>16 <5 _-> r8 <6>
+	<\tt \tt>16 <5 3> r8 <6!> %50
+	<5! _+>8 <6 4> <5! _+>
+	r4. %52 finis
 }
 
 % Organo = {

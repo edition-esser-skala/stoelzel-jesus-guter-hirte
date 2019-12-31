@@ -150,6 +150,7 @@ unisonoE = \markup { \remarkE "unisono" }
 
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
+tt = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #1 \draw-line #'(1 . -.8) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
 fermataMarkdown = \markup { \musicglyph #'"scripts.dfermata" }
 critnote = \markup { \musicglyph #'"pedal.*" }
@@ -286,6 +287,7 @@ tempoJesuFrommer = \tempoMarkup "Choral"
 tempoBetruebterFall = \tempoMarkup "Recitativ"
 tempoAchWoBin = \tempoMarkup "Aria"
 tempoAufSuende = \tempoMarkup "Recitativ"
+tempoWerEinParadies = \tempoMarkup "Aria"
 
 
 

@@ -58,13 +58,98 @@ AufSuendeBassoLyrics = \lyricmode {
 WerEinParadiesBassoNotes = {
 	\relative c {
 		\clef bass
-		\key f \lydian \time 3/8 \autoBeamOff \timeWerEinParadies
-		
+		\key f \major \time 3/8 \autoBeamOff \tempoWerEinParadies
+		R4.*7 %7
+		r8 f g
+		a8. b16 c d
+		e,8 c c'16 a %10
+		d8 r16 d b d
+		c8 f, r
+		b8. b16 g b
+		a f e8 d16([ c)]
+		c4 r8 %15
+		R4.
+		r8 d e
+		f8. g16 a h
+		c8 c, c'16 a
+		d8 r16 d b! d %20
+		c8 f, a16 f
+		b8 r16 b g b
+		a8 \appoggiatura g f8. f16
+		c'8. g16 a([ e)]
+		f8 b, c %25
+		f,4 r8
+		R4.*3
+		r8\fermata a'4~ %30
+		a4.~
+		a8. a,16 a8
+		r c'4~
+		c4.~
+		c8. c,16 c8 %35
+		g' b! a
+		f d r
+		r d' d
+		d([ c!)] c
+		c([ h)] h %40
+		h? a r
+		r gis8. fis32([ e)]
+		a16 a, d8. e16
+		e4 a16 g!
+		f8. a16 g f %45
+		f([ e)] e8 c'16 a
+		d8. d16 h d
+		c([ h)] c8 c16 f,
+		b8. d16 c b
+		a([ gis)] a8 h16 a %50
+		gis a c,8 h
+		a4 r8 \markDaCapo \bar "||" %52 finis
 	}
 }
 
 WerEinParadiesBassoLyrics = \lyricmode {
+	Wer ein %8
+	Pa -- ra -- dieß ver --
+	ſcher -- tzet, mag auf %10
+	Dorn, auf Dorn und
+	Diſ -- teln,
+	mag auf Dorn, auf
+	Dorn und Diſ -- teln	
+	gehn. %15
 	
+	Wer ein
+	Pa -- ra -- dieß ver --
+	ſcher -- tzet, mag auf
+	Dorn, auf Dorn und %20
+	Diſ -- teln, mag auf
+	Dorn und Diſ -- teln
+	gehn, mag auf
+	Dorn, auf Dorn
+	und Diſ -- teln %25
+	gehn.
+	
+	Schmach -- %30
+	
+	te nun,
+	ſchmach --
+	
+	te nun %35
+	auf dür -- rer
+	Hei -- de,
+	denn die
+	vor -- ge --
+	noß -- ne %40
+	Wei -- de
+	muß vor
+	dich ver -- schlo -- ßen
+	ſtehn, ſchmach -- te
+	nun auf dür -- rer %45
+	Hei -- de, denn die
+	vor -- ge -- noß -- ne
+	Wei -- de, denn die
+	vor -- ge -- noß -- ne
+	Wei -- de muß vor %50
+	dich ver -- schlo -- ßen
+	ſtehn. %52 finis
 }
 
 % BassoNotes = {
