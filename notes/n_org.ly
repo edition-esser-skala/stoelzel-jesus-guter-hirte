@@ -274,11 +274,35 @@ GetrostDeinOrgano = {
 		\clef bass
 		\key d \minor \time 4/4 \tempoGetrostDein
 		d1
+		g2 a4 d,
+		h2 gis~
+		gis a
+		f e %5
+		d' c~
+		c d
+		g,1
+		gis2 a
+		e'1~ %10
+		e2 cis~
+		cis d
+		b c4 f,\fermata \bar "|." %13 finis
 	}
 }
 
 GetrostDeinBassFigures = \figuremode {
-	
+	r1
+	r2 <_+>
+	<7>2 <6 _!>
+	r1
+	<6>2 <5! _+> %5
+	<6! 4\+ 2> <6>
+	r <_+>
+	<_!>1
+	<6 _!>
+	<6> %10
+	<6 5->2 <6>
+	r1
+	<6>1 %13 finis
 }
 
 % Organo = {
