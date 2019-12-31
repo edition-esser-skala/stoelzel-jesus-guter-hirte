@@ -155,6 +155,18 @@ AufSuendeBassFigures = \figuremode {
 	<_+> %7 finis
 }
 
+WerEinParadiesOrgano = {
+	\relative c {
+		\clef bass
+		\key f \lydian \time 3/8 \timeWerEinParadies
+		r8 \mvTr f\pE-\soloE g
+	}
+}
+
+WerEinParadiesBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -55,6 +55,18 @@ AufSuendeBassoLyrics = \lyricmode {
 	fül -- len. %7 finis
 }
 
+WerEinParadiesBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \lydian \time 3/8 \autoBeamOff \timeWerEinParadies
+		
+	}
+}
+
+WerEinParadiesBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

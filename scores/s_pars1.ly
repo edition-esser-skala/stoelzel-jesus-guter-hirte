@@ -135,32 +135,60 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.4" "R E C I T A T I V" "Auf Sünde folget Fluch und Strafe"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Das Geſetze"
+% 					\new Voice = "Basso" { \dynamicUp \AufSuendeBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \AufSuendeBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\AufSuendeOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \AufSuendeBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.4" "R E C I T A T I V" "Auf Sünde folget Fluch und Strafe"
+			movement = \movementTitle "1.5" "A R I A" "Wer ein Paradieß verſchertzet"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #23
 			system-system-spacing.minimum-distance = #23
-			systems-per-page = #2
+			systems-per-page = #5
 		}
 		\score {
 			<<
 				\new Staff {
 					\set Staff.instrumentName = "Das Geſetze"
-					\new Voice = "Basso" { \dynamicUp \AufSuendeBassoNotes }
+					\new Voice = "Basso" { \dynamicUp \WerEinParadiesBassoNotes }
 				}
-				\new Lyrics \lyricsto Basso \AufSuendeBassoLyrics
+				\new Lyrics \lyricsto Basso \WerEinParadiesBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\AufSuendeOrgano
+						\WerEinParadiesOrgano
 					}
 				>>
-				\new FiguredBass { \AufSuendeBassFigures }
+				\new FiguredBass { \WerEinParadiesBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }
