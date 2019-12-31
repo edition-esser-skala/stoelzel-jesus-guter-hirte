@@ -269,6 +269,18 @@ WerEinParadiesBassFigures = \figuremode {
 	r4. %52 finis
 }
 
+GetrostDeinOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 4/4 \tempoGetrostDein
+		d1
+	}
+}
+
+GetrostDeinBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

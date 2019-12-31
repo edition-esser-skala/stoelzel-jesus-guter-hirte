@@ -284,10 +284,11 @@ tempoMarkup =
 %
 
 tempoJesuFrommer = \tempoMarkup "Choral"
-tempoBetruebterFall = \tempoMarkup "Recitativ"
+tempoBetruebterFall = \tempoMarkup "Recitativo"
 tempoAchWoBin = \tempoMarkup "Aria"
-tempoAufSuende = \tempoMarkup "Recitativ"
+tempoAufSuende = \tempoMarkup "Recitativo"
 tempoWerEinParadies = \tempoMarkup "Aria"
+tempoGetrostDein = \tempoMarkup "Recitativo"
 
 
 

@@ -42,6 +42,18 @@ JesuFrommerAltoLyrics = \lyricmode {
 	laß mich wie -- der lie -- ben dich. %8 finis
 }
 
+GetrostDeinAltoNotes = {
+	\relative c' {
+		\clef treble
+		
+		
+	}
+}
+
+GetrostDeinAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

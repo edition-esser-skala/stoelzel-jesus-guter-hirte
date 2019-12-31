@@ -71,7 +71,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "1.2" "R E C I T A T I V" "Betrübter Fall"
+% 			movement = \movementTitle "1.2" "R E C I T A T I V O" "Betrübter Fall"
 % 		}
 % 		\paper {
 % 			system-system-spacing.basic-distance = #23
@@ -99,7 +99,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "1.3" "ARIA" "Ach wo bin ich hingerathen"
+% 			movement = \movementTitle "1.3" "A R I A" "Ach wo bin ich hingerathen"
 % 		}
 % 		\paper {
 % 			system-system-spacing.basic-distance = #22
@@ -137,7 +137,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "1.4" "R E C I T A T I V" "Auf Sünde folget Fluch und Strafe"
+% 			movement = \movementTitle "1.4" "R E C I T A T I V O" "Auf Sünde folget Fluch und Strafe"
 % 		}
 % 		\paper {
 % 			system-system-spacing.basic-distance = #23
@@ -163,9 +163,37 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.5" "A R I A" "Wer ein Paradieß verſchertzet"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Das Geſetze"
+% 					\new Voice = "Basso" { \dynamicUp \WerEinParadiesBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \WerEinParadiesBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WerEinParadiesOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WerEinParadiesBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.5" "A R I A" "Wer ein Paradieß verſchertzet"
+			movement = \movementTitle "1.6" "R E C I T A T I V O" "Getroſt! dein Hirte liebt dich noch"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #23
@@ -175,20 +203,20 @@
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = "Das Geſetze"
-					\new Voice = "Basso" { \dynamicUp \WerEinParadiesBassoNotes }
+					\set Staff.instrumentName = "Das Evangelium"
+					\new Voice = "Alto" { \dynamicUp \GetrostDeinAltoNotes }
 				}
-				\new Lyrics \lyricsto Basso \WerEinParadiesBassoLyrics
+				\new Lyrics \lyricsto Alto \GetrostDeinAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\WerEinParadiesOrgano
+						\GetrostDeinOrgano
 					}
 				>>
-				\new FiguredBass { \WerEinParadiesBassFigures }
+				\new FiguredBass { \GetrostDeinBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
