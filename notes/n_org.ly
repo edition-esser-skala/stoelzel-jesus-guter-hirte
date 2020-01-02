@@ -359,7 +359,7 @@ SeinHertzeOrgano = {
 		c c c c
 		c c cis cis
 		d d d d
-		a4 r8 c16 d %55
+		a4 r8 c!16 d %55
 		e4 e,
 		a r8 b'!16 c
 		d4 d,
