@@ -135,6 +135,19 @@ AchWoBinSopranoLyrics = \lyricmode {
 	tha -- ten. %22 finis
 }
 
+HungrigDurstigSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/1 \autoBeamOff \tempoJesuFrommer
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+HungrigDurstigSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

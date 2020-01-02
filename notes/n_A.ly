@@ -185,6 +185,19 @@ SeinHertzeAltoLyrics = \lyricmode {
 	mir. %64 finis
 }
 
+HungrigDurstigAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/1 \autoBeamOff \tempoJesuFrommer
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+HungrigDurstigAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

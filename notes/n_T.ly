@@ -101,6 +101,19 @@ ErIstAufDieseWeltTenoreLyrics = \lyricmode {
 	Sei -- nem ſü -- ßen A -- bend -- mahl. %24 finis
 }
 
+HungrigDurstigTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 4/1 \autoBeamOff \tempoJesuFrommer
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+HungrigDurstigTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

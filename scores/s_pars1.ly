@@ -261,32 +261,84 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.8" "R E C I T A T I V O" "Er iſt auf dieſe Welt gebohren"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \ErIstAufDieseWeltTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \ErIstAufDieseWeltTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\ErIstAufDieseWeltOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \ErIstAufDieseWeltBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\partTitle "P A R S" "I"
+% 	}
+% 	\bookpart {
+% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+% 		\markup \null
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.8" "R E C I T A T I V O" "Er iſt auf dieſe Welt gebohren"
+			movement = \movementTitle "1.9" "C H O R A L" "Hungrig, durſtig und ſehr matt"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \ErIstAufDieseWeltTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \ErIstAufDieseWeltTenoreLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+						\new Voice = "Soprano" { \dynamicUp \HungrigDurstigSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \HungrigDurstigSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+						\new Voice = "Alto" { \dynamicUp \HungrigDurstigAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \HungrigDurstigAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+						\new Voice = "Tenore" { \dynamicUp \HungrigDurstigTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \HungrigDurstigTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \HungrigDurstigBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \HungrigDurstigBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\ErIstAufDieseWeltOrgano
+						\HungrigDurstigOrgano
 					}
 				>>
-				\new FiguredBass { \ErIstAufDieseWeltBassFigures }
+				\new FiguredBass { \HungrigDurstigBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

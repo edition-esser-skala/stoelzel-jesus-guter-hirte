@@ -495,6 +495,19 @@ ErIstAufDieseWeltBassFigures = \figuremode {
 	r1 %25 finis
 }
 
+HungrigDurstigOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/1 \tempoJesuFrommer
+			\set Staff.timeSignatureFraction = 4/4
+		\mvTr g'2\fE-\tuttiE h, c h a g d'1\fermata
+	}
+}
+
+HungrigDurstigBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

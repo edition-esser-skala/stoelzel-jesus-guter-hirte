@@ -152,6 +152,19 @@ WerEinParadiesBassoLyrics = \lyricmode {
 	ſtehn. %52 finis
 }
 
+HungrigDurstigBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/1 \autoBeamOff \tempoJesuFrommer
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+HungrigDurstigBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

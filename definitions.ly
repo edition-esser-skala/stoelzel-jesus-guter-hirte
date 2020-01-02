@@ -293,6 +293,7 @@ tempoSeinHertze = \tempoMarkup "Aria"
 tempoErIstAufDieseWelt = \tempoMarkup "Recitativo"
 	tempoErIstAufDieseWeltB = \tempoMarkup "Arioſo"
 	tempoErIstAufDieseWeltC = \tempoMarkup "Recitativo"
+tempoHungrigDurstig = \tempoMarkup "Choral"
 
 
 
