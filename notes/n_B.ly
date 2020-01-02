@@ -157,12 +157,26 @@ HungrigDurstigBassoNotes = {
 		\clef bass
 		\key g \major \time 4/1 \autoBeamOff \tempoJesuFrommer
 			\set Staff.timeSignatureFraction = 4/4
-		
+		g'2 h, c h a g d'1\fermata
+		\time 5/1 d2 h c a g g' d1 g,\fermata
+		\time 4/1 g'2 h, c h a g d'1\fermata
+		\time 5/1 d2 h c a g g' d1 g,\fermata
+		\time 2/1 g'2 g, d'1\fermata %5
+		a'2 a, e'1\fermata
+		\time 4/1 e2 d c a h2. h4 e1\fermata
+		e2 fis g h,4( c) d2. d4 g,1\fermata \bar "|." %8 finis
 	}
 }
 
 HungrigDurstigBassoLyrics = \lyricmode {
-	
+	Hung -- rig, durſ -- tig und ſehr matt
+	komm ich ar -- mes Schaf ge -- lauf -- fen.
+	O wie wohl machſt du mich ſatt,
+	Treu -- ſter Hirt, ſamt dei -- nem Hauf -- fen.
+	Nicht al -- lein
+	Brodt und Wein,
+	ſon -- dern auch dein Leib und Blut
+	ſind die Weid und ed -- le Hut.
 }
 
 % BassoNotes = {

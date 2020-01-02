@@ -106,12 +106,26 @@ HungrigDurstigTenoreNotes = {
 		\clef "treble_8"
 		\key g \major \time 4/1 \autoBeamOff \tempoJesuFrommer
 			\set Staff.timeSignatureFraction = 4/4
-		
+		d2 d c g c d d1\fermata
+		\time 5/1 d2 d c c d d d2.( c4) h1\fermata
+		\time 4/1 d2 d c g c d d1\fermata
+		\time 5/1 d2 d c c d d d2.( c4) h1\fermata
+		\time 2/1 d2 d d1\fermata %5
+		e2 e e1\fermata
+		\time 4/1 e2 h g c h2. h4 h1\fermata
+		e4( h) d2 d d d2. d4 h1\fermata \bar "|." %8 finis
 	}
 }
 
 HungrigDurstigTenoreLyrics = \lyricmode {
-	
+	Hung -- rig, durſ -- tig und ſehr matt
+	komm ich ar -- mes Schaf ge -- lauf -- fen.
+	O wie wohl machſt du mich ſatt,
+	Treu -- ſter Hirt, ſamt dei -- nem Hauf -- fen.
+	Nicht al -- lein
+	Brodt und Wein,
+	ſon -- dern auch dein Leib und Blut
+	ſind die Weid und ed -- le Hut.
 }
 
 % TenoreNotes = {

@@ -140,12 +140,26 @@ HungrigDurstigSopranoNotes = {
 		\clef treble
 		\key g \major \time 4/1 \autoBeamOff \tempoJesuFrommer
 			\set Staff.timeSignatureFraction = 4/4
-		
+		h'2 d g, g a h a1\fermata
+		\time 5/1 a2 h g a h4( a) h2 a1 g\fermata
+		\time 4/1 h2 d g, g a h a1\fermata
+		\time 5/1 a2 h g a h4( a) h2 a1 g\fermata
+		\time 2/1 h2 h4( a) a1\fermata %5
+		c2 c4( h) h1\fermata
+		\time 4/1 h2 h e fis dis2. e4 e1\fermata
+		g2 d4( c) h( a) h2 a2. g4 g1\fermata \bar "|." %8 finis
 	}
 }
 
 HungrigDurstigSopranoLyrics = \lyricmode {
-	
+	Hung -- rig, durſ -- tig und ſehr matt
+	komm ich ar -- mes Schaf ge -- lauf -- fen.
+	O wie wohl machſt du mich ſatt,
+	Treu -- ſter Hirt, ſamt dei -- nem Hauf -- fen.
+	Nicht al -- lein
+	Brodt und Wein,
+	ſon -- dern auch dein Leib und Blut
+	ſind die Weid und ed -- le Hut.
 }
 
 % SopranoNotes = {

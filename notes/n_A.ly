@@ -190,12 +190,26 @@ HungrigDurstigAltoNotes = {
 		\clef treble
 		\key g \major \time 4/1 \autoBeamOff \tempoJesuFrommer
 			\set Staff.timeSignatureFraction = 4/4
-		
+		g'2 g e d fis g fis1\fermata
+		\time 5/1 fis2 g e fis g g g( fis4 e) d1\fermata
+		\time 4/1 g2 g e d fis g fis1\fermata
+		\time 5/1 fis2 g e fis g g g( fis4 e) d1\fermata
+		\time 2/1 g2 g fis1\fermata %5
+		a2 a g1\fermata
+		\time 4/1 g2 fis g a fis2. g4 g1\fermata
+		h2 a g g g( fis4) e d1\fermata \bar "|."
 	}
 }
 
 HungrigDurstigAltoLyrics = \lyricmode {
-	
+	Hung -- rig, durſ -- tig und ſehr matt
+	komm ich ar -- mes Schaf ge -- lauf -- fen.
+	O wie wohl machſt du mich ſatt,
+	Treu -- ſter Hirt, ſamt dei -- nem Hauf -- fen.
+	Nicht al -- lein
+	Brodt und Wein,
+	ſon -- dern auch dein Leib und Blut
+	ſind die Weid und ed -- le Hut.
 }
 
 % AltoNotes = {

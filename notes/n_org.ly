@@ -501,11 +501,25 @@ HungrigDurstigOrgano = {
 		\key g \major \time 4/1 \tempoJesuFrommer
 			\set Staff.timeSignatureFraction = 4/4
 		\mvTr g'2\fE-\tuttiE h, c h a g d'1\fermata
+		\time 5/1 d2 h c a g g' d1 g,\fermata
+		\time 4/1 g'2 h, c h a g d'1\fermata
+		\time 5/1 d2 h c a g g' d1 g,\fermata
+		\time 2/1 g'2 g, d'1\fermata %5
+		a'2 a, e'1\fermata
+		\time 4/1 e2 d c a h1 e\fermata
+		e2 fis g h,4 c d2 d, g1\fermata \bar "|." %8 finis
 	}
 }
 
 HungrigDurstigBassFigures = \figuremode {
-	
+	r2 <6> r q q1 r
+	r2 <6> r q r1 <4>2 <3> r1
+	r2 <6> r q q1 r
+	r2 <6> r q r1 <4>2 <3> r1
+	r1 r %5
+	r r
+	r2 <6> r <6> <_+>1 r
+	r2 <6>4 <5> r2 <6>4 <\t> <4>2 <3> r1 %8 finis
 }
 
 % Organo = {
