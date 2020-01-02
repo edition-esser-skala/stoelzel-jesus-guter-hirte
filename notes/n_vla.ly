@@ -6,7 +6,7 @@
 
 SeinHertzeViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \minor \time 2/4 \tempoSeinHertze
 		d4\fE r
 		r8 f f f
