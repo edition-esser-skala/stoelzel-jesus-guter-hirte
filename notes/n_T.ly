@@ -42,6 +42,65 @@ JesuFrommerTenoreLyrics = \lyricmode {
 	laß mich wie -- der lie -- ben dich. %8 finis
 }
 
+ErIstAufDieseWeltTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoErIstAufDieseWelt
+		r8 d d e f f f e
+		e e r e e a, d c
+		a a r4 r8 c f e
+		f4 r8 c a a c a
+		f4 r8 f' \tempoErIstAufDieseWeltB f8. e16 e4 %5
+		r8 a, d16([ f)] e8 cis a r d
+		h! c d e f a f4
+		e8 g g g g16([ e)] c8 r f
+		f16([ e)] a8 e16([ c)] h8 c e e e
+		e16([ c)] a8 r f' f16([ e)] e8 a([ d,16)] e %10
+		\tempoErIstAufDieseWeltC e4 r8 e e d f e
+		d4 r8 d d d h h
+		c4 r16 c e c a8 h c h
+		h h r d f! f f e
+		e e r16 e e e g8 g a e %15
+		f4 r16 f f f d8 d g e
+		cis4 r8 a e'8. e16 e f g f
+		d8 d r d f d cis d
+		a a r16 e' f g f8. f16 f8 r16 f
+		d8. d16 e8 f e e r16 e g e %20
+		c4 r8 e a a d, e
+		c c r e e8. h16 h8 c
+		d d e h c4 r8 a
+		dis8. dis16 dis8 e e8. h16 h4
+		R1\fermataMarkup \bar "|." %25 finis
+	}
+}
+
+ErIstAufDieseWeltTenoreLyrics = \lyricmode {
+	Er iſt auf die -- ſe Welt ge --
+	boh -- ren, zu ſu -- chen, was ver --
+	loh -- ren. Erſt ſucht Er
+	dich im Stall zu Beth -- le --
+	hem, mit wei -- nen -- den, %5
+	doch ſü -- ßen Lip -- pen rief
+	Er aus Sei -- ner har -- ten Krip --
+	pen: Wenn doch mein Schäf -- lein, mein
+	Schäf -- lein zu mir käm, wenn doch mein
+	Schäf -- lein, mein Schäf -- lein zu mir %10
+	käm! Er wolt als Jo -- seph
+	fliehn und in E -- gyp -- ten
+	ziehn, da -- mit Er dei -- ne Zu -- flucht
+	wür -- de. Wie man -- che ſchwe -- re
+	Bür -- de nahm Er in Sei -- nem Le -- bens %15
+	Lauf um dei -- net -- wil -- len wil -- lig
+	auf! Wie oft ließ Er, dich zu ge --
+	win -- nen, aus Lie -- be Thrä -- nen
+	rin -- nen! Jetzt, da Er ſter -- ben will, ver --
+	macht Er dir am En -- de Sein Fleiſch und %20
+	Blut im Neu -- en Teſ -- ta --
+	men -- te. Ach ei -- le doch in
+	je -- nen gro -- ßen Saal zu
+	Sei -- nem ſü -- ßen A -- bend -- mahl. %24 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

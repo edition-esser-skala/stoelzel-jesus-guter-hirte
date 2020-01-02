@@ -435,6 +435,66 @@ SeinHertzeBassFigures = \figuremode {
 	r2 %64 finis
 }
 
+ErIstAufDieseWeltOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoErIstAufDieseWelt
+		h1
+		c2 f
+		e4 a, f2~
+		f1~
+		f2 \tempoErIstAufDieseWeltB c'4 cis %5
+		d f,8 g a a' f d
+		g4 r8 c, h4 r8 g
+		c4 c, a' h
+		c8 f g g, c4 c,
+		f d e f %10
+		\tempoErIstAufDieseWeltC e1
+		gis
+		a2 fis
+		g1
+		c2 cis %15
+		d b'
+		a g
+		f gis,
+		a d
+		h! c %20
+		e f
+		g4 c, gis2~
+		gis a
+		a' h4 h,
+		e2 r\fermata \bar "|." %25 finis
+	}
+}
+
+ErIstAufDieseWeltBassFigures = \figuremode {
+	<6>1
+	r2 <7>4 <6>
+	<_+>1
+	r
+	r2 <4>8 <3> <6 5>4 %5
+	r <6>8 <6 _-> <_+>4 <6>
+	<_!>2 <7>4. <7>8
+	r2 <7>4 <6 5>
+	r4 <6 4>8 <5 3> r4 <6>
+	<7>8 <6> r4 <9 _+>8 <8 \t> <6>4 %10
+	<_+>1
+	<6 5>
+	r2 <6 5>
+	r1
+	r2 <6 5> %15
+	r <5>4 <6>
+	<_+>2 <\t>
+	<6> <7>
+	<_+>1
+	<6 5> %20
+	<6>2 <5>4 <6>
+	r2 <6>
+	<5>1
+	<6+ 4+ 2>2 <6 4>4 <5+ _+>
+	r1 %25 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

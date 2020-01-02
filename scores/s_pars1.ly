@@ -219,46 +219,74 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.7" "A R I A" "Sein Hertze brennt in ſüßen Liebesflammen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Flauti" "unisoni" } }
+% 					\SeinHertzeFlautoI
+% 				}
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
+% 						\SeinHertzeViolinoI
+% 					}
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\SeinHertzeViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Das Evangelium"
+% 					\new Voice = "Alto" { \dynamicUp \SeinHertzeAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \SeinHertzeAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SeinHertzeOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \SeinHertzeBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.7" "A R I A" "Sein Hertze brennt in ſüßen Liebesflammen"
+			movement = \movementTitle "1.8" "R E C I T A T I V O" "Er iſt auf dieſe Welt gebohren"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
 		}
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Flauti" "unisoni" } }
-					\SeinHertzeFlautoI
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \ErIstAufDieseWeltTenoreNotes }
 				}
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
-						\SeinHertzeViolinoI
-					}
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\SeinHertzeViola
-					}
-				>>
-				\new Staff {
-					\set Staff.instrumentName = "Das Evangelium"
-					\new Voice = "Alto" { \dynamicUp \SeinHertzeAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \SeinHertzeAltoLyrics
+				\new Lyrics \lyricsto Tenore \ErIstAufDieseWeltTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SeinHertzeOrgano
+						\ErIstAufDieseWeltOrgano
 					}
 				>>
-				\new FiguredBass { \SeinHertzeBassFigures }
+				\new FiguredBass { \ErIstAufDieseWeltBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

@@ -290,6 +290,9 @@ tempoAufSuende = \tempoMarkup "Recitativo"
 tempoWerEinParadies = \tempoMarkup "Aria"
 tempoGetrostDein = \tempoMarkup "Recitativo"
 tempoSeinHertze = \tempoMarkup "Aria"
+tempoErIstAufDieseWelt = \tempoMarkup "Recitativo"
+	tempoErIstAufDieseWeltB = \tempoMarkup "Arioſo"
+	tempoErIstAufDieseWeltC = \tempoMarkup "Recitativo"
 
 
 
