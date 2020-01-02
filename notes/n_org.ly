@@ -308,13 +308,131 @@ GetrostDeinBassFigures = \figuremode {
 SeinHertzeOrgano = {
 	\relative c {
 		\clef bass
-		\key d \minor \time 2/4 \tempoSeinHertze
+		\twofourtime \key d \minor \time 2/4 \tempoSeinHertze
 		\mvTr d4\fE-\soloE r
+		r8 d d, d''
+		c c, b b'
+		a4 r8 b
+		a a, g g' %5
+		f4 r8 e
+		d e f g
+		a4 r8 a16 b
+		c8 c, r g'16 a
+		b8 b, r f'16 g %10
+		a8 a, r a
+		d d, r4
+		d'\pE r
+		R2*5 %18
+		r4 r8 a'16 b
+		c8 c, r c %20
+		f f, r a'16 b
+		c4 c,
+		f, r8 e'16 f
+		g4 g,
+		c r8 c, %25
+		f4 r
+		f r
+		R2
+		r8 c'' c, r
+		R2 %30
+		r8 a' a,4
+		r8 a' a,4
+		r8 a' a,4
+		r8 a' a,4
+		r8 g' g, c %35
+		f,4 r8 f'16 g
+		a8 a, r a
+		d d, r f'16 g
+		a4 a,
+		d, d'8 e %40
+		f4 f,8 g
+		a2
+		d,4 r8 a''16\fE b
+		c8 c, r g'16 a
+		b8 b, r f'16 g %45
+		a8 a, r a'
+		d, d, d' e
+		f f, f' g
+		a4 a,
+		d\fermata r8 h\pE %50
+		c4 r8 c
+		c c c c
+		c c cis cis
+		d d d d
+		a4 r8 c16 d %55
+		e4 e,
+		a r8 b'!16 c
+		d4 d,
+		g,8 b c e
+		f f f f %60
+		c4 r8 cis
+		d d, r e'
+		f b c c,
+		f4 r \markDaCapo \bar "||" %64 finis
 	}
 }
 
 SeinHertzeBassFigures = \figuremode {
-	
+	r2
+	r
+	r
+	r
+	r %5
+	r
+	r
+	<4>8 <_+>r <6>
+	<4> <3> r <6->
+	<4-> <3> r <6> %10
+	r2
+	r
+	r
+	r2*5 %18
+	r4. <6>8
+	r2 %20
+	r
+	r
+	r
+	r
+	r %25
+	r
+	r
+	r
+	r
+	r %30
+	r
+	r
+	r
+	r
+	r %35
+	r
+	r
+	r
+	r
+	r %40
+	r
+	r
+	r
+	r
+	r %45
+	r
+	r
+	r
+	r
+	r %50
+	r
+	r
+	r
+	r
+	<4>8 <_+> r <6> %55
+	<[5! 4]> <[\t _+]> <[7 5! _+]>4
+	r4. <6>8
+	r2
+	r
+	r %60
+	r
+	r
+	r
+	r %64 finis
 }
 
 % Organo = {
