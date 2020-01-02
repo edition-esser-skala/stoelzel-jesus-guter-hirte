@@ -4,3 +4,10 @@
 
 \version "2.18.0"
 
+SeinHertzeViola = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 2/4 \tempoSeinHertze
+		
+	}
+}

@@ -36,6 +36,14 @@ AchWoBinViolinoI = {
 	}
 }
 
+SeinHertzeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 2/4 \tempoSeinHertze
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

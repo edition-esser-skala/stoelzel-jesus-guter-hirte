@@ -191,29 +191,71 @@
 % 			\midi { \tempo 4. = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.6" "R E C I T A T I V O" "Getroſt! dein Hirte liebt dich noch"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Das Evangelium"
+% 					\new Voice = "Alto" { \dynamicUp \GetrostDeinAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \GetrostDeinAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\GetrostDeinOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \GetrostDeinBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.6" "R E C I T A T I V O" "Getroſt! dein Hirte liebt dich noch"
+			movement = \movementTitle "1.7" "A R I A" "Sein Hertze brennt in ſüßen Liebesflammen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #4
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #2
 		}
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = "Das Evangelium"
-					\new Voice = "Alto" { \dynamicUp \GetrostDeinAltoNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Flauti" "unisoni" } }
+					\SeinHertzeFlautoI
 				}
-				\new Lyrics \lyricsto Alto \GetrostDeinAltoLyrics
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
+						\SeinHertzeViolinoI
+					}
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\SeinHertzeViola
+					}
+				>>
+				\new Staff {
+					\set Staff.instrumentName = "Das Evangelium"
+					\new Voice = "Alto" { \dynamicUp \SeinHertzeAltoNotes }
+				}
+				\new Lyrics \lyricsto Alto \SeinHertzeAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\GetrostDeinOrgano
+						\SeinHertzeOrgano
 					}
 				>>
-				\new FiguredBass { \GetrostDeinBassFigures }
+				\new FiguredBass { \SeinHertzeBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

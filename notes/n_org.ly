@@ -305,6 +305,18 @@ GetrostDeinBassFigures = \figuremode {
 	<6>1 %13 finis
 }
 
+SeinHertzeOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 2/4 \tempoSeinHertze
+		\mvTr d4\fE-\soloE r
+	}
+}
+
+SeinHertzeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

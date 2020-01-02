@@ -78,6 +78,18 @@ GetrostDeinAltoLyrics = \lyricmode {
 	kömmt, ver -- ſtößt er nicht. %13 finis
 }
 
+SeinHertzeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 2/4 \autoBeamOff \tempoSeinHertze
+		
+	}
+}
+
+SeinHertzeAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

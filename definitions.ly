@@ -289,6 +289,7 @@ tempoAchWoBin = \tempoMarkup "Aria"
 tempoAufSuende = \tempoMarkup "Recitativo"
 tempoWerEinParadies = \tempoMarkup "Aria"
 tempoGetrostDein = \tempoMarkup "Recitativo"
+tempoSeinHertze = \tempoMarkup "Aria"
 
 
 
