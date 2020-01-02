@@ -104,6 +104,14 @@ SeinHertzeViolinoI = {
 	}
 }
 
+NimmHinViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoNimmHin
+		
+	}
+}
+	
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -65,3 +65,11 @@ SeinHertzeViola = {
 		R2*3 \markDaCapo \bar "||" %64 finis
 	}
 }
+
+NimmHinViola = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoNimmHin
+		
+	}
+}

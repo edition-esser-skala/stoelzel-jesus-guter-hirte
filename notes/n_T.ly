@@ -128,6 +128,18 @@ HungrigDurstigTenoreLyrics = \lyricmode {
 	ſind die Weid und ed -- le Hut.
 }
 
+NimmHinTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 4/4 \autoBeamOff \tempoNimmHin
+		
+	}
+}
+
+NimmHinTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

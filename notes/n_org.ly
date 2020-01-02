@@ -522,6 +522,18 @@ HungrigDurstigBassFigures = \figuremode {
 	r2 <6>4 <5> r2 <6>4 <\t> <4>2 <3> r1 %8 finis
 }
 
+NimmHinOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoNimmHin
+		\mvTr e,8\fE-\soloE  e' dis h e4 r
+	}
+}
+
+NimmHinBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -297,48 +297,92 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.9" "C H O R A L" "Hungrig, durſtig und ſehr matt"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+% 						\new Voice = "Soprano" { \dynamicUp \HungrigDurstigSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \HungrigDurstigSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+% 						\new Voice = "Alto" { \dynamicUp \HungrigDurstigAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \HungrigDurstigAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+% 						\new Voice = "Tenore" { \dynamicUp \HungrigDurstigTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \HungrigDurstigTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \HungrigDurstigBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \HungrigDurstigBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\HungrigDurstigOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \HungrigDurstigBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.9" "C H O R A L" "Hungrig, durſtig und ſehr matt"
+			movement = \movementTitle "1.10" "A R I A" "Nimm hin und iß"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\NimmHinViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\NimmHinViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
-						\new Voice = "Soprano" { \dynamicUp \HungrigDurstigSopranoNotes }
+						\set Staff.instrumentName = "Viola"
+						\NimmHinViola
 					}
-					\new Lyrics \lyricsto Soprano \HungrigDurstigSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
-						\new Voice = "Alto" { \dynamicUp \HungrigDurstigAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \HungrigDurstigAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
-						\new Voice = "Tenore" { \dynamicUp \HungrigDurstigTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \HungrigDurstigTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \HungrigDurstigBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \HungrigDurstigBassoLyrics
 				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+					\new Voice = "Tenore" { \dynamicUp \NimmHinTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \NimmHinTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\HungrigDurstigOrgano
+						\NimmHinOrgano
 					}
 				>>
-				\new FiguredBass { \HungrigDurstigBassFigures }
+				\new FiguredBass { \NimmHinBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

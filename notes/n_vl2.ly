@@ -4,3 +4,10 @@
 
 \version "2.18.0"
 
+NimmHinViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 4/4 \tempoNimmHin
+		
+	}
+}
