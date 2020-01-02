@@ -40,7 +40,67 @@ SeinHertzeViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 2/4 \tempoSeinHertze
-		
+		r8 d'\fE f e16 d
+		a'4 r8 b
+		b8.\trill a16 a8.\trill g16
+		g8\trill f r g
+		g8.\trill f16 f8.\trill e16 %5
+		e8\trill d r cis
+		d16( e f g) a8 b16( d,)
+		d8\trill cis f4~
+		f8\trill e es4~
+		es8\trill d d4~ %10
+		d8\trill cis16 d e8 e~
+		e d r4
+		r8 d\pE f e16 d
+		c!4-! b-!
+		a-! r8 b %15
+		a4-! g-!
+		f-\parenthesize-! r8 e
+		d e f g
+		a a, f''4~
+		f8 e16 f g a b8~ %20
+		b a f4~
+		f8 e16 f g a b8
+		a4 r
+		R2
+		r8 c,16 d e f g8~ %25
+		g f r4
+		r8 f a g16 f
+		e4-! d-!
+		c-! r8 d
+		c4-! b-! %30
+		a-! r8 cis
+		d4 r8 d
+		e4 r8 e
+		f4 r8 f
+		g4 e\trill %35
+		f d~
+		d8 cis16 d e f g8
+		f4 d~
+		d8 cis16 d e f g8
+		f4 r %40
+		R2*2
+		r4 f~\fE
+		f8 e es4~
+		es8 d d4~ %45
+		d8 cis16 d e4~
+		e8 d b'4~
+		b8 a16 gis a8 d,
+		d4 cis
+		d\fermata r %50
+		r r8 g\pE
+		a16 f a f a f a f
+		a f g e g e g e
+		g d f d f d f d
+		f8 e r4 %55
+		r r8 gis
+		a a, r d'
+		a16 g a b fis4
+		g r8 g
+		f16 c f c f c f c %60
+		f8 e r4
+		R2*3 \markDaCapo \bar "||" %64 finis
 	}
 }
 

@@ -42,7 +42,7 @@ SeinHertzeFlautoI = {
 		d4 r8 d
 		e4 r8 e
 		f4 r8 f
-		g4 e %35
+		g4 e\trillE %35
 		f r8 a
 		e16 d e f g8 cis,
 		d d16 e f g a b
@@ -68,6 +68,6 @@ SeinHertzeFlautoI = {
 		b4 r8 c
 		a16 f a f a f a f %60
 		a8 g r4
-		R2*3 \bar "||" %64 finis
+		R2*3 \markDaCapo \bar "||" %64 finis
 	}
 }
