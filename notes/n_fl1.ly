@@ -32,7 +32,7 @@ SeinHertzeFlautoI = {
 		g,4-! e\trill
 		f r
 		R2
-		r8 e16 f g a b8~ %25
+		r8 e16 f g a b!8~ %25
 		b a r4
 		r8 a c b16 a
 		g8.\trill a16 f8.\trill g16
