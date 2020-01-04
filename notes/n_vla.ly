@@ -89,10 +89,18 @@ NimmHinViola = {
 		e16 h' a g fis8 g e h~ h h'
 		g4\fermata r r2
 		fis,4\pE r8 e d a' d4
-		cis r r2
+		cis r r2 %20
 		e4 r8 e e r r4
 		R1
 		fis4 r8 fis fis4 r
-		R1 \markDaCapo \bar "||"
+		R1 \markDaCapo \bar "||" %24 finis
+	}
+}
+
+VerlohrnesSchaafViola = {
+	\relative c' {
+		\clef treble
+		\key fis \minor \time 4/4 \tempoVerlohrnesSchaaf
+		
 	}
 }

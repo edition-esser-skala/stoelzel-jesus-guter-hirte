@@ -739,6 +739,18 @@ KeinHirtBassFigures = \figuremode {
 	r2 <6> q4 <\t> r1 <6>4 <\t> <4>2 <3> r1 %8 finis
 }
 
+VerlohrnesSchaafOrgano = {
+	\relative c {
+		\clef bass
+		\key fis \minor \time 4/4 \tempoVerlohrnesSchaaf
+		fis4\fE r r8 fis e4
+	}
+}
+
+VerlohrnesSchaafBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

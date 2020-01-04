@@ -206,6 +206,18 @@ KeinHirtBassoLyrics = \lyricmode {
 	wür -- deſt du für Lie -- be wei -- nen. %8 finis
 }
 
+VerlohrnesSchaafBassoNotes = {
+	\relative c {
+		\clef bass
+		\key fis \minor \time 4/4 \autoBeamOff \tempoVerlohrnesSchaaf
+		
+	}
+}
+
+VerlohrnesSchaafBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

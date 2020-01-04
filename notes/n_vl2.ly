@@ -68,3 +68,11 @@ DeinExempelViolinoII = {
 		h4. ais r2*3/2 \markDaCapo \bar "||" %27 finis
 	}
 }
+
+VerlohrnesSchaafViolinoII = {
+	\relative c' {
+		\clef treble
+		\key fis \minor \time 4/4 \tempoVerlohrnesSchaaf
+		
+	}
+}

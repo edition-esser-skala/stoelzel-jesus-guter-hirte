@@ -169,6 +169,14 @@ DeinExempelViolinoI = {
 	}
 }
 
+VerlohrnesSchaafViolinoI = {
+	\relative c' {
+		\clef treble
+		\key fis \minor \time 4/4 \tempoVerlohrnesSchaaf
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

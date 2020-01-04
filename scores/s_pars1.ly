@@ -473,48 +473,92 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.14" "C H O R A L" "Kein Hirt kan ſo fleißig gehen"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+% 						\new Voice = "Soprano" { \dynamicUp \KeinHirtSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \KeinHirtSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+% 						\new Voice = "Alto" { \dynamicUp \KeinHirtAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \KeinHirtAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+% 						\new Voice = "Tenore" { \dynamicUp \KeinHirtTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \KeinHirtTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \KeinHirtBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \KeinHirtBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\KeinHirtOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \KeinHirtBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.14" "C H O R A L" "Kein Hirt kan ſo fleißig gehen"
+			movement = \movementTitle "1.15" "A R I A" "Verlohrnes Schaaf"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\VerlohrnesSchaafViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\VerlohrnesSchaafViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
-						\new Voice = "Soprano" { \dynamicUp \KeinHirtSopranoNotes }
+						\set Staff.instrumentName = "Viola"
+						\VerlohrnesSchaafViola
 					}
-					\new Lyrics \lyricsto Soprano \KeinHirtSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
-						\new Voice = "Alto" { \dynamicUp \KeinHirtAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \KeinHirtAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
-						\new Voice = "Tenore" { \dynamicUp \KeinHirtTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \KeinHirtTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \KeinHirtBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \KeinHirtBassoLyrics
 				>>
+				\new Staff {
+					\set Staff.instrumentName = "Das Geſetze"
+					\new Voice = "Basso" { \dynamicUp \VerlohrnesSchaafBassoNotes }
+				}
+				\new Lyrics \lyricsto Basso \VerlohrnesSchaafBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\KeinHirtOrgano
+						\VerlohrnesSchaafOrgano
 					}
 				>>
-				\new FiguredBass { \KeinHirtBassFigures }
+				\new FiguredBass { \VerlohrnesSchaafBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 110 }
 		}
 	}
 }
