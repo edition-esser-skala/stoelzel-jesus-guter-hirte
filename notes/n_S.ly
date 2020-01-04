@@ -162,6 +162,18 @@ HungrigDurstigSopranoLyrics = \lyricmode {
 	ſind die Weid und ed -- le Hut.
 }
 
+DeinExempelSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 12/8 \autoBeamOff \tempoDeinExempel
+		
+	}
+}
+
+DeinExempelSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -377,32 +377,72 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.11" "R E C I T A T I V O" "Die Liebe deines Hirten"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \DieLiebeDeinesTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DieLiebeDeinesTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DieLiebeDeinesOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DieLiebeDeinesBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.11" "R E C I T A T I V O" "Die Liebe deines Hirten"
+			movement = \movementTitle "1.12" "A R I A" "Dein Exempel ſoll mir ſtets"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #4
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #3
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "2 Oboi"
+						\DeinExempelOboeI
+					}
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "2 Violini"
+						\DeinExempelViolinoI
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \DieLiebeDeinesTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das demüthige" "Schäflein" } }
+					\new Voice = "Soprano" { \dynamicUp \DeinExempelSopranoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \DieLiebeDeinesTenoreLyrics
+				\new Lyrics \lyricsto Soprano \DeinExempelSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DieLiebeDeinesOrgano
+						\DeinExempelOrgano
 					}
 				>>
-				\new FiguredBass { \DieLiebeDeinesBassFigures }
+				\new FiguredBass { \DeinExempelBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 90 }
 		}
 	}
 }

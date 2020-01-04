@@ -135,6 +135,14 @@ NimmHinViolinoI = {
 	}
 }
 	
+DeinExempelViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 12/8 \tempoDeinExempel
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

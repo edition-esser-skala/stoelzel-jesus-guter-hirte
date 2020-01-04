@@ -616,6 +616,18 @@ DieLiebeDeinesBassFigures = \figuremode {
 	r2 <5+ _+>4 <5+>
 }
 
+DeinExempelOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 12/8 \tempoDeinExempel
+		d4 r8 r4. d r
+	}
+}
+
+DeinExempelBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
