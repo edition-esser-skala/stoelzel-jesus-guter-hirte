@@ -184,12 +184,26 @@ KeinHirtBassoNotes = {
 		\clef bass
 		\key a \major \time 5/1 \tempoKeinHirt
 			\set Staff.timeSignatureFraction = 4/4
-		
+		a2 gis a h cis4( dis) e2 h1 e\fermata
+		\time 4/1 cis2 gis a h cis4( d) e2 a,1\fermata
+		\time 5/1 a2 gis a h cis4( dis) e2 h1 e\fermata
+		\time 4/1 cis2 gis a h cis4( d) e2 a,1\fermata
+		a'2 fis cis d a e' a,1\fermata %5
+		a'2 cis, d a h cis4( d) e1\fermata
+		\time 5/1 a2 gis fis4( gis) a2 d,4( cis) h2 a1 d\fermata
+		a'2 gis fis4( gis) a2 e cis4( d) e1 a,\fermata \bar "|." %8 finis
 	}
 }
 
 KeinHirtBassoLyrics = \lyricmode {
-	
+	Kein Hirt kan ſo flei -- ßig ge -- hen
+	nach dem Schaf, das ſich ver -- läuft.
+	Sollſt du Got -- tes Her -- tze ſe -- hen,
+	wie ſich da der Kum -- mer häuft,
+	wie es dürſ -- tet, lächzt und brennt %5
+	nach dem, der ſich ab -- ge -- trennt
+	von Ihm und auch von den Sei -- nen,
+	wür -- deſt du für Lie -- be wei -- nen. %8 finis
 }
 
 % BassoNotes = {

@@ -221,12 +221,26 @@ KeinHirtSopranoNotes = {
 		\clef treble
 		\key a \major \time 5/1 \tempoKeinHirt
 			\set Staff.timeSignatureFraction = 4/4
-		
+		a'2 h cis h a gis fis1 e\fermata
+		\time 4/1 a2 h cis d cis h a1\fermata
+		\time 5/1 a2 h cis h a gis fis1 e\fermata
+		\time 4/1 a2 h cis d cis h a1\fermata
+		cis2 d e d cis h cis1\fermata %5
+		e2 e fis e d cis h1\fermata
+		\time 5/1 cis2 e d cis a h cis1 a\fermata
+		cis2 e d cis h cis h1 a\fermata \bar "|." %8 finis
 	}
 }
 
 KeinHirtSopranoLyrics = \lyricmode {
-	
+	Kein Hirt kan ſo flei -- ßig ge -- hen
+	nach dem Schaf, das ſich ver -- läuft.
+	Sollſt du Got -- tes Her -- tze ſe -- hen,
+	wie ſich da der Kum -- mer häuft,
+	wie es dürſ -- tet, lächzt und brennt %5
+	nach dem, der ſich ab -- ge -- trennt
+	von Ihm und auch von den Sei -- nen,
+	wür -- deſt du für Lie -- be wei -- nen. %8 finis
 }
 
 % SopranoNotes = {

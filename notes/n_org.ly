@@ -718,11 +718,25 @@ KeinHirtOrgano = {
 		\key a \major \time 5/1 \tempoKeinHirt
 			\set Staff.timeSignatureFraction = 4/4
 		a2 gis a h cis4( dis) e2 h1 e\fermata
+		\time 4/1 cis2 gis a h cis4( d) e2 a,1\fermata
+		\time 5/1 a2 gis a h cis4( dis) e2 h1 e\fermata
+		\time 4/1 cis2 gis a h cis4( d) e2 a,1\fermata
+		a'2 fis cis d a e' a,1\fermata %5
+		a'2 cis, d a h cis4( d) e1\fermata
+		\time 5/1 a2 gis fis4( gis) a2 d,4( cis) h2 a1 d\fermata
+		a'2 gis fis4( gis) a2 e cis4( d) e1 a,\fermata \bar "|." %8 finis
 	}
 }
 
 KeinHirtBassFigures = \figuremode {
-	
+	r2 <6> r q4 <5> <6> <\t> r2 <4> <_+> r1
+	<6>2 q r q4 <5> <6> <\t> r2 r1
+	r2 <6> r q4 <5> <6> <\t> r2 <4> <_+> r1
+	<6>2 q r q4 <5> <6> <\t> r2 r1
+	r2 <6> q1 r r %5
+	r2 <6> r1 <5>4 <6> <6> <\t> r1
+	r2 <6> q4 <\t> r2 r4 <\t> <6>2 r1 r
+	r2 <6> q4 <\t> r1 <6>4 <\t> <4>2 <3> r1 %8 finis
 }
 
 % Organo = {

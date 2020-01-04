@@ -250,12 +250,26 @@ KeinHirtTenoreNotes = {
 		\clef "treble_8"
 		\key a \major \time 5/1 \tempoKeinHirt
 			\set Staff.timeSignatureFraction = 4/4
-		
+		cis2 h a d cis h h2.( a4) gis1\fermata
+		\time 4/1 a2 e a gis4( fis) e2 e'4( d) cis1\fermata
+		\time 5/1 cis2 h a d cis h h2.( a4) gis1\fermata
+		\time 4/1 a2 e a gis4( fis) e2 e'4( d) cis1\fermata
+		e2 d a fis' e e e1\fermata %5
+		cis2 a4( e') d2 cis h e e1\fermata
+		\time 5/1 e2 e fis e d d e1 d\fermata
+		e2 e fis e e e e2.( d4) cis1\fermata \bar "|." %8 finis
 	}
 }
 
 KeinHirtTenoreLyrics = \lyricmode {
-	
+	Kein Hirt kan ſo flei -- ßig ge -- hen
+	nach dem Schaf, das ſich ver -- läuft.
+	Sollſt du Got -- tes Her -- tze ſe -- hen,
+	wie ſich da der Kum -- mer häuft,
+	wie es dürſ -- tet, lächzt und brennt %5
+	nach dem, der ſich ab -- ge -- trennt
+	von Ihm und auch von den Sei -- nen,
+	wür -- deſt du für Lie -- be wei -- nen. %8 finis
 }
 
 % TenoreNotes = {
