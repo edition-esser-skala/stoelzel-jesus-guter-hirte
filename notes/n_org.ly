@@ -580,6 +580,42 @@ NimmHinBassFigures = \figuremode {
 	r <6\\> <5+ _+>4 r4 <_+>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff %24 finis
 }
 
+DieLiebeDeinesOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDieLiebeDeines
+		c1
+		e2 h~
+		h1~
+		h2 c
+		gis a %5
+		d e4 a,
+		fis1~
+		fis2 a~
+		a1
+		g %10
+		fis2 ais~
+		ais h
+		e fis4 h,\fermata \bar "|." %13 finis
+	}
+}
+
+DieLiebeDeinesBassFigures = \figuremode {
+	r1
+	<6>2 <6 5>
+	r1
+	r
+	<6> %5
+	r2 <_+>
+	<6>1
+	<5>2 <6\\>
+	<6\\ 4\+ 2>1
+	<6>2 <4\+ 2> %10
+	<6> <6+ _+>
+	r <5+>
+	r2 <5+ _+>4 <5+>
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

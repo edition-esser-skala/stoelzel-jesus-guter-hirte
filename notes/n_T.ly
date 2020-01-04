@@ -177,6 +177,42 @@ NimmHinTenoreLyrics = \lyricmode {
 	Schaf, zu gu -- te. %24 finis
 }
 
+DieLiebeDeinesTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoDieLiebeDeines
+		r4 r8 c e e g e
+		c c r16 c d e f8. f16 f8 f
+		d4 r16 d d d g4 r16 g g d
+		f8 f f e e e r e
+		e d h e c4 r16 c d e %5
+		f4 r8 a, a e r4
+		r r8 a d d d e
+		c4 r16 c h a fis'8 fis g a
+		dis, dis r16 dis e fis fis8 h, h g
+		e4 r8 e' g e cis d %10
+		d4 fis8 fis16 fis fis8([ cis)] r16 cis cis d
+		e8 e fis cis d4 r16 d e fis
+		g8 g e d h h r4\fermata \bar "|." %13 finis
+	}
+}
+
+DieLiebeDeinesTenoreLyrics = \lyricmode {
+	Die Lie -- be dei -- nes
+	Hir -- ten will ih -- re Schäf -- lein nicht al --
+	lein in Brodt und Wein mit ſei -- nem
+	Leib und Blut be -- wir -- then. Die
+	De -- muth will ihn auch mit ei -- nem %5
+	Schurtz um -- gür -- ten.
+	In die -- ſer min -- dern
+	Tracht bückt ſich der HErr der Se -- ra --
+	phi -- nen zu ſei -- ner Jün -- ger Fü -- ßen
+	hin und ſucht durch diß Be -- %10
+	mühn ſie, und auch den, der auf Ver --
+	rä -- the -- rey be -- dacht, mit ei -- nem
+	Fuß -- bad zu be -- die -- nen. %13 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

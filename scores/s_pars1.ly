@@ -290,14 +290,6 @@
 % 		}
 % 	}
 % 	\bookpart {
-% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-% 		\partTitle "P A R S" "I"
-% 	}
-% 	\bookpart {
-% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-% 		\markup \null
-% 	}
-% 	\bookpart {
 % 		\header {
 % 			movement = \movementTitle "1.9" "C H O R A L" "Hungrig, durſtig und ſehr matt"
 % 		}
@@ -341,48 +333,76 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.10" "A R I A" "Nimm hin und iß"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\NimmHinViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\NimmHinViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\NimmHinViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+% 					\new Voice = "Tenore" { \dynamicUp \NimmHinTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \NimmHinTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\NimmHinOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \NimmHinBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.10" "A R I A" "Nimm hin und iß"
+			movement = \movementTitle "1.11" "R E C I T A T I V O" "Die Liebe deines Hirten"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #4
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\NimmHinViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\NimmHinViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\NimmHinViola
-					}
-				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
-					\new Voice = "Tenore" { \dynamicUp \NimmHinTenoreNotes }
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \DieLiebeDeinesTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \NimmHinTenoreLyrics
+				\new Lyrics \lyricsto Tenore \DieLiebeDeinesTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\NimmHinOrgano
+						\DieLiebeDeinesOrgano
 					}
 				>>
-				\new FiguredBass { \NimmHinBassFigures }
+				\new FiguredBass { \DieLiebeDeinesBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
