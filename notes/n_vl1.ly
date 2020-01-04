@@ -108,7 +108,30 @@ NimmHinViolinoI = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 4/4 \tempoNimmHin
-		
+		r8 h'\fE h h h g'16\p a h( g) a( fis)
+		g8 h,\f h h h h h a
+		h fis16\p g a( fis) h( fis) g8 g'16\f a h( g) a( fis)
+		g8 fis16( e) dis8.\trill e16 a( c) h( a) g( e) fis( dis)
+		e4 r r8 g16\p a h( g) a( fis) %5
+		g8 g,16( a) h( g) a( fis) g8 fis g a
+		h fis'16( g) a( fis) h( fis) g4 r
+		r2 r8 c,16 d e( c) d( h)
+		c8 r r4 r8 fis16 g a( fis) g( e)
+		fis4 r r8 d\fE d d %10
+		d h'16\p c d( h) c( a) h4 r
+		r8 h,\fE h h h g'16\p a h( g) a( fis)
+		g8 r r4 r2
+		r8 fis,16 g a fis h fis g8 r r4
+		r8 fis'16 g a( fis) h( fis) g8 e16\fE fis g( e) a( e) %15
+		fis8 d d d d g16( a) h( g) a( fis)
+		g8 fis16 e dis8. e16 a c h a g( e) fis( dis)
+		e4\fermata r r2
+		r8 fis,16\pE g a( fis) g( e) fis g a4 gis8
+		a4 r r2 %20
+		r8 h16 c d( h) e( h) c8 r r4
+		R1
+		r8 cis16 d e( cis) fis( cis) d8 r r4
+		R1 \markDaCapo \bar "||" %24 finis
 	}
 }
 	

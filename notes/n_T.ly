@@ -132,12 +132,49 @@ NimmHinTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key e \minor \time 4/4 \autoBeamOff \tempoNimmHin
-		
+		R1*4
+		r8 h h h h4 r %5
+		r8 h h h h r16 h e8. fis16
+		dis4 r r8 h16([ c)] d?([ h)] e([ h)]
+		c8 h16([ a)] e'8 f16([ d)] e([ c)] a8 r4
+		r8 a a a a4 r
+		r8 a16([ h)] c!([ h)] d([ a)] h8 a16([ g)] r4 %10
+		r8 d' d d d h16([ c)] d([ h)] c([ a)]
+		h8 r r4 r8 h h h
+		h g16([ a)] h([ g)] a([ fis)] g8 fis16 e e'8. fis16
+		dis4 r r8 g fis e
+		fis h, r4 r2 %15
+		R1*2
+		r8\fermata h h c d8. e16 c([ h)] h8
+		a a a a a a d8. e16
+		cis8 h16 a f'8 f f16([ e)] e8 e16([ d)] d8 %20
+		e e, r4 r8 a16([ h)] c([ a)] d([ a)]
+		h8. c16 a8. g16 g8 h e g
+		fis4 fis, r8 d'16 e fis([ d)] e([ cis)]
+		d8 cis ais4 h r \markDaCapo \bar "||"
 	}
 }
 
 NimmHinTenoreLyrics = \lyricmode {
+	Nimm hin und iß, %5
+	nimm hin und iß, das iſt mein
+	Leib, komm trän -- ke
+	dich mit mei -- nem Blu -- te,
+	komm trän -- ke dich
+	mit mei -- nem Blu -- te, %10
+	nimm hin und iß, diß iſt mein
+	Leib, komm trän -- ke
+	dich mit mei -- nem Blu -- te, komm trän -- ke
+	dich mit mei -- nem
+	Blu -- te. %15
 	
+	Ich geb den Leib dem To -- de %18
+	hin und laß aus mei -- nem treu -- en
+	Her -- tzen bey tau -- ſend -- fa -- chen To -- des %20
+	Schmer -- tzen des Blu -- tes
+	Le -- bens Bal -- sam ziehn, bloß dir, ver --
+	lohr -- nes, dir, ver -- lohr -- nes
+	Schaf, zu gu -- te. %24 finis
 }
 
 % TenoreNotes = {

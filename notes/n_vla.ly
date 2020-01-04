@@ -68,8 +68,31 @@ SeinHertzeViola = {
 
 NimmHinViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \minor \time 4/4 \tempoNimmHin
-		
+		r8 e\fE h h g4 r
+		r8 e' e h e h e4
+		fis r8 h,\pE h4 r8 fis'\fE
+		e16 h' a g fis8 g e h~ h h'8
+		g g\p fis dis e4 r %5
+		r8 h h h h h e4
+		dis r8 h h4 r
+		R1
+		r8 fis' e cis d4 r
+		r8 fis fis fis g g\fE d d %10
+		h4 r8 a\pE g4 r
+		r8 e'\fE h h g4 r8 fis\pE
+		e4 r r2
+		h'4 r8 h h r r4
+		r8 h' h h h a\fE a a %15
+		a g g16( h) a8 g16( h,) e8 e16( g) fis8
+		e16 h' a g fis8 g e h~ h h'
+		g4\fermata r r2
+		fis,4\pE r8 e d a' d4
+		cis r r2
+		e4 r8 e e r r4
+		R1
+		fis4 r8 fis fis4 r
+		R1 \markDaCapo \bar "||"
 	}
 }

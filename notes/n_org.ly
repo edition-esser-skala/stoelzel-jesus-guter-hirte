@@ -527,11 +527,57 @@ NimmHinOrgano = {
 		\clef bass
 		\key e \minor \time 4/4 \tempoNimmHin
 		\mvTr e,8\fE-\soloE  e' dis h e4 r
+		r8 e16 fis g( e) fis( dis) e8 d c4
+		h r8 h\pE e, e'16\fE fis g( e) fis( dis)
+		e8 a h g c dis, e h
+		e, e'\pE dis h e4 r %5
+		r8 e16 fis g( e) fis( dis) e8 d c4
+		h r8 h e4 r8 e,
+		a h c d a4 r
+		r8 d cis a d4 r
+		r8 d d d, g g'\fE fis d %10
+		g4 r r8 g16\pE a h( g) a( fis)
+		g8 e\fE dis h e4 r
+		r8 e16\pE fis g( e) fis( dis) e8 d c4
+		h r8 h e4 a
+		h h, e8 a\fE a a, %15
+		d g16 a h( g) a( fis) g8 e16 fis g( e) fis( dis)
+		e8 a h g c dis, e h
+		e,\fermata e'\pE d c h g fis g
+		d'4 r d8 cis h4
+		a r8 a' gis g fis! f %20
+		e4 r8 e a, a' fis d
+		g c, d d, g g'4 e8
+		fis4 r8 fis h, h'16 cis d( h) cis( ais)
+		h8 e, fis fis, h h'16\fE c h( a) g( fis) \markDaCapo \bar "||"
 	}
 }
 
 NimmHinBassFigures = \figuremode {
-	
+	r4 <6>8 <_+> r2
+	r4 <6>8 <6\\> r <6> <7> <6>
+	<_+>4. q8 r4 <6>8 <6\\>
+	r <6> <_+> <6> q q r <_+>
+	r4 <6>8 <_+> r2 %5
+	r4 <6>8 <6\\> r <6> <7> <6>
+	<_+>4. q8 r4. <_+>8
+	r <6\\> <6> <_!> r2
+	r8 <_+> <6> <_+> r2
+	r4 <7!> r <6> %10
+	r2. <6>8 q
+	r <5 3> <6> <_+> r2
+	r4 <6>8 <6\\> r <6> <7> <6>
+	<_+>4. q8 r4 <6>8 <5>
+	<_+>2 r8 <_+> <7 _+>4 %15
+	r <6>8 q r <5 3> <6> <6\\>
+	r <6> <_+> <6> q q r <_+>
+	r4 <6>8 q q4 <6 5>
+	r2 r8 <6> <7> <6\\>
+	<_+>4. <6!>8 <7!> <6> <7> <6> %20
+	<_+>4. q8 r4 <6 5>8 <7>
+	r2 r8 <5> <6> <6\\>
+	<5+ _+>4. <\t \t>8 r4 <6>8 <6\\>
+	r <6\\> <5+ _+>4 r4 <_+>8. \bassFigureExtendersOn q16 \bassFigureExtendersOff %24 finis
 }
 
 % Organo = {
