@@ -217,11 +217,44 @@ EinBoesesTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key h \phrygian \time 4/4 \autoBeamOff \tempoEinBoeses
-		
+		r8 d e fis cis4 r8 cis
+		cis? d e fis d d r16 d fis d
+		h8 cis d cis cis4 r8 e
+		g!4 r8 fis e e fis cis
+		d d r16 d fis d h8 h cis d %5
+		a!4 r r8 h h cis
+		d4 r8 d d d cis h
+		e4 r16 e e h d8 d fis e
+		cis4 r16 a cis d e8 e g! fis
+		d d r16 fis fis fis d8 h eis fis %10
+		cis cis r4 r2\fermata %11 finis
 	}
 }
 
 EinBoesesTenoreLyrics = \lyricmode {
+	Ein bö -- ſes Schaf von
+	Je -- su gu -- ter Heer -- de be -- thört durch
+	ſchänd -- li -- chen Ge -- winn, gibt
+	Ihn, daß Er ge -- töd -- tet
+	wer -- de, den Wölf -- fen in den Ra -- chen %5
+	hin. Der Hir -- te
+	weiß, daß die Ver -- rä -- the --
+	rey ein An -- fang ſei -- nes Lei -- dens
+	ſey, und geht mit Dan -- ken und mit
+	Be -- ten, am Oel -- berg ſol -- ches an -- zu -- %10
+	tre -- ten. %11 finis
+}
+
+KeinHirtTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \major \time 5/1 \tempoKeinHirt
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+KeinHirtTenoreLyrics = \lyricmode {
 	
 }
 

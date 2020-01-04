@@ -216,6 +216,19 @@ DeinExempelSopranoLyrics = \lyricmode {
 	_ muth ein. %25 finis
 }
 
+KeinHirtSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 5/1 \tempoKeinHirt
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+KeinHirtSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

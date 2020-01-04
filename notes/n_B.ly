@@ -179,6 +179,19 @@ HungrigDurstigBassoLyrics = \lyricmode {
 	ſind die Weid und ed -- le Hut.
 }
 
+KeinHirtBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \major \time 5/1 \tempoKeinHirt
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+KeinHirtBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

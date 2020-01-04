@@ -212,6 +212,19 @@ HungrigDurstigAltoLyrics = \lyricmode {
 	ſind die Weid und ed -- le Hut.
 }
 
+KeinHirtAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 5/1 \tempoKeinHirt
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+KeinHirtAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

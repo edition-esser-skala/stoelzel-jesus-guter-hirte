@@ -685,10 +685,43 @@ EinBoesesOrgano = {
 		\clef bass
 		\key h \phrygian \time 4/4 \tempoEinBoeses
 		h1~
+		h
+		gis2 a
+		ais1
+		h2 g! %5
+		a!4 d gis,2~
+		gis1~
+		gis
+		a2 g
+		fis h %10
+		cis fis,\fermata \bar "|." %11 finis
 	}
 }
 
 EinBoesesBassFigures = \figuremode {
+	r2 <7+ 4 2+>
+	<\t \t \t> <8 3>
+	<6 5> <_+>
+	<7! _+>1
+	r %5
+	<_+>2 <6>
+	r1
+	r
+	<_+>2 <4\+ 2>
+	<6> <6\\> %10
+	<5+ _+> <5+> %11 finis
+}
+
+KeinHirtOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 5/1 \tempoKeinHirt
+			\set Staff.timeSignatureFraction = 4/4
+		a2 gis a h cis4( dis) e2 h1 e\fermata
+	}
+}
+
+KeinHirtBassFigures = \figuremode {
 	
 }
 

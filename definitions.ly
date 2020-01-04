@@ -299,6 +299,7 @@ tempoNimmHin = \tempoMarkup "Aria"
 tempoDieLiebeDeines = \tempoMarkup "Recitativo"
 tempoDeinExempel = \tempoMarkup "Aria"
 tempoEinBoeses = \tempoMarkup "Recitativo"
+tempoKeinHirt = \tempoMarkup "Choral"
 
 
 

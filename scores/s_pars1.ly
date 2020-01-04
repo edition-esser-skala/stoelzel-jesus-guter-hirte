@@ -445,32 +445,76 @@
 % 			\midi { \tempo 4. = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.13" "R E C I T A T I V O" "Ein böſes Schaf"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \EinBoesesTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \EinBoesesTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\EinBoesesOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \EinBoesesBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.13" "R E C I T A T I V O" "Ein böſes Schaf"
+			movement = \movementTitle "1.14" "C H O R A L" "Kein Hirt kan ſo fleißig gehen"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #4
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \EinBoesesTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \EinBoesesTenoreLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+						\new Voice = "Soprano" { \dynamicUp \KeinHirtSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \KeinHirtSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+						\new Voice = "Alto" { \dynamicUp \KeinHirtAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \KeinHirtAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+						\new Voice = "Tenore" { \dynamicUp \KeinHirtTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \KeinHirtTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \KeinHirtBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \KeinHirtBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\EinBoesesOrgano
+						\KeinHirtOrgano
 					}
 				>>
-				\new FiguredBass { \EinBoesesBassFigures }
+				\new FiguredBass { \KeinHirtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }
