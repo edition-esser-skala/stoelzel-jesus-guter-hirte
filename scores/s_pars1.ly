@@ -405,44 +405,72 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.12" "A R I A" "Dein Exempel"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #22
+% 			system-system-spacing.minimum-distance = #22
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+% 							\DeinExempelViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+% 							\DeinExempelViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das demüthige" "Schäflein" } }
+% 					\new Voice = "Soprano" { \dynamicUp \DeinExempelSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \DeinExempelSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DeinExempelOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DeinExempelBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.12" "A R I A" "Dein Exempel"
+			movement = \movementTitle "1.13" "R E C I T A T I V O" "Ein böſes Schaf"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #22
-			system-system-spacing.minimum-distance = #22
-			systems-per-page = #3
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #4
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
-							\DeinExempelViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
-							\DeinExempelViolinoII
-						}
-					>>
-				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das demüthige" "Schäflein" } }
-					\new Voice = "Soprano" { \dynamicUp \DeinExempelSopranoNotes }
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \EinBoesesTenoreNotes }
 				}
-				\new Lyrics \lyricsto Soprano \DeinExempelSopranoLyrics
+				\new Lyrics \lyricsto Tenore \EinBoesesTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DeinExempelOrgano
+						\EinBoesesOrgano
 					}
 				>>
-				\new FiguredBass { \DeinExempelBassFigures }
+				\new FiguredBass { \EinBoesesBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

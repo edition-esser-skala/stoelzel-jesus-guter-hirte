@@ -213,6 +213,18 @@ DieLiebeDeinesTenoreLyrics = \lyricmode {
 	Fuß -- bad zu be -- die -- nen. %13 finis
 }
 
+EinBoesesTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \phrygian \time 4/4 \autoBeamOff \tempoEinBoeses
+		
+	}
+}
+
+EinBoesesTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

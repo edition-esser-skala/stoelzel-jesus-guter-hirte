@@ -680,6 +680,18 @@ DeinExempelBassFigures = \figuremode {
 	<6 4>4. <5 _+>2. %27 finis
 }
 
+EinBoesesOrgano = {
+	\relative c {
+		\clef bass
+		\key h \phrygian \time 4/4 \tempoEinBoeses
+		h1~
+	}
+}
+
+EinBoesesBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
