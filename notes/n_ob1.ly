@@ -34,11 +34,3 @@ AchWoBinOboeI = {
 		c h16 a h( d) c8 c h r4 \markDaCapo \bar "||"
 	}
 }
-
-DeinExempelOboeI = {
-	\relative c' {
-		\clef treble
-		\key d \major \time 12/8 \tempoDeinExempel
-		
-	}
-}

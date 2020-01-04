@@ -166,12 +166,54 @@ DeinExempelSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 12/8 \autoBeamOff \tempoDeinExempel
-		
+		R1.
+		a'8([ fis)] g a([ g)] fis cis'16([ d e8)] a, d([ e)] fis
+		e([ fis)] g fis4. d8([ cis)] d d([ cis)] d
+		cis([ e) d] cis([ h) a] gis([ fis) e] a([ h) cis]
+		d4. cis8([ h) a] e'([ d) cis] cis([ h)] a %5
+		a4 r8 r4. r2*3/2
+		e'8([ cis)] d e([ d)] cis fis([ d)] e fis([ e)] d
+		e([ cis)] h a4 r8 cis16([ d e8)] a, d([ e)] fis
+		e([ fis)] g fis4. d8([ cis)] d d([ cis)] d
+		cis[ e d] cis[( h)] a g4. g' %10
+		fis8([ e) d] gis,4. a8([ g?)] fis fis([ e)] d
+		d4 r8 r4. r2*3/2
+		R1.*4 %16
+		r4.\fermata d'8([ cis)] h cis4 fis,8 h([ cis)] d
+		cis([ d)] e d([ cis)] h cis4 a!8 d([ e)] fis
+		e4 a,8 r4. r2*3/2
+		a4 a8 a([ gis)] a a([ gis)] a h([ d)] cis %20
+		r cis d a([ gis)] fis eis4. fis
+		gis cis4 cis8 d4 d8 d4 d8
+		d([ cis)] cis cis4 cis8 cis([ h)] h h4 h8
+		h([ a)] a cis4 h8 ais([ gis)] fis h4.~
+		h d8([ cis)] h h4 r8 r4. %25
+		R1.*2 \markDaCapo \bar "||" %27 finis
 	}
 }
 
 DeinExempelSopranoLyrics = \lyricmode {
+	Dein Ex -- em -- pel ſoll mir ſtets vor %2
+	Au -- gen seyn, ſoll mir ſtets vor
+	Au -- _ _ _
+	_ _ _ _ gen %5
+	seyn,
+	dein Ex -- em -- pel ſoll mir ſtets vor
+	Au -- gen seyn, ſoll mir ſtets vor
+	Au -- gen seyn, ſoll mir ſtets vor
+	Au -- _ gen, ſtets vor %10
+	Au -- gen, ſtets vor
+	Au -- gen seyn.
 	
+	Je -- ſu, gieb daß mei -- ne %17
+	Lie -- be ſich an Freund und Fein -- den
+	ü -- be.
+	Wey -- he du mein Hertz zum Tem -- pel %20
+	wah -- rer Lieb und De -- muth
+	ein, wey -- he du mein Hertz zum
+	Tem -- pel, wey -- he du mein Hertz zum
+	Tem -- pel wah -- rer Lieb und De --
+	_ muth ein. %25 finis
 }
 
 % SopranoNotes = {

@@ -9,7 +9,7 @@ JesuFrommerOrgano = {
 		\clef bass
 		\key b \major \time 4/1 \tempoJesuFrommer
 			\set Staff.timeSignatureFraction = 4/4
-		\mvTr b2\fE-\tuttiE d4 es f2 d es4 d c2 b b\fermata
+		b2\fE d4 es f2 d es4 d c2 b b\fermata
 		b' g c g4 a b2 d,4 es f1\fermata
 		b,2 d4 es f2 d es4 d c2 b b\fermata
 		b' g c g4 a b2 d,4 es f1\fermata
@@ -75,7 +75,7 @@ AchWoBinOrgano = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 4/4 \tempoAchWoBin
-		\mvTr a4\pE-\soloE r r r8 d
+		a4\pE r r r8 d
 		e4 r r r8 e
 		a,4 r e' r
 		f r8 f g c, g' g,
@@ -159,7 +159,7 @@ WerEinParadiesOrgano = {
 	\relative c {
 		\clef bass
 		\key f \major \time 3/8 \tempoWerEinParadies
-		r8 \mvTr f\pE-\soloE g
+		r8 f\pE g
 		a8. b16 c d
 		e,8 c16 c' a c~
 		c b b, b' g b~
@@ -309,7 +309,7 @@ SeinHertzeOrgano = {
 	\relative c {
 		\clef bass
 		\twofourtime \key d \minor \time 2/4 \tempoSeinHertze
-		\mvTr d4\fE-\soloE r
+		d4\fE r
 		r8 d d, d''
 		c c, b b'
 		a4 r8 b
@@ -500,7 +500,7 @@ HungrigDurstigOrgano = {
 		\clef bass
 		\key g \major \time 4/1 \tempoJesuFrommer
 			\set Staff.timeSignatureFraction = 4/4
-		\mvTr g'2\fE-\tuttiE h, c h a g d'1\fermata
+		g'2\fE h, c h a g d'1\fermata
 		\time 5/1 d2 h c a g g' d1 g,\fermata
 		\time 4/1 g'2 h, c h a g d'1\fermata
 		\time 5/1 d2 h c a g g' d1 g,\fermata
@@ -526,7 +526,7 @@ NimmHinOrgano = {
 	\relative c {
 		\clef bass
 		\key e \minor \time 4/4 \tempoNimmHin
-		\mvTr e,8\fE-\soloE  e' dis h e4 r
+		e,8\fE  e' dis h e4 r
 		r8 e16 fis g( e) fis( dis) e8 d c4
 		h r8 h\pE e, e'16\fE fis g( e) fis( dis)
 		e8 a h g c dis, e h
@@ -620,12 +620,64 @@ DeinExempelOrgano = {
 	\relative c {
 		\clef bass
 		\key d \major \time 12/8 \tempoDeinExempel
-		d4 r8 r4. d r
+		d4\fE r8 r4. d4^\critnote r8 r4.
+		<< { fis8^\vlne d\pE e fis e d } \\ { d4 r8 r r d } >> a4 r8 r4.
+		r r8 d' cis h( a) g fis( e) d
+		a4 r8 r4. e'4 r8 r4.
+		e,4 e'8 fis4. cis4 d8 e4 e,8 %5
+		a4 r8 r4. a4 r8 r4.
+		<< { cis'8^\vlne a h cis h a d h cis d cis h cis s s } \\ { a,4 r8 r4. a4 r8 r4. a8 a' g! } >>
+		fis e d a4 r8 r4.
+		r r8 d' cis h( a) g fis( e) d
+		a4 r8 r4. a4 r8 r4. %10
+		h4. h' a a,
+		d4\fE r8 r4. d4 r8 r4.
+		r8 d' cis h( a) gis a, a' g? fis e d
+		g, g' fis e d cis fis, fis' e dis cis h
+		e, e' d cis h a d4 r8 r4. %15
+		d4 r8 r4. d4 h'8 a4 a,8
+		d4\fermata r8 h4\pE h'8 fis fis' e d cis h
+		ais( gis) fis h,4 e8 a,? a'? g? fis e d
+		a4 r8 r4. a4 r8 r4.
+		r8 a' g fis e d cis h a gis e a %20
+		eis4. fis cis'4 r8 r4.
+		r8 cis' h a gis? fis h, h' a gis fis e
+		a, a' gis? fis e d gis, gis' fis eis dis cis
+		fis,4 fis'8 e4.~ e d8 cis h
+		fis'4. fis, h4\fE r8 r4. %25
+		h4 r8 r4. h4 r8 r r h
+		fis'4. fis, r2*3/2 \markDaCapo \bar "||" %27 finis
 	}
 }
 
 DeinExempelBassFigures = \figuremode {
-	
+	r2. <6 4>
+	r1.
+	r2. <5 3>4. <6>
+	r2. <_+>
+	q <6>4. <6 4>4 <5 _+>8 %5
+	r2. <6 4>
+	<5 3> <6 4>
+	<5 3>4. <6> r2.
+	r <5 3>4. <6>
+	r2. <7> %10
+	<5>4. <6\\> <5 3>4 <6 4>8 <\t \t>4 <5 3>8
+	r2. <6 4>
+	r8 <5 3> <\t \t> <6\\> <8> <6 5> <4> <3> <\t> <6 5>4.
+	r <6 5> r <6 5>
+	r <6 5> r2. %15
+	<6 4> r4 <6>8 <6 4>4 <5 3>8
+	r2. <_+>4. <6>
+	q4 <_+>8 r4 q8 <5 3>4. <6>
+	r2. <6 4>
+	r8 <5 3> <\t \t> <5 3>4. <6> q8 <_+>4 %20
+	<6 _+>4 <7 \t>8 r4. <5+ _+>2.
+	r8 <5+ _+> <\t \t> <6>4. <9> <5>
+	<9> <5> <9> <5 _+>4 <7 5+ _+>8
+	<\t \t \t>8 <5 3>4 <6 _+>4. <4\+ 2> <6>
+	<6 4> <5 _+> r2. %25
+	<6 4> <5 3>
+	<6 4>4. <5 _+>2. %27 finis
 }
 
 % Organo = {

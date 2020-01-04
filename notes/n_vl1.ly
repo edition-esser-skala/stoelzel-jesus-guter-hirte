@@ -139,7 +139,33 @@ DeinExempelViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 12/8 \tempoDeinExempel
-		
+		\mvTr a'8(\fE-\critnote fis) g a( g) fis h( g) a h( a) g
+		a4 r8 r4. r8 a'\pE g fis( e) d
+		cis( h) a d4 r8 r2*3/2
+		r r8 e-! d-! cis( h) a
+		gis( fis) e a4.~ a4 a8 a4 gis8 %5
+		a cis d e( d) cis fis( d) e fis( e) d
+		e4 r8 r4. r2*3/2
+		r r8 a g! fis( e) d
+		cis( h) a d,4 r8 r2*3/2
+		r r8 e' d cis( h) a %10
+		d,4. d'8( cis) h cis a d d,4 cis8
+		d fis'\fE g a( g) fis h( g) a h( a) g
+		a4 r8 d,( cis) d d cis4 cis4.
+		h~ h a~ a
+		g~ g fis8 d e fis( e) d %15
+		h' g a h a g d'4 g8 fis e d
+		d4\fermata r8 r4. r2*3/2
+		R1.
+		e8(\pE cis) d e( d) cis fis( d) e fis( e) d
+		e4 r8 r4. r2*3/2 %20
+		r r8 cis h \once \slurDashed a( gis) fis
+		eis4. fis d'~ d4 d8
+		d( cis) cis cis4 cis8 cis( h) h h4 h8
+		h[ a] a r4. r2*3/2
+		r fis'8\fE d e fis e d %25
+		g e fis g fis e fis d e fis e d
+		d4. cis r2*3/2 \markDaCapo \bar "||" %27 finis
 	}
 }
 

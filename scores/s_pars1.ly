@@ -407,7 +407,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.12" "A R I A" "Dein Exempel ſoll mir ſtets"
+			movement = \movementTitle "1.12" "A R I A" "Dein Exempel"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #22
@@ -417,16 +417,16 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "2 Oboi"
-						\DeinExempelOboeI
-					}
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "2 Violini"
-						\DeinExempelViolinoI
-					}
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+							\DeinExempelViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+							\DeinExempelViolinoII
+						}
+					>>
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das demüthige" "Schäflein" } }
@@ -442,7 +442,7 @@
 				\new FiguredBass { \DeinExempelBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 90 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

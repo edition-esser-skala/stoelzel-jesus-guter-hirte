@@ -34,3 +34,37 @@ NimmHinViolinoII = {
 		R1 \markDaCapo \bar "||" %24 finis
 	}
 }
+
+DeinExempelViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 12/8 \tempoDeinExempel
+		\mvTr fis8(\fE-\critnote d) e fis( e) d g( e) fis g( fis) e
+		fis4 r8 r4. cis'16(\pE d e8) a, d( e) fis
+		e( fis) g fis4 r8 r2*3/2
+		r8 e d \once \slurDashed cis( h) a gis( fis) e a( h) cis
+		d4. cis8( h) a e'( d) cis cis( h) a %5
+		a a h cis( h) a d( h) cis d( cis) h
+		cis4 r8 r4. r2*3/2
+		r cis16( d e8) a, d( e) fis
+		e( fis) g fis4 r8 r2*3/2
+		r8 e d cis( h) a g4. g' %10
+		fis8( e) d gis,( a) h a( g?) fis fis( e) d
+		d d'\fE e fis( e) d g( e) fis g( fis) e
+		fis4 d8 gis( a) h e,4. d~
+		d cis~ cis h~
+		h a a8 fis g \once \slurDashed a( g) fis %15
+		g e fis g fis e fis e d d'4 cis8
+		d4\fermata r8 r4. r2*3/2
+		R1.
+		cis8(\pE a) h cis( h) a d( h) cis d( cis) h
+		cis4 r8 r4. r2*3/2 %20
+		r8 cis h a( gis) fis eis4. fis
+		gis4 cis,8 r r cis' cis4. h~
+		h a~ a gis~
+		gis8[ fis] fis r4. r2*3/2
+		r d'8\fE h cis d cis h %25
+		e cis d e d cis d h cis d cis h
+		h4. ais r2*3/2 \markDaCapo \bar "||" %27 finis
+	}
+}
