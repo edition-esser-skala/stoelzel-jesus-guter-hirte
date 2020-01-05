@@ -73,6 +73,35 @@ VerlohrnesSchaafViolinoII = {
 	\relative c' {
 		\clef treble
 		\key fis \minor \time 4/4 \tempoVerlohrnesSchaaf
-		
+		r8 cis'\fE a fis d'4 r8 cis
+		h4 r8 a gis4 r8 fis
+		eis fis h a a4\trill gis
+		r r8 cis cis4 h~
+		h a2 a4 %5
+		h r16 h a gis fis8 fis fis eis
+		fis4\fermata r r r8 gis\pE
+		fis d r e d h r cis
+		h a gis' fis fis4\trill eis
+		r r8 cis' cis4 h %10
+		h r e,8(\p e) a( a)
+		h( h) h( h) h( h) h( h)
+		h4 r cis,8( cis) fis( fis)
+		gis( gis) gis( gis) gis( gis) gis( gis)
+		gis4 r r r8 dis'\f %15
+		cis4 r8 h a4 r8 gis
+		fis e dis' cis cis4\trill his
+		R1*3 %20
+		r2 r8 e\fE cis a
+		fis'4 r8 e d4 r8 cis
+		h4 r8 a gis a d cis
+		cis4\trill h r2
+		R1*2 %26
+		r2 r8 cis\fE a fis
+		d'4 r8 cis h4 r8 a
+		gis4 r8 fis eis fis h a
+		a4\trill gis r r8 cis %30
+		cis4 h2 a4~
+		a a h r16 h a gis
+		fis8 fis fis eis fis4 r \fermata \bar "|." %33 finis
 	}
 }

@@ -744,11 +744,75 @@ VerlohrnesSchaafOrgano = {
 		\clef bass
 		\key fis \minor \time 4/4 \tempoVerlohrnesSchaaf
 		fis4\fE r r8 fis e4
+		r8 d cis4 r8 h a4
+		gis8 fis eis fis cis'4 cis,
+		cis''16( d) cis( d) h( cis) h( cis) ais( h) ais( h) a( h) a( h)
+		gis( a) gis( a) g( a) g( a) fis( g) fis( g) fis( g) fis( g) %5
+		eis4 r8 eis fis h cis cis,
+		fis4\fermata r r8 fis\pE e4
+		r8 d cis4 r8 h a4
+		gis8 fis eis fis cis'4 cis,
+		cis''16( d) cis( d) h( cis) h( cis) ais( h) ais( h) a( h) a( h) %10
+		gis4 r cis,16( dis) cis( dis) cis( dis) cis( dis)
+		h( cis) h( cis) h( cis) h( cis) h( cis) h( a) h4
+		e r a16( h) a( h) a( h) a( h)
+		gis( a) gis( a) gis( a) gis( a) gis( a) gis( fis) gis8 gis,
+		cis4 r r8 cis'\fE h4 %15
+		r8 a gis4 r8 fis e4
+		dis8 cis his cis gis'4 gis,
+		cis16(\pE dis) cis( dis) h( cis) h( cis) ais4 r8 fis
+		h16( cis) h( cis) a( h) a( h) gis4 r8 e
+		a4 r8 cis d h cis d %20
+		e fis d e a,4 r
+		r8 a'\fE gis4 r8 fis e4
+		r8 d cis4 h8 a gis a
+		e'16( fis) e( fis) d( e) d( e) cis4\pE r8 a
+		d16( e) d( e) cis( d) cis( d) h4 r8 h %25
+		e4 eis fis8 gis a h
+		cis fis, h, cis fis,4 r
+		r8 fis'\fE e4 r8 d cis4
+		r8 h a4 gis8 fis eis fis
+		cis'4 cis, cis''16( d) cis( d) h( cis) h( cis) %30
+		ais( h) ais( h) a( h) a( h) gis( a) gis( a) g( a) g( a)
+		fis( g) fis( g) fis( g) fis( g) eis4 r8 eis
+		fis h cis cis, fis4 r\fermata \bar "|." %33 finis
 	}
 }
 
 VerlohrnesSchaafBassFigures = \figuremode {
-	
+	r2 r8 <6> q4
+	r8 q q4 r8 q q4
+	<6\\>8 <8> <6 5>4 <6 4> <5 _+>
+	<5+ _+> <\t \t> <6> <6 4+ 2>
+	<6> <6 4 2> <6> <\t> %5
+	<7>4. <6>8 r <6 5> <4> <_+>
+	r2 r8 <6> q4
+	r8 q q4 r8 q q4
+	<6\\>8 <8> <6 5>4 <6 4> <5 _+>
+	<5 _+> <\t \t> <6> <6 4+ 2> %10
+	<6> r <7> <6>
+	<5 _+> <6 4> <5 \t> <\t _+>
+	r2 <7>4 <6>
+	<5+ _+> <6 4> <5+ \t> <\t _+>
+	r2 r8 <6> <6 _+>4 %15
+	r8 <6> q4 r8 <6\\> <6>4
+	<6\\>8 <8> <6 5 _+>4 <6 4> <5+ _+>
+	<5+ _+> <\t \t> <6>4. <7! _+>8
+	<\t \t> <8 _+> <6 4+ 2>4 <6>4. <7! 3>8
+	<\t \t> <8 3> r <6> r q q q %20
+	<5 3> q <6 5>2.
+	r8 <6> q4 r8 q q4
+	r8 q q4 q8 <8> <6 5>4
+	<6 4> <6 4 2> <6>4. <7! 3>8
+	<\t \t> <8 3> <6\\>4 <_+>4. <7! _+>8 %25
+	<\t \t> <8 3> <6 5>4 r8 <6\\> <6> q
+	<_+>4 <6 5>8 <_+> r2
+	r8 <6> q4 r8 q q4
+	r8 q q4 <6\\>8 <8> <6 5>4
+	<6 4> <5 _+> <5+ _+> <\t \t> %30
+	<6> <6 4+ 2> <6> <6 4 2>
+	<6> <\t> <7>4. <6>8
+	r <6 5> <4> <_+> r2 %33 finis
 }
 
 % Organo = {

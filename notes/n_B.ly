@@ -210,12 +210,51 @@ VerlohrnesSchaafBassoNotes = {
 	\relative c {
 		\clef bass
 		\key fis \minor \time 4/4 \autoBeamOff \tempoVerlohrnesSchaaf
-		
+		R1*6 %6
+		r8\fermata cis' a fis d'4 r8 cis
+		h4 a gis fis
+		r8 fis h a a4\trill gis
+		r8 cis cis cis cis fis, r4 %10
+		r8 h h h h a16([ gis)] fis8 e
+		h16([ cis) h( cis)] h([ cis) h( cis)] h([ cis) h( a)] h4
+		e8 gis gis gis gis fis16([ e)] dis8 cis
+		gis'16([ a) gis( a)] gis([ a) gis( a)] gis([ a) gis( fis)] gis8[ gis,]
+		cis4 r r2 %15
+		R1*2
+		r8 cis' eis,8. eis16 fis8 cis16([ dis)] e?8 e
+		e dis r h e h16([ cis)] d?8 d
+		d cis a'4 fis8 gis a h %20
+		gis a d,([ e)] a,4 r
+		R1*2
+		r8 e' gis8. gis16 a8 e16([ fis)] g8 g
+		g? fis r ais h fis16([ gis)] a?8 a %25
+		a gis r h a eis fis gis
+		cis, a'16([ fis)] h,8([ cis)] fis4 r
+		R1*5 %32
+		R1\fermataMarkup \bar "|." %33 finis
 	}
 }
 
 VerlohrnesSchaafBassoLyrics = \lyricmode {
+	Ver -- lohr -- nes Schaaf, dein %7
+	gu -- ter Hir -- te
+	fängt an zu zit -- tern,
+	dein gu -- ter Hir -- te %10
+	fängt an zu zit -- tern und zu
+	za -- _ _ _
+	gen, fängt an zu zit -- tern und zu
+	za -- _ _ _
+	gen. %15
 	
+	Das macht die un -- ge -- heu -- re %18
+	Bür -- de, die un -- ge -- heu -- re
+	Bür -- de, die Er will dei -- net -- %20
+	we -- gen tra -- gen,
+	
+	das macht die un -- ge -- heu -- re %24
+	Bür -- de, die un -- ge -- heu -- re %25
+	Bür -- de, die Er will dei -- net --
+	we -- gen tra -- gen. %27 finis
 }
 
 % BassoNotes = {

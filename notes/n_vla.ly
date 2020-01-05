@@ -101,6 +101,35 @@ VerlohrnesSchaafViola = {
 	\relative c' {
 		\clef treble
 		\key fis \minor \time 4/4 \tempoVerlohrnesSchaaf
-		
+		fis4\fE r r r8 e
+		d4 r8 cis h4 r8 a
+		h cis cis cis cis4 cis
+		r r8 gis' fis2
+		e d4 d %5
+		gis r8 cis, cis d cis4
+		a\fermata r r r8 e'\pE
+		d h r cis h gis r a
+		h cis cis cis cis4 cis
+		r r8 gis' fis4 fis %10
+		e r \slurDashed gis8(\p gis) cis,( cis) \slurSolid
+		fis( fis) gis( gis) gis( gis) fis( fis)
+		gis4 r e8( e) a,( a)
+		dis( dis) e( e) e( e) dis( dis)
+		e4 r r r8 h'\f %15
+		a4 r8 gis fis4 r8 e
+		fis gis gis gis gis4 gis
+		R1*3 %20
+		r2 a,4\pE r
+		r r8 gis'\fE fis4 r8 e
+		d4 r8 cis d e e e
+		e4 e r2
+		R1*2 %26
+		r2 fis4\pE r
+		r r8 e\fE d4 r8 cis
+		h4 r8 a h cis cis cis
+		cis4 cis r r8 gis' %30
+		fis2 e
+		d4 d gis r8 cis,
+		cis d cis4 a r\fermata \bar "|." %33 finis
 	}
 }
