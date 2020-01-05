@@ -128,6 +128,31 @@ MeineSeeleViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \tempoMeineSeele
-		
+		R1*2
+		r8 e'\pE a, d cis c h? b
+		a4. g8 a f e4
+		d r r2 %5
+		r r4 r8 a'
+		gis g fis f e a d, g16 f
+		e4 d cis8 d cis d
+		e4 r r2
+		R1 %10
+		r2 r8 d' cis c
+		h b a4 r2
+		r4 cis,8 e~ e d16 cis d8 d
+		d4 cis a\fermata r
+		r8 d' c4 r8 b a4 %15
+		r8 a g c h b a d
+		cis c h e e4 d~
+		d8 c r4 r8 a g4
+		r8 f' e4 e8.\trill d16 d4
+		R1*2 %21
+		r4 r8 g, fis f e a
+		gis4 e c d
+		e r r2
+		e'4 e e d %25
+		e f8 d h4 r8 a
+		gis g fis f e a4 g8
+		g4 f8 d~ d cis16 h cis4 \markDaCapo \bar "||" %28 finis
 	}
 }

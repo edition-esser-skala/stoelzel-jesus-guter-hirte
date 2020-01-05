@@ -228,7 +228,33 @@ MeineSeeleViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 4/4 \tempoMeineSeele
-		
+		R1
+		r2 r4 r8 a'\pE
+		gis g fis f e a d, g16 f
+		e4 d cis8 d4 cis8
+		d4 r r2 %5
+		R1
+		r8 e' a, d cis c h b
+		a4. g8 a f e gis
+		a4 r r2
+		R1 %10
+		r8 a' d, g~ g f e a,
+		d, g4 f8 r2
+		r4 g~ g8 f16 e f8 e
+		f4 e d\fermata r
+		r8 b' f'4 r8 e f4 %15
+		r8 f e es d g fis f
+		e a gis g f4. g8
+		e4 r r8 f, c'4
+		r8 h' c c, c4 h
+		R1*2 %21
+		r8 c h b a d cis c
+		h4 r8 gis a2
+		gis4 r r2
+		c'8( h) h( c) c a gis4 %25
+		a4. h8 e,2
+		r8 e a, d cis c h b
+		a4. f8~ f e16 d e4 \markDaCapo \bar "||" %28 finis
 	}
 }
 

@@ -154,8 +154,33 @@ OLiebeDieNichtViola = {
 
 MeineSeeleViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \minor \time 4/4 \tempoMeineSeele
-		
+		R1*2
+		r2 r4 r8 d\pE
+		cis c h b a4 a
+		a r r2 %5
+		R1
+		r2 r4 r8 d
+		cis c h b a4. h8
+		cis4 r r2
+		R1 %10
+		r4 r8 d cis d e4
+		r8 d cis d r2
+		r4 a a4. h8
+		a4. g8 f4\fermata r
+		r8 b' a4 r8 g f4 %15
+		r8 c g'2 a4~
+		a h c g
+		g r r8 f e4
+		r8 d c4 g2
+		R1*2 %21
+		r4 d' d e
+		e r8 h a4 f'
+		h, r r2
+		a'4 e a d, %25
+		c h gis' r
+		r r8 a, a e' f g
+		e4 d8 a a2 \markDaCapo \bar "||" %28 finis
 	}
 }

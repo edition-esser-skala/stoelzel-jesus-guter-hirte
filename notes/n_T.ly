@@ -276,12 +276,59 @@ MeineSeeleTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \minor \time 4/4 \autoBeamOff \tempoMeineSeele
-		
+		f8([ e)] e([ f)] f([ d)] cis4
+		d4. e8 a,2
+		R1*2
+		f'8([ e)] e([ f)] f([ d)] cis4 %5
+		d4. e8 a,2
+		r r4 r8 d
+		cis c h? b a4 r
+		r8 e'4 e8 e([ d)] d4
+		g,8([ g')] g4 g8([ f)] r d %10
+		cis c h b a2~
+		a4 r8 f' es d cis d
+		d([ a)] r4 r2
+		r r4\fermata f'8 c
+		d8.([ c16)] c4 b8.([ a16)] a4 %15
+		a8.([ g16)] g4 r2
+		R1
+		r4 c8 g a([ g)] g4
+		f'8.([ e16)] e4 e8.([ d16)] d4
+		r4 e8 h c h16([ a)] d8 c16([ h)] %20
+		e8 d16([ c)] f8 h, c d h8. c16
+		c4 r r2
+		r4 e8 e e a, d8. e16
+		e8 e, e'8. f16 gis,8 a16([ h)] c8 h
+		a4 r r2 %25
+		R1*3 \markDaCapo \bar "||" %28 finis
 	}
 }
 
 MeineSeeleTenoreLyrics = \lyricmode {
+	Mei -- ne See -- le
+	iſt be -- trübt,
 	
+	mei -- ne See -- le %5
+	iſt be -- trübt,
+	be --
+	trübt biß an den Todt,
+	mei -- ne See -- le
+	iſt be -- trübt, be -- %10
+	trübt biß an den Todt, __
+	be -- trübt biß an den
+	Todt.
+	Wacht und
+	be -- tet, lieb -- ſten %15
+	Schaa -- fe,
+	
+	wacht und be -- tet,
+	lieb -- ſten Schaa -- fe,
+	weil dem ſi -- chern Sün -- den %20
+	Schla -- fe ſchreck -- li -- che Ver -- ſu -- chung
+	droht,
+	weil dem ſi -- chern Sün -- den
+	Schla -- fe ſchreck -- li -- che Ver -- ſu -- chung
+	droht. %25 finis
 }
 
 % TenoreNotes = {
