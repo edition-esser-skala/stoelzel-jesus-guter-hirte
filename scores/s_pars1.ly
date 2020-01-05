@@ -589,9 +589,53 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.17" "A C C O M P A G N A T O" "O Liebe die nicht zu ermeßen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\OLiebeDieNichtViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\OLiebeDieNichtViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\OLiebeDieNichtViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das bewegte" "Schäflein" } }
+% 					\new Voice = "Soprano" { \dynamicUp \OLiebeDieNichtSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \OLiebeDieNichtSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\OLiebeDieNichtOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \OLiebeDieNichtBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.17" "A C C O M P A G N A T O" "O Liebe die nicht zu ermeßen"
+			movement = \movementTitle "1.18" "A R I A" "Meine Seele iſt betrübt"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #35
@@ -604,30 +648,30 @@
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\OLiebeDieNichtViolinoI
+							\MeineSeeleViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\OLiebeDieNichtViolinoII
+							\MeineSeeleViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\OLiebeDieNichtViola
+						\MeineSeeleViola
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das bewegte" "Schäflein" } }
-					\new Voice = "Soprano" { \dynamicUp \OLiebeDieNichtSopranoNotes }
+					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+					\new Voice = "Tenore" { \dynamicUp \MeineSeeleTenoreNotes }
 				}
-				\new Lyrics \lyricsto Soprano \OLiebeDieNichtSopranoLyrics
+				\new Lyrics \lyricsto Tenore \MeineSeeleTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\OLiebeDieNichtOrgano
+						\MeineSeeleOrgano
 					}
 				>>
-				\new FiguredBass { \OLiebeDieNichtBassFigures }
+				\new FiguredBass { \MeineSeeleBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

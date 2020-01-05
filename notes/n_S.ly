@@ -247,12 +247,32 @@ OLiebeDieNichtSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key h \phrygian \time 4/4 \autoBeamOff \tempoOLiebeDieNicht
-		
+		r4 r8 fis' dis4 dis
+		dis?8 e fis h, e e r16 h h h
+		g'8. g16 e8 e cis cis r a
+		d fis d4~ d8 cis16 d e([ g)] fis8
+		d4 r r r8 fis %5
+		fis e g fis dis4 r16 dis fis h,
+		e4 r16 e dis e h4 r
+		r8 h h8. e,16 e4 r8 e'
+		e a, g' fis fis4 r8 fis
+		fis e g e cis4 r8 a %10
+		f' f d d d4( a) \markAttacaE \bar "|" %11 finis
 	}
 }
 
 OLiebeDieNichtSopranoLyrics = \lyricmode {
-	
+	O Lie -- be
+	die nicht zu er -- me -- ßen! Hat Gott denn
+	Gott zu seyn ver -- ge -- ßen, daß
+	er ſo ängſt -- lich, ſo ängſt -- lich
+	thut! Die %5
+	höch -- ſte All -- macht zagt, der ew -- gen
+	Kraft ent -- geht der Muth.
+	Es zit -- tert der, auf
+	dem der Him -- mel ruht. Mein
+	gu -- ter Hir -- te klagt in %10
+	ſei -- ner höchſ -- ten Noth: __ %11 finis
 }
 
 % SopranoNotes = {

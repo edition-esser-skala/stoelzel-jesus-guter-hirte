@@ -99,7 +99,7 @@ NimmHinViola = {
 
 VerlohrnesSchaafViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key fis \minor \time 4/4 \tempoVerlohrnesSchaaf
 		fis4\fE r r r8 e
 		d4 r8 cis h4 r8 a
@@ -136,8 +136,26 @@ VerlohrnesSchaafViola = {
 
 OLiebeDieNichtViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key h \phrygian \time 4/4 \tempoOLiebeDieNicht
+		fis2 h~
+		h1~
+		h2 cis
+		a4 r8 e e a r fis
+		fis fis gis^\critnote gis fis4 r %5
+		r2 r8 fis fis4
+		r8 h h4 r16 fis fis fis fis( fis) fis( fis)
+		e4 r r16 h h h h'( h) h( h)
+		a2 d,~
+		d4 h cis2 %10
+		h4 h' a2 \markAttacaE \bar "|" %11 finis
+	}
+}
+
+MeineSeeleViola = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoMeineSeele
 		
 	}
 }

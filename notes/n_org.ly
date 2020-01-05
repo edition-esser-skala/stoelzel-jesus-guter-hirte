@@ -855,11 +855,43 @@ OLiebeDieNichtOrgano = {
 	\relative c {
 		\clef bass
 		\key h \phrygian \time 4/4 \tempoOLiebeDieNicht
-		
+		h2 a~
+		a g~
+		g1
+		fis4 r8 gis a4 r8 ais
+		h h eis eis fis4 r %5
+		r2 r8 a,! a4
+		r8 g g4 r16 h h h a( a) a( a)
+		gis4 r r16 e' e e d!( d) d( d)
+		cis2 d
+		g,1 %10
+		gis2 a \markAttacaE \bar "|" %11 finis
 	}
 }
 
 OLiebeDieNichtBassFigures = \figuremode {
+	r2 <4+ 2>
+	r <6>
+	<\t> <4+ 2>
+	<6!>4. <6 5>8 <4> <_+> r <6 5>
+	<9+> <8> <7 _+>4 <5+ _+>2 %5
+	r2 r8 <4+ 2>4.
+	r8 <6>4. r16 <5 _+>8. <\t \t>4
+	<6>2 r16 <5 _+>8. <\t \t>4
+	<6>1
+	<6 5>2 <4+ 2> %10
+	<7!>2 <6! 4>4 <5 _+> %11 finis
+}
+
+MeineSeeleOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 4/4 \tempoMeineSeele
+		
+	}
+}
+
+MeineSeeleBassFigures = \figuremode {
 	
 }
 

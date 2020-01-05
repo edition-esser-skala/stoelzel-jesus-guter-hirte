@@ -307,6 +307,7 @@ tempoKeinHirt = \tempoMarkup "Choral"
 tempoVerlohrnesSchaaf = \tempoMarkup "Aria"
 tempoGottMuss = \tempoMarkup "Recitativo"
 tempoOLiebeDieNicht = \tempoMarkup "Accompagnato"
+tempoMeineSeele = \tempoMarkup "Aria"
 
 
 

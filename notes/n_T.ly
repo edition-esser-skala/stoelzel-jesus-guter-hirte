@@ -272,6 +272,18 @@ KeinHirtTenoreLyrics = \lyricmode {
 	wür -- deſt du für Lie -- be wei -- nen. %8 finis
 }
 
+MeineSeeleTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 4/4 \autoBeamOff \tempoMeineSeele
+		
+	}
+}
+
+MeineSeeleTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -210,6 +210,24 @@ OLiebeDieNichtViolinoI = {
 	\relative c' {
 		\clef treble
 		\key h \phrygian \time 4/4 \tempoOLiebeDieNicht
+		d'2 fis~
+		fis g~
+		g a~
+		a4 r8 h e,4 r8 fis
+		d4~ d8.\trill cis16 cis4 r %5
+		r2 r8 fis fis4
+		r8 g g4 r16 dis dis dis dis( dis) dis( dis)
+		e4 r r16 gis gis gis gis( gis) gis( gis)
+		a1
+		h2 a %10
+		f~ f4\trill e \markAttacaE \bar "|" %11 finis
+	}
+}
+
+MeineSeeleViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 4/4 \tempoMeineSeele
 		
 	}
 }
