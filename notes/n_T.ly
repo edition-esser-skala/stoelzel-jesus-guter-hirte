@@ -335,12 +335,71 @@ DieSuendenLastTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoDieSuendenLast
-		
+		r8 d^\Evangeliste g f h,8. h16 d8 h
+		g4 r8 g' d e f e
+		e e r16 e c h g8 g r4
+		r8 d' h4 r8 d d([ g,)]
+		r g' g d f f f e %5
+		e4 r8 h c4 r8 e^\Jesus
+		a,16([ gis)] a8 a' e f8. e16 d8 c
+		h a16([ g)] c8 e16([ d)] d4 r8 d
+		cis h16([ a)] d8 f16([ e)] e8 f16([ d)] cis8. d16
+		d8 a16 h c8.\trill d16 h4 r8 g' %10
+		e2\trill d4 r8 h16 e
+		c8. h16 h8 e c h16([ a)] d8 f16([ e)]
+		e8 f gis,8. a16 a4 r
+		r r8 c a h c h
+		g g r16 d' e f e8. e16 e4 %15
+		r8 e f g a,8. a16 h8 c
+		c g r4 r8 e'^\Evangeliste e e
+		e d d e f!4 r8 f
+		d d h e c c r16 c c c
+		e8 c c h h h \tempoDieSuendenLastB r16 h h h %20
+		d8 h ais h fis fis r16 fis' fis fis
+		fis8. d16 d8 d h4 r8 h
+		e a, e'16 fis g fis fis8 fis r16 fis a fis
+		d8 d fis d h h r16 h g' e
+		h8 cis d cis cis4 r8 a' %25
+		fis4~ fis16[ e d fis] e4 r8 fis
+		g g g32([ e cis a)] g'16 fis fis4 r8 a
+		d, fis d8.\trill cis16 cis4 r8 a
+		g' g a,([ \tuplet 3/2 8 { g'16 fis)] g } fis8 cis d h
+		cis4. d8 d4 r %30
+		r2 \markAttacaE %31 finis
 	}
 }
 
 DieSuendenLastTenoreLyrics = \lyricmode {
-	
+	Die Sün -- den Laſt der gan -- zen
+	Welt drückt ſei -- ne mat -- ten
+	Glie -- der zur Er -- den nie -- der.
+	Er kniet, er fält __
+	auf das be -- thrän -- te An -- ge -- %5
+	ſicht und ſpricht: Mein
+	Va -- ter! kan es mög -- lich ſeyn, ſo
+	ü -- ber -- he -- be mich, ſo
+	ü -- ber -- he -- be mich der ſchwe -- ren
+	Pein, kan es mög -- lich ſeyn, mein %10
+	Va -- ter, kan es
+	mög -- lich ſeyn, ſo ü -- ber -- he -- be
+	mich der ſchwe -- ren Pein.
+	Doch will ich dei -- nen
+	Wil -- len und nicht den mei -- ni -- gen, %15
+	und nicht den mei -- ni -- gen er --
+	fül -- len. Der einz -- ge
+	Troſt auf die -- ſer Welt, den
+	der ge -- treu -- e Hir -- te von ſei -- ner
+	Heer -- de kun -- te ha -- ben, liegt in dem %20
+	tief -- ſten Schlaf be -- gra -- ben. Drum öff -- net
+	ſich das Him -- mels Zelt. Ein
+	En -- gel muß ihm Stär -- kung brin -- gen, da -- mit Er
+	mit dem To -- de rin -- gen und blut -- gen
+	Schweiß ver -- gie -- ßen kan. So %25
+	heff -- tig, ſo
+	heff -- tig grei -- _ fet Gott den
+	Sün -- den Bü -- ßer an, ſo
+	heff -- tig grei -- fet Gott den Sün -- den
+	Bü -- ßer an! %30 finis
 }
 
 % TenoreNotes = {

@@ -953,12 +953,72 @@ DieSuendenLastOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoDieSuendenLast
-		
+		g1~
+		g
+		c2 d4 d,
+		g1
+		h %5
+		gis2 a8 a a a
+		c c cis cis d d f f
+		g f e c g' g gis gis
+		a g f d cis d a' g
+		fis fis d d g, g h h %10
+		c c e e g g gis gis
+		a a, e' gis, a a' f d
+		c d e e, a a g g
+		fis1
+		h2 c %15
+		e f
+		g4 c, gis2~
+		gis1~
+		gis2 a
+		fis << { \oneVoice g } \\ { s4 \tempoDieSuendenLastB s } >> %20
+		fis2 e
+		d1
+		cis'2 d
+		fis g
+		gis a8 h cis a %25
+		d, e fis g a h cis d,
+		e d cis a d e fis cis
+		h a gis e a h cis d
+		e d cis a d e fis? g
+		a4 a, d8 cis h h' %30
+		a g a a, \markAttacaE %31 finis
 	}
 }
 
 DieSuendenLastBassFigures = \figuremode {
-	
+	r1
+	r
+	r2 <6 4>4 <5 _+>
+	r1
+	<6> %5
+	<6>
+	<6>4 <\t> r <6>8 <5>
+	r <2> <6>4 r <6>8 <5>
+	<_+> <\t> <6>4 q <_+>8 <\t>
+	<6>4 <7 _+>2 <6>4 %10
+	r q r q
+	r <_+>8 <6> r4 <6>
+	q8 q <_+>4 r <2>
+	<6 5>1
+	<6> %15
+	q
+	r2 <6>
+	<\t> <7!>
+	<6>1
+	<7> %20
+	<6 4>2 <6+ 4+ 2+>
+	<6 _+>1
+	<6>2 <_+>
+	<6> <5>4 <6>
+	<6>2 <_+> %25
+	<_+>4 <6> <_+> <6>
+	r <6 5>8 <7 _+> <_+>4 <6>8 q
+	<5+> <6\\> <6 5> <7 _+> <_+>4 <6>
+	r <6 5>8 <7 _+> <_+>8 <6\\> <6> r
+	<_+>2 <_+>4 <6> %30
+	<6+ 4> <5 _+> %31 finis
 }
 
 % Organo = {

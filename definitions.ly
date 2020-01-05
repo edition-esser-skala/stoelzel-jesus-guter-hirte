@@ -278,6 +278,8 @@ alwaysScriptOut = \override Script.avoid-slur = #'outside
 
 Gesetze = \markup { \remark "Das Geſetze" }
 Evangelium = \markup { \remark "Das Evangelium" }
+Evangeliste = \markup { \remark "Der Evangeliſte" }
+Jesus = \markup { \remark "JESUS, der gute Hirte" }
 
 
 
@@ -312,6 +314,7 @@ tempoGottMuss = \tempoMarkup "Recitativo"
 tempoOLiebeDieNicht = \tempoMarkup "Accompagnato"
 tempoMeineSeele = \tempoMarkup "Aria"
 tempoDieSuendenLast = \tempoMarkup "Recitativo"
+	tempoDieSuendenLastB = \tempoMarkup "Adagio"
 
 
 
