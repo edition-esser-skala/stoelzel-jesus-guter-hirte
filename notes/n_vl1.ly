@@ -206,6 +206,14 @@ VerlohrnesSchaafViolinoI = {
 	}
 }
 
+OLiebeDieNichtViolinoI = {
+	\relative c' {
+		\clef treble
+		\key h \phrygian \time 4/4 \tempoOLiebeDieNicht
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

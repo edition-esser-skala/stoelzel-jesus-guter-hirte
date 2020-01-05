@@ -851,6 +851,18 @@ GottMussBassFigures = \figuremode {
 	<_+> q %13 finis
 }
 
+OLiebeDieNichtOrgano = {
+	\relative c {
+		\clef bass
+		\key h \phrygian \time 4/4 \tempoOLiebeDieNicht
+		
+	}
+}
+
+OLiebeDieNichtBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

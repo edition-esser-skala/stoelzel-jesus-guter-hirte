@@ -133,3 +133,11 @@ VerlohrnesSchaafViola = {
 		cis d cis4 a r\fermata \bar "|." %33 finis
 	}
 }
+
+OLiebeDieNichtViola = {
+	\relative c' {
+		\clef treble
+		\key h \phrygian \time 4/4 \tempoOLiebeDieNicht
+		
+	}
+}

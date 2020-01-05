@@ -561,29 +561,73 @@
 % 			\midi { \tempo 4 = 110 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.16" "R E C I T A T I V O" "Gott muß durch Blut und Todt verſöhnet seyn"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "Das Geſetze" } }
+% 					\new Voice = "Basso" { \dynamicUp \GottMussBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \GottMussBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\GottMussOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \GottMussBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.16" "R E C I T A T I V O" "Gott muß durch Blut und Todt verſöhnet seyn"
+			movement = \movementTitle "1.17" "A C C O M P A G N A T O" "O Liebe die nicht zu ermeßen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #4
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\OLiebeDieNichtViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\OLiebeDieNichtViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\OLiebeDieNichtViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "Das Geſetze" } }
-					\new Voice = "Basso" { \dynamicUp \GottMussBassoNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das bewegte" "Schäflein" } }
+					\new Voice = "Soprano" { \dynamicUp \OLiebeDieNichtSopranoNotes }
 				}
-				\new Lyrics \lyricsto Basso \GottMussBassoLyrics
+				\new Lyrics \lyricsto Soprano \OLiebeDieNichtSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\GottMussOrgano
+						\OLiebeDieNichtOrgano
 					}
 				>>
-				\new FiguredBass { \GottMussBassFigures }
+				\new FiguredBass { \OLiebeDieNichtBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

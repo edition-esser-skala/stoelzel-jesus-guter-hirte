@@ -243,6 +243,18 @@ KeinHirtSopranoLyrics = \lyricmode {
 	wür -- deſt du für Lie -- be wei -- nen. %8 finis
 }
 
+OLiebeDieNichtSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key h \phrygian \time 4/4 \autoBeamOff \tempoOLiebeDieNicht
+		
+	}
+}
+
+OLiebeDieNichtSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

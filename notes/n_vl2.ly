@@ -105,3 +105,11 @@ VerlohrnesSchaafViolinoII = {
 		fis8 fis fis eis fis4 r \fermata \bar "|." %33 finis
 	}
 }
+
+OLiebeDieNichtViolinoII = {
+	\relative c' {
+		\clef treble
+		\key h \phrygian \time 4/4 \tempoOLiebeDieNicht
+		
+	}
+}
