@@ -162,6 +162,19 @@ AchSuenderViolinoII = {
 		\clef treble
 		\key d \major \time 4/4 \tempoAchSuender
 			\set Score.currentBarNumber = #32
-		
+		\partial 2 d'2 d1~
+		d2 cis
+		dis e~
+		e1 %35
+		fis2 e4 e
+		e16 cis a e a' e cis a e4 r
+		e'16 cis a e a' e cis a d4 r
+		r2 fis16 d a fis a' fis d a
+		g1~ %40
+		g2 h~
+		h1
+		r16 c c c h8 r r16 h h h h8 r
+		c2 dis
+		e dis4-! h-!\fermata \bar "|." %45 finis
 	}
 }

@@ -713,6 +713,7 @@
 			system-system-spacing.basic-distance = #35
 			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
+			page-count = #2
 		}
 		\score {
 			<<

@@ -280,12 +280,38 @@ AchSuenderSopranoNotes = {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoAchSuender
 			\set Score.currentBarNumber = #32
-		
+		\partial 2 r4 r8 fis' d4 d r8 h h cis %32
+		d d fis e cis4 r16 a' a fis
+		dis8 dis dis e e4 r16 h h cis
+		d8 fis d8. cis16 cis4 r8 e %35
+		fis d h cis a a r4
+		r r8 e' e e g! e
+		cis4 r r8 d a' fis
+		d8. a16 a8 fis d4 r
+		r8 d' d d f f f e %40
+		e4 r16 e f g h,8. h16 h8 c?
+		d d r e f f a g
+		e e r16 e h c d8 d f e
+		c4 r16 e a a dis,4 r8 h
+		g' e dis e h4 r\fermata \bar "|." %45 finis
 	}
 }
 
 AchSuenderSopranoLyrics = \lyricmode {
-	
+	Ach Sün -- der! Nun ge -- hen %32
+	mir die Au -- gen auf. Jetz spühr ich
+	dei -- ne Heß -- lich -- keit, da ich ſo
+	vie -- les Her -- tze -- leid an %35
+	mei -- nem Hir -- ten fin -- de.
+	Mein gantz ver -- irr -- ter
+	Lauf ging un -- ge --
+	ſcheut zur Höl -- len zu.
+	Ich ſchlief in fau -- ler Sün -- den %40
+	Ruh und lie -- ße mir auf So -- doms
+	Au -- en vor dei -- ner Stra -- fe
+	grau -- en. Doch hier ſeh ich er -- ſtau -- nend
+	an, wie ſchreck -- lich Gott die
+	Sün -- den ſtra -- fen kan. %45 finis
 }
 
 % SopranoNotes = {

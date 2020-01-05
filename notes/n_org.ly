@@ -1026,13 +1026,38 @@ AchSuenderOrgano = {
 		\clef bass
 		\key d \major \time 4/4 \tempoAchSuender
 			\set Score.currentBarNumber = #32
-		\partial 2 d2 e1~
-		e2 a,
+		\partial 2 d2 e1~ %32
+		e2 a,~
+		a g!
+		gis a %35
+		d e4 e,
+		a8 a a a g!4 r
+		g8 g g g fis4 r
+		r2 fis8 fis fis fis
+		g1~ %40
+		g~
+		g
+		c8 c' gis4 r8 e e,4
+		a1
+		ais2 h4-! e,-!\fermata \bar "|." %45 finis
 	}
 }
 
 AchSuenderBassFigures = \figuremode {
-	
+	r2 <7 _+>1 %32
+	r
+	<4+ 2>2 <6>
+	<6 5!>1 %35
+	r2 <6 4>4 <5 _+>
+	r2 <2>
+	<2> <6>
+	r <6>
+	r1 %40
+	<6 4!>2 <7>
+	r1
+	r4 <6> r8 <_+> r4
+	<_!>2 <4+ 2>
+	<7 _+> <_+>4 <_!> %45 finis
 }
 
 % Organo = {

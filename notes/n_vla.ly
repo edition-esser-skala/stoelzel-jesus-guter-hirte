@@ -187,9 +187,22 @@ MeineSeeleViola = {
 
 AchSuenderViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 4/4 \tempoAchSuender
 			\set Score.currentBarNumber = #32
-		
+		\partial 2 a'4 d h1~
+		h4 e, e2
+		h h'~
+		h cis %35
+		d cis4 h
+		cis16 a e cis cis' a e cis a4 r
+		cis'16 a e cis cis' a e cis a4 r
+		r2 d'16 a fis d d' a fis d
+		d1 %40
+		e2 f~
+		f1
+		r16 g g g e8 r r16 e e e e8 r
+		e2 h'
+		cis! h4-! g!-!\fermata \bar "|." %45 finis
 	}
 }
