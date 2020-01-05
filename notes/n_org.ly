@@ -819,12 +819,36 @@ GottMussOrgano = {
 	\relative c {
 		\clef bass
 		\key a \mixolydian \time 4/4 \tempoGottMuss
-		
+		a1~
+		a
+		h
+		e2 eis
+		fis cis %5
+		d4 e a,2
+		ais1~
+		ais~
+		ais2 h
+		g! fis %10
+		h cis
+		d dis
+		e fis4 fis, \markAttacaE \bar "|" %13 finis
 	}
 }
 
 GottMussBassFigures = \figuremode {
-	
+	r1
+	<7+ 4 2>2 <8 3>
+	<7 _+>1
+	<_+>2 <6 _+>
+	r <6> %5
+	r4 <_+>2.
+	<6>2 <7!>
+	r1
+	<6>
+	<5 3>2 <_+> %10
+	r <6 5>
+	r <7>
+	<_+> q %13 finis
 }
 
 % Organo = {

@@ -261,12 +261,36 @@ GottMussBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \mixolydian \time 4/4 \autoBeamOff \tempoGottMuss
-		
+		r4 r8 a' cis a e a
+		d, fis d cis cis4 r16 cis' a fis
+		dis4 r8 fis a a a gis
+		e e \clef treble r16 h'' h h gis8. gis16 a8 h
+		a4 r8 a a e fis g %5
+		fis a e e \clef bass r a, a a
+		fis fis e fis g!4 r8 g
+		g8. g16 g8 g e8. e16 e8 e
+		cis d e fis d d r16 fis fis fis
+		h8 h, h ais ais ais \clef treble r fis'' %10
+		d8. d16 cis8 h g' g h a
+		fis8. fis16 fis4 r8 c' c h
+		gis e ais h fis4 r \markAttacaE \bar "|"
 	}
 }
 
 GottMussBassoLyrics = \lyricmode {
-	
+	Gott muß durch Blut und
+	Todt ver -- ſöh -- net ſeyn, es koſ -- te
+	auch dem Soh -- ne ſelbst das
+	Le -- ben. Und die -- ſer hat ſich in die
+	Pein aus Lie -- be für dich %5
+	hin -- ge -- ge -- ben. Du ſoll -- teſt
+	un -- ter ſte -- tem Weh ein
+	e -- wi -- ges Geth -- ſe -- ma -- ne von
+	we -- gen dei -- ner Sün -- den in je -- nem
+	Schwe -- fel Pfuhl em -- pfin -- den. Dein %10
+	Hir -- te a -- ber reißt dich aus dem
+	Fol -- ter Hauß durch die -- ſen
+	ſau -- ren Gang he -- rauß. %13 finis
 }
 
 % BassoNotes = {

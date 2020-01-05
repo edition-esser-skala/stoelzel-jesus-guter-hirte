@@ -268,6 +268,10 @@ markDaCapo = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
 	\mark \markup { \remark "da capo" }
 }
+markAttacaE = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remarkE "attaca" }
+}
 markFermata = \mark \markup { \musicglyph #"scripts.ufermata" }
 scriptOut = \once \override Script.avoid-slur = #'outside
 alwaysScriptOut = \override Script.avoid-slur = #'outside
