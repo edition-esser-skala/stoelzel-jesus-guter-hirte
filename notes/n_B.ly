@@ -257,6 +257,18 @@ VerlohrnesSchaafBassoLyrics = \lyricmode {
 	we -- gen tra -- gen. %27 finis
 }
 
+GottMussBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \mixolydian \time 4/4 \autoBeamOff \tempoGottMuss
+		
+	}
+}
+
+GottMussBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

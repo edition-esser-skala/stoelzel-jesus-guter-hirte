@@ -517,48 +517,76 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.15" "A R I A" "Verlohrnes Schaaf"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\VerlohrnesSchaafViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\VerlohrnesSchaafViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\VerlohrnesSchaafViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Das Geſetze"
+% 					\new Voice = "Basso" { \dynamicUp \VerlohrnesSchaafBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \VerlohrnesSchaafBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\VerlohrnesSchaafOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \VerlohrnesSchaafBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 110 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.15" "A R I A" "Verlohrnes Schaaf"
+			movement = \movementTitle "1.16" "R E C I T A T I V O" "Gott muß durch Blut und Todt verſöhnet seyn"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #4
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\VerlohrnesSchaafViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\VerlohrnesSchaafViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\VerlohrnesSchaafViola
-					}
-				>>
 				\new Staff {
-					\set Staff.instrumentName = "Das Geſetze"
-					\new Voice = "Basso" { \dynamicUp \VerlohrnesSchaafBassoNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "Das Geſetze" } }
+					\new Voice = "Basso" { \dynamicUp \GottMussBassoNotes }
 				}
-				\new Lyrics \lyricsto Basso \VerlohrnesSchaafBassoLyrics
+				\new Lyrics \lyricsto Basso \GottMussBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\VerlohrnesSchaafOrgano
+						\GottMussOrgano
 					}
 				>>
-				\new FiguredBass { \VerlohrnesSchaafBassFigures }
+				\new FiguredBass { \GottMussBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 110 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

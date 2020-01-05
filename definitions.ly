@@ -301,6 +301,7 @@ tempoDeinExempel = \tempoMarkup "Aria"
 tempoEinBoeses = \tempoMarkup "Recitativo"
 tempoKeinHirt = \tempoMarkup "Choral"
 tempoVerlohrnesSchaaf = \tempoMarkup "Aria"
+tempoGottMuss = \tempoMarkup "Recitativo"
 
 
 

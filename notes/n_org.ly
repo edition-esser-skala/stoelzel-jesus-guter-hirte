@@ -815,6 +815,18 @@ VerlohrnesSchaafBassFigures = \figuremode {
 	r <6 5> <4> <_+> r2 %33 finis
 }
 
+GottMussOrgano = {
+	\relative c {
+		\clef bass
+		\key a \mixolydian \time 4/4 \tempoGottMuss
+		
+	}
+}
+
+GottMussBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
