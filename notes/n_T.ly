@@ -331,6 +331,18 @@ MeineSeeleTenoreLyrics = \lyricmode {
 	droht. %25 finis
 }
 
+DieSuendenLastTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoDieSuendenLast
+		
+	}
+}
+
+DieSuendenLastTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

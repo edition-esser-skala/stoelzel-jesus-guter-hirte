@@ -276,6 +276,9 @@ markFermata = \mark \markup { \musicglyph #"scripts.ufermata" }
 scriptOut = \once \override Script.avoid-slur = #'outside
 alwaysScriptOut = \override Script.avoid-slur = #'outside
 
+Gesetze = \markup { \remark "Das Geſetze" }
+Evangelium = \markup { \remark "Das Evangelium" }
+
 
 
 
@@ -308,6 +311,7 @@ tempoVerlohrnesSchaaf = \tempoMarkup "Aria"
 tempoGottMuss = \tempoMarkup "Recitativo"
 tempoOLiebeDieNicht = \tempoMarkup "Accompagnato"
 tempoMeineSeele = \tempoMarkup "Aria"
+tempoDieSuendenLast = \tempoMarkup "Recitativo"
 
 
 

@@ -261,16 +261,16 @@ GottMussBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \mixolydian \time 4/4 \autoBeamOff \tempoGottMuss
-		r4 r8 a' cis a e a
+		r4 r8 a'^\Gesetze cis a e a
 		d, fis d cis cis4 r16 cis' a fis
 		dis4 r8 fis a a a gis
-		e e \clef treble r16 h'' h h gis8. gis16 a8 h
+		e e \clef treble r16 h''^\Evangelium h h gis8. gis16 a8 h
 		a4 r8 a a e fis g %5
-		fis a e e \clef bass r a, a a
+		fis a e e \clef bass r a,^\Gesetze a a
 		fis fis e fis g!4 r8 g
 		g8. g16 g8 g e8. e16 e8 e
 		cis d e fis d d r16 fis fis fis
-		h8 h, h ais ais ais \clef treble r fis'' %10
+		h8 h, h ais ais ais \clef treble r fis''^\Evangelium %10
 		d8. d16 cis8 h g' g h a
 		fis8. fis16 fis4 r8 c' c h
 		gis e ais h fis4 r \markAttacaE \bar "|"

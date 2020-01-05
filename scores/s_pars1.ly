@@ -633,45 +633,73 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.18" "A R I A" "Meine Seele iſt betrübt"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\MeineSeeleViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\MeineSeeleViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\MeineSeeleViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+% 					\new Voice = "Tenore" { \dynamicUp \MeineSeeleTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \MeineSeeleTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\MeineSeeleOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \MeineSeeleBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.18" "A R I A" "Meine Seele iſt betrübt"
+			movement = \movementTitle "1.19" "R E C I T A T I V O" "Die Sünden Laſt der ganzen Welt"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #4
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\MeineSeeleViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\MeineSeeleViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\MeineSeeleViola
-					}
-				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
-					\new Voice = "Tenore" { \dynamicUp \MeineSeeleTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
+					\new Voice = "Tenore" { \dynamicUp \DieSuendenLastTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \MeineSeeleTenoreLyrics
+				\new Lyrics \lyricsto Tenore \DieSuendenLastTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\MeineSeeleOrgano
+						\DieSuendenLastOrgano
 					}
 				>>
-				\new FiguredBass { \MeineSeeleBassFigures }
+				\new FiguredBass { \DieSuendenLastBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

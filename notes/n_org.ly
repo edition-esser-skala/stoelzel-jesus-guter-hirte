@@ -949,6 +949,18 @@ MeineSeeleBassFigures = \figuremode {
 	<6 5>2 <6 4>4 <5 _+>
 }
 
+DieSuendenLastOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDieSuendenLast
+		
+	}
+}
+
+DieSuendenLastBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
