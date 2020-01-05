@@ -275,6 +275,19 @@ OLiebeDieNichtSopranoLyrics = \lyricmode {
 	ſei -- ner höchſ -- ten Noth: __ %11 finis
 }
 
+AchSuenderSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoAchSuender
+			\set Score.currentBarNumber = #32
+		
+	}
+}
+
+AchSuenderSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

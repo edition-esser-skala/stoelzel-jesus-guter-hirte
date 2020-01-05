@@ -184,3 +184,12 @@ MeineSeeleViola = {
 		e4 d8 a a2 \markDaCapo \bar "||" %28 finis
 	}
 }
+
+AchSuenderViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoAchSuender
+			\set Score.currentBarNumber = #32
+		
+	}
+}

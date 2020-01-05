@@ -1021,6 +1021,20 @@ DieSuendenLastBassFigures = \figuremode {
 	<6+ 4> <5 _+> %31 finis
 }
 
+AchSuenderOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoAchSuender
+			\set Score.currentBarNumber = #32
+		\partial 2 d2 e1~
+		e2 a,
+	}
+}
+
+AchSuenderBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

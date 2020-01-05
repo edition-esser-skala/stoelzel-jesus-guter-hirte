@@ -156,3 +156,12 @@ MeineSeeleViolinoII = {
 		g4 f8 d~ d cis16 h cis4 \markDaCapo \bar "||" %28 finis
 	}
 }
+
+AchSuenderViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoAchSuender
+			\set Score.currentBarNumber = #32
+		
+	}
+}

@@ -258,6 +258,15 @@ MeineSeeleViolinoI = {
 	}
 }
 
+AchSuenderViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoAchSuender
+			\set Score.currentBarNumber = #32
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
