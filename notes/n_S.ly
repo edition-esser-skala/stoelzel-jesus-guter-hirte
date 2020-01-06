@@ -416,12 +416,26 @@ SoVielJahrSopranoNotes = {
 		\clef treble
 		\key c \major \time 5/1 \autoBeamOff \tempoSoVielJahr
 			\set Staff.timeSignatureFraction = 4/4
-		
+		c'2 d e d c h a1 g\fermata
+		\time 4/1 c2 d e f e d c1\fermata
+		\time 5/1 c2 d e d c h a1 g\fermata
+		\time 4/1 c2 d e f e d c1\fermata
+		\time 4/1 e2 f g f e d e1\fermata %5
+		g2 g a g f e d1\fermata
+		\time 5/1 e2 g f e c d e1 c\fermata
+		e2 g f e d e d1 c\fermata \bar "|." %8 finis
 	}
 }
 
 SoVielJahrSopranoLyrics = \lyricmode {
-	
+	So viel Jahr hab ich ge -- lau -- fen
+	den ver -- bo -- then Ir -- re -- weg,
+	und mit dem ver -- fluch -- ten Hau -- fen
+	aus -- ge -- ſetzt den gu -- ten Steg,
+	der zur Him -- mels Pfor -- te führt. %5
+	Nie, ach nie hab ich ge -- ſpürt
+	wah -- re Reu -- e mei -- ner Sün -- den.
+	Wo ſoll ich nun Ret -- tung fin -- den? %8 finis
 }
 
 % SopranoNotes = {

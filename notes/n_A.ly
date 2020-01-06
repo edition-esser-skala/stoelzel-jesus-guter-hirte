@@ -244,12 +244,26 @@ SoVielJahrAltoNotes = {
 		\clef treble
 		\key c \major \time 5/1 \autoBeamOff \tempoSoVielJahr
 			\set Staff.timeSignatureFraction = 4/4
-		
+		g'2 g g g e4( fis?) g2 g( fis4 e) d1\fermata
+		\time 4/1 g2 g g a g g g1\fermata
+		\time 5/1 g2 g g g e4( fis?) g2 g( fis4 e) d1\fermata
+		\time 4/1 g2 g g a g g g1\fermata
+		g2 a c c c h c1\fermata %5
+		c2 c c h a g g1\fermata
+		\time 5/1 g2 g a g a f g1 f\fermata
+		g2 g a g g g g1 g\fermata \bar "|." %8 finis
 	}
 }
 
 SoVielJahrAltoLyrics = \lyricmode {
-	
+	So viel Jahr hab ich __ ge -- lau -- fen
+	den ver -- bo -- then Ir -- re -- weg,
+	und mit dem ver -- fluch -- ten Hau -- fen
+	aus -- ge -- ſetzt den gu -- ten Steg,
+	der zur Him -- mels Pfor -- te führt. %5
+	Nie, ach nie hab ich ge -- ſpürt
+	wah -- re Reu -- e mei -- ner Sün -- den.
+	Wo ſoll ich nun Ret -- tung fin -- den? %8 finis
 }
 
 % AltoNotes = {

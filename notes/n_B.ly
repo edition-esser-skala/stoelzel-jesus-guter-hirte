@@ -298,12 +298,26 @@ SoVielJahrBassoNotes = {
 		\clef bass
 		\key c \major \time 5/1 \autoBeamOff \tempoSoVielJahr
 			\set Staff.timeSignatureFraction = 4/4
-		
+		c2 h c g a h4( c) d1 g,\fermata
+		\time 4/1 e'2 h c f, c' g c1\fermata
+		\time 5/1 c2 h c g a h4( c) d1 g,\fermata
+		\time 4/1 e'2 h c f, c' g c1\fermata
+		c'2 f, c d e4( f) g2 c,1\fermata %5
+		c2 c' f, g a4( h) c2 g1\fermata
+		\time 5/1 c,2 h a4( h) c2 f4( e) d2 c1 f\fermata
+		c2 h a4( h) c2 g' c, g1 c\fermata \bar "|." %8 finis
 	}
 }
 
 SoVielJahrBassoLyrics = \lyricmode {
-	
+	So viel Jahr hab ich ge -- lau -- fen
+	den ver -- bo -- then Ir -- re -- weg,
+	und mit dem ver -- fluch -- ten __ Hau -- fen
+	aus -- ge -- ſetzt den gu -- ten Steg,
+	der zur Him -- mels Pfor -- te führt. %5
+	Nie, ach nie hab ich __ ge -- ſpürt
+	wah -- re Reu -- e mei -- ner Sün -- den.
+	Wo ſoll ich __ nun Ret -- tung fin -- den? %8 finis
 }
 
 % BassoNotes = {

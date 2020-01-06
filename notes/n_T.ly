@@ -407,12 +407,26 @@ SoVielJahrTenoreNotes = {
 		\clef "treble_8"
 		\key c \major \time 5/1 \autoBeamOff \tempoSoVielJahr
 			\set Staff.timeSignatureFraction = 4/4
-		
+		e2 d c h a d d1 h\fermata
+		\time 4/1 c2 g c c c h e1\fermata
+		\time 5/1 e2 d c h a d d1 h\fermata
+		\time 4/1 c2 g c c c h e1\fermata
+		c2 c4( d) e2 a g g g1\fermata %5
+		e2 e f4( e) d2 c c h1\fermata
+		\time 5/1 c2 d c c f,4( g) a( h) c1 a\fermata
+		c2 d c c h c c( h4 f') e1\fermata \bar "|." %8 finis
 	}
 }
 
 SoVielJahrTenoreLyrics = \lyricmode {
-	
+	So viel Jahr hab ich ge -- lau -- fen
+	den ver -- bo -- then Ir -- re -- weg,
+	und mit dem ver -- fluch -- ten Hau -- fen
+	aus -- ge -- ſetzt den gu -- ten Steg,
+	der zur __ Him -- mels Pfor -- te führt. %5
+	Nie, ach nie __ hab ich ge -- ſpürt
+	wah -- re Reu -- e mei -- ner __ Sün -- den.
+	Wo ſoll ich nun Ret -- tung fin -- den? %8 finis
 }
 
 % TenoreNotes = {
