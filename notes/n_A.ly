@@ -239,6 +239,19 @@ KeinHirtAltoLyrics = \lyricmode {
 	wür -- deſt du für Lie -- be wei -- nen. %8 finis
 }
 
+SoVielJahrAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 5/1 \autoBeamOff \tempoSoVielJahr
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+SoVielJahrAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

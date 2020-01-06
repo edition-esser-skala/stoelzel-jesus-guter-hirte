@@ -1190,6 +1190,19 @@ AchHaettIchBassFigures = \figuremode {
 	r2 %60 finis
 }
 
+SoVielJahrOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 5/1 \tempoSoVielJahr
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+SoVielJahrBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

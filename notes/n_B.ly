@@ -293,6 +293,19 @@ GottMussBassoLyrics = \lyricmode {
 	ſau -- ren Gang he -- rauß. %13 finis
 }
 
+SoVielJahrBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 5/1 \autoBeamOff \tempoSoVielJahr
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+SoVielJahrBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

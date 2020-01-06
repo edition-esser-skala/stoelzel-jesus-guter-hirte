@@ -411,6 +411,19 @@ AchHaettIchSopranoLyrics = \lyricmode {
 	ſucht. %60 finis
 }
 
+SoVielJahrSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 5/1 \autoBeamOff \tempoSoVielJahr
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+SoVielJahrSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
