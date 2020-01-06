@@ -1060,6 +1060,18 @@ AchSuenderBassFigures = \figuremode {
 	<7 _+> <_+>4 <_!> %45 finis
 }
 
+AchHaettIchOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 2/4 \tempoAchHaettIch
+		
+	}
+}
+
+AchHaettIchBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

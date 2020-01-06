@@ -705,46 +705,84 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.20" "A C C O M P A G N A T O" "Ach Sünder! Nun gehen mir die Augen auf"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 			page-count = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\AchSuenderViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\AchSuenderViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\AchSuenderViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das reuige" "Schäflein" } }
+% 					\new Voice = "Soprano" { \dynamicUp \AchSuenderSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \AchSuenderSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\AchSuenderOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \AchSuenderBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.20" "A C C O M P A G N A T O" "Ach Sünder! Nun gehen mir die Augen auf"
+			movement = \movementTitle "1.21" "A R I A" "Ach hätt ich euch verfluchten Sünden"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-			page-count = #2
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #3
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\AchSuenderViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\AchSuenderViolinoII
-						}
-					>>
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "et Oboi" } }
+						\AchHaettIchViolinoI
+					}
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\AchSuenderViola
+						\AchHaettIchViola
 					}
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das reuige" "Schäflein" } }
-					\new Voice = "Soprano" { \dynamicUp \AchSuenderSopranoNotes }
+					\new Voice = "Soprano" { \dynamicUp \AchHaettIchSopranoNotes }
 				}
-				\new Lyrics \lyricsto Soprano \AchSuenderSopranoLyrics
+				\new Lyrics \lyricsto Soprano \AchHaettIchSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\AchSuenderOrgano
+						\AchHaettIchOrgano
 					}
 				>>
-				\new FiguredBass { \AchSuenderBassFigures }
+				\new FiguredBass { \AchHaettIchBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

@@ -314,6 +314,18 @@ AchSuenderSopranoLyrics = \lyricmode {
 	Sün -- den ſtra -- fen kan. %45 finis
 }
 
+AchHaettIchSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 2/4 \autoBeamOff \tempoAchHaettIch
+		
+	}
+}
+
+AchHaettIchSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -316,6 +316,7 @@ tempoMeineSeele = \tempoMarkup "Aria"
 tempoDieSuendenLast = \tempoMarkup "Recitativo"
 	tempoDieSuendenLastB = \tempoMarkup "Adagio"
 tempoAchSuender = \tempoMarkup "Accompagnato"
+tempoAchHaettIch = \tempoMarkup "Aria"
 
 
 

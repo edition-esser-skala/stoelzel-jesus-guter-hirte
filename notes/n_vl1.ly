@@ -280,6 +280,14 @@ AchSuenderViolinoI = {
 	}
 }
 
+AchHaettIchViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 2/4 \tempoAchHaettIch
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
