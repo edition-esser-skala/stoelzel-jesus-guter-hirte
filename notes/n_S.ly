@@ -317,13 +317,98 @@ AchSuenderSopranoLyrics = \lyricmode {
 AchHaettIchSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key a \minor \time 2/4 \autoBeamOff \tempoAchHaettIch
-		
+		\twofourtime \key a \minor \time 2/4 \autoBeamOff \tempoAchHaettIch
+		R2*10 %10
+		r8 e' f e
+		d8. f16 e8 d
+		c a16 h c8. h16
+		h4 r
+		R2*3 %17
+		r8 e f e
+		d8. f16 e8 d
+		cis d16 e d8. c?16 %20
+		h8 c16 d c8. h16
+		a8 c h8. a16
+		gis8 e d'4~
+		d8 h d4~
+		d8 f d4~ %25
+		d8 h' d,4~
+		d8 h16 c d8. e16
+		c8 f e dis
+		e4 e,
+		r8 f' e d %30
+		c h a f'
+		e,4\trill r8 c'
+		a4 r
+		R2*6 %39
+		r8\fermata c d c %40
+		b8. d16 c8 b
+		a a b a
+		g8. b16 a8 g
+		f a f' f
+		f d f4~ %45
+		f8 a f4
+		e8 c e8.\trill d16
+		d4 r8 d
+		\appoggiatura c h4. d8
+		\appoggiatura c h4. d8 %50
+		h g h4
+		c8 c, b'4~
+		b8 g b4~
+		b8 d b4~
+		b8 g' b,4~ %55
+		b8 a16 g a8 d
+		d c16[( h)] c8 f
+		f e r c
+		g4 r8 e'
+		c4 r \markDaCapo \bar "||" %60 finis
 	}
 }
 
 AchHaettIchSopranoLyrics = \lyricmode {
+	Ach hätt ich %11
+	euch ver -- fluch -- te
+	Sün -- den doch eh ver --
+	flucht!
 	
+	Ach hätt ich %18
+	euch ver -- fluch -- te
+	Sün -- den, ver -- fluch -- te %20
+	Sün -- den, ach hätt ich
+	euch doch eh ver --
+	flucht, ach hätt __
+	ich euch __
+	ver -- fluch -- %25
+	te Sün --
+	den doch eh ver --
+	flucht, ver -- fluch -- te
+	Sün -- den,
+	ach hätt ich %30
+	euch doch eh, doch
+	eh ver --
+	flucht.
+	
+	So a -- ber %40
+	liebt ich mei -- nen
+	Strick und hielt mein
+	Un -- ge -- lück für
+	Glück. Ich lie -- ße
+	mich von dem __ %45
+	nicht fin --
+	den, der mich ge --
+	ſucht, ich
+	lie -- ße
+	mich von %50
+	dem nicht fin --
+	den, ich lie --
+	ße mich __
+	von dem __
+	nicht fin -- %55
+	den, der mich ge --
+	ſucht, von dem nicht
+	fin -- den, der
+	mich ge --
+	ſucht. %60 finis
 }
 
 % SopranoNotes = {

@@ -283,8 +283,60 @@ AchSuenderViolinoI = {
 AchHaettIchViolinoI = {
 	\relative c' {
 		\clef treble
-		\key a \minor \time 2/4 \tempoAchHaettIch
-		
+		\twofourtime \key a \minor \time 2/4 \tempoAchHaettIch
+		r8 e'\fE f e
+		d8. f16 e8 d
+		c a16 h c8.\trill h16
+		h8 e, d'4~
+		d8 h d4~ %5
+		d8 f d4~
+		d8 h' d,4~
+		d8 c16 h c8 f~
+		f e16 d e8 a~
+		a gis16 fis e d c h %10
+		c8-! a-! a4\p
+		h2
+		a4 a'
+		gis8 \noBeam e,\f d'4~
+		d8 h d4~ %15
+		d8 f d4~
+		d8 h' d,4~
+		d8 c16 h c4\p
+		h2
+		a %20
+		g
+		f
+		e4 r8 e
+		d'4. h8
+		d4. f8 %25
+		d4. h'8
+		e,4 r8 gis
+		a a, r a'
+		a4 gis
+		R2*3 %32
+		r8 a\fE d,4~
+		d8 c16 h c8 f~
+		f e16 d e8 a~ %35
+		a4 gis
+		r8 f e d
+		c h a f'
+		e,4\trill r8 c'
+		a4\fermata a\p %40
+		g!2
+		f
+		e
+		d4 r
+		R2*3 %47
+		r8 g f'4~
+		f8 d f4~
+		f8 a f4~ %50
+		f8 d' f,4~
+		f8 e16 d e8 c,
+		b'4. g8
+		b4. d8
+		b4. g'8 %55
+		c, f, r4
+		R2*4 \markDaCapo \bar "||" %60 finis
 	}
 }
 

@@ -1063,13 +1063,131 @@ AchSuenderBassFigures = \figuremode {
 AchHaettIchOrgano = {
 	\relative c {
 		\clef bass
-		\key a \minor \time 2/4 \tempoAchHaettIch
-		
+		\twofourtime \key a \minor \time 2/4 \tempoAchHaettIch
+		a4\fE a'~
+		a gis
+		a dis,
+		e r8 fis
+		gis4 r8 a %5
+		h4 r8 a
+		gis4 r8 e
+		a4 a,8 h
+		c4 c'8 d
+		e4 e, %10
+		a, a'~\pE
+		a gis
+		a dis,
+		e r8 fis\fE
+		gis4 r8 a %15
+		h4 r8 a
+		gis4 r8 e
+		a,4 a'~\pE
+		a g!~
+		g f~ %20
+		f e~
+		e d
+		e2
+		e,~
+		e~ %25
+		\once \tieDashed e~
+		e4 r8 e'
+		a4 g!8 fis
+		e4 r
+		r8 a g f! %30
+		e d c d
+		e4 e,
+		a h'8\fE a
+		gis4 a8 h
+		c4 c,8 d %35
+		e4 e,
+		r8 a' g! f
+		e d c d
+		e4 e,
+		a\fermata f'~\pE %40
+		f e
+		f d~
+		d cis
+		d r8 c
+		h!4 r8 a %45
+		g4 h
+		c fis,
+		g2~
+		g~
+		g~ %50
+		g
+		c~
+		c~
+		c~
+		c %55
+		f4 f,8 d
+		a' a'4 h,8
+		c4 e
+		g g,
+		c r \markDaCapo \bar "||" %60 finis
 	}
 }
 
 AchHaettIchBassFigures = \figuremode {
-	
+	r4 <6>8 <5>
+	<4 2>4 <6>
+	r <[7 _+]>
+	<[_+]>4. <[6]>8
+	<5!>4. <[4]>8 %5
+	<6\\>4. <[4]>8
+	<5!>4. <[7 _+]>8
+	<4> <3> r <5>
+	<4> <3> r <5>
+	<4> <_+>4. %10
+	r4 <6>8 <5>
+	<4 2>4 <6>
+	r <7 _+>
+	<_+>4. <6>8
+	<5!>4. <4>8 %15
+	<6\\>4. <4>8
+	<5!>4. <7 _+>8
+	<4> <3> <6> <5>
+	<2>4 <6>
+	<4+ 2> <6> %20
+	<2> <6>
+	<2> <6>
+	<_+>2
+	<7 _+>
+	r %25
+	r
+	r4. <_+>8
+	<5> <6> q <6\\>
+	<4>4 <_+>
+	r8 <6> q q %30
+	q q q4
+	<6 4>4 <5 _+>
+	r4 <3>8 <\t>
+	<5>4 r8 <5>
+	<4> <3> r <5> %35
+	<4>4 <_+>
+	r8 <6> q q
+	q q q4
+	<6 4>4 <5 _+>
+	r <6>8 <5> %40
+	<4- 2>4 <6>8 <5->
+	r4 <6->8 <5>
+	<6- 4 2>4 <6>8 <5>
+	r4. <\t>8
+	<5>4. <\t>8 %45
+	<7>4 <6 5>
+	r <7>
+	r2
+	r
+	r %50
+	r
+	<4>8 <3> <7->4
+	r2
+	r
+	r %55
+	<4->8 <3>4.
+	<4>8 <3> r <5>
+	<4> <3> <6>4
+	<6 4> <5 3>
+	r2 %60 finis
 }
 
 % Organo = {

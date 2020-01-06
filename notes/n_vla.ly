@@ -209,8 +209,60 @@ AchSuenderViola = {
 
 AchHaettIchViola = {
 	\relative c' {
-		\clef treble
-		\key a \minor \time 2/4 \tempoAchHaettIch
-		
+		\clef alto
+		\twofourtime \key a \minor \time 2/4 \tempoAchHaettIch
+		c4\fE c'
+		h2
+		e,4 a
+		gis r8 a
+		h4 r8 a %5
+		gis4 r8 a
+		h4 r8 gis
+		e4 r8 d'
+		g,4 r8 f
+		h,4 gis' %10
+		a f~\p
+		f8 d e4~
+		e8 a fis4
+		h, r8 a'\f
+		h4 r8 a %15
+		gis4 r8 a
+		h4 r8 gis
+		e4 a\p
+		f8 d e4~
+		e8 cis d4~ %20
+		d8 h c4~
+		c8 a h4~
+		h r8 h'
+		gis4. h8
+		gis4. h,8 %25
+		gis'4. e8
+		gis4 r8 h
+		e,4 r8 a,
+		h4 r
+		R2*3 %32
+		r8 c'\fE f,4
+		e r8 d'
+		g,4 r8 f %35
+		h,4 h
+		r8 c' h a
+		g f e a,
+		a4 gis
+		a\fermata d~\pE %40
+		d8 b c4
+		c b~
+		b8 g a4
+		a r
+		R2*3 %47
+		r8 g' d'4~
+		d8 d h4~
+		h8 g h4~ %50
+		h8 h d h
+		g4 r8 g
+		e4. g8
+		e4. g8
+		e4. e8 %55
+		f4 r
+		R2*4 \markDaCapo \bar "||" %60 finis
 	}
 }

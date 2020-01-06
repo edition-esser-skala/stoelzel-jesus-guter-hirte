@@ -752,7 +752,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.21" "A R I A" "Ach hätt ich euch verfluchten Sünden"
+			movement = \movementTitle "1.21" "A R I A" "Ach hätt ich euch verfluchte Sünden"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #22
@@ -785,7 +785,7 @@
 				\new FiguredBass { \AchHaettIchBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 60 }
 		}
 	}
 }
