@@ -178,3 +178,11 @@ AchSuenderViolinoII = {
 		e dis4-! h-!\fermata \bar "|." %45 finis
 	}
 }
+
+DieseSchoenenViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/8 \tempoDieseSchoenen
+		
+	}
+}

@@ -340,6 +340,14 @@ AchHaettIchViolinoI = {
 	}
 }
 
+DieseSchoenenViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/8 \tempoDieseSchoenen
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

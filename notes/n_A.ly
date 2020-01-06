@@ -294,6 +294,18 @@ LassBangeFurchtAltoLyrics = \lyricmode {
 	Sün -- de al -- ler Welt. %9 finis
 }
 
+DieseSchoenenAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/8 \autoBeamOff \tempoDieseSchoenen
+		
+	}
+}
+
+DieseSchoenenAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

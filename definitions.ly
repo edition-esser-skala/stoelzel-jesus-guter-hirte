@@ -319,6 +319,7 @@ tempoAchSuender = \tempoMarkup "Accompagnato"
 tempoAchHaettIch = \tempoMarkup "Aria"
 tempoSoVielJahr = \tempoMarkup "Choral"
 tempoLassBangeFurcht = \tempoMarkup "Recitativo"
+tempoDieseSchoenen = \tempoMarkup "Aria"
 
 
 

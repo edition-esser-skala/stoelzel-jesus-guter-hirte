@@ -832,29 +832,73 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.23" "R E C I T A T I V O" "Laß bange Furcht dich nicht zurücke jagen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Das Evangelium"
+% 					\new Voice = "Alto" { \dynamicUp \LassBangeFurchtAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \LassBangeFurchtAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\LassBangeFurchtOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \LassBangeFurchtBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.23" "R E C I T A T I V O" "Laß bange Furcht dich nicht zurücke jagen"
+			movement = \movementTitle "1.24" "A R I A" "Dieſe ſchönen Blut-Rubinen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #3
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+							\DieseSchoenenViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+							\DieseSchoenenViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\DieseSchoenenViola
+					}
+				>>
 				\new Staff {
 					\set Staff.instrumentName = "Das Evangelium"
-					\new Voice = "Alto" { \dynamicUp \LassBangeFurchtAltoNotes }
+					\new Voice = "Alto" { \dynamicUp \DieseSchoenenAltoNotes }
 				}
-				\new Lyrics \lyricsto Alto \LassBangeFurchtAltoLyrics
+				\new Lyrics \lyricsto Alto \DieseSchoenenAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\LassBangeFurchtOrgano
+						\DieseSchoenenOrgano
 					}
 				>>
-				\new FiguredBass { \LassBangeFurchtBassFigures }
+				\new FiguredBass { \DieseSchoenenBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

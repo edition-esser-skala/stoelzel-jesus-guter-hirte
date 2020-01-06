@@ -1245,6 +1245,18 @@ LassBangeFurchtBassFigures = \figuremode {
 	<6> <_+>4 q %9 finis
 }
 
+DieseSchoenenOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/8 \tempoDieseSchoenen
+		
+	}
+}
+
+DieseSchoenenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

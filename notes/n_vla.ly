@@ -266,3 +266,11 @@ AchHaettIchViola = {
 		R2*4 \markDaCapo \bar "||" %60 finis
 	}
 }
+
+DieseSchoenenViola = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/8 \tempoDieseSchoenen
+		
+	}
+}
