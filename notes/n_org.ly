@@ -1221,12 +1221,28 @@ LassBangeFurchtOrgano = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 4/4 \tempoLassBangeFurcht
-		
+		a2 h
+		c1
+		c
+		h2 c
+		d4 g, dis'2 %5
+		e1
+		c2 cis
+		d g,~
+		g a4 d,\fermata \bar "|." %9 finis
 	}
 }
 
 LassBangeFurchtBassFigures = \figuremode {
-	
+	r2 <6\\>
+	<6> <4+ 2>
+	<\t \t>1
+	<6>
+	<_+>2 <6 _+>2 %5
+	r1
+	<6>2 <6 5>
+	<_+> <5>
+	<6> <_+>4 q %9 finis
 }
 
 % Organo = {

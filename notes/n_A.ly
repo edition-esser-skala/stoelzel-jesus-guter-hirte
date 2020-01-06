@@ -270,12 +270,28 @@ LassBangeFurchtAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoLassBangeFurcht
-		
+		r8 e c' h gis8. gis16 gis a h e,
+		a8 a r16 a c a fis8. fis16 fis8 g
+		a a r a a h c h
+		g g r d e g c h
+		g g r4 r8 h h h %5
+		g4 r8 e g g h e,
+		a4 r16 a a e g8 g g fis
+		fis?4 r8 d h'8. h16 g8 h
+		e, fis g fis d4 r\fermata \bar "|." %9 finis
 	}
 }
 
 LassBangeFurchtAltoLyrics = \lyricmode {
-	
+	Laß ban -- ge Furcht dich nicht zu -- rü -- cke
+	ja -- gen, dein gu -- ter und ge -- treu -- er
+	Hir -- te hat al -- les diß ge --
+	tra -- gen, daß dir ge -- holf -- fen
+	wür -- de. Sey gu -- thes %5
+	Muths! Ein einz -- ger Tropf -- fen
+	Bluts, der ihm vom An -- ge -- ſich -- te
+	fällt, wiegt mehr als wie die
+	Sün -- de al -- ler Welt. %9 finis
 }
 
 % AltoNotes = {
