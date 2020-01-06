@@ -266,6 +266,18 @@ SoVielJahrAltoLyrics = \lyricmode {
 	Wo ſoll ich nun Ret -- tung fin -- den? %8 finis
 }
 
+LassBangeFurchtAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoLassBangeFurcht
+		
+	}
+}
+
+LassBangeFurchtAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -1214,7 +1214,19 @@ SoVielJahrBassFigures = \figuremode {
 	r2 <5>4 <6> r2 <7> <6>4 <\t> r2 r1 %5
 	r r <6>4 <\t> r2 r1
 	r2 <6> q4 <\t> r2 r4 <\t> <5> <6> r1 r
-	r2 <6> q4 <\t> r2 r1 <4>2 <3> r1 %8 finis
+	r2 <6> q4 <\t> r2 r1 <4>2 <3> r %8 finis
+}
+
+LassBangeFurchtOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoLassBangeFurcht
+		
+	}
+}
+
+LassBangeFurchtBassFigures = \figuremode {
+	
 }
 
 % Organo = {

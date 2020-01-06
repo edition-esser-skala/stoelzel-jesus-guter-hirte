@@ -788,48 +788,76 @@
 % 			\midi { \tempo 2 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.22" "C H O R A L" "So viel Jahr hab ich gelaufen"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+% 						\new Voice = "Soprano" { \dynamicUp \SoVielJahrSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \SoVielJahrSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+% 						\new Voice = "Alto" { \dynamicUp \SoVielJahrAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \SoVielJahrAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+% 						\new Voice = "Tenore" { \dynamicUp \SoVielJahrTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \SoVielJahrTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \SoVielJahrBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \SoVielJahrBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SoVielJahrOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \SoVielJahrBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.22" "C H O R A L" "So viel Jahr hab ich gelaufen"
+			movement = \movementTitle "1.23" "R E C I T A T I V O" "Laß bange Furcht dich nicht zurücke jagen"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
-						\new Voice = "Soprano" { \dynamicUp \SoVielJahrSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \SoVielJahrSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
-						\new Voice = "Alto" { \dynamicUp \SoVielJahrAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \SoVielJahrAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
-						\new Voice = "Tenore" { \dynamicUp \SoVielJahrTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \SoVielJahrTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \SoVielJahrBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \SoVielJahrBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Das Evangelium"
+					\new Voice = "Alto" { \dynamicUp \LassBangeFurchtAltoNotes }
+				}
+				\new Lyrics \lyricsto Alto \LassBangeFurchtAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SoVielJahrOrgano
+						\LassBangeFurchtOrgano
 					}
 				>>
-				\new FiguredBass { \SoVielJahrBassFigures }
+				\new FiguredBass { \LassBangeFurchtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
