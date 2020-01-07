@@ -298,12 +298,121 @@ DieseSchoenenAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 3/8 \autoBeamOff \tempoDieseSchoenen
-		
+		R4.*12 %12
+		r8 h' a
+		g4 fis8
+		e4 d8 %15
+		c h r
+		r g' g
+		g16 e a8 a
+		a([ fis)] d
+		g r16 a fis8 %20
+		h fis e16([ d)]
+		d8 fis~ fis32 a([ g fis)]
+		\tuplet 3/2 8 { g16[ e g] } g8[~ g32 h( a g)]
+		\tuplet 3/2 8 { a16[ fis a] } a8[~ a32 c!( h a)]
+		h16 g h8.\trill c16 %25
+		a4 r8
+		r h a
+		g4 fis8
+		e4 d8
+		c h r %30
+		r g' g
+		g16 e a8 a
+		a16 fis h8 h
+		h16 g c8 c
+		c4 r8 %35
+		h r16 a g8
+		e fis8. g16
+		g8 h,~ h32 d([ c h)]
+		\tuplet 3/2 8 { c16[ a c] } c8[~ c32 e( d c)]
+		\tuplet 3/2 8 { d16[ h d] } d8[~ d32 f( e d)] %40
+		\tuplet 3/2 8 { e16[ c e] } e8[~ e32 g( fis e)]
+		\tuplet 3/2 8 { fis16[ d fis] } fis8[~ fis32 a( g fis)]
+		\tuplet 3/2 8 { g16[ e g] } g8[~ g32 h( a g)]
+		\tuplet 3/2 8 { a16[ fis a] } a8~ a32[ c] h([ a)]
+		d8 r16 h g8 %45
+		c8 a8. g16
+		g4 r8
+		R4.*6 %53
+		r8\fermata h a
+		g4 fis8 %55
+		e([ a,)] a'
+		h h, r
+		r g' f
+		e4 d!8
+		c([ c')] h %60
+		a16 d, fis8~ fis32 a([ g fis)]
+		g16 e g8~[ g32 \once \slurDashed h( a g)]
+		\tuplet 3/2 8 { a16[( fis a]) } a8[~ a32 \once \slurDashed c( h a])
+		\tuplet 3/2 8 { h16[( g h]) } h8[~ h32 d] cis([ h)]
+		ais8 fis r %65
+		r h a
+		g4 fis8
+		r h e,
+		fis ais fis
+		h h, r %70
+		r d' ais
+		h4 r8 \markDaCapo \bar "||" %72 finis
 	}
 }
 
 DieseSchoenenAltoLyrics = \lyricmode {
+	Die -- ſe %13
+	ſchö -- nen
+	Blut Ru -- %15
+	bi -- nen
+	wer -- den
+	dir zur Kro -- ne
+	die -- nen
+	in der fro -- %20
+	hen E -- wig --
+	keit, in __ der __
+	fro -- _
+	_ _
+	_ hen E -- wig -- %25
+	keit,
+	die -- ſe
+	ſchö -- nen
+	Blut Ru --
+	bi -- nen %30
+	wer -- den
+	dir zur Kro -- ne
+	die -- nen in der
+	fro -- hen E -- wig --
+	keit, %35
+	in der fro --
+	hen E -- wig --
+	keit, in __ der __
+	fro -- _
+	_ _ %40
+	_ _
+	_ _
+	_ _
+	_ _ hen,
+	in der fro -- %45
+	hen E -- wig --
+	keit.
 	
+	Ja, du %54
+	wirſt mit %55
+	tau -- ſend
+	Freu -- den
+	un -- ter
+	die -- ſen
+	Ro -- ſen %60
+	wei -- den, un -- ter __
+	die -- ſen Ro --
+	_ _
+	_ _ ſen
+	wei -- den, %65
+	frey von
+	Sün -- de,
+	frey von
+	Leid, frey von
+	Sün -- de, %70
+	frey von
+	Leid. %72 finis
 }
 
 % AltoNotes = {

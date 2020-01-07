@@ -269,8 +269,73 @@ AchHaettIchViola = {
 
 DieseSchoenenViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \major \time 3/8 \tempoDieseSchoenen
-		
+		r8 g'\fE fis
+		r e d
+		r c h
+		a g r
+		d' d d %5
+		c e e
+		d fis fis
+		e g g
+		fis d d
+		d[ r16 fis d8] %10
+		r16 e a,8[ d]
+		h4 r8
+		g'16\pE a h c d d,
+		e fis g a h h,
+		c d e fis g g, %15
+		a8 g r
+		h h h
+		c c cis
+		d d d
+		e[ r16 e a,8] %20
+		g16 g' fis g a8
+		fis d d
+		e e e
+		fis fis fis
+		g d d %25
+		d4 r8
+		g16 a h c d d,
+		e fis g a h h,
+		c d e fis g g,
+		a8 g r %30
+		h h h
+		c c cis
+		d d dis
+		e e e
+		fis fis fis %35
+		g[ r16 fis d8]
+		e d4
+		h8 g g
+		a a a
+		h h h %40
+		c c c
+		d d d
+		e e e
+		fis fis fis
+		g[ r16 h h8] %45
+		e, d4
+		h8 d\f d
+		c e e
+		d fis fis
+		e g g %50
+		fis a a
+		d,[ r16 fis d8]
+		r16 e a,8[ d]
+		h4\fermata r8
+		r e\pE d %55
+		c4 c16 a'
+		fis8 h h
+		h4 r8
+		r c, h
+		a a' g %60
+		d d d
+		e e e
+		fis fis fis
+		g4 e8
+		cis4 r8 %65
+		R4.*7 \bar "||" %72 finis
 	}
 }

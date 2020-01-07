@@ -1249,12 +1249,154 @@ DieseSchoenenOrgano = {
 	\relative c {
 		\clef bass
 		\key g \major \time 3/8 \tempoDieseSchoenen
-		
+		g8\fE g' fis
+		r e d
+		r c h
+		a g r
+		h h h %5
+		c c c
+		d d d
+		e e e
+		fis fis fis
+		g[ r16 a h8] %10
+		r16 c d8[ d,]
+		g4 r8
+		\clef treble g'16\pE a h c d d,
+		e fis g a h h,
+		c d e fis g g, %15
+		a8 g r
+		h h h
+		c c cis
+		d d d
+		\clef bass e,[ r16 cis d8] %20
+		g a a,
+		d4 r8
+		e4 r8
+		fis4 r8
+		g4 g,8 %25
+		d'4 r8
+		\clef treble g'16 a h c d d,
+		e fis g a h h,
+		c d e fis g g,
+		a8 g r %30
+		h h h
+		c c cis
+		d d dis
+		e e e
+		fis fis fis %35
+		\clef bass g,[ r16 a16 h8]
+		c d d,
+		g,4 r8
+		a4 r8
+		h4 r8 %40
+		c4 r8
+		d4 r8
+		e4 r8
+		fis4 r8
+		h,[ r16 d e8] %45
+		c d d,
+		g h\fE h
+		c c c
+		d d d
+		e e e %50
+		fis fis fis
+		g[ r16 a h8]
+		r16 c d8[ d,]
+		g,\fermata g'\pE fis
+		e4 d8 %55
+		c4 c'8
+		h dis, h
+		e, e' d
+		c4 h8
+		a a' g %60
+		d4 r8
+		e4 r8
+		fis4 r8
+		g4 e8
+		fis, fis' e %65
+		d4 cis8
+		h4 a!8
+		g4 g'8
+		fis4 e8
+		d4 h8 %70
+		fis'4 fis,8
+		h4 r8 \markDaCapo \bar "||" %72 finis
 	}
 }
 
 DieseSchoenenBassFigures = \figuremode {
-	
+	r4 <6>8
+	r4 q8
+	r4 q8
+	q q4
+	q4. %5
+	<[5]>8 <6>4
+	<[5]>8 <6>4
+	<[5]>8 <6>4
+	q4.
+	r8. <6>16 q8 %10
+	r16 q <5 3>4
+	r4.
+	r
+	r
+	r %15
+	r
+	r
+	r
+	r
+	<5 3>8. <6>16 r8 %20
+	r <6 4> <5 _+>
+	r4.
+	<7>
+	<6>
+	r %25
+	r
+	r
+	r
+	r
+	r %30
+	r
+	r
+	r
+	r
+	r %35
+	r8. <6>16 q8
+	q <5 3>4
+	r4.
+	<7>
+	<6> %40
+	r
+	<_+>
+	<7>
+	<6 5>
+	<6>8. q16 <5 3>8 %45
+	<6> <5 3>4
+	r8 <6 5!>4
+	<5>8 <6>4
+	r4.
+	r %50
+	<6>
+	r8. <6>16 q8
+	r16 q <5 3>4
+	r <6\\>8
+	r4 <6>8 %55
+	q4.
+	<_+>
+	r4 <6>8
+	r4 q8
+	q4. %60
+	r
+	<7>
+	<6>
+	r4 <6\\>8
+	<5+ _+>4 <\t \t>8 %65
+	<6>4 <6!>8
+	<6>4 q8
+	q4.
+	<5+ _+>4 <\t \t>8
+	<6>4. %70
+	<6 4>4 <5+ _+>8
+	r4. %72 finis
 }
 
 % Organo = {

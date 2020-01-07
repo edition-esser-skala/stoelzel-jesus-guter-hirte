@@ -183,6 +183,71 @@ DieseSchoenenViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 3/8 \tempoDieseSchoenen
-		
+		r8 h''\fE a
+		r g fis
+		r e d
+		fis, g r
+		g g g %5
+		g a a
+		a h h
+		h c e
+		d a'~ a32[ c h a]
+		h8[ r16 a g8] %10
+		r16 a fis8.[ g16]
+		g4 r8
+		r g\pE fis
+		r e d
+		r c h %15
+		fis g r
+		g g g
+		g e a
+		a fis d'
+		h[ r16 a d8]~ %20
+		d d cis
+		d d d,
+		r d' d,
+		r d' d,
+		r g'8. a16 %25
+		fis4 r8
+		r g fis
+		r e d
+		r c h
+		fis g r %30
+		g g g
+		g e a
+		a fis h
+		h g c~
+		c a fis %35
+		d[ r16 c' h8]
+		a a8. g16
+		g8 g g,
+		r g' g,
+		r g' g, %40
+		r c' c,
+		r c' c,
+		r c' c,
+		r c' d,
+		h''[ r16 fis e8] %45
+		a fis8. g16
+		g32([\f d h g)] g,8 r
+		e''32(_[ c g e]) c8 r
+		fis'32([ d a fis]) d8 r
+		g'32([ e h g]) e8 r %50
+		a'32( fis d a) fis16[ d] a''32( c h a)
+		h8[ r16 a g8]
+		r16 a fis8.[ g16]
+		g4\fermata r8
+		r g\pE fis %55
+		e a, a'
+		h fis4
+		e r8
+		r e, d!
+		c c' h %60
+		a d d,
+		r d' d,
+		r d' d,
+		r g' g,
+		fis4 r8 %65
+		R4.*7 \markDaCapo \bar "||" %72 finis
 	}
 }

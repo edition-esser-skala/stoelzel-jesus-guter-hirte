@@ -344,7 +344,72 @@ DieseSchoenenViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 3/8 \tempoDieseSchoenen
-		
+		g''16\fE a h c d d,
+		e fis g a h h,
+		c d e fis g g,
+		c8 h r
+		d32( h g d h) d g h d f e d %5
+		e( c g e c) e a c e g fis e
+		fis( d a fis d) fis h d fis a g fis
+		g( e h g e) g c e g h a g
+		a( fis d a fis) a d fis a c h a
+		h8[ r16 a g8] %10
+		r16 a fis8.[ g16]
+		g4 r8
+		r h\pE a
+		r g fis
+		r e d %15
+		c h r
+		d32( h g d h) d g h d f e d
+		e( c g e c) e a c e g fis e
+		fis( d a fis d) fis h d fis a g fis
+		g8[ r16 a fis8] %20
+		h fis e16 d
+		d8 d d,
+		r d' d,
+		r d' d,
+		r h''8. c16 %25
+		a4 r8
+		r h a
+		r g fis
+		r e d
+		c h r %30
+		d32( h g d h) d g h d f e d
+		e( c g e c) e a c e g fis e
+		fis( d a fis d) fis h d fis a g fis
+		g( e h g e) g c e g h a g
+		a( fis d a fis) a d fis a c h a %35
+		h8[ r16 a g8]
+		e fis8. g16
+		g8 g, g,
+		r g' g,
+		r g' g, %40
+		r c' c,
+		r c' c,
+		r c' c,
+		r c' d,
+		d''[ r16 h g8] %45
+		c a8. g16
+		g8 h,,32([\f d g h d f e d)]
+		e8 c,32([ e a c e g fis e)]
+		fis8 d,32([ fis a d fis a g fis)]
+		g8 e,32([ g h e g h a g)] %50
+		a8 fis,32([ a d fis a c h a)]
+		h8[ r16 a g8]
+		r16 a fis8.[ g16]
+		g4\fermata r8
+		e16\pE fis g a h h, %55
+		e8 e8. fis16
+		dis32( h fis dis h) dis fis h dis fis e dis
+		g8 e, r
+		c'16 d! e fis g g,
+		fis4 g8 %60
+		fis d' d,
+		r d' d,
+		r d' d,
+		r g' g,
+		fis4 r8 %65
+		R4.*7 \markDaCapo \bar "||" %72 finis
 	}
 }
 
