@@ -860,48 +860,96 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "1.24" "A R I A" "Dieſe ſchönen Blut-Rubinen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+% 							\DieseSchoenenViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+% 							\DieseSchoenenViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DieseSchoenenViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Das Evangelium"
+% 					\new Voice = "Alto" { \dynamicUp \DieseSchoenenAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \DieseSchoenenAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DieseSchoenenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DieseSchoenenBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 50 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "1.24" "A R I A" "Dieſe ſchönen Blut-Rubinen"
+			movement = \movementTitle "1.25" "C H O R A L" "Wären tauſend Welt zu finden"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
-							\DieseSchoenenViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
-							\DieseSchoenenViolinoII
-						}
-					>>
+				\new ChoirStaff \with { \twoStanzaDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\DieseSchoenenViola
+						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+						\new Voice = "Soprano" { \dynamicUp \WaerenTausendSopranoNotes }
 					}
+					\new Lyrics \lyricsto Soprano \WaerenTausendSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \WaerenTausendSopranoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+						\new Voice = "Alto" { \dynamicUp \WaerenTausendAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \WaerenTausendAltoLyricsA
+					\new Lyrics \lyricsto Alto \WaerenTausendAltoLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+						\new Voice = "Tenore" { \dynamicUp \WaerenTausendTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \WaerenTausendTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \WaerenTausendTenoreLyricsB
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \WaerenTausendBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \WaerenTausendBassoLyricsA
+					\new Lyrics \lyricsto Basso \WaerenTausendBassoLyricsB
 				>>
-				\new Staff {
-					\set Staff.instrumentName = "Das Evangelium"
-					\new Voice = "Alto" { \dynamicUp \DieseSchoenenAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \DieseSchoenenAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DieseSchoenenOrgano
+						\WaerenTausendOrgano
 					}
 				>>
-				\new FiguredBass { \DieseSchoenenBassFigures }
+				\new FiguredBass { \WaerenTausendBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 50 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

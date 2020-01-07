@@ -320,6 +320,7 @@ tempoAchHaettIch = \tempoMarkup "Aria"
 tempoSoVielJahr = \tempoMarkup "Choral"
 tempoLassBangeFurcht = \tempoMarkup "Recitativo"
 tempoDieseSchoenen = \tempoMarkup "Aria"
+tempoWaerenTausend = \tempoMarkup "Choral"
 
 
 
@@ -490,6 +491,8 @@ tempoDieseSchoenen = \tempoMarkup "Aria"
 		\Lyrics
 		\override LyricText.font-size = #-1
 		\override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing.padding = #-100
+		\override StanzaNumber.font-series = #'medium
+		\override StanzaNumber.font-size = #-1
 	}
 	\context {
 		\FiguredBass

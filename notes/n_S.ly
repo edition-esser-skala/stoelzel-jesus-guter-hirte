@@ -438,6 +438,46 @@ SoVielJahrSopranoLyrics = \lyricmode {
 	Wo ſoll ich nun Ret -- tung fin -- den? %8 finis
 }
 
+WaerenTausendSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 5/1 \autoBeamOff \tempoWaerenTausend
+			\set Staff.timeSignatureFraction = 4/4
+		c'2 d e d c h a1 g\fermata
+		\time 4/1 c2 d e f e d c1\fermata
+		\time 5/1 c2 d e d c h a1 g\fermata
+		\time 4/1 c2 d e f e d c1\fermata
+		\time 4/1 e2 f g f e d e1\fermata %5
+		g2 g a g f e d1\fermata
+		\time 5/1 e2 g f e c d e1 c\fermata
+		e2 g f e d e d1 c\fermata \bar "|." %8 finis
+	}
+}
+
+WaerenTausendSopranoLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Wä -- ren tau -- ſend Welt zu fin -- den
+	von dem Höch -- ſten zu -- ge -- richt,
+	und du hät -- teſt al -- le Sün -- den,
+	ſo da -- rin -- nen ſind, ver -- richt,
+	wär es doch noch lan -- ge nicht %5
+	ſo viel, daß das hel -- le Licht
+	Sei -- ner Gna -- de hier auf Er -- den
+	da -- durch könnt er -- lö -- ſchet wer -- den. %8 finis
+}
+
+WaerenTausendSopranoLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Mein Gott, öff -- ne mir die Pfor -- ten
+	ſol -- cher Wohl -- ge -- wo -- gen -- heit.
+	Laß mich all -- zeit al -- ler Or -- ten
+	ſchme -- cken dei -- ne Sü -- ßig -- keit.
+	Lie -- be mich und treib mich an, %5
+	daß ich dich, ſo gut ich kan,
+	wie -- de -- rum um -- fang und lie -- be
+	und ja nun nicht mehr be -- trü -- be. %8 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

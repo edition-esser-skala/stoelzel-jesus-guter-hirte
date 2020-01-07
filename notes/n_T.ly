@@ -429,6 +429,46 @@ SoVielJahrTenoreLyrics = \lyricmode {
 	Wo ſoll ich nun Ret -- tung fin -- den? %8 finis
 }
 
+WaerenTausendTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 5/1 \autoBeamOff \tempoWaerenTausend
+			\set Staff.timeSignatureFraction = 4/4
+		e2 d c h a d d1 h\fermata
+		\time 4/1 c2 g c c c h e1\fermata
+		\time 5/1 e2 d c h a d d1 h\fermata
+		\time 4/1 c2 g c c c h e1\fermata
+		c2 c4( d) e2 a g g g1\fermata %5
+		e2 e f4( e) d2 c c h1\fermata
+		\time 5/1 c2 d c c f,4( g) a( h) c1 a\fermata
+		c2 d c c h c c( h4 f') e1\fermata \bar "|." %8 finis
+	}
+}
+
+WaerenTausendTenoreLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Wä -- ren tau -- ſend Welt zu fin -- den
+	von dem Höch -- ſten zu -- ge -- richt,
+	und du hät -- teſt al -- le Sün -- den,
+	ſo da -- rin -- nen ſind, ver -- richt,
+	wär es __ doch noch lan -- ge nicht %5
+	ſo viel, daß __ das hel -- le Licht
+	Sei -- ner Gna -- de hier __ auf __ Er -- den
+	da -- durch könnt er -- lö -- ſchet wer -- den. %8 finis
+}
+
+WaerenTausendTenoreLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Mein Gott, öff -- ne mir die Pfor -- ten
+	ſol -- cher Wohl -- ge -- wo -- gen -- heit.
+	Laß mich all -- zeit al -- ler Or -- ten
+	ſchme -- cken dei -- ne Sü -- ßig -- keit.
+	Lie -- be __ mich und treib mich an, %5
+	daß ich dich, __ ſo gut ich kan,
+	wie -- de -- rum um -- fang __ und __ lie -- be
+	und ja nun nicht mehr be -- trü -- be. %8 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

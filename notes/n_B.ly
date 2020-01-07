@@ -320,6 +320,46 @@ SoVielJahrBassoLyrics = \lyricmode {
 	Wo ſoll ich __ nun Ret -- tung fin -- den? %8 finis
 }
 
+WaerenTausendBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 5/1 \autoBeamOff \tempoWaerenTausend
+			\set Staff.timeSignatureFraction = 4/4
+		c2 h c g a h4( c) d1 g,\fermata
+		\time 4/1 e'2 h c f, c' g c1\fermata
+		\time 5/1 c2 h c g a h4( c) d1 g,\fermata
+		\time 4/1 e'2 h c f, c' g c1\fermata
+		c'2 f, c d e4( f) g2 c,1\fermata %5
+		c2 c' f, g a4( h) c2 g1\fermata
+		\time 5/1 c,2 h a4( h) c2 f4( e) d2 c1 f\fermata
+		c2 h a4( h) c2 g' c, g1 c\fermata \bar "|." %8 finis
+	}
+}
+
+WaerenTausendBassoLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Wä -- ren tau -- ſend Welt zu __ fin -- den
+	von dem Höch -- ſten zu -- ge -- richt,
+	und du hät -- teſt al -- le __ Sün -- den,
+	ſo da -- rin -- nen ſind, ver -- richt,
+	wär es doch noch lan -- ge nicht %5
+	ſo viel, daß das hel -- le Licht
+	Sei -- ner Gna -- de hier __ auf Er -- den
+	da -- durch könnt er -- lö -- ſchet wer -- den. %8 finis
+}
+
+WaerenTausendBassoLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Mein Gott, öff -- ne mir die __ Pfor -- ten
+	ſol -- cher Wohl -- ge -- wo -- gen -- heit.
+	Laß mich all -- zeit al -- ler __ Or -- ten
+	ſchme -- cken dei -- ne Sü -- ßig -- keit.
+	Lie -- be mich und treib __ mich an, %5
+	daß ich dich, ſo gut __ ich kan,
+	wie -- de -- rum __ um -- fang __ und lie -- be
+	und ja nun __ nicht mehr be -- trü -- be. %8 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

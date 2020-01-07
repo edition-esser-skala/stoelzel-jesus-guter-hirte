@@ -1399,6 +1399,33 @@ DieseSchoenenBassFigures = \figuremode {
 	r4. %72 finis
 }
 
+WaerenTausendOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 5/1 \tempoWaerenTausend
+			\set Staff.timeSignatureFraction = 4/4
+		c2 h c g a h4( c) d1 g,\fermata
+		\time 4/1 e'2 h c f, c' g c1\fermata
+		\time 5/1 c2 h c g a h4( c) d1 g,\fermata
+		\time 4/1 e'2 h c f, c' g c1\fermata
+		c'2 f, c d e4( f) g2 c,1\fermata %5
+		c2 c' f, g a4( h) c2 g1\fermata
+		\time 5/1 c,2 h a4( h) c2 f4( e) d2 c1 f\fermata
+		c2 h a4( h) c2 g' c, g1 c\fermata \bar "|." %8 finis
+	}
+}
+
+WaerenTausendBassFigures = \figuremode {
+	r2 <6> r1 <5>4 <6\\> <6> <\t> <4>2 <_+> r1
+	<6>2 q r1 r r
+	r2 <6> r1 <5>4 <6\\> <6> <\t> <4>2 <_+> r1
+	<6>2 q r1 r r
+	r2 <5>4 <6> r2 <7> <6>4 <\t> r2 r1 %5
+	r r <6>4 <\t> r2 r1
+	r2 <6> q4 <\t> r2 r4 <\t> <5> <6> r1 r
+	r2 <6> q4 <\t> r2 r1 <4>2 <3> r %8 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

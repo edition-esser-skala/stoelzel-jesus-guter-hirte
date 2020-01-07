@@ -415,6 +415,46 @@ DieseSchoenenAltoLyrics = \lyricmode {
 	Leid. %72 finis
 }
 
+WaerenTausendAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 5/1 \autoBeamOff \tempoWaerenTausend
+			\set Staff.timeSignatureFraction = 4/4
+		g'2 g g g e4( fis?) g2 g( fis4 e) d1\fermata
+		\time 4/1 g2 g g a g g g1\fermata
+		\time 5/1 g2 g g g e4( fis?) g2 g( fis4 e) d1\fermata
+		\time 4/1 g2 g g a g g g1\fermata
+		g2 a c c c h c1\fermata %5
+		c2 c c h a g g1\fermata
+		\time 5/1 g2 g a g a f g1 f\fermata
+		g2 g a g g g g1 g\fermata \bar "|." %8 finis
+	}
+}
+
+WaerenTausendAltoLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Wä -- ren tau -- ſend Welt __ zu fin -- den
+	von dem Höch -- ſten zu -- ge -- richt,
+	und du hät -- teſt al -- le Sün -- den,
+	ſo da -- rin -- nen ſind, ver -- richt,
+	wär es doch noch lan -- ge nicht %5
+	ſo viel, daß das hel -- le Licht
+	Sei -- ner Gna -- de hier auf Er -- den
+	da -- durch könnt er -- lö -- ſchet wer -- den. %8 finis
+}
+
+WaerenTausendAltoLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Mein Gott, öff -- ne mir __ die Pfor -- ten
+	ſol -- cher Wohl -- ge -- wo -- gen -- heit.
+	Laß mich all -- zeit al -- ler Or -- ten
+	ſchme -- cken dei -- ne Sü -- ßig -- keit.
+	Lie -- be mich und treib mich an, %5
+	daß ich dich, ſo gut ich kan,
+	wie -- de -- rum um -- fang und lie -- be
+	und ja nun nicht mehr be -- trü -- be. %8 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
