@@ -1480,12 +1480,68 @@ IhrKommtMitOrgano = {
 	\relative c {
 		\clef bass
 		\key g \major \time 4/4 \tempoIhrKommtMit
-		
+		r8 g'\fE h, g r d'' fis, d
+		r g h, g r d' fis, d
+		g a h g d'4 r8 d
+		e4 r8 e fis4 r8 fis
+		g g,\pE h g r d' fis, d %5
+		g a h g c h a g
+		d'4 fis,8 d g e' fis g
+		a4 a, d,8\fE d' fis, d
+		r a'' cis, a r d fis, d
+		r a'' cis, a d e fis d %10
+		a'4 r8 g fis d r cis
+		d[ d,] d''\pE c! h g r fis
+		g g, g' f e h c g
+		d'4 fis8 d g a h g
+		a4 a, d\fE r8 fis %15
+		g4 r8 g~ g fis e a,
+		d4 r8 d\pE d4 r8 d
+		g4 r8 g g4 r8 g
+		c c, d4 e8 c16 d e8 e,
+		a a'4 g!8 fis!4 g8 g, %20
+		d' c h e c4 h8 c
+		d4 r8 d e4 r8 e
+		fis4 r8 fis g4 r8 g
+		a4 fis g r8 c,
+		d4 d, g\fE r8 h %25
+		c4 r8 c d4 r8 d
+		e4 r8 e fis4 r8 fis
+		g4 r8 c, d4 d,
+		g r r2\fermata \bar "|." %29 finis
 	}
 }
 
 IhrKommtMitBassFigures = \figuremode {
-	
+	r4 <6> r q
+	r q r q
+	r q <5>4. <6>8
+	<5>4. <6>8 <5>4. <6>8
+	r4 q r q %5
+	r q r8 <6> q4
+	<6 4>8 <5 3> <6>4 r8 <6\\> <6>4
+	<_+>2 r4 <6>
+	r8 <_+> <6>4 r q
+	r8 <_+> <6>4 r q %10
+	<_+>4. <4+ 2>8 <6>4. q8
+	r4. <2>8 <6>4. q8
+	r4. <2>8 <6>8 q4.
+	<4>8 <3> <6>4 q8 <_+> <5 3>4
+	<_+>2 r4. <6>8 %15
+	r4. <6>8 <4+ 2>8 <6> <7> <7 _+>
+	r2 <7!>
+	r <7!>
+	r4 <6 _!>8 <5 \t> <_+> <6> <6 4> <5 _+>
+	r4. <2>8 <6 5>2 %20
+	r8 <2> <6>2 <6>8 <7>
+	<5>4. <6>8 <7>4. <6>8
+	<5>4. <6>8 <5>4. <6>8
+	<9> <8> <6 5>4 <9>8 <8> r4
+	<6 4>4 <5 3> r4. <6>8 %25
+	<5>4. <6>8 <5>4. <6>8
+	<5>4. <6>8 <5>4. <6>8
+	r2 <5 3>
+	r1 %29 finis
 }
 
 % Organo = {

@@ -417,7 +417,34 @@ IhrKommtMitViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoIhrKommtMit
-		
+		r16 d'\fE g d g d g d r d a' d, a' d, a' d,
+		r d h' d, h' d, h' d, d, d' c' d, c' d, c' d,
+		d, d' h' d, h' d, h' d, d, fis' d fis d fis h, d
+		g, g' e g e g c, e a, a' fis a fis a d, fis
+		h, d\p g d g d g d r d a' d, a' d, a' d, %5
+		g,4 r r2
+		R1
+		r2 r16 a\fE d a d a d a
+		r a e' a, e' a, e' a, r a fis' a, fis' a, fis' a,
+		a, a' g' a, g' a, g' a, a, a' fis' a, fis' a, fis' a, %10
+		a,4 r r16 a' d a d a e' a,
+		fis'4 r r16 d\p g d g d a' d,
+		h'4 r r2
+		R1
+		r2 r16 a\f fis a fis a d, fis %15
+		h, h' g h g h e, g cis,8 d4 cis8
+		d,16 d' fis\p d fis d fis d d, d' a' d, a' d, a' d,
+		g,, g' h g h g h g g, g' d' g, d' g, d' g,
+		c,4 r r2
+		R1*2 %21
+		r16 fis' d fis d fis h, d g, g' e g e g c, e
+		a, a' fis a fis a d, fis h,^\critnote h' g h g h e, g
+		c,4~ c16 a' fis a h,4 r
+		r2 r16 d\fE h d h d g, h %25
+		e, e' c e c e a, c fis, fis' d fis d fis h, d
+		g, g' e g e g c, e a, a' fis a fis a d, fis
+		h,8 c d e a,4. g8
+		g4 r r2\fermata \bar "|." %29 finis
 	}
 }
 

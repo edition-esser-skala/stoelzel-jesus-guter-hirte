@@ -523,12 +523,53 @@ IhrKommtMitTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \major \time 4/4 \autoBeamOff \tempoIhrKommtMit
-		
+		R1*4
+		r8 d d d d d d d %5
+		h a16 g d'8 g e d c h
+		h a r d h cis d h
+		cis4. d8 d4 r
+		R1*2 %10
+		r8 a cis8. cis16 d8 d, r4
+		r8 d' fis8. fis16 g8 g, r4
+		r8 g h8. h16 c8 d e16([ fis!)] g8
+		g fis r fis e cis d h
+		cis4. d8 d4 r %15
+		R1
+		r8 d d d c! c c8. d16
+		h8 a16 g g'8 g f f f8. g16
+		e8 d16 c h8 a gis e' c h16([ a)]
+		a4 c8 c c h16([ a)] h8. c16 %20
+		a8 h16 c d8 c16([ h)] e8. fis16 g8 h,
+		a d, r d' d4 c
+		c4. h16([ a)] h2~
+		h8[ a16 g] a4~ a8 g16([ fis)] g8 e'
+		h4 a g r %25
+		R1*3
+		R1\fermataMarkup \bar "|." %29 finis
 	}
 }
 
 IhrKommtMitTenoreLyrics = \lyricmode {
+	Ihr kommt mit Schwerd -- tern und mit %5
+	Stan -- gen, als ei -- nen Mör -- der mich zu
+	fan -- gen, da ich doch täg -- lich
+	bey euch war.
 	
+	Ihr kommt mit Schwerd -- tern, %11
+	ihr kommt mit Stan -- gen,
+	als ei -- nen Mör -- der mich zu
+	fan -- gen, da ich doch täg -- lich
+	bey euch war. %15
+	
+	Doch mei -- nes lieb -- ſten Va -- ters
+	wil -- len, und al -- le Schriff -- ten zu er --
+	fül -- len, reich ich die Hand den Ban -- den
+	dar, mei -- nes lieb -- ſten Va -- ters %20
+	wil -- len, und al -- le Schriff -- ten zu er --
+	fül -- len, reich ich die
+	Hand den Ban --
+	_ den dar, den
+	Ban -- den dar. %25 finis
 }
 
 % TenoreNotes = {

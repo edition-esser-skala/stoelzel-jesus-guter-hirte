@@ -39,6 +39,33 @@ IhrKommtMitOboeI = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \tempoIhrKommtMit
-		
+		d'4\fE r8 d d4 r8 d
+		d4 r8 g fis a a a
+		h h h h a4 r8 h,
+		h4 r8 c c4 r8 d
+		d4 r8 d\p d4 r8 d %5
+		d4 r r2
+		R1
+		r2 a4\fE r8 a
+		a4 r8 a a4 r8 d
+		cis e e e fis fis fis fis %10
+		e4 r d r8 e
+		fis d, r4 g'\p r8 a
+		h g, r4 r2
+		R1
+		r2 d'4\f r8 d %15
+		d4 r8 e~ e fis g e
+		fis4 r8 fis\p fis4 r8 fis
+		g4 r8 h, h4 r8 h
+		c4 r r2
+		R1*2 %21
+		d4 r8 d d4 r8 c8
+		c4. h16 a h4 r8 h
+		h a16 g a4~ a8 g r4
+		r2 r8 d\fE g4~ %25
+		g8 fis16 e a4~ a8 g16 fis h4~
+		h8 a16 g c4~ c8 a a'4~
+		a8 g16 fis g8 e fis4. g8
+		g4 r r2\fermata \bar "|." %29 finis
 	}
 }

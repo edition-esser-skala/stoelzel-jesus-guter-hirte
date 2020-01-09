@@ -52,25 +52,33 @@
 			movement = \movementTitle "2.2" "A R I A" "Ihr kommt mit Schwerdtern und mit Stangen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
+			system-system-spacing.basic-distance = #18
+			system-system-spacing.minimum-distance = #18
 			systems-per-page = #2
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "3 Oboi"
-						\new Voice { \IhrKommtMitOboeI }
-						\new Voice { \IhrKommtMitOboeII }
-						\new Voice { \IhrKommtMitOboeIII }
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\IhrKommtMitOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\IhrKommtMitOboeII
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe III"
+							\IhrKommtMitOboeIII
+						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Basſono e" "Violoncello" } }
 						\IhrKommtMitFagotto
 					}
 				>>
-				\new StaffGroup <<
+				\new StaffGroup \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
 						\IhrKommtMitViolinoI
