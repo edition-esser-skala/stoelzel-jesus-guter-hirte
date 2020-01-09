@@ -1549,11 +1549,23 @@ DerGrosseHirteOrgano = {
 		\clef bass
 		\key e \minor \time 4/4 \tempoDerGrosseHirte
 		e1
+		dis
+		e2 h~
+		h gis~
+		gis1 %5
+		a2 f
+		g4 c \markAttacaE %7 finis
 	}
 }
 
 DerGrosseHirteBassFigures = \figuremode {
-	
+	<8 3>2 <7+ 4 2>
+	<7>1
+	r2 <6>
+	<5!> <6>
+	r1 %5
+	r2 <5>4 <6>
+	r2 %7 finis
 }
 
 % Organo = {

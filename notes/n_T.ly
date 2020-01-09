@@ -576,12 +576,24 @@ DerGrosseHirteTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key e \minor \time 4/4 \autoBeamOff \tempoDerGrosseHirte
-		
+		r8 e g fis dis e fis g
+		c,c r16 c c h a8. a16 c8 h
+		g4 r8 g' g4 d
+		h8 d f e e4 r8 e
+		e([ h)] r c d d f e %5
+		c4 r8 c a' f d e
+		c c r4 \markAttacaE %7 finis
 	}
 }
 
 DerGrosseHirteTenoreLyrics = \lyricmode {
-	
+	Der gro -- ße Hir -- te wird ge --
+	ſchla -- gen, da -- rum zer -- ſtreut die Heer -- de
+	ſich. Selbſt Pe -- trus,
+	der ein Felß und Stein an
+	Muth, Ver -- ſtand und Treu wolt %5
+	ſeyn, läßt ſich aus Furcht ver --
+	ja -- gen. %7 finis
 }
 
 % TenoreNotes = {
