@@ -342,10 +342,21 @@ DieseSchoenenViola = {
 
 IhrSuenderDenketViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \major \time 4/4 \tempoIhrSuenderDenket
 			\set Score.currentBarNumber = #8
-		\partial 2
-		
+		\partial 2 d2~ d1~ %8
+		d4 cis d2
+		a'1~ %10
+		a2 g
+		e1~
+		e2 fis~
+		fis e~
+		e1~ %15
+		e2 g~
+		g fis
+		g e4 c
+		h2 c4 r8 a'
+		fis2 r\fermata \bar "|." %20 finis
 	}
 }

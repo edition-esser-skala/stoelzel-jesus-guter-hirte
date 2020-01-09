@@ -365,13 +365,36 @@ IhrSuenderDenketBassoNotes = {
 		\clef bass
 		\key g \major \time 4/4 \autoBeamOff \tempoIhrSuenderDenket
 			\set Score.currentBarNumber = #8
-		\partial 2
-		
+			\partial 2 r4 r8 a' a d, r c'16 h h4 r16 h h d %8
+		d8 g, g16 g fis g a4 r
+		d fis,8 g a4 r8 a %10
+		c a fis d g4 r16 g h g
+		cis8. cis16 e8 cis g4 r8 g
+		h g g fis fis4 r
+		a fis8 d ais'8. ais16 cis8 fis,
+		e4 r8 e e e e fis %15
+		g!4 r16 g g g e8. e16 e8 e
+		cis cis g' fis d4 r16 h' d h
+		g4 r16 g a h c!8 c c h
+		h h r4 r8 h h e,
+		e h r4 r2\fermata \bar "|." %20 finis
 	}
 }
 
 IhrSuenderDenketBassoLyrics = \lyricmode {
-	
+	Ihr Sün -- der, den -- ket nach, ob eu -- re %8
+	Boß -- heit ih -- res glei -- chen hat?
+	Den, wel -- cher noch von %10
+	blut -- gen Schwei -- ße triefft, den Got -- tes
+	Zorn an eu -- rer statt ſo
+	heff -- tig hat ge -- prüft;
+	den, der am Oel -- berg mehr ge --
+	fühlt, als wenn ein ſpitz -- ger %15
+	Dorn, ein ſcharf -- fer Gei -- ßel -- drat den
+	gan -- tzen Leib zer -- wühlt; den wollt ihr
+	nun, da Strick und Ban -- de ihn um --
+	fa -- ßen, al -- lei -- ne
+	la -- ßen? %20 finis
 }
 
 % BassoNotes = {

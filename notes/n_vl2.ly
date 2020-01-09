@@ -257,7 +257,18 @@ IhrSuenderDenketViolinoII = {
 		\clef treble
 		\key g \major \time 4/4 \tempoIhrSuenderDenket
 			\set Score.currentBarNumber = #8
-		\partial 2
-		
+		\partial 2 c'2~ c h~ %8
+		h4 g \once \tieDashed d'2~
+		d1~ %10
+		d
+		cis2 g~
+		g a~
+		a cis~
+		cis1~ %15
+		cis~
+		cis2 h
+		d c
+		d g,4 r8 a
+		h2 r\fermata \bar "|." %20 finis
 	}
 }

@@ -1573,13 +1573,36 @@ IhrSuenderDenketOrgano = {
 		\clef bass
 		\key g \major \time 4/4 \tempoIhrSuenderDenket
 			\set Score.currentBarNumber = #8
-		\partial 2 fis2~ fis g
-		
+		\partial 2 fis,2~ fis g %8
+		e' d
+		c1~ %10
+		c2 h
+		a1~
+		a2 d~
+		d cis~
+		cis1 %15
+		ais~
+		ais2 h~
+		h a
+		g c!4 r8 c
+		h2 r\fermata \bar "|." %20 finis
 	}
 }
 
 IhrSuenderDenketBassFigures = \figuremode {
-	
+	<6 5>2 r1 %8
+	<7>4 <6\\>2.
+	<2>1 %10
+	r2 <6>
+	<7 _+>1
+	r
+	r2 <6\\>
+	r1 %15
+	<7 _+>
+	r
+	<6>2 <7 _!>4 <6 \t>
+	r2 <8>8 <7>4 <6>8
+	<4>4 <_+>2. %20 finis
 }
 
 % Organo = {

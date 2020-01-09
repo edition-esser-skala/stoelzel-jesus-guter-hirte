@@ -131,7 +131,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.4" "A C C O M P A G N A T O" "Ihr Sünder denkte nach"
+			movement = \movementTitle "2.4" "A C C O M P A G N A T O" "Ihr Sünder, denkte nach"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #35
