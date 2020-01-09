@@ -1476,6 +1476,18 @@ NunStelltBassFigures = \figuremode {
 	<6> <_+> %20 finis
 }
 
+IhrKommtMitOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoIhrKommtMit
+		
+	}
+}
+
+IhrKommtMitBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

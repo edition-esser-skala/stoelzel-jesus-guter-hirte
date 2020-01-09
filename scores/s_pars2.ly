@@ -19,32 +19,78 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.1" "R E C I T A T I V O" "Nun ſtellt ſich der Verräther ein"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \NunStelltTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \NunStelltTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\NunStelltOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \NunStelltBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.1" "R E C I T A T I V O" "Nun ſtellt ſich der Verräther ein"
+			movement = \movementTitle "2.2" "A R I A" "Ihr kommt mit Schwerdtern und mit Stangen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = "3 Oboi"
+						\new Voice { \IhrKommtMitOboeI }
+						\new Voice { \IhrKommtMitOboeII }
+						\new Voice { \IhrKommtMitOboeIII }
+					>>
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Basſono e" "Violoncello" } }
+						\IhrKommtMitFagotto
+					}
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
+						\IhrKommtMitViolinoI
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \NunStelltTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+					\new Voice = "Tenore" { \dynamicUp \IhrKommtMitTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \NunStelltTenoreLyrics
+				\new Lyrics \lyricsto Tenore \IhrKommtMitTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\NunStelltOrgano
+						\IhrKommtMitOrgano
 					}
 				>>
-				\new FiguredBass { \NunStelltBassFigures }
+				\new FiguredBass { \IhrKommtMitBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

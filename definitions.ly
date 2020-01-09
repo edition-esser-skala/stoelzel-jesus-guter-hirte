@@ -325,6 +325,7 @@ tempoWaerenTausend = \tempoMarkup "Choral"
 tempoNunStellt = \tempoMarkup "Recitativo"
 	tempoNunStelltB = \tempoMarkup "Arioſo"
 	tempoNunStelltC = \tempoMarkup "Recitativo"
+tempoIhrKommtMit = \tempoMarkup "Aria"
 
 
 
@@ -516,6 +517,8 @@ tempoNunStellt = \tempoMarkup "Recitativo"
 \include "notes/n_fl2.ly"
 \include "notes/n_ob1.ly"
 \include "notes/n_ob2.ly"
+\include "notes/n_ob3.ly"
+\include "notes/n_fag.ly"
 \include "notes/n_vl1.ly"
 \include "notes/n_vl2.ly"
 \include "notes/n_vla.ly"

@@ -34,3 +34,11 @@ AchWoBinOboeI = {
 		c h16 a h( d) c8 c h r4 \markDaCapo \bar "||"
 	}
 }
+
+IhrKommtMitOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoIhrKommtMit
+		
+	}
+}

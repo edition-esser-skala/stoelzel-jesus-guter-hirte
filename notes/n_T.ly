@@ -519,6 +519,18 @@ NunStelltTenoreLyrics = \lyricmode {
 	wie Er mu -- thig ſpricht: %20 finis
 }
 
+IhrKommtMitTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 4/4 \autoBeamOff \tempoIhrKommtMit
+		
+	}
+}
+
+IhrKommtMitTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

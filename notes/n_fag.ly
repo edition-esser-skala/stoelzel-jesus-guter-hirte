@@ -4,9 +4,9 @@
 
 \version "2.18.0"
 
-IhrKommtMitOboeII = {
-	\relative c' {
-		\clef treble
+IhrKommtMitFagotto = {
+	\relative c {
+		\clef bass
 		\key g \major \time 4/4 \tempoIhrKommtMit
 		
 	}
