@@ -322,6 +322,10 @@ tempoLassBangeFurcht = \tempoMarkup "Recitativo"
 tempoDieseSchoenen = \tempoMarkup "Aria"
 tempoWaerenTausend = \tempoMarkup "Choral"
 
+tempoNunStellt = \tempoMarkup "Recitativo"
+	tempoNunStelltB = \tempoMarkup "Arioſo"
+	tempoNunStelltC = \tempoMarkup "Recitativo"
+
 
 
 

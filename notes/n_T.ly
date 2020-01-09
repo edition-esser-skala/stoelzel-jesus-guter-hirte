@@ -469,6 +469,18 @@ WaerenTausendTenoreLyricsB = \lyricmode {
 	und ja nun nicht mehr be -- trü -- be. %8 finis
 }
 
+NunStelltTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoNunStellt
+		
+	}
+}
+
+NunStelltTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

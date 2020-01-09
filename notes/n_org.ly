@@ -1426,6 +1426,18 @@ WaerenTausendBassFigures = \figuremode {
 	r2 <6> q4 <\t> r2 r1 <4>2 <3> r %8 finis
 }
 
+NunStelltOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoNunStellt
+		
+	}
+}
+
+NunStelltBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
