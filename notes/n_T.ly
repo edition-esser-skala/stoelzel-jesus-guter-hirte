@@ -473,12 +473,50 @@ NunStelltTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoNunStellt
-		
+		r8 e g c, d e f e
+		c4 r8 e c8. c16 c4
+		r8 c h a fis'8. fis16 fis8 g
+		g4 r8 d h4 r8 h
+		d e f! e e e \tempoNunStelltB r c %5
+		d c f e d4( e8) c
+		h4 r8 g' fis fis e d
+		g d f4~ f8 e c4
+		r8 a d c h g g' e
+		\once \stemUp h4( a16[ g)] a8 g4 r %10
+		\tempoNunStelltC r4 r8 g' g e f g
+		a,4 r8 a e' f g f
+		d4 r8 d b g cis d
+		a a r4 r r8 e'
+		h h h c! d r16 d f8 e %15
+		c c r e g!8. g16 d8 e
+		f f a g e4 r8 g
+		fis([ e)] e4 r dis8 e
+		e h r4 r g'
+		e8 fis g fis fis4 r\fermata \bar "|." %20 finis
 	}
 }
 
 NunStelltTenoreLyrics = \lyricmode {
-	
+	Nun ſtellt ſich der Ver -- rä -- ther
+	ein, ein Jo -- abs Kuß
+	ſoll ſei -- ner Boß -- heit De -- ckel
+	ſeyn. Al -- lein, was
+	die -- net diß Ver -- ſtel -- len? Der %5
+	gu -- te Hir -- te flie -- het
+	nicht, ob Er auch für die
+	Schaa -- fe ſter -- ben muß,
+	ob Er auch für die Schaa -- fe
+	ſter -- ben muß. %10
+	Denn nur ein ein -- tzig
+	Wort, das die -- ſer Gott Menſch
+	ſpricht, könnt al -- le Fein -- de
+	fäl -- len. Steck,
+	Pe -- tre, nur dein Schwerdt in ſei -- ne %15
+	Schei -- den, der Herr, der nicht der
+	En -- gel Schutz be -- gehrt, geht
+	ger -- ne an ſein
+	Lei -- den. Hör,
+	wie Er mu -- thig ſpricht: %20 finis
 }
 
 % TenoreNotes = {

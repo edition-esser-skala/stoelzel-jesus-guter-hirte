@@ -1430,12 +1430,50 @@ NunStelltOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoNunStellt
-		
+		c2 f
+		g4 c, a2~
+		a1
+		g2 d'~
+		d c4 \tempoNunStelltB r8 e %5
+		f e d c f4 fis
+		g8 f e c d4 c
+		h r8 g c4 r8 e
+		fis4 d g r8 c,
+		d4 d, g8 g'4 f8 %10
+		\tempoNunStelltC e1
+		f2 cis
+		f g
+		a4 d, gis,2~
+		gis1 %15
+		a2 h~
+		h c
+		a ais
+		h e
+		cis d\fermata \bar "|." %20 finis
 	}
 }
 
 NunStelltBassFigures = \figuremode {
-	
+	r2 <6>
+	r <5>
+	<\t> <6\\>
+	r <6 _!>
+	r2.. <6>8 %5
+	q q q4 q4 <7>
+	r8 <2> <6>4 <_+>4 <\t>
+	<6>4. <7!>8 <4> <3> r <6>
+	q4 <_+> r2
+	<6 4>4 <5 _+> r4. <2>8 %10
+	<6>1
+	r2 <6>
+	q <_->4 <4+ 2>
+	<_+>2 <6>
+	r1 %15
+	r2 <6!>
+	<5>1
+	<6\\>4 <5> <7 _+>2
+	<6 4>4 <5+ _+> r2
+	<6> <_+> %20 finis
 }
 
 % Organo = {
