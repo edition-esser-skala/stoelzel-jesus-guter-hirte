@@ -339,3 +339,13 @@ DieseSchoenenViola = {
 		R4.*7 \bar "||" %72 finis
 	}
 }
+
+IhrSuenderDenketViola = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoIhrSuenderDenket
+			\set Score.currentBarNumber = #8
+		\partial 2
+		
+	}
+}

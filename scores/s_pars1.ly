@@ -147,7 +147,7 @@
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Baſso)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
 					\new Voice = "Basso" { \dynamicUp \AufSuendeBassoNotes }
 				}
 				\new Lyrics \lyricsto Basso \AufSuendeBassoLyrics
@@ -175,7 +175,7 @@
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Baſso)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
 					\new Voice = "Basso" { \dynamicUp \WerEinParadiesBassoNotes }
 				}
 				\new Lyrics \lyricsto Basso \WerEinParadiesBassoLyrics
@@ -545,7 +545,7 @@
 					}
 				>>
 				\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Baſso)" } }
+						\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
 					\new Voice = "Basso" { \dynamicUp \VerlohrnesSchaafBassoNotes }
 				}
 				\new Lyrics \lyricsto Basso \VerlohrnesSchaafBassoLyrics
@@ -573,7 +573,7 @@
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" \vspace #.5 "Das Geſetze" "(Baſso)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" \vspace #.5 "Das Geſetze" "(Basſo)" } }
 					\new Voice = "Basso" { \dynamicUp \GottMussBassoNotes }
 				}
 				\new Lyrics \lyricsto Basso \GottMussBassoLyrics

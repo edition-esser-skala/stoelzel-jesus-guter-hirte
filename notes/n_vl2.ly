@@ -251,3 +251,13 @@ DieseSchoenenViolinoII = {
 		R4.*7 \markDaCapo \bar "||" %72 finis
 	}
 }
+
+IhrSuenderDenketViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoIhrSuenderDenket
+			\set Score.currentBarNumber = #8
+		\partial 2
+		
+	}
+}

@@ -101,29 +101,73 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.3" "R E C I T A T I V O" "Der große Hirte wird geſchlagen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \DerGrosseHirteTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DerGrosseHirteTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DerGrosseHirteOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DerGrosseHirteBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.3" "R E C I T A T I V O" "Der große Hirte wird geſchlagen"
+			movement = \movementTitle "2.4" "A C C O M P A G N A T O" "Ihr Sünder denkte nach"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\IhrSuenderDenketViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\IhrSuenderDenketViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\IhrSuenderDenketViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \DerGrosseHirteTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+					\new Voice = "Basso" { \dynamicUp \IhrSuenderDenketBassoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \DerGrosseHirteTenoreLyrics
+				\new Lyrics \lyricsto Basso \IhrSuenderDenketBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DerGrosseHirteOrgano
+						\IhrSuenderDenketOrgano
 					}
 				>>
-				\new FiguredBass { \DerGrosseHirteBassFigures }
+				\new FiguredBass { \IhrSuenderDenketBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

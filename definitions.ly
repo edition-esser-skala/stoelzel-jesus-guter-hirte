@@ -327,6 +327,7 @@ tempoNunStellt = \tempoMarkup "Recitativo"
 	tempoNunStelltC = \tempoMarkup "Recitativo"
 tempoIhrKommtMit = \tempoMarkup "Aria"
 tempoDerGrosseHirte = \tempoMarkup "Recitativo"
+tempoIhrSuenderDenket = \tempoMarkup "Accompagnato"
 
 
 

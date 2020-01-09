@@ -1568,6 +1568,20 @@ DerGrosseHirteBassFigures = \figuremode {
 	r2 %7 finis
 }
 
+IhrSuenderDenketOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoIhrSuenderDenket
+			\set Score.currentBarNumber = #8
+		\partial 2 fis2~ fis g
+		
+	}
+}
+
+IhrSuenderDenketBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

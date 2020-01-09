@@ -360,6 +360,20 @@ WaerenTausendBassoLyricsB = \lyricmode {
 	und ja nun __ nicht mehr be -- trü -- be. %8 finis
 }
 
+IhrSuenderDenketBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \autoBeamOff \tempoIhrSuenderDenket
+			\set Score.currentBarNumber = #8
+		\partial 2
+		
+	}
+}
+
+IhrSuenderDenketBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
