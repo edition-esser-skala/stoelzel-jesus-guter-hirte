@@ -1544,6 +1544,18 @@ IhrKommtMitBassFigures = \figuremode {
 	r1 %29 finis
 }
 
+DerGrosseHirteOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 4/4 \tempoDerGrosseHirte
+		e1
+	}
+}
+
+DerGrosseHirteBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

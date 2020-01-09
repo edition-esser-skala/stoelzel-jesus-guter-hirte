@@ -572,6 +572,18 @@ IhrKommtMitTenoreLyrics = \lyricmode {
 	Ban -- den dar. %25 finis
 }
 
+DerGrosseHirteTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \minor \time 4/4 \autoBeamOff \tempoDerGrosseHirte
+		
+	}
+}
+
+DerGrosseHirteTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
