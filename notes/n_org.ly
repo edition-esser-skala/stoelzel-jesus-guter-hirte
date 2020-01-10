@@ -1878,11 +1878,27 @@ ManSuchtVielOrgano = {
 		\clef bass
 		\key c \dorian \time 4/4 \tempoManSuchtViel
 		c1
+		es2 a,
+		d as'
+		g4 as b es,
+		h1~ %5
+		h
+		c2 a
+		g f
+		es4 g c2\fermata \bar "|." %9 finis
 	}
 }
 
 ManSuchtVielBassFigures = \figuremode {
-	
+	r1
+	<6>2 q
+	q <2>
+	<6>1
+	q %5
+	r
+	r2 <6\\>
+	<_-> <4! 2>
+	<6>4 <_!> r2 %9 finis
 }
 
 % Organo = {

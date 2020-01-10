@@ -700,12 +700,28 @@ ManSuchtVielTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \dorian \time 4/4 \autoBeamOff \tempoManSuchtViel
-		
+		r4 r8 g'^\Evangeliste es8. es16 f8 g
+		g c, r c f c es d
+		b b r f' d4 r16 d f d
+		es8 es d es b4 r
+		r8 d d es f f es d %5
+		g g r16 g d es f8 f g d
+		es4 r16 es d c fis8 fis fis g
+		g g r d^\Jesus h4 r8 c
+		g4 r r2\fermata \bar "|." %9 finis
 	}
 }
 
 ManSuchtVielTenoreLyrics = \lyricmode {
-	
+	Man ſucht viel fal -- ſche
+	Zeu -- gen, der Un -- ſchuld Recht zu
+	beu -- gen. Al -- lein, ihr Zeug -- niß
+	ſtimmt nicht ü -- ber -- ein.
+	Doch auf des Ho -- he -- prieſ -- ters %5
+	Fra -- gen, ob Er ein Sohn des Höch -- ſten
+	sey, will ihm der HErr zur Ant -- wort
+	ſa -- gen: Du sagsts, ich
+	bins. %9 finis
 }
 
 % TenoreNotes = {

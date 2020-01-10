@@ -377,12 +377,12 @@
 		\paper {
 			system-system-spacing.basic-distance = #23
 			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			systems-per-page = #3
 		}
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
+					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
 					\new Voice = "Tenore" { \dynamicUp \ManSuchtVielTenoreNotes }
 				}
 				\new Lyrics \lyricsto Tenore \ManSuchtVielTenoreLyrics
