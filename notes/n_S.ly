@@ -509,12 +509,39 @@ MeinHirtAufSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \lydian \time 4/4 \autoBeamOff \tempoMeinHirtAuf
-		
+		R1*5 %5
+		r8 b' es g as, c as8. g16
+		g4 r16 g' as b es,8 g es8. d16
+		d4 r16 d es f c8. d16 c8. d16
+		c8. d16 es8([ g16)] es d4 r16 d es f
+		c8 es c8. b16 b4 r %10
+		r2 r4 r8 \tuplet 3/2 8 { g'16([ es g)] }
+		f4 r8 b, es g es8. d16
+		d4 r r8 b des8. es16
+		c8 b16([ as)] es'8. f16 d8 b r16 d es f
+		as,8 c as8. g16 g8 es es' es %15
+		es4. es8 d c16([ b)] es8 es
+		es4 es, r8 b' as8. b16
+		g8 c g([ f)] es4 r
+		R1
+		R\fermataMarkup \bar "|." %20 finis
 	}
 }
 
 MeinHirtAufSopranoLyrics = \lyricmode {
-	
+	Mein Hirt! auf de -- ßen Treu ich %6
+	bau, ich läug -- ne nicht, daß mich die
+	Macht der Sün -- den auch zum Fall ge --
+	bracht. Doch reut es mich, doch reut es
+	mich, was ich ge -- than. %10
+	Blick
+	mich, du Gna -- den Son -- ne,
+	an, zer -- theil der
+	See -- len Fin -- ſter -- ni -- ßen, ſo wird ein
+	mil -- der Thrä -- nen Thau, ein mil -- der %15
+	Thrä -- nen Thau aus Hertz und
+	Au -- gen, aus Hertz und
+	Au -- gen flie -- ßen. %18 finis
 }
 
 % SopranoNotes = {

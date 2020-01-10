@@ -363,8 +363,27 @@ IhrSuenderDenketViola = {
 
 MeinHirtAufViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \lydian \time 4/4 \tempoMeinHirtAuf
-		
+		es8\pE es es es c c b b
+		b es es es es b f' f
+		f f d d c c b b
+		b b b b as as c c
+		b b f' f g f g b %5
+		g es es es c c b b
+		b es es es es b f' f
+		f f f f g g g g
+		f f b, f' f f f f
+		g g f f d d d d %10
+		c c b b b b b b
+		b b b b es es c c
+		d d d d b4 r8 b
+		c4 r8 c b b b d
+		c c b b b b b b %15
+		as as c c d d g g
+		g g es es d d c b
+		b c b b g g' g g
+		c, c c c f f f f
+		es es b b' g4 r\fermata \bar "|." %20 finis
 	}
 }

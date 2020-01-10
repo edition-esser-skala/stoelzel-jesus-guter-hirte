@@ -284,9 +284,8 @@
 			movement = \movementTitle "2.8" "A R I A" "Mein Hirt! auf deßen Treu ich bau"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
+			page-count = #3
 		}
 		\score {
 			<<

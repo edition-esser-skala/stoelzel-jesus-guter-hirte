@@ -74,6 +74,25 @@ MeinHirtAufOboeI = {
 	\relative c' {
 		\clef treble
 		\key es \lydian \time 4/4 \tempoMeinHirtAuf
-		
+		r8 b'\pE es g as, c as8. g16
+		g4 r16 g' as b es,8 g es8. d16
+		d4 r16 d es f as,8 c as8. g16
+		g2~ g4 f8 es
+		d'4. c16 b es( d32 c) b16 as g8 f %5
+		es4 r r2
+		r16 g as b es,4 r2
+		r16 d' es f b,8 b b2
+		a!8 f r4 r16 b c d f,8 b
+		g8. a16 a8.\trill b16 b4 r16 d es f %10
+		as,8 c as8. g16 g8 es b'4~
+		b2~ b4 a
+		b r r2
+		r2 r16 d es f b,4
+		r2 r16 g as b es, g' as b %15
+		f8. g16 f8. g16 f d es f b,4~
+		b a! b r
+		r2 r4 r16 g as? b
+		f8. g16 f8. g16 f8 d'4 c16 b
+		\once \slurDashed es( d32 c) b16 as? g8 f es4 r\fermata \bar "|."
 	}
 }

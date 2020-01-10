@@ -531,7 +531,26 @@ MeinHirtAufViolinoI = {
 	\relative c' {
 		\clef treble
 		\key es \lydian \time 4/4 \tempoMeinHirtAuf
-		
+		b'8\pE b b b as as as as
+		g g b b es es es es
+		d d b b as as as as
+		g g g g c c c c
+		d d d d es es es d %5
+		es b b b as as as as
+		g g b b es es es es
+		d d d d c c c c
+		c c es es d d d d
+		c c c c b b b b %10
+		as as as as g16 es g b es g b8
+		r16 d,, f b d f b8 r16 c,, es g c es a!8
+		r16 b,, d f b d f b, b'8 r r b
+		es,4 r8 es d d b b
+		as as as as g g es' es %15
+		es es es es d d es es
+		es es es, es b' b as as
+		g f g f es es es es
+		es es es' es d d f f
+		b, es es d es4 r\fermata \bar "|." %20 finis
 	}
 }
 

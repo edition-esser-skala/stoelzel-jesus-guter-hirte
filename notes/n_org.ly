@@ -1709,7 +1709,7 @@ BilligWaerBassFigures = \figuremode {
 	<4>8 <3>4. %40
 	<5+ _+>4 q
 	r8 <6> <5+ _+> <\t \t>
-	<6>4 <_+>8 <\t>
+	<[6]>4 <_+>8 <[\t]>
 	<6>4. <6 5!>8
 	<9>4 <6 5> %45
 	<9>8 <6> r <7>
@@ -1800,12 +1800,50 @@ MeinHirtAufOrgano = {
 	\relative c {
 		\clef bass
 		\key es \lydian \time 4/4 \tempoMeinHirtAuf
-		es8\fE es es es es es d d
+		es8\pE es es es es es d d
+		es es es es g g a! a
+		b b b, b c c d d
+		es es es es as as as as
+		as? as as as g as b b, %5
+		es es es es es es d d
+		es es es es g g a! a
+		b b d, d es es e e
+		f f g a b b d, d
+		es es f f b, b b b %10
+		c c d d es es es es
+		d d d d c c c c
+		b b as as g4 r8 g
+		as4 r8 a b b b b
+		c c d d es es es es %15
+		as, as a a b b g g
+		c c c c b b c d
+		es as b b, es es es es
+		as, as a a b b as' as
+		g as b b, es4 r\fermata \bar "|." %20
 	}
 }
 
 MeinHirtAufBassFigures = \figuremode {
-	
+	r2 <4- 2>4 <\t \t>
+	r2 <6>4 <5>
+	r2 <6->4 <\t>
+	r2 <7>4 <6>
+	<2>2 <6>8 <6 5> <6 4> <5 3> %5
+	r2 <4- 2>4 <\t \t>
+	r2 <6>4 <5>
+	r4 <6> <6 5> <\t \t>
+	r <6>8 <6 5> r4 <6>
+	<6 5>1 %10
+	<6->4 <\t>2.
+	<6>2 <5>4 <6!>
+	r <2> <6>4. <\t>8
+	r4. <6 5>8 r2
+	<6->4 <\t>2. %15
+	<6 5>4 <\t \t> r <6>
+	<7> <6!> r4 <6->8 <\t>
+	r <6 5> <6 4> <5 3> r2
+	<6 5>4 <\t \t> r <2>
+	<6> <6 4>8 <5 3> r2 %20 finis
 }
 
 % Organo = {
