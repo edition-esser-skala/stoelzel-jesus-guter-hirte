@@ -360,3 +360,11 @@ IhrSuenderDenketViola = {
 		fis2 r\fermata \bar "|." %20 finis
 	}
 }
+
+MeinHirtAufViola = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/4 \tempoMeinHirtAuf
+		
+	}
+}

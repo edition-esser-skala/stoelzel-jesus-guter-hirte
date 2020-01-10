@@ -505,6 +505,18 @@ SucheMichSopranoLyrics = \lyricmode {
 	in dem wüſ -- ten Welt Ge -- bü -- ſche. %8 finis
 }
 
+MeinHirtAufSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/4 \autoBeamOff \tempoMeinHirtAuf
+		
+	}
+}
+
+MeinHirtAufSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

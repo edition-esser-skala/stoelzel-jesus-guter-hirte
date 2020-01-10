@@ -251,29 +251,77 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.7" "R E C I T A T I V O" "Das Opffer aller Welt"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #20
+% 			system-system-spacing.minimum-distance = #20
+% 			systems-per-page = #6
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff \with { \smallerStaffDistance } {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \DasOpfferAllerTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DasOpfferAllerTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DasOpfferAllerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DasOpfferAllerBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.7" "R E C I T A T I V O" "Das Opffer aller Welt"
+			movement = \movementTitle "2.8" "A R I A" "Mein Hirt! auf deßen Treu ich bau"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
-			systems-per-page = #6
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new Staff \with { \smallerStaffDistance } {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \DasOpfferAllerTenoreNotes }
+				\new Staff {
+					\set Staff.instrumentName = "Oboe solo"
+					\MeinHirtAufOboeI
 				}
-				\new Lyrics \lyricsto Tenore \DasOpfferAllerTenoreLyrics
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\MeinHirtAufViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\MeinHirtAufViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\MeinHirtAufViola
+					}
+				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Das bußfertige" "Schäflein" "(Canto I)" } }
+					\new Voice = "Soprano" { \dynamicUp \MeinHirtAufSopranoNotes }
+				}
+				\new Lyrics \lyricsto Soprano \MeinHirtAufSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DasOpfferAllerOrgano
+						\MeinHirtAufOrgano
 					}
 				>>
-				\new FiguredBass { \DasOpfferAllerBassFigures }
+				\new FiguredBass { \MeinHirtAufBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

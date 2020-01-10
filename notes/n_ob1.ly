@@ -69,3 +69,11 @@ IhrKommtMitOboeI = {
 		g4 r r2\fermata \bar "|." %29 finis
 	}
 }
+
+MeinHirtAufOboeI = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/4 \tempoMeinHirtAuf
+		
+	}
+}

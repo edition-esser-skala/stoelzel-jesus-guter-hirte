@@ -272,3 +272,11 @@ IhrSuenderDenketViolinoII = {
 		h2 r\fermata \bar "|." %20 finis
 	}
 }
+
+MeinHirtAufViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/4 \tempoMeinHirtAuf
+		
+	}
+}

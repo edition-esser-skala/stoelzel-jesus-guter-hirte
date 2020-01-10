@@ -527,6 +527,14 @@ BilligWaerViolinoI = {
 	}
 }
 
+MeinHirtAufViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/4 \tempoMeinHirtAuf
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -1796,6 +1796,18 @@ DasOpfferAllerBassFigures = \figuremode {
 	<6 5 _!> <_!> <_->2 %18 finis
 }
 
+MeinHirtAufOrgano = {
+	\relative c {
+		\clef bass
+		\key es \lydian \time 4/4 \tempoMeinHirtAuf
+		es8\fE es es es es es d d
+	}
+}
+
+MeinHirtAufBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
