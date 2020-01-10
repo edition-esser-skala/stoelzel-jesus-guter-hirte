@@ -557,8 +557,24 @@ MeinHirtAufViolinoI = {
 VonNunAnViolinoI = {
 	\relative c' {
 		\clef treble
-		\key c \dorian \time 4/4 \tempoVonNunAn
-		
+		\key c \dorian \time 2/2 \tempoVonNunAn
+		R1*35 %35
+		\tempoVonNunAnB r4 c'\fE es d8 c
+		g'4 f8 es d4 c
+		h g'2 f4
+		es c d es
+		f, f'2 es4 %40
+		d b c d
+		es, es'2 d4
+		c f d4. es8
+		es2 es,~
+		es d %45
+		r4 g'2 f4
+		es c d es
+		r f2 es4
+		d h c d
+		g, f8 es d4. c8 %50
+		c2 r\fermata \bar "|." %51 finis
 	}
 }
 

@@ -390,8 +390,24 @@ MeinHirtAufViola = {
 
 VonNunAnViola = {
 	\relative c' {
-		\clef treble
-		\key c \dorian \time 4/4 \tempoVonNunAn
-		
+		\clef alto
+		\key c \dorian \time 2/2 \tempoVonNunAn
+		R1*35 %35
+		\tempoVonNunAnB es2\fE r
+		g f4 es
+		d2 r
+		r4 es2 d4
+		c as b c %40
+		r d2 c4
+		b g as b
+		as c b2
+		g r
+		r4 b'2 as4 %45
+		g es f g
+		as, as'2 g4
+		f d es f
+		g, d'2 d4
+		c as' d, g %50
+		es2 r\fermata \bar "|." %51 finis
 	}
 }

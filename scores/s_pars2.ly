@@ -439,7 +439,7 @@
 				\new FiguredBass { \VonNunAnBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 1 = 50 }
 		}
 	}
 }

@@ -303,7 +303,23 @@ MeinHirtAufViolinoII = {
 VonNunAnViolinoII = {
 	\relative c' {
 		\clef treble
-		\key c \dorian \time 4/4 \tempoVonNunAn
-		
+		\key c \dorian \time 2/2 \tempoVonNunAn
+		R1*35 %35
+		\tempoVonNunAnB c'2\fE r
+		c as
+		g h
+		c4 es f g
+		r as2 g4 %40
+		f d es f
+		r g2 f4
+		es as f4. es8
+		es2 r
+		f,1 %45
+		es2 r
+		r4 c'2 b4
+		as f g as
+		r g2 f4
+		es d8 c h4. c8 %50
+		c2 r\fermata \bar "|." %51 finis
 	}
 }

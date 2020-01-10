@@ -1904,13 +1904,113 @@ ManSuchtVielBassFigures = \figuremode {
 VonNunAnOrgano = {
 	\relative c {
 		\clef bass
-		\key c \dorian \time 4/4 \tempoVonNunAn
+		\key c \dorian \time 2/2 \tempoVonNunAn
 		r4 c'\fE es d8 c
+		g'4 f8 es d4 c
+		h c2 b4
+		as f g as
+		b, b'2 as4 %5
+		g es f g
+		as, as'2 g4
+		f d es f
+		h, c g' g,
+		c2 r %10
+		es\pE f
+		g,4 g'2 f4
+		es c d es
+		f, f'2 es4
+		d b c d %15
+		es,2 r4 es'
+		as f g as
+		b, b'2 as4
+		g es f g
+		as, f b b, %20
+		es es'\fE g f8 es
+		b'2 b,\pE
+		f4 f' as g8 f
+		c'2 c,
+		g4 g' b a8 g %25
+		d'4 d,2 c4
+		h g a h
+		c, c'2 b4
+		a f g a
+		b, b'2 as4 %30
+		g es f g
+		as2 f
+		g4 g'2 f4
+		es d8 c h4 a8 g
+		c4 f g g, %35
+		\tempoVonNunAnB c2\fE r
+		es f
+		g g,
+		r4 c'2 b4
+		as f g as %40
+		b, b'2 as4
+		g es f g
+		as, f b b,
+		es2 r
+		R1 %45
+		r4 es''2 d4
+		c as b c
+		d, d'2 c4
+		h g a h
+		c f, g g, %50
+		c2 r\fermata \bar "|." %51 finis
 	}
 }
 
 VonNunAnBassFigures = \figuremode {
-	
+	r2 <6>
+	<_!>4 <\tt>8 <6> <6!>2
+	<6>2. <4! 2>4
+	<6> <_-> <6>2
+	r2. <4 2>4 %5
+	<6>2 <6 _->
+	r2. <\t>4
+	<6 _->2 <6>
+	<6> <_!>
+	r1 %10
+	<6>2 <6 _->4 <5 \t>
+	<4> <_!>2 <\t>4
+	<6>2 <7>4 <5->
+	<_->2. <\t>4
+	<6>2 <6->4 <\t> %15
+	r1
+	r4 <6 _-> <6> q
+	r2. <2>4
+	<6>2 <7>4 <5>
+	r <_-> r2 %20
+	r <6>
+	r1
+	<4>4 <_-> <6>2
+	<4>4 <3> r2
+	<4>4 <3> <6>2 %25
+	<4>4 <_+>2 <\t>4
+	<6>2 <7>4 <5!>
+	<_!>2. <\t>4
+	<6>4 <7-> <\t> <\t>
+	<9 4>2 <8 3>4 <5 3> %30
+	<6>2 <6->4 <\t>
+	r2 <6 _->4 <5 \t>
+	<_!>2. <\t>4
+	<6>2 q4 <\t>8 <_!>
+	r4 <6 _->8 <5 \t> <_!>2 %35
+	r1
+	<6>2 <8 6 _->4 <7 5 \t>
+	<_!>1
+	r2. <2>4
+	<6>4 <10- 8> <\t \t> <7 5> %40
+	<5 3>2 <4 2>4 <6 4>
+	<6> <10 8> <\t \t> <7 5>
+	<5 3> <_->2.
+	r1
+	r %45
+	r2. <\t>4
+	<6->2 <7->4 <5>
+	<5->2. <\t>4
+	<6> <_!> <7> <5>
+	r <8 6 _->8 <7 5 \t> <_->2 %50
+	r1 %51 finis
 }
 
 % Organo = {

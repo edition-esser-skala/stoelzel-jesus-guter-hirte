@@ -727,13 +727,68 @@ ManSuchtVielTenoreLyrics = \lyricmode {
 VonNunAnTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key c \dorian \time 4/4 \autoBeamOff \tempoVonNunAn
-		
+		\key c \dorian \time 2/2 \autoBeamOff \tempoVonNunAn
+		R1*9 %9
+		r4 c es d8([ c)] %10
+		g'4 f8([ es)] d4 c
+		c h2 r4
+		r c c b
+		as f g as
+		b2( as) %15
+		g4 b es g
+		c, d es4. f8
+		d2 r
+		r4 es es d
+		c f d4. es8 %20
+		es2 r
+		r4 b d c8([ b)]
+		c4 f, f' f
+		f es8 d es4 d8([ c)]
+		d4 g, g' g %25
+		g fis2 r4
+		r g g f
+		e c d e
+		f es8 d es4 es
+		es c d es %30
+		es2( des)
+		c4 es d4. c8
+		h2 r
+		r4 g' g f
+		es d8([ c)] h4. h8 %35
+		\tempoVonNunAnB c2 r
+		R1*14 %50
+		R1\fermataMarkup \bar "|." %51 finis
 	}
 }
 
 VonNunAnTenoreLyrics = \lyricmode {
-	
+	Von nun an %10
+	ſollt ihr Men -- ſchen
+	ſe -- hen
+	des Men -- ſchen
+	Sohn zur Rech -- ten
+	ſte -- %15
+	hen der al -- ler --
+	höch -- ſten Macht und
+	Krafft,
+	der al -- ler --
+	höch -- ſten Macht und %20
+	Krafft,
+	wenn Er auf
+	de -- nen Wol -- ken
+	Büh -- nen in ſei -- ner
+	Herr -- lich -- keit er -- %25
+	ſchie -- nen,
+	wenn Er auf
+	de -- nen Wol -- ken
+	Büh -- nen in ſei -- ner
+	Herr -- lich -- keit er -- %30
+	ſchie --
+	nen, und rufft die
+	Welt,
+	und rufft die
+	Welt zur Re -- chen -- %35
+	ſchafft. %36 finis
 }
 
 % TenoreNotes = {
