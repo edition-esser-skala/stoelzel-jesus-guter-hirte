@@ -387,3 +387,11 @@ MeinHirtAufViola = {
 		es es b b' g4 r\fermata \bar "|." %20 finis
 	}
 }
+
+VonNunAnViola = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoVonNunAn
+		
+	}
+}

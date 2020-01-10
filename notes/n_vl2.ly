@@ -299,3 +299,11 @@ MeinHirtAufViolinoII = {
 		b c b b b4 r\fermata \bar "|." %20 finis
 	}
 }
+
+VonNunAnViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoVonNunAn
+		
+	}
+}

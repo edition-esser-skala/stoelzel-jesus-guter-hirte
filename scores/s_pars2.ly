@@ -370,29 +370,73 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.10" "R E C I T A T I V O" "Man ſucht viel falſche Zeugen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
+% 					\new Voice = "Tenore" { \dynamicUp \ManSuchtVielTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \ManSuchtVielTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\ManSuchtVielOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \ManSuchtVielBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.10" "R E C I T A T I V O" "Man ſucht viel falſche Zeugen"
+			movement = \movementTitle "2.11" "A R I A" "Von nun an ſollt ihr Menſchen ſehen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #3
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\VonNunAnViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\VonNunAnViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\VonNunAnViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
-					\new Voice = "Tenore" { \dynamicUp \ManSuchtVielTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+					\new Voice = "Tenore" { \dynamicUp \VonNunAnTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \ManSuchtVielTenoreLyrics
+				\new Lyrics \lyricsto Tenore \VonNunAnTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\ManSuchtVielOrgano
+						\VonNunAnOrgano
 					}
 				>>
-				\new FiguredBass { \ManSuchtVielBassFigures }
+				\new FiguredBass { \VonNunAnBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

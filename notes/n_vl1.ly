@@ -554,6 +554,14 @@ MeinHirtAufViolinoI = {
 	}
 }
 
+VonNunAnViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoVonNunAn
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

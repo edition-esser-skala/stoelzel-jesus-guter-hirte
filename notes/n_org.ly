@@ -1901,6 +1901,18 @@ ManSuchtVielBassFigures = \figuremode {
 	<6>4 <_!> r2 %9 finis
 }
 
+VonNunAnOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoVonNunAn
+		r4 c'\fE es d8 c
+	}
+}
+
+VonNunAnBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

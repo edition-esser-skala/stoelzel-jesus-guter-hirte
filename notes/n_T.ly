@@ -724,6 +724,18 @@ ManSuchtVielTenoreLyrics = \lyricmode {
 	bins. %9 finis
 }
 
+VonNunAnTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \dorian \time 4/4 \autoBeamOff \tempoVonNunAn
+		
+	}
+}
+
+VonNunAnTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
