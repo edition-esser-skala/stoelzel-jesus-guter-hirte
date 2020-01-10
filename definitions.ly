@@ -330,6 +330,9 @@ tempoDerGrosseHirte = \tempoMarkup "Recitativo"
 tempoIhrSuenderDenket = \tempoMarkup "Accompagnato"
 tempoBilligWaer = \tempoMarkup "Aria"
 tempoSucheMich = \tempoMarkup "Choral"
+tempoDasOpfferAller = \tempoMarkup "Recitativo"
+	tempoDasOpfferAllerB = \tempoMarkup "Accompagnato"
+	tempoDasOpfferAllerC = \tempoMarkup "Recitativo"
 
 
 

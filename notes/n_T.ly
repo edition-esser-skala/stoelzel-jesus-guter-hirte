@@ -623,6 +623,18 @@ SucheMichTenoreLyrics = \lyricmode {
 	in dem wüſ -- ten Welt Ge -- bü -- ſche. %8 finis
 }
 
+DasOpfferAllerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/4 \autoBeamOff \tempoDasOpfferAller
+		
+	}
+}
+
+DasOpfferAllerTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -207,48 +207,76 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.6" "C H O R A L" "Suche mich, dein Schäflein, wieder"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+% 						\new Voice = "Soprano" { \dynamicUp \SucheMichSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \SucheMichSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+% 						\new Voice = "Alto" { \dynamicUp \SucheMichAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \SucheMichAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+% 						\new Voice = "Tenore" { \dynamicUp \SucheMichTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \SucheMichTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \SucheMichBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \SucheMichBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SucheMichOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \SucheMichBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.6" "C H O R A L" "Suche mich, dein Schäflein, wieder"
+			movement = \movementTitle "2.7" "R E C I T A T I V O" "Das Opffer aller Welt"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
-						\new Voice = "Soprano" { \dynamicUp \SucheMichSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \SucheMichSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
-						\new Voice = "Alto" { \dynamicUp \SucheMichAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \SucheMichAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
-						\new Voice = "Tenore" { \dynamicUp \SucheMichTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \SucheMichTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \SucheMichBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \SucheMichBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \DasOpfferAllerTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \DasOpfferAllerTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SucheMichOrgano
+						\DasOpfferAllerOrgano
 					}
 				>>
-				\new FiguredBass { \SucheMichBassFigures }
+				\new FiguredBass { \DasOpfferAllerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

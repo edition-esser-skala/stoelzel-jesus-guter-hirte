@@ -1750,6 +1750,18 @@ SucheMichBassFigures = \figuremode {
 	r2 <6> q4 <\t> r2 r <6>4 <\t> <4>2 <3> r1 %8 finis
 }
 
+DasOpfferAllerOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoDasOpfferAller
+		
+	}
+}
+
+DasOpfferAllerBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
