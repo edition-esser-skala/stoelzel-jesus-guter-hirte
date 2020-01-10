@@ -1609,12 +1609,118 @@ BilligWaerOrgano = {
 	\relative c {
 		\clef bass
 		\twofourtime \key e \minor \time 2/4 \tempoBilligWaer
-		
+		e8\fE g h a
+		g4 e
+		h r8 dis
+		e e g g
+		h4 r8 dis, %5
+		e e g g
+		a a h h
+		c c dis, dis
+		e a h h,
+		e\pE g h a %10
+		g4 e
+		h'8 h, cis dis
+		e c d d,
+		g4\fE r8 h
+		c4 e %15
+		g\pE r8 h,
+		c4 r
+		cis\fE r8 cis'
+		d d fis, fis
+		a4\pE r8 cis, %20
+		d4 r
+		dis8 dis dis, dis
+		e' e ais, ais
+		h4 r8 dis
+		e g a c %25
+		h g a c
+		h e, h4
+		e,8\fE g' h a
+		g4 e
+		h r8 dis %30
+		e fis g g
+		h4 r8 dis,
+		e e g g
+		a a h h
+		c c dis, dis %35
+		e a h h,
+		e\fermata fis\pE e d!
+		cis cis a a
+		d d h h
+		e4 r8 e %40
+		fis h, fis' fis,
+		h\fE d fis e
+		d\pE h h' a!
+		g4 r8 gis,
+		a a fis fis %45
+		g h g e
+		a d a' a,
+		d\fE fis a g
+		fis d d'\pE c!
+		h4 r8 h, %50
+		c c a a
+		h h gis gis
+		a c e e,
+		a a' g! fis \markDaCapo \bar "||" %54 finis
 	}
 }
 
 BilligWaerBassFigures = \figuremode {
-	
+	r8 <6> <_+> <\t>
+	<6>2
+	<_+>4. <6 5>8
+	r4 <6>
+	<_+>4. <6 5>8 %5
+	r4 <6>
+	<7 5> <6 4>
+	<6 5> q
+	r8 <6>16 <5> <_+>4
+	r8 <6> <_+> <\t> %10
+	<6>2
+	<_+>4 <6>8 q
+	r q <3>4
+	r4. <6 5!>8
+	r4 <6> %15
+	r4. <6 5!>8
+	r2
+	<6>4. <6 5>8
+	<_+>4 <6>
+	<_+>4. <6 5>8 %20
+	r2
+	<6>4 <5>
+	r <7 _+>
+	<_+>4. <6 5>8
+	r <6> r q %25
+	<_+> <6> r q
+	<_+>4 q
+	r8 <6> <_+> <\t>
+	<6>2
+	<_+>4. <6 5>8 %30
+	r4 <6>
+	<_+>4. <6 5>8
+	r4 <6>
+	<7 5> <6 4>
+	<6 5> q %35
+	r8 <6>16 <5> <_+>4
+	r4 <_+>8 <\t>
+	<6 5>4 <7 _+>
+	<4>8 <3> <7 _+>4
+	<4>8 <3>4. %40
+	<5+ _+>4 q
+	r8 <6> <5+ _+> <\t \t>
+	<6>4 <_+>8 <\t>
+	<6>4. <6 5!>8
+	<9>4 <6 5> %45
+	<9>8 <6> r <7>
+	<_+>4 q
+	r8 <6> <_+> <\t>
+	<6>4. <2>8
+	<6>4. <6 5!>8 %50
+	<9>4 <6\\ 5>
+	<9>8 <8> <6 5>4
+	r8 <6> <_+>4
+	r <6>8 <6\\> %54 finis
 }
 
 % Organo = {

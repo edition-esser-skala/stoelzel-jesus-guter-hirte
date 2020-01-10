@@ -401,12 +401,87 @@ BilligWaerBassoNotes = {
 	\relative c {
 		\clef bass
 		\twofourtime \key e \minor \time 2/4 \autoBeamOff \tempoBilligWaer
-		
+		R2*9 %9
+		h'4 dis, %10
+		e8 h g'8. a16
+		fis4 a8 g16([ fis)]
+		g8 c,! d!4
+		g, r
+		R2 %15
+		g'4 g
+		g8 e c' h16([ a)]
+		a4 r
+		R2
+		a4 a %20
+		a8 fis d' c!16([ h)]
+		h4 fis8 a
+		g e g4
+		fis r
+		r c'8 a %25
+		h4 c8 a
+		h e, h4
+		e r
+		R2*8 %36
+		r4\fermata g8 g
+		g g g g
+		g16([ fis)] fis8 a a
+		a([ g!)] c! h %40
+		ais h fis4
+		h, r
+		h' dis,
+		e8 h h' h
+		h8. a16 a8 a %45
+		a16([ fis g8)] d' d
+		cis d a4
+		d, r
+		d' fis,
+		g8 d d' d %50
+		d8. c16 c8 c
+		c16([ a h8)] h h
+		e, c' gis4
+		a r \markDaCapo \bar "||" %54 finis
 	}
 }
 
 BilligWaerBassoLyrics = \lyricmode {
+	Bil -- lig %10
+	wär es, daß euch
+	Gott wie -- de --
+	rum ver -- lie --
+	ße,
+	%15
+	bil -- lig
+	wär es, daß euch
+	Gott,
 	
+	bil -- lig %20
+	wär es, daß euch
+	Gott wie -- de --
+	rum ver -- lie --
+	ße,
+	daß euch %25
+	Gott wie -- de --
+	rum ver -- lie --
+	ße,
+	
+	daß er %37
+	euch mit Hohn und
+	Spott, mit Hohn und
+	Spott gar von %40
+	ſich ver -- ſtie --
+	ße,
+	bil -- lig
+	wär es, daß er
+	euch mit Hohn und %45
+	Spott gar von
+	ſich ver -- ſtie --
+	ße,
+	bil -- lig
+	wär es, daß er %50
+	euch mit Hohn und
+	Spott wie -- de --
+	rum ver -- ſtie --
+	ße. %54 finis
 }
 
 % BassoNotes = {

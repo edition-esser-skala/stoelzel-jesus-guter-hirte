@@ -473,7 +473,57 @@ BilligWaerViolinoI = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key e \minor \time 2/4 \tempoBilligWaer
-		
+		h''4\fE dis,
+		e8 h g'8. a16
+		fis h,( a h) a' fis( e fis)
+		g h,( a h) e \once \slurDashed g( fis e)
+		fis h,( a h) a' fis( e fis) %5
+		g h,( a h) e g( fis e)
+		c g'( fis e) h g'( fis e)
+		a, g'( fis e) h a'( g fis)
+		g8 fis16 e dis8. e16
+		e,4 r %10
+		R2*3
+		d'16\fE g,( fis g) d' f( e d)
+		e g,( f g) c \once \slurDashed e( d c) %15
+		d\p g,( f g) d' \once \slurDashed f( e d)
+		e8 c, r4
+		e'16\f a,( g a) e' \once \slurDashed g( fis! e)
+		fis a,( g a) d fis( e d)
+		e\pE a,( g a) e' g( fis e) %20
+		fis8 d, r4
+		fis'16 h,( a h) fis' \once \slurDashed a( g fis)
+		g h,( a h) e g( fis e)
+		dis h( a h) a' fis( e fis)
+		g8 e, r4 %25
+		R2*2
+		h''4\f dis,
+		e8 h g'8. a16
+		fis h,( a h) a' fis( e fis) %30
+		g h,( a h) e g( fis e)
+		fis h,( a h) a' fis( e fis)
+		g h,( a h) e g( fis e)
+		c g'( fis e) h g'( fis e)
+		a, g'( fis e) h a'( g fis) %35
+		g8 fis16 e dis8. e16
+		e,4\fermata r
+		e'16\p a,( g a) cis e d cis
+		d8 d, dis'16 fis e dis
+		e8 e, r4 %40
+		R2
+		fis'4\f ais,
+		h8 fis r4
+		h16\p e,( dis e) d' h( a h)
+		c e,( d e) c' a( g a) %45
+		h d,( c d) h' g( fis g)
+		e8 d a' a,
+		a''4\f cis,
+		d8 a r4
+		d16\p g,( fis g) f' d( c! d) %50
+		e g,( f g) e' c( h c)
+		d fis,( e fis) d' h( a h)
+		c \once \slurDashed e,( d e) r4
+		R2 \markDaCapo \bar "||" %54 finis
 	}
 }
 
