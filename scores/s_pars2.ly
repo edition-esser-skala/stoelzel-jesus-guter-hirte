@@ -256,13 +256,13 @@
 			movement = \movementTitle "2.7" "R E C I T A T I V O" "Das Opffer aller Welt"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #6
 		}
 		\score {
 			<<
-				\new Staff {
+				\new Staff \with { \smallerStaffDistance } {
 					\set Staff.instrumentName = "Der Evangeliſte"
 					\new Voice = "Tenore" { \dynamicUp \DasOpfferAllerTenoreNotes }
 				}

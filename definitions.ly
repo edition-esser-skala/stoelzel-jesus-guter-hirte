@@ -332,7 +332,9 @@ tempoBilligWaer = \tempoMarkup "Aria"
 tempoSucheMich = \tempoMarkup "Choral"
 tempoDasOpfferAller = \tempoMarkup "Recitativo"
 	tempoDasOpfferAllerB = \tempoMarkup "Accompagnato"
-	tempoDasOpfferAllerC = \tempoMarkup "Recitativo"
+	tempoDasOpfferAllerC = \tempoMarkup "[Recitativo]"
+	tempoDasOpfferAllerD = \tempoMarkup "[Accompagnato]"
+	tempoDasOpfferAllerE = \tempoMarkup "[Recitativo]"
 
 
 

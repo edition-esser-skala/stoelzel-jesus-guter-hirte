@@ -1754,12 +1754,46 @@ DasOpfferAllerOrgano = {
 	\relative c {
 		\clef bass
 		\key a \minor \time 4/4 \tempoDasOpfferAller
-		
+		gis1~
+		gis
+		a2 f
+		g4 c fis,2~
+		fis g %5
+		a1~
+		a
+		\tempoDasOpfferAllerB g8 g g g g g g g
+		fis fis fis fis a a a a
+		g g g g h h h h %10
+		ais ais ais ais \tempoDasOpfferAllerC ais2
+		h a
+		g1~
+		g2  \tempoDasOpfferAllerD c8 c c c
+		b b b b a a a a %15
+		\tempoDasOpfferAllerE c1
+		h2 c4 f
+		fis g c,2\fermata \bar "|." %18 finis
 	}
 }
 
 DasOpfferAllerBassFigures = \figuremode {
-	
+	<6>1
+	r
+	r2 <5>4 <6>
+	r2 <6>
+	r1 %5
+	<6\\>
+	<6+ 4+ 2>
+	<6>2 <4+ 2>
+	<6> <6+ 4+ 2>
+	<6> <6+ 4+ 2+> %10
+	<6+ _+> <\t \t>
+	<5+ _!> <6\\ _!>
+	r1
+	<7!>
+	<2>2 <6> %15
+	<4+ 2>1
+	<6>2 <_->4 q
+	<6 5 _!> <_!> <_->2 %18 finis
 }
 
 % Organo = {

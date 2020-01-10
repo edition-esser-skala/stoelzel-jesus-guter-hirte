@@ -627,12 +627,46 @@ DasOpfferAllerTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key a \minor \time 4/4 \autoBeamOff \tempoDasOpfferAller
-		
+		r4 r8 e e e e f
+		d4 r16 h h c d8 e f e
+		c4 r16 c e c a'8 a f e
+		c4 r r8 d a' fis
+		d d r a16 c h8 h r16 d g fis %5
+		fis4 r8 fis fis fis g a
+		dis, dis r16 dis dis e fis8 fis a g
+		\tempoDasOpfferAllerB e4 r8 e cis8. cis16 h8 a
+		\appoggiatura a d8. d16 d8 fis dis8. dis16 cis8 h
+		\appoggiatura h e8. e16 e8 g eis8. eis16 dis8 cis %10
+		fis8. fis16 fis8 r16 fis \tempoDasOpfferAllerC fis8 cis d e
+		d4 r16 d d e fis8. fis16 e8 d
+		g4 r16 g g d h4 r8 d
+		f! f f e \tempoDasOpfferAllerD e e r g
+		e8. e16 d8 c \appoggiatura c f8. f16 f8 a %15
+		\tempoDasOpfferAllerE fis4 fis fis8 fis e d
+		g4 r8 d es c as'4
+		r8 c, c g r2\fermata \bar "|." %18 finis
 	}
 }
 
 DasOpfferAllerTenoreLyrics = \lyricmode {
-	
+	Das Opf -- fer al -- ler
+	Welt soll erſt der Ho -- he -- prie -- ſter
+	ſehn, drum wird er die -- ſem vor -- ge --
+	ſtellt. Auch Pe -- trus
+	fol -- get, doch von wei -- ten. Von die -- ſem %5
+	muß der gu -- te Hir -- te
+	lei -- den, daß er auch drey -- mahl läug -- nend
+	ſpricht: Ich ken -- ne die -- ſes
+	Men -- ſchen nicht, ich ken -- ne die -- ſes
+	Men -- ſchen nicht, ich ken -- ne die -- ſes
+	Men -- ſchen nicht. Doch Je -- ſus blickt ihn
+	an, und das Ge -- ſchrey von ei -- nem
+	Hahn will der -- ge -- ſtalt in
+	ſei -- nen Oh -- ren ſchal -- len, daß
+	Buß und Thrä -- nen Zeu -- gen seyn, wie
+	hertz -- lich er es muß be --
+	reun, daß er ſo ſchwer
+	ge -- fal -- len.
 }
 
 % TenoreNotes = {
