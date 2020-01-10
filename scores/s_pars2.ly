@@ -129,48 +129,82 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.4" "A C C O M P A G N A T O" "Ihr Sünder, denket nach"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IhrSuenderDenketViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IhrSuenderDenketViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\IhrSuenderDenketViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+% 					\new Voice = "Basso" { \dynamicUp \IhrSuenderDenketBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \IhrSuenderDenketBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IhrSuenderDenketOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \IhrSuenderDenketBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.4" "A C C O M P A G N A T O" "Ihr Sünder, denkte nach"
+			movement = \movementTitle "2.5" "A R I A" "Billig wär es, daß euch Gott wiederum verließe"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
 			systems-per-page = #2
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\IhrSuenderDenketViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\IhrSuenderDenketViolinoII
-						}
-					>>
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\IhrSuenderDenketViola
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "et Oboi" "unisoni" } }
+						\BilligWaerViolinoI
 					}
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
-					\new Voice = "Basso" { \dynamicUp \IhrSuenderDenketBassoNotes }
+					\new Voice = "Basso" { \dynamicUp \BilligWaerBassoNotes }
 				}
-				\new Lyrics \lyricsto Basso \IhrSuenderDenketBassoLyrics
+				\new Lyrics \lyricsto Basso \BilligWaerBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IhrSuenderDenketOrgano
+						\BilligWaerOrgano
 					}
 				>>
-				\new FiguredBass { \IhrSuenderDenketBassFigures }
+				\new FiguredBass { \BilligWaerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

@@ -469,6 +469,14 @@ IhrSuenderDenketViolinoI = {
 	}
 }
 
+BilligWaerViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key e \minor \time 2/4 \tempoBilligWaer
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

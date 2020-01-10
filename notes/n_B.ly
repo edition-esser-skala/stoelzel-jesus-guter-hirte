@@ -397,6 +397,18 @@ IhrSuenderDenketBassoLyrics = \lyricmode {
 	la -- ßen? %20 finis
 }
 
+BilligWaerBassoNotes = {
+	\relative c {
+		\clef bass
+		\twofourtime \key e \minor \time 2/4 \autoBeamOff \tempoBilligWaer
+		
+	}
+}
+
+BilligWaerBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

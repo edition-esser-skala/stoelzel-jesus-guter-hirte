@@ -1605,6 +1605,18 @@ IhrSuenderDenketBassFigures = \figuremode {
 	<4>4 <_+>2. %20 finis
 }
 
+BilligWaerOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key e \minor \time 2/4 \tempoBilligWaer
+		
+	}
+}
+
+BilligWaerBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
