@@ -1723,6 +1723,33 @@ BilligWaerBassFigures = \figuremode {
 	r <6>8 <6\\> %54 finis
 }
 
+SucheMichOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 5/1 \tempoSucheMich
+			\set Staff.timeSignatureFraction = 4/4
+		c2 h c d e4( fis) g2 d1 g,\fermata
+		\time 4/1 e'2 h c a4( h) c2 g c1\fermata
+		\time 5/1 c2 h c d e4( fis) g2 d1 g,\fermata
+		\time 4/1 e'2 h c a4( h) c2 g c1\fermata
+		c'2 a e f c g'2 c,1\fermata %5
+		c'2 c, a4( h) c2 d e4( f) g1\fermata
+		\time 5/1 c2 h a4( h) c2 f,4( e) d2 c1 f\fermata
+		c2 h a4( h) c2 g' e4( f) g1 c,\fermata \bar "|." %8 finis
+	}
+}
+
+SucheMichBassFigures = \figuremode {
+	r2 <6> r <_+> <6>4 <\t> r2 <4> <_+> r1
+	<6>2 q r q4 <\t> r1 r
+	r2 <6> r <_+> <6>4 <\t> r2 <4> <_+> r1
+	<6>2 q r q4 <\t> r1 r
+	r2 <6> q1 r r %5
+	r <6>4 <\t> r2 <5>4 <6> q <\t> r1
+	r2 <6> q4 <\t> r2 r4 <\t> <6>2 r1 r
+	r2 <6> q4 <\t> r2 r <6>4 <\t> <4>2 <3> r1 %8 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

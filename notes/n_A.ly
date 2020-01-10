@@ -455,6 +455,33 @@ WaerenTausendAltoLyricsB = \lyricmode {
 	und ja nun nicht mehr be -- trü -- be. %8 finis
 }
 
+SucheMichAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 5/1 \autoBeamOff \tempoSucheMich
+			\set Staff.timeSignatureFraction = 4/4
+		g'2 g g fis g g g( fis4 e) d1\fermata
+		\time 4/1 g2 g g a g g g1\fermata
+		\time 5/1 g2 g g fis g g g( fis4 e) d1\fermata
+		\time 4/1 g2 g g a g g g1\fermata
+		c2 c c a g g g1\fermata %5
+		c2 c c c a g g1\fermata
+		\time 5/1 g2 g a g a h c1 a\fermata
+		c2 d4( g,) a2 g g g g1 g\fermata \bar "|." %8 finis
+	}
+}
+
+SucheMichAltoLyrics = \lyricmode {
+	Su -- che mich, dein Schäf -- lein, wie -- der,
+	du mein Gott und treu -- er Hirt,
+	wel -- ches ir -- rig auf und nie -- der
+	Wölf -- fen ſonſt zu Thei -- le wird.
+	Schließ in Je -- ſu Wun -- den ein %5
+	das ver -- ſcheuch -- te Täu -- be -- lein,
+	daß es Sa -- tan nicht er -- wi -- ſche
+	in dem __ wüſ -- ten Welt Ge -- bü -- ſche. %8 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

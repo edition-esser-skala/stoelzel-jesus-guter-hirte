@@ -173,38 +173,82 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.5" "A R I A" "Billig wär es, daß euch Gott wiederum verließe"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #20
+% 			system-system-spacing.minimum-distance = #20
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "et Oboi" "unisoni" } }
+% 						\BilligWaerViolinoI
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+% 					\new Voice = "Basso" { \dynamicUp \BilligWaerBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \BilligWaerBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\BilligWaerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \BilligWaerBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.5" "A R I A" "Billig wär es, daß euch Gott wiederum verließe"
+			movement = \movementTitle "2.6" "C H O R A L" "Suche mich, dein Schäflein, wieder"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
-			systems-per-page = #4
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "et Oboi" "unisoni" } }
-						\BilligWaerViolinoI
+						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+						\new Voice = "Soprano" { \dynamicUp \SucheMichSopranoNotes }
 					}
+					\new Lyrics \lyricsto Soprano \SucheMichSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+						\new Voice = "Alto" { \dynamicUp \SucheMichAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \SucheMichAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+						\new Voice = "Tenore" { \dynamicUp \SucheMichTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \SucheMichTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \SucheMichBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \SucheMichBassoLyrics
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
-					\new Voice = "Basso" { \dynamicUp \BilligWaerBassoNotes }
-				}
-				\new Lyrics \lyricsto Basso \BilligWaerBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\BilligWaerOrgano
+						\SucheMichOrgano
 					}
 				>>
-				\new FiguredBass { \BilligWaerBassFigures }
+				\new FiguredBass { \SucheMichBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

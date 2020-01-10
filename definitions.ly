@@ -329,6 +329,7 @@ tempoIhrKommtMit = \tempoMarkup "Aria"
 tempoDerGrosseHirte = \tempoMarkup "Recitativo"
 tempoIhrSuenderDenket = \tempoMarkup "Accompagnato"
 tempoBilligWaer = \tempoMarkup "Aria"
+tempoSucheMich = \tempoMarkup "Choral"
 
 
 

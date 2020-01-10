@@ -478,6 +478,33 @@ WaerenTausendSopranoLyricsB = \lyricmode {
 	und ja nun nicht mehr be -- trü -- be. %8 finis
 }
 
+SucheMichSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 5/1 \autoBeamOff \tempoSucheMich
+			\set Staff.timeSignatureFraction = 4/4
+		c'2 d e d c h a1 g\fermata
+		\time 4/1 c2 d e f e d c1\fermata
+		\time 5/1 c2 d e d c h a1 g\fermata
+		\time 4/1 c2 d e f e d c1\fermata
+		\time 4/1 e2 f g f e d e1\fermata %5
+		g2 g a g f e d1\fermata
+		\time 5/1 e2 g f e c d e1 c\fermata
+		e2 g f e d e d1 c\fermata \bar "|." %8 finis
+	}
+}
+
+SucheMichSopranoLyrics = \lyricmode {
+	Su -- che mich, dein Schäf -- lein, wie -- der,
+	du mein Gott und treu -- er Hirt,
+	wel -- ches ir -- rig auf und nie -- der
+	Wölf -- fen ſonſt zu Thei -- le wird.
+	Schließ in Je -- ſu Wun -- den ein %5
+	das ver -- ſcheuch -- te Täu -- be -- lein,
+	daß es Sa -- tan nicht er -- wi -- ſche
+	in dem wüſ -- ten Welt Ge -- bü -- ſche. %8 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

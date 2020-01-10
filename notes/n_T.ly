@@ -596,6 +596,33 @@ DerGrosseHirteTenoreLyrics = \lyricmode {
 	ja -- gen. %7 finis
 }
 
+SucheMichTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 5/1 \autoBeamOff \tempoSucheMich
+			\set Staff.timeSignatureFraction = 4/4
+		e2 d c a g d' d2.( c4) h1\fermata
+		\time 4/1 c2 g c c c h4( d) e1\fermata
+		\time 5/1 e2 d c a g d' d2.( c4) h1\fermata
+		\time 4/1 c2 g c c c h4( d) e1\fermata
+		g2 f e4( d) c2 c h c1\fermata %5
+		e2 e f e d4( h) c2 h1\fermata
+		\time 5/1 c2 d c c f f g1 f\fermata
+		g2 g c, c h c c( h4 d) e1\fermata \bar "|." %8 finis
+	}
+}
+
+SucheMichTenoreLyrics = \lyricmode {
+	Su -- che mich, dein Schäf -- lein, wie -- der,
+	du mein Gott und treu -- er __ Hirt,
+	wel -- ches ir -- rig auf und nie -- der
+	Wölf -- fen ſonſt zu Thei -- le __ wird.
+	Schließ in Je -- ſu Wun -- den ein %5
+	das ver -- ſcheuch -- te Täu -- be -- lein,
+	daß es Sa -- tan nicht er -- wi -- ſche
+	in dem wüſ -- ten Welt Ge -- bü -- ſche. %8 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
