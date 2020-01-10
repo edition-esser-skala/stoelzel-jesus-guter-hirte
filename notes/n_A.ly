@@ -487,12 +487,26 @@ IchBittIchRufAltoNotes = {
 		\clef treble
 		\key es \lydian \time 5/1 \autoBeamOff \tempoIchBittIchRuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 g' as g4( f) es2 es es( d) es1\fermata
+		\time 4/1 r2 g g g g g es1\fermata
+		\time 5/1 r2 g as g4( f) es2 es es( d) es1\fermata
+		\time 4/1 r2 g g g g g es1\fermata
+		\time 5/1 r2 f f g as as b1 b\fermata %5
+		\time 4/1 r2 g as g f2. f4 e1\fermata
+		\time 5/1 r2 f f f b4( f) f2 f1 f\fermata
+		\time 4/1 r2 es es es es d es1\fermata \bar "|." %8 finis
 	}
 }
 
 IchBittIchRufAltoLyrics = \lyricmode {
-	
+	Ich bitt, ich __ ruff, ich wei -- ne,
+	Herr Je -- ſu, wen -- de dich,
+	wie Pe -- tro __ mir er -- ſchei -- ne,
+	und bring zur Ru -- he mich.
+	Ich trau -- e dei -- nem Ster -- ben, %5
+	nimm mei -- ner Seel dich an,
+	ach laß die nicht ver -- der -- ben,
+	für die du gnug ge -- than. %8 finis
 }
 
 % AltoNotes = {

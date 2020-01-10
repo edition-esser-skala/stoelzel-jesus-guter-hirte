@@ -549,12 +549,26 @@ IchBittIchRufSopranoNotes = {
 		\clef treble
 		\key es \lydian \time 5/1 \autoBeamOff \tempoIchBittIchRuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 b' c b as g f1 g\fermata
+		\time 4/1 r2 d' es es d2. d4 c1\fermata
+		\time 5/1 r2 b c b as g f1 g\fermata
+		\time 4/1 r2 d' es es d2. d4 c1\fermata
+		\time 5/1 r2 es d b c d es1 es\fermata %5
+		\time 4/1 r2 b c b as2. g4 g1\fermata
+		\time 5/1 r2 es'! d f es d c1 d\fermata
+		\time 4/1 r2 g, as g f b g1\fermata \bar "|." %8 finis
 	}
 }
 
 IchBittIchRufSopranoLyrics = \lyricmode {
-	
+	Ich bitt, ich ruff, ich wei -- ne,
+	Herr Je -- ſu, wen -- de dich,
+	wie Pe -- tro mir er -- ſchei -- ne,
+	und bring zur Ru -- he mich.
+	Ich trau -- e dei -- nem Ster -- ben, %5
+	nimm mei -- ner Seel dich an,
+	ach laß die nicht ver -- der -- ben,
+	für die du gnug ge -- than. %8 finis
 }
 
 % SopranoNotes = {

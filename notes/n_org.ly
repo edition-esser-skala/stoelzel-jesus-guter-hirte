@@ -1851,12 +1851,26 @@ IchBittIchRufOrgano = {
 		\clef bass
 		\key es \lydian \time 5/1 \tempoIchBittIchRuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 es as, es' c4( d) es2 b1 es\fermata
+		\time 4/1 r2 h c es4( f) g2 g, c1\fermata
+		\time 5/1 r2 es as, es' c4( d) es2 b1 es\fermata
+		\time 4/1 r2 h c es4( f) g2 g, c1\fermata
+		\time 5/1 r2 a! b es as4( g) f2 es1 es\fermata %5
+		\time 4/1 r2 es as, es' f f, c'1\fermata
+		\time 5/1 r2 a b a g4( a) b2 f'1 b,\fermata
+		\time 4/1 r2 es c4( d) es2 b' b, es1\fermata \bar "|." %8 finis
 	}
 }
 
 IchBittIchRufBassFigures = \figuremode {
-	
+	r1 r <6->4 <\t> r2 <4> <3> r1
+	r2 <6> r <6>4 <\t> <4>2 <_!> r1
+	r1 r <6->4 <\t> r2 <4> <3> r1
+	r2 <6> r <6>4 <\t> <4>2 <_!> r1
+	r2 <6 5> r1 r4 <\t> <6 _->2 r1 r %5
+	r r <_-> <_!>
+	r2 <6 5-> r <6> q4 <6 5> r2 <4> <_!> r1
+	r <6->4 <\t> r2 <4> <3> r1 %8 finis
 }
 
 % Organo = {

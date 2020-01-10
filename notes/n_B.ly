@@ -516,12 +516,26 @@ IchBittIchRufBassoNotes = {
 		\clef bass
 		\key es \lydian \time 5/1 \autoBeamOff \tempoIchBittIchRuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 es as, es' c4( d) es2 b1 es\fermata
+		\time 4/1 r2 h c es4( f) g2 g, c1\fermata
+		\time 5/1 r2 es as, es' c4( d) es2 b1 es\fermata
+		\time 4/1 r2 h c es4( f) g2 g, c1\fermata
+		\time 5/1 r2 a! b es as4( g) f2 es1 es\fermata %5
+		\time 4/1 r2 es as, es' f f, c'1\fermata
+		\time 5/1 r2 a b a g4( a) b2 f'1 b,\fermata
+		\time 4/1 r2 es c4( d) es2 b' b, es1\fermata \bar "|." %8 finis
 	}
 }
 
 IchBittIchRufBassoLyrics = \lyricmode {
-	
+	Ich bitt, ich ruff, __ ich wei -- ne,
+	Herr Je -- ſu, __ wen -- de dich,
+	wie Pe -- tro mir __ er -- ſchei -- ne,
+	und bring zur __ Ru -- he mich.
+	Ich trau -- e dei -- nem Ster -- ben, %5
+	nimm mei -- ner Seel dich an,
+	ach laß die nicht ver -- der -- ben,
+	für die __ du gnug ge -- than. %8 finis
 }
 
 % BassoNotes = {

@@ -674,12 +674,26 @@ IchBittIchRufTenoreNotes = {
 		\clef "treble_8"
 		\key es \lydian \time 5/1 \autoBeamOff \tempoIchBittIchRuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 es es es as,4( f) b2 b1 b\fermata
+		\time 4/1 r2 g c c c h c1\fermata
+		\time 5/1 r2 es es es as,4( f) b2 b1 b\fermata
+		\time 4/1 r2 g c c c h c1\fermata
+		\time 5/1 r2 c b4( d) es2 es f g1 g\fermata %5
+		\time 4/1 r2 es es es c2. c4 c1\fermata
+		\time 5/1 r2 c b c4( d) es2 b b( a!) b1\fermata
+		\time 4/1 r2 b c b b b b1\fermata \bar "|." %8 finis
 	}
 }
 
 IchBittIchRufTenoreLyrics = \lyricmode {
-	
+	Ich bitt, ich ruff, __ ich wei -- ne,
+	Herr Je -- ſu, wen -- de dich,
+	wie Pe -- tro mir __ er -- ſchei -- ne,
+	und bring zur Ru -- he mich.
+	Ich trau -- e dei -- nem Ster -- ben, %5
+	nimm mei -- ner Seel dich an,
+	ach laß die __ nicht ver -- der -- ben,
+	für die du gnug ge -- than. %8 finis
 }
 
 % TenoreNotes = {
