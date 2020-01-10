@@ -326,48 +326,76 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.9" "C H O R A L" "Ich bitt, ich ruf, ich weine"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+% 						\new Voice = "Soprano" { \dynamicUp \IchBittIchRufSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \IchBittIchRufSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+% 						\new Voice = "Alto" { \dynamicUp \IchBittIchRufAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \IchBittIchRufAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+% 						\new Voice = "Tenore" { \dynamicUp \IchBittIchRufTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \IchBittIchRufTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \IchBittIchRufBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \IchBittIchRufBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IchBittIchRufOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \IchBittIchRufBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.9" "C H O R A L" "Ich bitt, ich ruf, ich weine"
+			movement = \movementTitle "2.10" "R E C I T A T I V O" "Man ſucht viel falſche Zeugen"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
-						\new Voice = "Soprano" { \dynamicUp \IchBittIchRufSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \IchBittIchRufSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
-						\new Voice = "Alto" { \dynamicUp \IchBittIchRufAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \IchBittIchRufAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
-						\new Voice = "Tenore" { \dynamicUp \IchBittIchRufTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \IchBittIchRufTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \IchBittIchRufBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \IchBittIchRufBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \ManSuchtVielTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \ManSuchtVielTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IchBittIchRufOrgano
+						\ManSuchtVielOrgano
 					}
 				>>
-				\new FiguredBass { \IchBittIchRufBassFigures }
+				\new FiguredBass { \ManSuchtVielBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

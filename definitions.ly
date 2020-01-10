@@ -337,6 +337,7 @@ tempoDasOpfferAller = \tempoMarkup "Recitativo"
 	tempoDasOpfferAllerE = \tempoMarkup "[Recitativo]"
 tempoMeinHirtAuf = \tempoMarkup "Aria"
 tempoIchBittIchRuf = \tempoMarkup "Choral"
+tempoManSuchtViel = \tempoMarkup "Recitativo"
 
 
 

@@ -696,6 +696,18 @@ IchBittIchRufTenoreLyrics = \lyricmode {
 	für die du gnug ge -- than. %8 finis
 }
 
+ManSuchtVielTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \dorian \time 4/4 \autoBeamOff \tempoManSuchtViel
+		
+	}
+}
+
+ManSuchtVielTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

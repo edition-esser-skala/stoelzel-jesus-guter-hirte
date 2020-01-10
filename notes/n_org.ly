@@ -1873,6 +1873,18 @@ IchBittIchRufBassFigures = \figuremode {
 	r <6->4 <\t> r2 <4> <3> r1 %8 finis
 }
 
+ManSuchtVielOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoManSuchtViel
+		c1
+	}
+}
+
+ManSuchtVielBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
