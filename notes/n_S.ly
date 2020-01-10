@@ -544,6 +544,19 @@ MeinHirtAufSopranoLyrics = \lyricmode {
 	Au -- gen flie -- ßen. %18 finis
 }
 
+IchBittIchRufSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 5/1 \autoBeamOff \tempoIchBittIchRuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+IchBittIchRufSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

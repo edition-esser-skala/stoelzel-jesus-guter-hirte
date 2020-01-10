@@ -511,6 +511,19 @@ SucheMichBassoLyrics = \lyricmode {
 	in dem wüſ -- ten Welt Ge -- bü -- ſche. %8 finis
 }
 
+IchBittIchRufBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \lydian \time 5/1 \autoBeamOff \tempoIchBittIchRuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+IchBittIchRufBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -279,51 +279,95 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.8" "A R I A" "Mein Hirt! auf deßen Treu ich bau"
+% 		}
+% 		\paper {
+% 			systems-per-page = #2
+% 			page-count = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Oboe solo"
+% 					\MeinHirtAufOboeI
+% 				}
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\MeinHirtAufViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\MeinHirtAufViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\MeinHirtAufViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das bußfertige" "Schäflein" "(Canto I)" } }
+% 					\new Voice = "Soprano" { \dynamicUp \MeinHirtAufSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \MeinHirtAufSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\MeinHirtAufOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \MeinHirtAufBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.8" "A R I A" "Mein Hirt! auf deßen Treu ich bau"
+			movement = \movementTitle "2.9" "C H O R A L" "Ich bitt, ich ruf, ich weine"
 		}
-		\paper {
-			systems-per-page = #2
-			page-count = #3
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = "Oboe solo"
-					\MeinHirtAufOboeI
-				}
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\MeinHirtAufViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\MeinHirtAufViolinoII
-						}
-					>>
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\MeinHirtAufViola
+						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+						\new Voice = "Soprano" { \dynamicUp \IchBittIchRufSopranoNotes }
 					}
+					\new Lyrics \lyricsto Soprano \IchBittIchRufSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+						\new Voice = "Alto" { \dynamicUp \IchBittIchRufAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \IchBittIchRufAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+						\new Voice = "Tenore" { \dynamicUp \IchBittIchRufTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \IchBittIchRufTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \IchBittIchRufBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \IchBittIchRufBassoLyrics
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das bußfertige" "Schäflein" "(Canto I)" } }
-					\new Voice = "Soprano" { \dynamicUp \MeinHirtAufSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \MeinHirtAufSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\MeinHirtAufOrgano
+						\IchBittIchRufOrgano
 					}
 				>>
-				\new FiguredBass { \MeinHirtAufBassFigures }
+				\new FiguredBass { \IchBittIchRufBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

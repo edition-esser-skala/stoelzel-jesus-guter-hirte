@@ -482,6 +482,19 @@ SucheMichAltoLyrics = \lyricmode {
 	in dem __ wüſ -- ten Welt Ge -- bü -- ſche. %8 finis
 }
 
+IchBittIchRufAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 5/1 \autoBeamOff \tempoIchBittIchRuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+IchBittIchRufAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

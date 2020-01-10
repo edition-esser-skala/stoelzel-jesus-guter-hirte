@@ -669,6 +669,19 @@ DasOpfferAllerTenoreLyrics = \lyricmode {
 	ge -- fal -- len.
 }
 
+IchBittIchRufTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \lydian \time 5/1 \autoBeamOff \tempoIchBittIchRuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+IchBittIchRufTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

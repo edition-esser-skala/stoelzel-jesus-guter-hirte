@@ -1846,6 +1846,19 @@ MeinHirtAufBassFigures = \figuremode {
 	<6> <6 4>8 <5 3> r2 %20 finis
 }
 
+IchBittIchRufOrgano = {
+	\relative c {
+		\clef bass
+		\key es \lydian \time 5/1 \tempoIchBittIchRuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+IchBittIchRufBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
