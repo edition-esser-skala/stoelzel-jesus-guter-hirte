@@ -578,6 +578,14 @@ VonNunAnViolinoI = {
 	}
 }
 
+DiesWortWirdViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoDiesWortWird
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

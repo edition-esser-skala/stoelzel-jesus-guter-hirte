@@ -323,3 +323,11 @@ VonNunAnViolinoII = {
 		c2 r\fermata \bar "|." %51 finis
 	}
 }
+
+DiesWortWirdViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoDiesWortWird
+		
+	}
+}

@@ -2013,6 +2013,18 @@ VonNunAnBassFigures = \figuremode {
 	r1 %51 finis
 }
 
+DiesWortWirdOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoDiesWortWird
+		
+	}
+}
+
+DiesWortWirdBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -398,14 +398,59 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.11" "A R I A" "Von nun an ſollt ihr Menſchen ſehen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\VonNunAnViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\VonNunAnViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\VonNunAnViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+% 					\new Voice = "Tenore" { \dynamicUp \VonNunAnTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \VonNunAnTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\VonNunAnOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \VonNunAnBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 1 = 50 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.11" "A R I A" "Von nun an ſollt ihr Menſchen ſehen"
+			movement = \movementTitle "2.12" "R E C I T A T I V O" "Diß Wort wird auf der Feinde Zungen"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #35
 			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
+			indent = 5\cm
 		}
 		\score {
 			<<
@@ -413,33 +458,33 @@
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\VonNunAnViolinoI
+							\DiesWortWirdViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\VonNunAnViolinoII
+							\DiesWortWirdViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\VonNunAnViola
+						\DiesWortWirdViola
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
-					\new Voice = "Tenore" { \dynamicUp \VonNunAnTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene Schäflein (Canto 2)" "Das Evangelium (Alto 2)" "Der Evangeliſte" "Das Geſetze (Basſo)" } }
+					\new Voice = "Basso" { \dynamicUp \DiesWortWirdBassoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \VonNunAnTenoreLyrics
+				\new Lyrics \lyricsto Basso \DiesWortWirdBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\VonNunAnOrgano
+						\DiesWortWirdOrgano
 					}
 				>>
-				\new FiguredBass { \VonNunAnBassFigures }
+				\new FiguredBass { \DiesWortWirdBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 1 = 50 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

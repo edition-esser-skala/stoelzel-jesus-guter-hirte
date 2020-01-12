@@ -411,3 +411,11 @@ VonNunAnViola = {
 		es2 r\fermata \bar "|." %51 finis
 	}
 }
+
+DiesWortWirdViola = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoDiesWortWird
+		
+	}
+}
