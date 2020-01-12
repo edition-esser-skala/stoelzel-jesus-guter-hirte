@@ -791,6 +791,84 @@ VonNunAnTenoreLyrics = \lyricmode {
 	ſchafft. %36 finis
 }
 
+DiesWortWirdTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \autoBeamOff \tempoDiesWortWird
+		r8 f^\Evangeliste f c c d es d
+		d d r16 f f g as8 as as g
+		es es r16 es es es g8. es16 es8 es
+		c4 r8 d es es es d
+		d4 r8 d es8. es16 a,8 b %5
+		g4 r r r8 g'
+		g8. c,16 c8 d e!4 r8 e
+		e e g e cis4 r8 a
+		g' g f e f f r f
+		f c c d es4 r8 es %10
+		g es es d d4 r8 b
+		f'4 r8 f d b as' g
+		g4 r8 g a,8. a16 es'8 d
+		b b r4 \clef bass r r8 g^\Gesetze
+		b b d fis, g g r b %15
+		g g g fis fis4 r8 d'
+		a8. a16 a8 b g4 r8 g
+		g d f! e e4 r16 g g c
+		c8 f, b a f4 r
+		\tempoDiesWortWirdB r r8 a b b b a %20
+		g g r16 g g a b8 b b a
+		f f r d a' a a b
+		c4 r16 c es c a8. a16 a8 b
+		b4 r16 b d b f4 r16 f f g
+		as8 as c b g4 r16 g d' g, %25
+		f8 f as g e!4 r16 e e f
+		g8 g c c, f f r a
+		gis8. gis16 a8 h e,4 r16 c' h a
+		f8 d gis a e e r4
+		\clef treble r8 c''^\DasErschrockene h a \tempoDiesWortWirdC dis8 dis cis h %30
+		e e r16 a, a h h4 r
+		r8 h^\Evangelium h fis a4 r8 a
+		a h c h g4 r8 g
+		h g fis g d d r4\fermata \bar "|." %34 finis
+	}
+}
+
+DiesWortWirdTenoreLyrics = \lyricmode {
+	Diß Wort wird auf der Fein -- de
+	Zun -- gen zu lau -- ter Got -- tes Lä -- ſte --
+	run -- gen und iſt die Schuld, wes -- we -- gen
+	man dem Herr -- ſcher al -- ler
+	Welt das To -- des Ur -- theil %5
+	fällt. Hie --
+	rauf läßt ſich der HErr in
+	äu -- ßer -- ſter Ge -- duld ver --
+	ſpot -- ten und ver -- ſpey -- en. Man
+	ſchlä -- get und ver -- deckt ſein %10
+	heil -- ges An -- ge -- ſicht und
+	will, Er ſoll al -- ſo ver --
+	ſteckt die Frev -- ler pro -- phe --
+	zey -- en. Ver --
+	lohr -- nes Schaaf, er -- wä -- ge, was %15
+	Got -- tes Sohn er -- trägt! Denck
+	a -- ber auch da -- bey, daß
+	dei -- ne Schuld es ſey, die Ihn ver --
+	ur -- theilt, ſchmäht und ſchlägt.
+	Weil du den Tod ver -- %20
+	bro -- chen, wird die -- ſes Ur -- theil Ihm ge --
+	ſpro -- chen, und wenn dein Her -- tze
+	meint, Er mer -- cke dei -- ne Boß -- heit
+	nicht, ſo ſchlägſt du ihn in das ver --
+	deck -- te An -- ge -- ſicht. Du ſpeyſt Ihm %25
+	als der ärgſ -- te Feind auf die vor
+	dich zer -- rauff -- te Wan -- gen, so
+	offt du wi -- der Ihn auch den ge --
+	ring -- ſten Fehl be -- gan -- gen.
+	Mein Hertz er -- bebt, wenn es be -- %30
+	den -- cket, was ich ver -- übt!
+	In dem, der dich biß 
+	in den Tod ge -- liebt, iſt
+	al -- les dir ge -- ſchen -- ket. %34 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -472,9 +472,9 @@
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene Schäflein (Canto 2)" "Das Evangelium (Alto 2)" "Der Evangeliſte" "Das Geſetze (Basſo)" } }
-					\new Voice = "Basso" { \dynamicUp \DiesWortWirdBassoNotes }
+					\new Voice = "Tenore" { \dynamicUp \DiesWortWirdTenoreNotes }
 				}
-				\new Lyrics \lyricsto Basso \DiesWortWirdBassoLyrics
+				\new Lyrics \lyricsto Tenore \DiesWortWirdTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"

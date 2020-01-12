@@ -414,8 +414,21 @@ VonNunAnViola = {
 
 DiesWortWirdViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 4/4 \tempoDiesWortWird
-		
+		R1*19 %19
+		\tempoDiesWortWirdB e1~ %20
+		e
+		f2 es~
+		es c
+		f1~
+		f2 \once \tieDashed g~ %25
+		g e!
+		g f
+		gis a
+		a4 gis e e
+		c r \tempoDiesWortWirdC r2 %30
+		R1*3
+		R1\fermataMarkup \bar "|." %34 finis
 	}
 }

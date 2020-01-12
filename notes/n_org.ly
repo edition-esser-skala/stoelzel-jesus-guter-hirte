@@ -2017,12 +2017,78 @@ DiesWortWirdOrgano = {
 	\relative c {
 		\clef bass
 		\key f \major \time 4/4 \tempoDiesWortWird
-		
+		a1
+		b2 h
+		c g
+		a1
+		b2 c %5
+		d4 g, e'!2~
+		e c
+		b! a~
+		a d
+		a1~ %10
+		a2 b
+		d1
+		es
+		f4 b, g2~
+		g1 %15
+		cis2 d
+		c b
+		h b
+		a4 b c f,
+		\tempoDiesWortWirdB cis'1~ %20
+		cis
+		d2 c~
+		c1
+		b~
+		b2 h~ %25
+		h b~
+		b a!
+		h c
+		d e4 e,
+		a2 \tempoDiesWortWirdC a'4 r %30
+		g c h2
+		dis,1~
+		dis2 e
+		c d!4 g,\fermata \bar "|." %34 finis
 	}
 }
 
 DiesWortWirdBassFigures = \figuremode {
-	
+	<6>1
+	r2 <7->
+	<_-> <6->
+	<6 5->1
+	r2 <6 5 _-> %5
+	<_+> <6>
+	r <_!>
+	<2> <7 _+>
+	r <_!>
+	<6> <5-> %10
+	r1
+	<6>
+	<5 3>2 <2>
+	r <8 3>
+	<\t \t>4 <7+ 4 2> <8 3>2 %15
+	<7> <_+>
+	<4+ 2> <6>
+	<6 5!> <2>
+	<6>1
+	<6>2 <7> %20
+	<\t>1
+	r2 <6 _->
+	r1
+	r
+	<7->2 <6> %25
+	<5> <2>
+	r <6>
+	<6\\ 5> <6>
+	<5>4 <6! 4+ 2> <6 4> <5! _+>
+	r2 <6+ 4+ 2> %30
+	<6>4 q <5+ _+>2
+	<6! _+>1
+	<7 _+>2 <5!>
+	r <_+>4 <_!> %34 finis
 }
 
 % Organo = {

@@ -538,18 +538,6 @@ IchBittIchRufBassoLyrics = \lyricmode {
 	für die __ du gnug ge -- than. %8 finis
 }
 
-DiesWortWirdBassoNotes = {
-	\relative c {
-		\clef bass
-		\key f \major \time 4/4 \autoBeamOff \tempoDiesWortWird
-		
-	}
-}
-
-DiesWortWirdBassoLyrics = \lyricmode {
-	
-}
-
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

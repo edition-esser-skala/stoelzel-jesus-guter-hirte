@@ -280,6 +280,7 @@ Gesetze = \markup { \remark "Das Geſetze" }
 Evangelium = \markup { \remark "Das Evangelium" }
 Evangeliste = \markup { \remark "Der Evangeliſte" }
 Jesus = \markup { \remark "JESUS, der gute Hirte" }
+DasErschrockene = \markup { \remark "Das erſchrockene Schäflein" }
 
 
 
@@ -341,6 +342,8 @@ tempoManSuchtViel = \tempoMarkup "Recitativo"
 tempoVonNunAn = \tempoMarkup "Aria"
 	tempoVonNunAnB = \tempoMarkup "Rittornello"
 tempoDiesWortWird = \tempoMarkup "Recitativo"
+	tempoDiesWortWirdB = \tempoMarkup "Accompagnato"
+	tempoDiesWortWirdC = \tempoMarkup "[Recitativo]"
 
 
 

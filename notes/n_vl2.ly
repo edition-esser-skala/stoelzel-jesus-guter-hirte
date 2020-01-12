@@ -328,6 +328,19 @@ DiesWortWirdViolinoII = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoDiesWortWird
-		
+		R1*19 %19
+		\tempoDiesWortWirdB a'2 g %20
+		b1
+		a~
+		a
+		b~
+		b2 d,~ %25
+		d g
+		c1
+		d2 c
+		d4 h a gis
+		e r \tempoDiesWortWirdC r2 %30
+		R1*3
+		R1\fermataMarkup \bar "|." %34 finis
 	}
 }
