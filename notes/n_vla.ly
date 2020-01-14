@@ -432,3 +432,11 @@ DiesWortWirdViola = {
 		R1\fermataMarkup \bar "|." %34 finis
 	}
 }
+
+WennAuchDeinerViola = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/8 \tempoWennAuchDeiner
+		
+	}
+}

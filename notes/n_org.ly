@@ -2091,6 +2091,18 @@ DiesWortWirdBassFigures = \figuremode {
 	r <_+>4 <_!> %34 finis
 }
 
+WennAuchDeinerOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 3/8 \tempoWennAuchDeiner
+		r8 e\fE dis
+	}
+}
+
+WennAuchDeinerBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

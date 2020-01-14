@@ -344,6 +344,7 @@ tempoVonNunAn = \tempoMarkup "Aria"
 tempoDiesWortWird = \tempoMarkup "Recitativo"
 	tempoDiesWortWirdB = \tempoMarkup "Accompagnato"
 	tempoDiesWortWirdC = \tempoMarkup "[Recitativo]"
+tempoWennAuchDeiner = \tempoMarkup "Aria"
 
 
 

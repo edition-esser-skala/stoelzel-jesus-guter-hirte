@@ -442,49 +442,89 @@
 % 			\midi { \tempo 1 = 50 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.12" "R E C I T A T I V O" "Diß Wort wird auf der Feinde Zungen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 			indent = 5\cm
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DiesWortWirdViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DiesWortWirdViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DiesWortWirdViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene Schäflein (Canto 2)" "Das Evangelium (Alto 2)" "Der Evangeliſte" "Das Geſetze (Basſo)" } }
+% 					\new Voice = "Tenore" { \dynamicUp \DiesWortWirdTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DiesWortWirdTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DiesWortWirdOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DiesWortWirdBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.12" "R E C I T A T I V O" "Diß Wort wird auf der Feinde Zungen"
+			movement = \movementTitle "2.13" "A R I A" "Wenn auch deiner Seelen Schade"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-			indent = 5\cm
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #3
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
+					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DiesWortWirdViolinoI
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Flauto I" } }
+							\WennAuchDeinerViolinoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DiesWortWirdViolinoII
+							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Flauto II" } }
+							\WennAuchDeinerViolinoII
 						}
 					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\DiesWortWirdViola
-					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene Schäflein (Canto 2)" "Das Evangelium (Alto 2)" "Der Evangeliſte" "Das Geſetze (Basſo)" } }
-					\new Voice = "Tenore" { \dynamicUp \DiesWortWirdTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
+					\new Voice = "Alto" { \dynamicUp \WennAuchDeinerAltoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \DiesWortWirdTenoreLyrics
+				\new Lyrics \lyricsto Alto \WennAuchDeinerAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DiesWortWirdOrgano
+						\WennAuchDeinerOrgano
 					}
 				>>
-				\new FiguredBass { \DiesWortWirdBassFigures }
+				\new FiguredBass { \WennAuchDeinerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

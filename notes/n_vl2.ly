@@ -344,3 +344,11 @@ DiesWortWirdViolinoII = {
 		R1\fermataMarkup \bar "|." %34 finis
 	}
 }
+
+WennAuchDeinerViolinoII = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/8 \tempoWennAuchDeiner
+		
+	}
+}

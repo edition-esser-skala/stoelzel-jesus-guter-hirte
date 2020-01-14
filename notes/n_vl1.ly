@@ -599,6 +599,14 @@ DiesWortWirdViolinoI = {
 	}
 }
 
+WennAuchDeinerViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/8 \tempoWennAuchDeiner
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

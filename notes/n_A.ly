@@ -509,6 +509,18 @@ IchBittIchRufAltoLyrics = \lyricmode {
 	für die du gnug ge -- than. %8 finis
 }
 
+WennAuchDeinerAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 3/8 \autoBeamOff \tempoWennAuchDeiner
+		
+	}
+}
+
+WennAuchDeinerAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
