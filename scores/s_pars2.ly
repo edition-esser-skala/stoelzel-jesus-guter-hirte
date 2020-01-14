@@ -492,9 +492,9 @@
 			movement = \movementTitle "2.13" "A R I A" "Wenn auch deiner Seelen Schade"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #22
-			system-system-spacing.minimum-distance = #22
-			systems-per-page = #3
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
@@ -509,6 +509,10 @@
 							\WennAuchDeinerViolinoII
 						}
 					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\WennAuchDeinerViola
+					}
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }

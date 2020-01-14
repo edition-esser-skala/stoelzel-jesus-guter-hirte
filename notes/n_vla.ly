@@ -435,8 +435,78 @@ DiesWortWirdViola = {
 
 WennAuchDeinerViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key e \minor \time 3/8 \tempoWennAuchDeiner
-		
+		r8 h'\fE h \bar "S-S"
+		h( a) g
+		fis4 e8
+		e dis r
+		r g c %5
+		d c h
+		a4 g8
+		fis fis4
+		e4.
+		d %10
+		c
+		r8 h h'
+		fis e dis
+		e fis4
+		g8\fermata e\p dis %15
+		g( fis) e
+		dis4 e8
+		h4 r8
+		r c a
+		h( a) g %20
+		fis4 g8
+		d d'4~
+		d8 c4~
+		c8 h4~
+		h8 a4 %25
+		r8 g fis
+		g( h) c
+		a d d,
+		g16 g' g g g g
+		g a32 g fis16 e d c %30
+		h h' h h h h
+		h c32 h a16 g fis e
+		d d' d d d d
+		d e32 d c16 h a g
+		fis4 g8 %35
+		c, d d,
+		g g'4~\fE
+		g8 a4~
+		a8 h4~
+		h8 c4~ %40
+		c8 \once \slurDashed d4~
+		d8 g,\p d
+		e( h) c
+		g fis g
+		d'4 r8 %45
+		r dis h
+		e4 d8
+		c4 c8
+		h dis4
+		e8 c4~ %50
+		c8 h4~
+		h8 a4
+		r8 a g
+		fis4 h8
+		e, h'4 %55
+		e,16 e' e e e e
+		e fis32 e dis16 cis h a
+		g g' g g g g
+		g a32 g fis16 e d! c!
+		h h' h h h h %60
+		h c32 h a16 g fis e
+		dis4 e8
+		a, h4
+		e8 e4~\f
+		e8 fis4~ %65
+		fis8 g4~
+		g8 a4~
+		a8 h4~
+		h8 cis4~
+		cis8 cis ais %70
+		fis e[ h'] \bar "S-S" %71 finis
 	}
 }

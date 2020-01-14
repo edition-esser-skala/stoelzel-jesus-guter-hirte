@@ -349,6 +349,76 @@ WennAuchDeinerViolinoII = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 3/8 \tempoWennAuchDeiner
-		
+		r8 g''\fE fis \bar "S-S"
+		e( d) c
+		h( a') g
+		g fis r
+		r e fis %5
+		g( fis) e
+		d!( c') h
+		a h fis
+		g8.( a32 h) a8
+		fis8.( g32 a) g8 %10
+		e8.( fis32 g) fis8
+		r dis e
+		a( g) fis
+		g dis4
+		e8\fermata e,\p dis %15
+		\once \slurDashed g( fis) e
+		\once \slurDashed dis( fis') e
+		e dis r
+		r c, a
+		\once \slurDashed h( a) g %20
+		\once \slurDashed d'!( a'') g
+		fis fis,4
+		e4.
+		d
+		c %25
+		r8 h a
+		g( d'') c~
+		c16 a' fis4
+		g r8
+		r16 a, a a a a %30
+		a h32 a g16 fis e d
+		c c' c c c c
+		c d32 c h16 a g fis
+		e e' e e e e
+		d8 c h %35
+		c a4
+		g16 d'\fE d d d d
+		d e32 d c16 h a g
+		fis fis' fis fis fis fis
+		fis g32 fis e16 d c h %40
+		a8 a' a,
+		g g'\p fis
+		e( d) c
+		h( a') g
+		g fis r %45
+		r fis dis
+		e4 fis8
+		e4 a,8
+		h fis'4~
+		fis8 e4 %50
+		d4.
+		c
+		r8 h e
+		fis( e) dis
+		e fis,4 %55
+		e r8
+		r16 fis fis fis fis fis
+		fis g32 fis e16 d c h
+		a a' a a a a
+		a h32 a g16 fis e d %60
+		c c' c c c c
+		h8( a) g
+		a fis4
+		e16 h'\f h h h h
+		h c32 h a16 g fis e %65
+		d d' d d d d
+		d e32 d c16 h a g
+		fis fis' fis fis fis fis
+		fis g32 fis e16 d cis h
+		ais8 ais4 %70
+		h8 g'[ fis] \bar "S-S" %71 finis
 	}
 }

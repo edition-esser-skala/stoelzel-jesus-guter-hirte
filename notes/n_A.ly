@@ -513,12 +513,106 @@ WennAuchDeinerAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 3/8 \autoBeamOff \tempoWennAuchDeiner
-		
+		R4.*14 %14
+		r8\fermata g' fis %15
+		e([ d)] c
+		h([ a')] g
+		g fis r
+		r e fis
+		g([ fis)] e %20
+		d!([ c')] h
+		a h fis
+		g8.([ a32 h)] a8
+		fis8.([ g32 a)] g8
+		e8.([ fis32 g)] fis8 %25
+		r g a
+		h([ g)] e
+		c' a4
+		g r8
+		r a a %30
+		a g4
+		c,8([ c')] c
+		c h4
+		e,8([ e')] e
+		d([ c)] h %35
+		c a4
+		g r8
+		R4.*4 %41
+		r8 h a
+		g([ fis)] e
+		d([ c')] h
+		h a r %45
+		r fis h
+		g([ a)] h~
+		h e,8. fis16
+		dis8 h' fis
+		g8.([ a32 h)] a8 %50
+		fis8.([ g32 a)] g8
+		e8.([ fis32 g)] fis8
+		r dis e
+		a([ g)] fis
+		g dis4 %55
+		e r8
+		r fis fis
+		fis e4
+		a,8([ a')] a
+		a g4 %60
+		c,8([ c')] c
+		h([ a)] g
+		a fis4
+		e r8 %64
+		R4.*7 \bar "S-S" %71 finis
 	}
 }
 
 WennAuchDeinerAltoLyrics = \lyricmode {
+	Wenn auch %15
+	dei -- ner
+	See -- len
+	Scha -- de
+	noch ſo
+	un -- aus -- %20
+	ſprech -- lich
+	wär, doch iſt
+	dei -- nes
+	Hir -- ten
+	Gna -- de %25
+	noch weit
+	un -- aus --
+	ſprech -- li --
+	cher,
+	doch iſt %30
+	dei -- nes
+	Hir -- ten
+	Gna -- de
+	noch weit
+	un -- aus -- %35
+	ſprech -- li --
+	cher.
 	
+	Wenn auch %42
+	dei -- ner
+	See -- len
+	Scha -- de %45
+	noch ſo
+	un -- aus --
+	ſprech -- lich
+	wär, doch iſt
+	dei -- nes %50
+	Hir -- ten
+	Gna -- de
+	noch weit
+	un -- aus --
+	ſprech -- li -- %55
+	cher,
+	doch iſt
+	dei -- nes
+	Hir -- ten
+	Gna -- de %60
+	noch weit
+	un -- aus --
+	ſprech -- li --
+	cher. %64 finis
 }
 
 % AltoNotes = {

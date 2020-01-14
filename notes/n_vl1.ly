@@ -603,7 +603,77 @@ WennAuchDeinerViolinoI = {
 	\relative c' {
 		\clef treble
 		\key e \minor \time 3/8 \tempoWennAuchDeiner
-		
+		r8 g''\fE fis \bar "S-S"
+		e( d) c
+		h( a') g
+		g fis r
+		r e fis %5
+		g( fis) e
+		d!( c') h
+		a h fis
+		g8.( a32 h) a8
+		fis8.( g32 a) g8 %10
+		e8.( fis32 g) fis8
+		r dis e
+		a( g) fis
+		g dis4
+		e8\fermata g\p fis %15
+		e( d) c
+		h( a') g
+		g fis r
+		r e fis
+		g( fis) e %20
+		d!( c') h
+		a h fis
+		g8.( a32 h) a8
+		fis8.( g32 a) g8
+		e8.( fis32 g) fis8 %25
+		r g a
+		h( g) e
+		c' a4
+		g8 h,4\trill
+		c8 c4\trill %30
+		d8 d4\trill
+		e8 e4\trill
+		fis8 fis4\trill
+		g8 g4\trill
+		a h8 %35
+		a fis4
+		g r8
+		r16 e\fE e e e e
+		e fis32 e d16 c h a
+		g g' g g g g %40
+		g a32 g fis16 e d c
+		h8 h'\p a
+		g( fis) e
+		d( c') h
+		h a r %45
+		r fis h
+		g a h~
+		h e,8. fis16
+		dis8 h' fis
+		g8.( a32 h) a8 %50
+		fis8.( g32 a) g8
+		e8.( fis32 g) fis8
+		r dis e
+		a( g) fis
+		g dis4 %55
+		e8 g,4\trill
+		a8 a4\trill
+		h8 h4\trill
+		c8 c4\trill
+		d8 d4\trill %60
+		e8 e4\trill
+		fis\trill g8
+		fis dis4
+		e r8
+		r16 c\f c c c c %65
+		c d32 c h16 a g fis
+		e e' e e e e
+		e fis32 e d16 c h a
+		g g' g g g g
+		g8 fis16 e d cis %70
+		d h g'8[ fis] \bar "S-S" %71 finis
 	}
 }
 

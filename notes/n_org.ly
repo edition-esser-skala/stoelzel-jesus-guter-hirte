@@ -2095,12 +2095,102 @@ WennAuchDeinerOrgano = {
 	\relative c {
 		\clef bass
 		\key e \minor \time 3/8 \tempoWennAuchDeiner
-		r8 e\fE dis
+		r8 e\fE dis \bar "S-S"
+		g( fis) e
+		dis4 e8
+		h' h, r
+		r c' a %5
+		h( a) g
+		fis4 g8
+		d4 d'8~
+		d c4~
+		c8 h4~ %10
+		h8 a4
+		r8 a g
+		fis4 h8
+		e, h' h,
+		e,4\fermata r8 %15
+		R4.*13 %28
+		r16 g'\p g g g g
+		g a32 g fis16 e d c %30
+		h h' h h h h
+		h c32 h a16 g fis e
+		d d' d d d d
+		d e32 d c16 h a g
+		fis4 g8 %35
+		c, d d,
+		g h4\trill\fE
+		c8 c4\trill
+		d8 d4\trill
+		e8 e4\trill %40
+		fis8 fis4\trill
+		g8 r r
+		R4.*13 %55
+		r16 e\pE e e e e
+		e fis32 e dis16 cis h a
+		g g' g g g g
+		g a32 g fis16 e d! c!
+		h h' h h h h %60
+		h c32 h a16 g fis e
+		dis4 e8
+		a, h4
+		e,8 g'4\trill\fE
+		a8 a4\trill %65
+		h8 h4\trill
+		c8 c4\trill
+		d8 d4\trill
+		e8 e4\trill
+		fis fis,8 %70
+		h, e[ dis] \bar "S-S" %71 finis
 	}
 }
 
 WennAuchDeinerBassFigures = \figuremode {
-	
+	r4 <6>8
+	q q q
+	q <5>4
+	<6 4>8 <5 _+>4
+	r4 <6>8 %5
+	q q q
+	q <5>4
+	r4.
+	<4 2>8 <\t \t> <6>
+	<4 2> <\t \t> <6> %10
+	<4 2> <\t \t> <6>
+	r <4+ 2> <6>
+	<7>4 <7 _+>8
+	r <_+>4
+	r4. %15
+	r4.*13 %28
+	r4.
+	<4 2>8 <\t \t>4 %30
+	<7>8 <6>4
+	<4 2>8 <\t \t>4
+	<7>8 <6>4
+	<4 2>8 <\t \t>4
+	<6>4. %35
+	q
+	r8 <6>4
+	<9 5>8 <8 6>4
+	<9 5>8 <8 6>4
+	<9 5>8 <8 6>4 %40
+	<9 5>8 <8 6>4
+	r4.*15 %56
+	<4 2>8 <\t \t>4
+	<7>8 <6>4
+	<4 2>8 <\t \t>4
+	<7>8 <6>4 %60
+	<4 2>8 <\t \t>4
+	<6>4.
+	q8 <_+>4
+	r8 <6>4
+	<9 5>8 <8 6>4 %65
+	<9 5>8 <8 6>4
+	<9 5>8 <8 6>4
+	<9 5>8 <8 6>4
+	<9 5>8 <8 6\\>4
+	<9 _+>8 <8 \t>4 %70
+	r4 <6>8 %71 finis
 }
 
 % Organo = {
