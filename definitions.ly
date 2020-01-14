@@ -347,6 +347,7 @@ tempoDiesWortWird = \tempoMarkup "Recitativo"
 	tempoDiesWortWirdC = \tempoMarkup "[Recitativo]"
 tempoWennAuchDeiner = \tempoMarkup "Aria"
 tempoWieKanIch = \tempoMarkup "Recitativo"
+tempoGuterHirteDieses = \tempoMarkup "Aria"
 
 
 

@@ -531,32 +531,76 @@
 % 			\midi { \tempo 4. = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.14" "R E C I T A T I V O" "Wie kan ich Ihm doch danckbar seyn?"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das danckbare" "Schäflein" "(Canto 2)" \vspace #.5 "Das Evangelium" "(Alto 1)" } }
+% 					\new Voice = "Soprano" { \dynamicUp \WieKanIchSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \WieKanIchSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WieKanIchOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WieKanIchBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.14" "R E C I T A T I V O" "Wie kan ich Ihm doch danckbar seyn?"
+			movement = \movementTitle "2.15" "A R I A" "Guter Hirte, dieſes Hertze geb ich dir zu eigen hin"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+							\GuterHirteDiesesViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+							\GuterHirteDiesesViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\GuterHirteDiesesViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das danckbare" "Schäflein" "(Canto 2)" \vspace #.5 "Das Evangelium" "(Alto 1)" } }
-					\new Voice = "Soprano" { \dynamicUp \WieKanIchSopranoNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das danckbare" "Schäflein" "(Canto 2)" } }
+					\new Voice = "Soprano" { \dynamicUp \GuterHirteDiesesSopranoNotes }
 				}
-				\new Lyrics \lyricsto Soprano \WieKanIchSopranoLyrics
+				\new Lyrics \lyricsto Soprano \GuterHirteDiesesSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\WieKanIchOrgano
+						\GuterHirteDiesesOrgano
 					}
 				>>
-				\new FiguredBass { \WieKanIchBassFigures }
+				\new FiguredBass { \GuterHirteDiesesBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

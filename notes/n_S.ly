@@ -593,6 +593,18 @@ WieKanIchSopranoLyrics = \lyricmode {
 	treu -- es Schäf -- lein nach. %6 finis
 }
 
+GuterHirteDiesesSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/8 \autoBeamOff \tempoGuterHirteDieses
+		
+	}
+}
+
+GuterHirteDiesesSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

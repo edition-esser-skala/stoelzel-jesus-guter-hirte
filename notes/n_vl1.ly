@@ -677,6 +677,14 @@ WennAuchDeinerViolinoI = {
 	}
 }
 
+GuterHirteDiesesViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/8 \tempoGuterHirteDieses
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

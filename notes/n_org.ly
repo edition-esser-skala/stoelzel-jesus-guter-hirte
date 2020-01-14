@@ -2215,6 +2215,18 @@ WieKanIchBassFigures = \figuremode {
 	<5>4 <6+ 4+ 2> <6 4>8 <5+ _+>4. %6 finis
 }
 
+GuterHirteDiesesOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 6/8 \tempoGuterHirteDieses
+		g4\pE g'8 fis4 g8
+	}
+}
+
+GuterHirteDiesesBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

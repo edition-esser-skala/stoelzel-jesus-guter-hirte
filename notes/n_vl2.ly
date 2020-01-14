@@ -422,3 +422,11 @@ WennAuchDeinerViolinoII = {
 		h8 g'[ fis] \bar "S-S" %71 finis
 	}
 }
+
+GuterHirteDiesesViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 6/8 \tempoGuterHirteDieses
+		
+	}
+}
