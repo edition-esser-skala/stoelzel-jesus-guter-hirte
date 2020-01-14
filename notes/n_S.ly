@@ -571,6 +571,18 @@ IchBittIchRufSopranoLyrics = \lyricmode {
 	für die du gnug ge -- than. %8 finis
 }
 
+WieKanIchSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \autoBeamOff \tempoWieKanIch
+		
+	}
+}
+
+WieKanIchSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -487,48 +487,76 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "2.13" "A R I A" "Wenn auch deiner Seelen Schade"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Flauto I" } }
+% 							\WennAuchDeinerViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Flauto II" } }
+% 							\WennAuchDeinerViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\WennAuchDeinerViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
+% 					\new Voice = "Alto" { \dynamicUp \WennAuchDeinerAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \WennAuchDeinerAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WennAuchDeinerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WennAuchDeinerBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "2.13" "A R I A" "Wenn auch deiner Seelen Schade"
+			movement = \movementTitle "2.14" "R E C I T A T I V O" "Wie kan ich Ihm doch danckbar seyn?"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #3
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Flauto I" } }
-							\WennAuchDeinerViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Flauto II" } }
-							\WennAuchDeinerViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\WennAuchDeinerViola
-					}
-				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
-					\new Voice = "Alto" { \dynamicUp \WennAuchDeinerAltoNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das danckbare" "Schäflein" "(Canto 2)" \vspace #.5 "Das Evangelium" "(Alto 1)" } }
+					\new Voice = "Soprano" { \dynamicUp \WieKanIchSopranoNotes }
 				}
-				\new Lyrics \lyricsto Alto \WennAuchDeinerAltoLyrics
+				\new Lyrics \lyricsto Soprano \WieKanIchSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\WennAuchDeinerOrgano
+						\WieKanIchOrgano
 					}
 				>>
-				\new FiguredBass { \WennAuchDeinerBassFigures }
+				\new FiguredBass { \WieKanIchBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

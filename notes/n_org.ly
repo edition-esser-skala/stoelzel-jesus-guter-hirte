@@ -2193,6 +2193,18 @@ WennAuchDeinerBassFigures = \figuremode {
 	r4 <6>8 %71 finis
 }
 
+WieKanIchOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoWieKanIch
+		
+	}
+}
+
+WieKanIchBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
