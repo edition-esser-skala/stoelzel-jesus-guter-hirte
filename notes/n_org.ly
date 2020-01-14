@@ -2220,11 +2220,95 @@ GuterHirteDiesesOrgano = {
 		\clef bass
 		\key g \major \time 6/8 \tempoGuterHirteDieses
 		g4\pE g'8 fis4 g8
+		e4 h8 c4 h8
+		a4 fis8 g4 fis'8
+		e4 cis8 d4.~\fE
+		d2.~ %5
+		d4. g,~
+		g2.~
+		g4. c8 c, c'
+		d g,-\critnote\pE[ g'] fis4 g8
+		e4 h8 c4 h8 %10
+		a4 fis8 g4 fis'8
+		e4 cis8 d4.~
+		d g,4 r8
+		r4. g'~
+		g c,4 r8 %15
+		r4. c'8\fE c, c'
+		d, c[\pE h] a4 g8
+		fis4 d8 g4 fis8
+		r e' cis d4 c8
+		h c d e fis g %20
+		c,4 r8 c4 r8
+		c4 r8 c4 r8
+		d c h r16 c d8 d,
+		g2.~\fE
+		g %25
+		c8 c' c, d4.~
+		d2.~
+		d4. g,8 g' g,
+		c[ r16 a g8] r16 c d8 d,
+		g4\fermata e8\pE fis4 e8 %30
+		dis'4 h8 e4 d?8
+		cis4 a8 d4 cis8
+		h4 h'8 a4 g8
+		fis4 ais8 h4 d,8
+		e4 fis8 h,4.~ %35
+		h e~
+		e a,~
+		a d
+		d, g4 g'8
+		d e fis h, fis' fis, %40
+		h4 h'8\fE ais4 h8
+		g4 fis8 e4 d!8
+		cis4 a8 d( e) fis \markDaCapo \bar "||" %43 finis
 	}
 }
 
 GuterHirteDiesesBassFigures = \figuremode {
-	
+	r4. <6>
+	q4 q8 r4 q8
+	r4 q8 r4 q8
+	r4 q8 r4.
+	<7!> <6 4> %5
+	<7>2.
+	<7!>4. <6 4>
+	<7!>2.
+	r4. <6>
+	q4 q8 r4 q8 %10
+	r4 q8 r4 q8
+	r4 q8 r4.
+	<7!>2.
+	r
+	<7!> %15
+	r
+	r8 <6> <6\\> r4 <6>8
+	q4. r4 q8
+	r4 q8 r4 q8
+	q4. r8 q4 %20
+	r2.
+	r
+	r8 <2> <6> r <6 4> <5 3>
+	r4. <7!>
+	<6 4> <7!> %25
+	r <_+>
+	<7> <6 4>
+	<7>2.
+	r8. <6> r16 q r4
+	r4 <6>8 <5 3>4 <\t \t>8 %30
+	<6>4 <7 _+>8 r4 <6>8
+	q4 <7 _+>8 r4 <2>8
+	<5>4 <6\\>8 <_+>4 <6>8
+	<_+>4 <6 5>8 r4 <6>8
+	<[6\\]>4 <[_+]>8 <_!>4. %35
+	<_+> <_!>
+	<_+> <_!>
+	<_+>2.
+	<[7!]>
+	<6>8 <6\\> <_+> r <[_+]>4 %40
+	r4. <6>
+	q4 <6\\>8 r4 <6>8
+	q4 <7 _+>8 r8 <7> <6 5!> %43 finis
 }
 
 % Organo = {

@@ -597,12 +597,79 @@ GuterHirteDiesesSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 6/8 \autoBeamOff \tempoGuterHirteDieses
-		
+		r8 h' c d([ c)] h
+		r c d e([ fis)] g
+		r c, d h([ c)] d
+		r g, a fis4 r8
+		R2.*4 %8
+		r8 h c d([ c)] h
+		r c d e([ fis)] g %10
+		r c, d h([ c)] d
+		r g, a fis d'8. c!32[( h)]
+		\tuplet 3/2 8 { c16[ h a] } c8.[ h32 a] h8 g r
+		r4. r8 g'8. f32([ e)]
+		\tuplet 3/2 8 { f16[ e d] } f8.[ e32 d] e8 c r %15
+		R2.
+		r8 a h c([ d)] e
+		r d c h([ c)] d
+		r g, a fis([ g)] a
+		d([ g,)] fis g c h %20
+		e16([ f) e( d) c( h)] c([ d) c( h) a( g)]
+		e'([ f) e( d) c( h)] c([ d) c( h) a( g)]
+		fis8 e16([ d)] d'8 r16 e h8 a
+		g4 r8 r4.
+		R2.*5 %29
+		r8\fermata h c a([ h)] c %30
+		r h a g([ a)] h
+		r a g fis([ g)] a
+		r d, d' cis([ d)] e
+		r fis e d([ cis)] h
+		r cis ais h4 r8 %35
+		r dis8. dis16 e4 r8
+		r16 e, gis8. gis16 a([ gis)] a8 r
+		r cis8. cis16 d([ cis)] d8 r
+		r fis,8. fis16 g([ fis)] g8 h~
+		h cis fis, r16 d' ais8. h16 %40
+		h4 r8 r4.
+		R2.*2 \markDaCapo \bar "||" %43 finis
 	}
 }
 
 GuterHirteDiesesSopranoLyrics = \lyricmode {
+	Gu -- ter Hir -- te,
+	die -- ſes Hert -- ze
+	geb ich dir __ zu
+	ei -- gen hin.
 	
+	Gu -- ter Hir -- te, %9
+	die -- ſes Hert -- ze %10
+	geb ich dir __ zu
+	ei -- gen hin, dir zu
+	ei -- _ _ gen,
+	dir zu
+	ei -- _ _ gen, %15
+	
+	gu -- ter Hir -- te,
+	die -- ſes Hert -- ze
+	geb ich dir __ zu
+	ei -- gen hin, dir zu %20
+	ei -- _
+	_ _
+	_ gen, dir zu ei -- gen
+	hin.
+	
+	Gib, daß ich __ zu %30
+	al -- len Zei -- ten,
+	in den Freu -- den,
+	in den Lei -- den,
+	im -- mer dein __ Ge --
+	fehr -- te bin, %35
+	gib, daß ich
+	zu al -- len Zei -- ten,
+	in den Freu -- den,
+	in den Lei -- den, im --
+	mer dein Ge -- fehr -- te %40
+	bin. %41 finis
 }
 
 % SopranoNotes = {

@@ -681,7 +681,49 @@ GuterHirteDiesesViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 6/8 \tempoGuterHirteDieses
-		
+		r8 h'\p c d( c) h
+		r c d e( fis) g
+		r c, d h( c) d
+		r g, a fis16 d r8 r
+		r4. r8 d'8.(\fE c32 h) %5
+		\tuplet 3/2 8 { c16[ h a] } c8.( h32 a) \tuplet 3/2 8 { h16[ a g] } g'8.( f32 e)
+		\tuplet 3/2 8 { f16[ e d] } f8.( e32 d) \tuplet 3/2 8 { e16[ d c] } e8.( d32 c)
+		d16[ h] d8.( c32 h) c16( d) c( h) a( g)
+		fis! d h'8[\p c] d( c) h
+		r c d e( fis) g %10
+		r c, d h( c) d
+		r g, a fis r r
+		r4. r8 d'8.(\f c32 h)
+		\tuplet 3/2 8 { c16[ h a] } c8.( h32 a) h8 g r
+		r4. r8 g'8.(\f f32 e) %15
+		\tuplet 3/2 8 { f16[ e d] } f8.( e32 d) e16( f) e( d) c( h)
+		a8 a[\p h] c( d) e
+		r d c h( c) d
+		r g, a fis( g) a
+		d( g,) fis g c h %20
+		e16( f) e( d) c( h) c( d) c( h) a( g)
+		e'( f) e( d) c( h) c( d) c( h) a( g)
+		fis4 g8 r4.
+		r8 g'8.(\f f32 e) \tuplet 3/2 8 { f16[ e d] } f8.( e32 d)
+		e16[ c] e8.( d32 c) d16[ h] d8.( c32 h) %25
+		c16( d) c( h) a( g) fis!8 d'8.([ c32 h)]
+		\tuplet 3/2 8 { c16[ h a] } c8.( h32 a) h16[ g] h8.( a32 g)
+		\tuplet 3/2 8 { a16[ g fis] } a8.( g32 fis) g16( a) g( fis) e( d)
+		c8[ r16 fis g8] r16 a' fis8. g16
+		g8\fermata h,[\p c] a( h) c %30
+		r h a g( a) h
+		r a g fis( g) a
+		r d, d' cis( d) e
+		r fis e d( cis) h
+		r cis ais h h'8.([ a?32 g)] %35
+		\tuplet 3/2 8 { a16[ g fis] } a8.( g32 fis) g16 e g4(
+		gis4.)\trillE a8 a8.([ g?32 fis)]
+		\tuplet 3/2 8 { g16[ fis e] } g8.( fis32 e) \tuplet 3/2 8 { fis16 e d } fis4~
+		fis4.\trill g8 g, r
+		R2. %40
+		r8 d'\fE e fis( e) d
+		r e fis g( a) h
+		r a g fis( g) a \markDaCapo \bar "||" %43 finis
 	}
 }
 

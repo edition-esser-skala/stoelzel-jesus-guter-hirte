@@ -513,8 +513,50 @@ WennAuchDeinerViola = {
 
 GuterHirteDiesesViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \major \time 6/8 \tempoGuterHirteDieses
-		
+		g4\p g8 a'4 g8
+		r g g g4 d8
+		r e fis d4 a'8
+		r h, a a r r
+		r16 a'\f fis8 d g g, r %5
+		r16 a' fis8 d g g, r
+		r16 d'' h8 g c c, r
+		r16 d' h8 g c4 e,8
+		a, g4\p a' g8
+		r g g g4 d8 %10
+		r e d d4 a8
+		r h a a r r
+		r16 a' fis8 d g g, r
+		R2.
+		r16 d''16 h8 g c c, r %15
+		r4. g'8\fE e4
+		a,8 e'[\p gis] a4 h8
+		r a fis d4 a'8
+		r h, a a4 e'8
+		d e a, g a' g %20
+		g4 r8 g4 r8
+		g4 r8 g4 r8
+		d4 d8 r4.
+		r r16 d'\f h8 g
+		c c, r r16 d h8 g %25
+		g4 e'8 a,4 r8
+		r16 a' fis8 d g g, r
+		r16 a' fis8 d d4 d8
+		g,[ r16 a' d,8] r16 e d8 d
+		h\fermata g'4\p a, e'8 %30
+		r fis dis h4 fis'8
+		r e cis a4 d8
+		r fis gis a4 h8
+		r ais fis fis4 fis8
+		r g fis d h4 %35
+		h2.~
+		h4. a~
+		a2.~
+		a4. g4 r8
+		R2. %40
+		r8 h'4\fE cis h8
+		r h a g4 fis8
+		r e cis d4 d8 \markDaCapo \bar "||" %43 finid
 	}
 }
