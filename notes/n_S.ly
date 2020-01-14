@@ -575,12 +575,22 @@ WieKanIchSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 4/4 \autoBeamOff \tempoWieKanIch
-		
+		r8 d'^\DasDanckbare h g fis a c h
+		g4 r8 g^\Evangelium e fis g fis
+		fis4 r8 d a' a c h
+		g4 r16 g a h a4 r8 d,!
+		fis a c h h4 r16 h h h %5
+		g8 e ais h fis4 r\fermata \bar "|." %6 finis
 	}
 }
 
 WieKanIchSopranoLyrics = \lyricmode {
-	
+	Wie kan ich Ihm doch danck -- bar
+	seyn? Be -- reu -- e dei -- ne
+	Schuld, er -- grei -- fe ſei -- ne
+	Huld, und folg Ihm ſtets in
+	Kreutz und Un -- ge -- mach als ein ge -- %5
+	treu -- es Schäf -- lein nach. %6 finis
 }
 
 % SopranoNotes = {

@@ -2197,12 +2197,22 @@ WieKanIchOrgano = {
 	\relative c {
 		\clef bass
 		\key g \major \time 4/4 \tempoWieKanIch
-		
+		g2 a
+		h cis
+		d dis
+		e fis~
+		fis g %5
+		e fis4 h,\fermata \bar "|." %6 finis
 	}
 }
 
 WieKanIchBassFigures = \figuremode {
-	
+	r2 <6>
+	q q
+	r <6>
+	r <6!>
+	r1 %5
+	<5>4 <6+ 4+ 2> <6 4>8 <5+ _+>4. %6 finis
 }
 
 % Organo = {

@@ -281,6 +281,7 @@ Evangelium = \markup { \remark "Das Evangelium" }
 Evangeliste = \markup { \remark "Der Evangeliſte" }
 Jesus = \markup { \remark "JESUS, der gute Hirte" }
 DasErschrockene = \markup { \remark "Das erſchrockene Schäflein" }
+DasDanckbare = \markup { \remark "Das danckbare Schäflein" }
 
 
 
