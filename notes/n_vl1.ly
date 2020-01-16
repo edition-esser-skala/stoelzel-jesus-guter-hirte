@@ -745,6 +745,14 @@ KaumGehtDerViolinoI = {
 	}
 }
 
+AchErhoereDochViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 6/4 \tempoAchErhoereDoch
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

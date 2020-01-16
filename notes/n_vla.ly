@@ -578,3 +578,11 @@ KaumGehtDerViola = {
 		f4 r r2\fermata \bar "|." %27 finis
 	}
 }
+
+AchErhoereDochViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 6/4 \tempoAchErhoereDoch
+		
+	}
+}

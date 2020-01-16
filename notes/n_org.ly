@@ -2402,6 +2402,18 @@ KaumGehtDerBassFigures = \figuremode {
 	r1 %27 finis
 }
 
+AchErhoereDochOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 6/4 \tempoAchErhoereDoch
+		b4\fE d es f g a
+	}
+}
+
+AchErhoereDochBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

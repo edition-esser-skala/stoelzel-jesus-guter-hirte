@@ -699,6 +699,18 @@ MeinHirtIchSopranoLyrics = \lyricmode {
 	dir zu Eh -- ren an -- zu -- le -- gen. %8 finis
 }
 
+AchErhoereDochSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 6/4 \autoBeamOff \tempoAchErhoereDoch
+		
+	}
+}
+
+AchErhoereDochSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -352,6 +352,7 @@ tempoMeinHirtIch = \tempoMarkup "Choral"
 
 tempoKaumGehtDer = \tempoMarkup "Recitativo"
 	tempoKaumGehtDerB = \tempoMarkup "Accompagnato"
+tempoAchErhoereDoch = \tempoMarkup "Aria"
 
 
 

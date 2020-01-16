@@ -19,9 +19,53 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.1" "R E C I T A T I V O" "Kaum geht der Sonnen Licht"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\KaumGehtDerViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\KaumGehtDerViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\KaumGehtDerViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "Das erſchrockene" "Schäflein" "(Canto 1)" } }
+% 					\new Voice = "Tenore" { \dynamicUp \KaumGehtDerTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \KaumGehtDerTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\KaumGehtDerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \KaumGehtDerBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.1" "R E C I T A T I V O" "Kaum geht der Sonnen Licht"
+			movement = \movementTitle "3.2" "A R I A" "Ach erhöre doch mein Sehnen"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #35
@@ -33,31 +77,31 @@
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\KaumGehtDerViolinoI
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+							\AchErhoereDochViolinoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\KaumGehtDerViolinoII
+							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+							\AchErhoereDochViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\KaumGehtDerViola
+						\AchErhoereDochViola
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "Das erſchrockene" "Schäflein" "(Canto 1)" } }
-					\new Voice = "Tenore" { \dynamicUp \KaumGehtDerTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene" "Schäflein" "(Canto 1)" } }
+					\new Voice = "Soprano" { \dynamicUp \AchErhoereDochSopranoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \KaumGehtDerTenoreLyrics
+				\new Lyrics \lyricsto Soprano \AchErhoereDochSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\KaumGehtDerOrgano
+						\AchErhoereDochOrgano
 					}
 				>>
-				\new FiguredBass { \KaumGehtDerBassFigures }
+				\new FiguredBass { \AchErhoereDochBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }
