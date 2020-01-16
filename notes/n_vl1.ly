@@ -727,6 +727,14 @@ GuterHirteDiesesViolinoI = {
 	}
 }
 
+KaumGehtDerViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoKaumGehtDer
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

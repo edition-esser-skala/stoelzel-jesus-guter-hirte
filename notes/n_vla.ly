@@ -560,3 +560,11 @@ GuterHirteDiesesViola = {
 		r e cis d4 d8 \markDaCapo \bar "||" %43 finid
 	}
 }
+
+KaumGehtDerViola = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoKaumGehtDer
+		
+	}
+}

@@ -2338,6 +2338,18 @@ MeinHirtIchBassFigures = \figuremode {
 	r2 <6> q4 <\t> r2 r <6>4 <\t> <4>2 <3> r1 %8 finis
 }
 
+KaumGehtDerOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoKaumGehtDer
+		f,1
+	}
+}
+
+KaumGehtDerBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

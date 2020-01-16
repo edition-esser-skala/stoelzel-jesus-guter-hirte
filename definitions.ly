@@ -350,6 +350,8 @@ tempoWieKanIch = \tempoMarkup "Recitativo"
 tempoGuterHirteDieses = \tempoMarkup "Aria"
 tempoMeinHirtIch = \tempoMarkup "Choral"
 
+tempoKaumGehtDer = \tempoMarkup "Recitativo"
+
 
 
 

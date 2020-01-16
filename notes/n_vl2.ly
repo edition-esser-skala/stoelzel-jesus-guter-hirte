@@ -472,3 +472,11 @@ GuterHirteDiesesViolinoII = {
 		r a g fis( g) a \markDaCapo \bar "||" %43 finis
 	}
 }
+
+KaumGehtDerViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoKaumGehtDer
+		
+	}
+}

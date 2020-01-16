@@ -896,6 +896,18 @@ MeinHirtIchTenoreLyrics = \lyricmode {
 	dir zu Eh -- ren an -- zu -- le -- gen. %8 finis
 }
 
+KaumGehtDerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \autoBeamOff \tempoKaumGehtDer
+		
+	}
+}
+
+KaumGehtDerTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
