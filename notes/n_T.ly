@@ -960,6 +960,18 @@ KaumGehtDerTenoreLyrics = \lyricmode {
 	bracht. %27 finis
 }
 
+DerHerrDerTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \time 4/4 \autoBeamOff \tempoDerHerrDer
+		
+	}
+}
+
+DerHerrDerTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

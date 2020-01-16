@@ -2494,6 +2494,18 @@ AchErhoereDochBassFigures = \figuremode {
 	r1. %41 finis
 }
 
+DerHerrDerOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 4/4 \tempoDerHerrDer
+		g1
+	}
+}
+
+DerHerrDerBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -63,49 +63,77 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.2" "A R I A" "Ach erhöre doch mein Sehnen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 			page-count = #6
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+% 							\AchErhoereDochViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
+% 							\AchErhoereDochViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\AchErhoereDochViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene" "Schäflein" "(Canto 1)" } }
+% 					\new Voice = "Soprano" { \dynamicUp \AchErhoereDochSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \AchErhoereDochSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\AchErhoereDochOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \AchErhoereDochBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2. = 50 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.2" "A R I A" "Ach erhöre doch mein Sehnen"
+			movement = \movementTitle "3.3" "R E C I T A T I V O" "Der HErr, der ſchon zuvor geſagt"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-			page-count = #6
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
-							\AchErhoereDochViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino II" "Oboe II" } }
-							\AchErhoereDochViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\AchErhoereDochViola
-					}
-				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene" "Schäflein" "(Canto 1)" } }
-					\new Voice = "Soprano" { \dynamicUp \AchErhoereDochSopranoNotes }
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \DerHerrDerTenoreNotes }
 				}
-				\new Lyrics \lyricsto Soprano \AchErhoereDochSopranoLyrics
+				\new Lyrics \lyricsto Tenore \DerHerrDerTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\AchErhoereDochOrgano
+						\DerHerrDerOrgano
 					}
 				>>
-				\new FiguredBass { \AchErhoereDochBassFigures }
+				\new FiguredBass { \DerHerrDerBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2. = 50 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
