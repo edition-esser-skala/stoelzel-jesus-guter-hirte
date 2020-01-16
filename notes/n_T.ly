@@ -869,6 +869,33 @@ DiesWortWirdTenoreLyrics = \lyricmode {
 	al -- les dir ge -- ſchen -- ket. %34 finis
 }
 
+MeinHirtIchTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 5/1 \autoBeamOff \tempoMeinHirtIch
+			\set Staff.timeSignatureFraction = 4/4
+		e2 d c a g d' d2.( c4) h1\fermata
+		\time 4/1 c2 g c c c h4( d) e1\fermata
+		\time 5/1 e2 d c a g d' d2.( c4) h1\fermata
+		\time 4/1 c2 g c c c h4( d) e1\fermata
+		g2 f e4( d) c2 c h c1\fermata %5
+		e2 e f e d4( h) c2 h1\fermata
+		\time 5/1 c2 d c c f f g1 f\fermata
+		g2 g c, c h c c( h4 d) e1\fermata \bar "|." %8 finis
+	}
+}
+
+MeinHirtIchTenoreLyrics = \lyricmode {
+	Mein Hirt, ich bin wohl zu -- frie -- den,
+	wenn du mich nicht von dir __ ſtößt.
+	Bleib ich von dir un -- ge -- ſchie -- den,
+	ey, ſo bin ich gnug ge -- tröſt.
+	Laß mich ſeyn __ dein Ei -- gen -- thum, %5
+	ich ver -- ſprech hin -- wie -- de -- rum,
+	hier und dort all mein Ver -- mö -- gen
+	dir zu Eh -- ren an -- zu -- le -- gen. %8 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

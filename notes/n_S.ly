@@ -672,6 +672,33 @@ GuterHirteDiesesSopranoLyrics = \lyricmode {
 	bin. %41 finis
 }
 
+MeinHirtIchSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 5/1 \autoBeamOff \tempoMeinHirtIch
+			\set Staff.timeSignatureFraction = 4/4
+		c'2 d e d c h a1 g\fermata
+		\time 4/1 c2 d e f e d c1\fermata
+		\time 5/1 c2 d e d c h a1 g\fermata
+		\time 4/1 c2 d e f e d c1\fermata
+		\time 4/1 e2 f g f e d e1\fermata %5
+		g2 g a g f e d1\fermata
+		\time 5/1 e2 g f e c d e1 c\fermata
+		e2 g f e d e d1 c\fermata \bar "|." %8 finis
+	}
+}
+
+MeinHirtIchSopranoLyrics = \lyricmode {
+	Mein Hirt, ich bin wohl zu -- frie -- den,
+	wenn du mich nicht von dir ſtößt.
+	Bleib ich von dir un -- ge -- ſchie -- den,
+	ey, ſo bin ich gnug ge -- tröſt.
+	Laß mich ſeyn dein Ei -- gen -- thum, %5
+	ich ver -- ſprech hin -- wie -- de -- rum,
+	hier und dort all mein Ver -- mö -- gen
+	dir zu Eh -- ren an -- zu -- le -- gen. %8 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

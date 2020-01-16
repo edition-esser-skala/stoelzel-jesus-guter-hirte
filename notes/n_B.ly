@@ -538,6 +538,33 @@ IchBittIchRufBassoLyrics = \lyricmode {
 	für die __ du gnug ge -- than. %8 finis
 }
 
+MeinHirtIchBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 5/1 \autoBeamOff \tempoMeinHirtIch
+			\set Staff.timeSignatureFraction = 4/4
+		c2 h c d e4( fis) g2 d1 g,\fermata
+		\time 4/1 e'2 h c a4( h) c2 g c1\fermata
+		\time 5/1 c2 h c d e4( fis) g2 d1 g,\fermata
+		\time 4/1 e'2 h c a4( h) c2 g c1\fermata
+		c'2 a e f c g'2 c,1\fermata %5
+		c'2 c, a4( h) c2 d e4( f) g1\fermata
+		\time 5/1 c2 h a4( h) c2 f,4( e) d2 c1 f\fermata
+		c2 h a4( h) c2 g' e4( f) g1 c,\fermata \bar "|." %8 finis
+	}
+}
+
+MeinHirtIchBassoLyrics = \lyricmode {
+	Mein Hirt, ich bin wohl zu -- frie -- den,
+	wenn du mich nicht von dir ſtößt.
+	Bleib ich von dir un -- ge -- ſchie -- den,
+	ey, ſo bin ich __ gnug ge -- tröſt.
+	Laß mich ſeyn dein Ei -- gen -- thum, %5
+	ich ver -- ſprech hin -- wie -- de -- rum,
+	hier und dort all mein Ver -- mö -- gen
+	dir zu Eh -- ren an -- zu -- le -- gen. %8 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

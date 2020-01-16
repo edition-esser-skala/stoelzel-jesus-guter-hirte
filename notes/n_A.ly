@@ -615,6 +615,33 @@ WennAuchDeinerAltoLyrics = \lyricmode {
 	cher. %64 finis
 }
 
+MeinHirtIchAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 5/1 \autoBeamOff \tempoMeinHirtIch
+			\set Staff.timeSignatureFraction = 4/4
+		g'2 g g fis g g g( fis4 e) d1\fermata
+		\time 4/1 g2 g g a g g g1\fermata
+		\time 5/1 g2 g g fis g g g( fis4 e) d1\fermata
+		\time 4/1 g2 g g a g g g1\fermata
+		c2 c c a g g g1\fermata %5
+		c2 c c c a g g1\fermata
+		\time 5/1 g2 g a g a h c1 a\fermata
+		c2 d4( g,) a2 g g g g1 g\fermata \bar "|." %8 finis
+	}
+}
+
+MeinHirtIchAltoLyrics = \lyricmode {
+	Mein Hirt, ich bin wohl zu -- frie -- den,
+	wenn du mich nicht von dir ſtößt.
+	Bleib ich von dir un -- ge -- ſchie -- den,
+	ey, ſo bin ich gnug ge -- tröſt.
+	Laß mich ſeyn dein Ei -- gen -- thum, %5
+	ich ver -- ſprech hin -- wie -- de -- rum,
+	hier und dort all mein Ver -- mö -- gen
+	dir zu __ Eh -- ren an -- zu -- le -- gen. %8 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
