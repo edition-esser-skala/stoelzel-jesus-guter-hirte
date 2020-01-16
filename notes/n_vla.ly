@@ -563,8 +563,18 @@ GuterHirteDiesesViola = {
 
 KaumGehtDerViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 4/4 \tempoKaumGehtDer
-		
+		R1*17 %17
+		r2 \tempoKaumGehtDerB d'
+		a1~
+		a2 b~ %20
+		b a~
+		a b
+		g e!~
+		e a,8 a' a a
+		g b b b a a a a %25
+		h4 r a,8 r a r
+		f4 r r2\fermata \bar "|." %27 finis
 	}
 }

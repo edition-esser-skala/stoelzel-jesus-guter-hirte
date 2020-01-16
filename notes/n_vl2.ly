@@ -477,6 +477,16 @@ KaumGehtDerViolinoII = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoKaumGehtDer
-		
+		R1*17 %17
+		r2 \tempoKaumGehtDerB g''
+		c,1~
+		c2 d %20
+		es c~
+		c d
+		e! cis~
+		cis d8 d d d
+		es es es es cis cis cis cis %25
+		d4 r d,8 r cis r
+		a4 r r2\fermata \bar "|." %27 finis
 	}
 }

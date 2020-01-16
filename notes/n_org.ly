@@ -2343,11 +2343,63 @@ KaumGehtDerOrgano = {
 		\clef bass
 		\key f \major \time 4/4 \tempoKaumGehtDer
 		f,1
+		g
+		a2 h~
+		h c4 f
+		g c, cis2 %5
+		e d
+		g, a~
+		a b
+		a1
+		g2 gis %10
+		a1~
+		a
+		d2 a~
+		a1~
+		a2 b %15
+		fis g
+		c1
+		d4 d, \tempoKaumGehtDerB g2~
+		g1~
+		g %20
+		es~
+		es2 d
+		g1~
+		g2 f8 f f f
+		g g g g g g g g %25
+		gis4 r a8 r a r
+		d4 r r2\fermata \bar "|." %27 finis
 	}
 }
 
 KaumGehtDerBassFigures = \figuremode {
-	
+	r1
+	<6>
+	q2 q
+	<5>1
+	<_!>2 <6> %5
+	<6\\>1
+	<7>4 <6-> <6 5->2
+	r1
+	<6\\>
+	r2 <7! _!> %10
+	<_+>1
+	<7 _+>
+	r2 <6 _!>
+	<\t \t> <5- \t>
+	r1 %15
+	<7->4. <6>8 r2
+	<_->2. <4+ 2>4
+	<6 4> <5 _+> r2
+	<7+ 6- 2 4>1
+	<\t \t \t \t>2 <8 3> %20
+	<5 3> <4 2!>
+	r <6>
+	<6! 3>2 <\t 4+ 2>
+	r2 <6>
+	<6-> <6! 4+ 2> %25
+	<7 _!> <6 4>4 <5 _+>
+	r1 %27 finis
 }
 
 % Organo = {

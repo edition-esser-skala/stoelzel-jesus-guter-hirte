@@ -900,12 +900,64 @@ KaumGehtDerTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key f \major \time 4/4 \autoBeamOff \tempoKaumGehtDer
-		
+		r4 f^\Evangeliste c8 c f e
+		e4 r8 e g g g a
+		f4 r16 f a f d8. d16 d8 e
+		f4 r16 f e d e8 c a c
+		g4 r r8 e' e e %5
+		cis8. cis16 d8 e f f r f
+		f8. es16 es8 es c c r16 c f c
+		a8 c es d d4 r8 d
+		fis8. fis16 g8 a c, c es d
+		b d d d d d f d %10
+		cis cis r a e' e e f
+		g4 r8 g g cis, d e
+		f f r16 f f f f8 c c a
+		f f r16 f' f g es4 r16 es g es
+		c8 d es d d d r d %15
+		es es es d b4 r16 g' g d
+		es8. es16 es4 r8 c fis g
+		d4 r \clef treble \tempoKaumGehtDerB r8^\DasErschrockene d' g g,
+		c c c4 r8 c c d
+		es c d a b b r16 d d d %20
+		g8 g es g a,4 r8 f
+		a c es d b b r16 f' f f
+		e8 e g e cis4 r8 a
+		e' e a a, d4 r8 f
+		es es g es cis4 r8 a %25
+		d8. d16 cis8 d a8 r r r16 a
+		d,4 r r2\fermata \bar "|." %27 finis
 	}
 }
 
 KaumGehtDerTenoreLyrics = \lyricmode {
-	
+	Kaum geht der Son -- nen
+	Licht am Him -- mel wie -- der
+	auf, ſo bringt der mord -- be -- gier -- ge
+	Hauf den HErrn vors welt -- li -- che Ge --
+	richt. In -- de -- ßen %5
+	treibt mit ſcharf -- fen Bi -- ßen das
+	ängſt -- li -- che Ge -- wi -- ßen den ſchänd -- li --
+	chen Ver -- rä -- ther an, zu
+	ſa -- gen: daß er Un -- recht hab ge --
+	than, weil er un -- ſchul -- dig Blut ver -- %10
+	ra -- then. Er hofft ſich zwar, der
+	Angſt im Tem -- pel zu ent --
+	la -- den, [und] gibt die drey -- ßig Sil -- ber --
+	lin -- ge, ſo er zum Lohn der Un -- ge --
+	rech -- tig -- keit em -- pfin -- ge, ver -- %15
+	zweiff -- lungs -- voll zu -- rück. Doch drauf er --
+	henckt er ſich an ei -- nen
+	Strick. Ver -- damm -- ter
+	Sa -- tans Griff, wo -- durch er
+	vie -- le See -- len fäl -- let! Wenn er die %20
+	Sün -- den vor der That als
+	Staub und Sand vor -- ſtel -- let, doch, wenn man
+	ſie be -- gan -- gen hat, zu
+	gro -- ßen Fel -- ſen macht, die
+	offt dem Glau -- bens Schiff be -- %25
+	trübt den Un -- ter -- gang ge --
+	bracht. %27 finis
 }
 
 % TenoreNotes = {
