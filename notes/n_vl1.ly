@@ -749,7 +749,46 @@ AchErhoereDochViolinoI = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 6/4 \tempoAchErhoereDoch
-		
+		r4 f'\fE g a,4. g8 f4
+		es' d2 c4 \tuplet 3/2 4 { a8( b c) b([ c d)] }
+		c4 \tuplet 3/2 4 { a8( b c) b([ c d)] } c4 \tuplet 3/2 4 { c8( d es) d8[( es f]) }
+		es2. d
+		c b %5
+		a~ a8 f16 g a8 b c d
+		es4. d8 c b a f16 g a8 b c d
+		es4 r8 c d4 es c4. b8
+		b2 r4 r2*3/2
+		r r4 \tuplet 3/2 4 { a8( b c) b([ c d)] } %10
+		c4 r r r \tuplet 3/2 4 { a8( b c) b([ c d)] }
+		c4 r r r2*3/2
+		r r4 f\p g
+		a,4. g8 f4 r g' as
+		h,4. a8 g4 f' es2\trill %15
+		d4 \tuplet 3/2 4 { es8( f g) c,([ d es)] a,( b c) } f,2
+		R1.*2
+		r4 f'\fE g a,4. g8 f4
+		es' d2 c4 \tuplet 3/2 4 { a8( b c) b([ c d)] } %20
+		c4 \tuplet 3/2 4 { a8( b c) b([ c d)] } c4 \tuplet 3/2 4 { a8( b c) b8[( c d]) }
+		c4 c'2~ c4 b2~
+		b4 a2~ a4 g2~
+		g8 f,16 g a8 b c d es4. d8 c b
+		a f16 g a8 b c d es4. d8 c b %25
+		a4 r8 a' b4 c, a4. b8
+		b4\fermata b\p b' a a,2
+		g4 g'4. f8~ f4 b,4. c8
+		a f16 g a8 b c d es4. d8 c b
+		a f16 g a8 b c d es4 g8( es) es( d) %30
+		d b16 c d8 es f g as4. g8 f es
+		d b16 c d8 es f g as4 \slurDashed c8( as) as( g) \slurSolid
+		g4 r r r2*3/2
+		d4 c2\trill h4. c8 d4
+		h c2 h4 \tuplet 3/2 4 { h8( c d) c([ d es)] } %35
+		d4 r r r2*3/2
+		R1.
+		a!4 g2 fis4. g8 a4
+		fis g2 fis4 \tuplet 3/2 4 { fis8( g a) g([ a b)] }
+		a4 r r r2*3/2 %40
+		R1. \markDaCapo \bar "||" %41 finis
 	}
 }
 

@@ -703,12 +703,65 @@ AchErhoereDochSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 6/4 \autoBeamOff \tempoAchErhoereDoch
-		
+		R1.*8 %8
+		r4 f' g a,4. g8 f4
+		es' d2\trill c4 r r %10
+		r f b, \tuplet 3/2 4 { a8([ b c)] } f,4 r
+		r \tuplet 3/2 4 { c'8([ d es)] d([ es f)] } es([ d)] es2
+		r4 \tuplet 3/2 4 { c8([ d es)] d([ es f)] } a,4 f' g
+		a,4. g8 f4 r g' as
+		h,4. a8 g4 f' es2\trill %15
+		d4 \tuplet 3/2 4 { es8([ f g)] c,([ d es)] a,([ b c)] } f,2
+		r4 b g' es2\trill d4~
+		d c2 f,8 es' c4. b8
+		b2 r4 r2*3/2
+		R1.*7 %26
+		r4\fermata d g g f2
+		f4 es!2 d4 r r
+		r c c c( a) f
+		c'( a) f f2\trill r4 %30
+		r f' f f( d) b
+		f'( d) b b2\trill r4
+		r g' as h,4. a?8 g4
+		f' es2 d4. es8 f4
+		g es2 d4 r r %35
+		r g8 h, c4. f8 d4. c8
+		c4 d es fis,4. e8 d4
+		c' b2 a4. b8 c4
+		d b2 a4 r r
+		r d8 fis, g4. c8 a4. g8 %40
+		g2 r4 r2*3/2 \markDaCapo \bar "||" %41 finis
 	}
 }
 
 AchErhoereDochSopranoLyrics = \lyricmode {
+	Ach er -- hö -- re doch %9
+	mein Seh -- nen, %10
+	du mein Hir -- te,
+	du __ mein Hir -- te,
+	HErr und Gott, ach er --
+	hö -- re doch, ach er --
+	hö -- re doch mein Seh -- %15
+	nen, du __ mein Hir -- te,
+	du mein Hir -- te, __
+	mein Hir -- te, HErr und
+	Gott!
 	
+	Wenn auch mei -- nes %27
+	Glau -- bens Schiff
+	auf der -- glei -- chen
+	Ber -- ge lief, %30
+	auf der -- glei -- chen
+	Ber -- ge lief,
+	ach, ſo mach durch Buß
+	und Thrä -- nen, durch Buß
+	und Thrä -- nen %35
+	es in Gna -- den wie -- der
+	flott, o! ſo mach in Buß
+	und Thrä -- nen, in Buß
+	und Thrä -- nen
+	es in Gna -- den wie -- der %40
+	flott. %41 finis
 }
 
 % SopranoNotes = {

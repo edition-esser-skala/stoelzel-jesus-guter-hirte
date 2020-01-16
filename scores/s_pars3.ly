@@ -71,6 +71,7 @@
 			system-system-spacing.basic-distance = #35
 			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
+			page-count = #6
 		}
 		\score {
 			<<
@@ -104,7 +105,7 @@
 				\new FiguredBass { \AchErhoereDochBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2. = 50 }
 		}
 	}
 }

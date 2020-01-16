@@ -2407,11 +2407,91 @@ AchErhoereDochOrgano = {
 		\clef bass
 		\key b \major \time 6/4 \tempoAchErhoereDoch
 		b4\fE d es f g a
+		f b b, f' r r
+		f, r r f' r r
+		r8 c16 d es8 f g a b b,16 c d8 es f g
+		a a,16 b c8 d es f g g,16 a b8 c d e %5
+		f2.~ f~
+		f~ f~
+		f4 r8 f b,4 es f f,
+		b d\p es f g a
+		f b b, f' r r %10
+		f, d' es f r r
+		f, es' h c c' b?
+		a2 b4 f d es
+		f2 r4 r es f
+		g2. g,~ %15
+		g4 c es f2 es4
+		d2 b4 c f, b
+		es2. f2 f,4
+		b4 d\fE es f g a
+		f b b, f' r r %20
+		f, r r f' r r
+		r8 c16 d es8 f g a b b,16 c d8 es f g
+		a a,16 b c8 d es f g g,16 a b8 c d e
+		f2.~ f~
+		f~ f~ %25
+		f4 r8 f b,4 es f f,
+		b\fermata r g\pE d8 d'16 e f8 g a b
+		c c,16 d es8 f g a b b,16 c d8 b d es
+		f2.~ f~
+		f f, %30
+		b~ b~
+		b~ b
+		es,4 es' f g2 r4
+		g,( g g) g( g g)
+		g( g g) g r r %35
+		g f es as' f g
+		c, b! c d2 r4
+		d( d d) d( d d)
+		d( d d) d r r
+		d c b c d d, %40
+		g2 r4 r2*3/2 \markDaCapo \bar "||" %41 finis
 	}
 }
 
 AchErhoereDochBassFigures = \figuremode {
-	
+	r4 <6> r r <7> <6>
+	<7>1.
+	r
+	r4 <6>4. <6 5>8 <9>4 <6>4. <6 5>8
+	<9>4 <6>4. <6 5>8 <9>4 <6>4. <6 5>8 %5
+	<9>4 <8>2 <7>2.
+	r1.
+	r4. <7> <6>2.
+	r4 <6> r r <7> <6>
+	<7>1. %10
+	r4 <6> r r2.
+	r4 <6> q r2 <2>4
+	<6>2. r4 <6> r
+	r2. r4 <6> <6 _->
+	<_!>2. <7 _!>4 <6 4>2 %15
+	<5 _!>2 <6>4 <_!>2 <2>4
+	<6>2 q <7>
+	<7>4 <6>2 <7>2.
+	r4 <6> r r <7> <6>
+	<7>1. %20
+	r
+	r4 <6>4. <6 5>8 <9>4 <6>4. <6 5>8
+	<9>4 <6>4. <6 5>8 <9>4 <6>4. <6 5>8
+	<9>4 <8>2 <7>2.
+	r1. %25
+	r4. <7> <6>2.
+	r <4>4 <6>2
+	<4>4 <6>4. <6 5>8 r4 <6>4. q8
+	r2. <7>
+	r1. %30
+	r2. <7->
+	r1.
+	r4 <6> <6 _-> <_!>2.
+	<7 _!>4 <6 4>2 <5 _!>2.
+	<\t \t>4 <6 4>2 <5 _!>2. %35
+	<_!>4 <\t> <6> q <6 _-> <_!>
+	r <6> <6!> <_+>2.
+	<5 _+>4 <6 4>2 <5 _+>2.
+	<\t \t>4 <6 4>2 <5 _+>2.
+	<_+>4 <\t> <6> q <_+>2 %40
+	r1. %41 finis
 }
 
 % Organo = {

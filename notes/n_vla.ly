@@ -581,8 +581,47 @@ KaumGehtDerViola = {
 
 AchErhoereDochViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 6/4 \tempoAchErhoereDoch
-		
+		r4 b'\fE b f2 r4
+		a f b a r r
+		f r r f r r
+		r g4. f8 f4 f4. es8
+		es4 es4. d8 d4 d4. c8 %5
+		c2.~ c~
+		c~ c~
+		c4 r8 f f4 g f c
+		d r r r2*3/2
+		r f4 r r %10
+		f r r f r r
+		f r r r2*3/2
+		r r4 b\p b
+		f2 r4 r c c'
+		g2.~ g %15
+		g4 g g f2.
+		R1.*2
+		r4 b\fE b f2 r4
+		f f2 f4 r r %20
+		f r r f r r
+		r g4. f8 f4 f4. es8
+		es4 es4. d8 d4 d4. c8
+		c2.~ c~
+		c~ c~ %25
+		c4 r8 f f4 g f2
+		d4\fermata r d\pE d2 d4
+		g2 c,4 b f'4. g8
+		f2.~ f~
+		f~ f2 f4 %30
+		f2. b,~
+		b~ b2 b4
+		b r r r2*3/2
+		g'4( g g) g( g g)
+		g( g g) g, r r %35
+		g r r r2*3/2
+		R1.
+		d'4( d d) d( d d)
+		d( d d) d r r
+		d r r r2*3/2 %40
+		R1. \markDaCapo \bar "||" %41 finis
 	}
 }
