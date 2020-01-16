@@ -964,12 +964,36 @@ DerHerrDerTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \dorian \time 4/4 \autoBeamOff \tempoDerHerrDer
-		
+		r8 d g g es8. es16 es8 es
+		c4 r16 a a b c8. c16 es8 d
+		d d r16 d es d c8. c16 a8 d
+		b b r d f! f c d
+		es es es d d4 r8 d %5
+		d d es f h,4 r16 g h d
+		f8 r16 f g8 d es es r es
+		e8. e16 g8 c, f f r f
+		d d e f c4 r8 f
+		f4 c c8. c16 c8 f %10
+		es4 r8 es c d es d
+		d4 r16 d d d b4 r8 d
+		d8. a16 a4 r2\fermata \bar "|." %13 finis
 	}
 }
 
 DerHerrDerTenoreLyrics = \lyricmode {
-	
+	Der HErr, der ſchon zu -- vor ge --
+	ſagt, Er wür -- de un -- ter Macht der
+	Hey -- den den Tod des Kreu -- tzes mü -- ßen
+	lei -- den, wird pein -- lich vor Pi --
+	la -- to an -- ge -- klagt: daß %5
+	Er des Vol -- ckes Treu vom Kay -- ſer
+	ab und auf ſich wen -- de, in --
+	dem Er ſelbſt ge -- ſtän -- de, daß
+	Er ein Kö -- nig sey. Pi --
+	la -- tus fo -- der -- te von %10
+	ihm das Zeug -- niß ſel -- ber
+	ab, wo -- rauf Er ihm zur
+	Ant -- wort gab: %13 finis
 }
 
 % TenoreNotes = {

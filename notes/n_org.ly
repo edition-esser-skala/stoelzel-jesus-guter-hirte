@@ -2498,12 +2498,36 @@ DerHerrDerOrgano = {
 	\relative c {
 		\clef bass
 		\key g \dorian \time 4/4 \tempoDerHerrDer
-		g1
+		g1~
+		g
+		fis
+		g2 a~
+		a b %5
+		as g~
+		g c
+		b a!
+		b c4 f,
+		a1~ %10
+		\once \tieDashed a2~ a
+		b g
+		a d,\fermata \bar "|." %13 finis
 	}
 }
 
 DerHerrDerBassFigures = \figuremode {
-	
+	<5 3>2 <6- 4 2>
+	<\t \t \t>1
+	<6>2 <5>
+	r <6!>
+	<5->1 %5
+	<2>2 <_!>
+	<7 _!> <_->
+	<4! 2> <6>
+	r1
+	<6> %10
+	<5->
+	r
+	<6 4>4 <5! _+> r2 %13 finis
 }
 
 % Organo = {
