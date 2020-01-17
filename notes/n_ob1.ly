@@ -101,6 +101,46 @@ DasSchafVerstummtOboeI = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoDasSchafVerstummt
-		
+		R2.
+		b'16\pE c b c d8 r r4
+		R2.
+		r4 a16 b a b c8 r
+		R2. %5
+		d16 es d es f8 r r4
+		R2.
+		a,16 b a b c8 r r4
+		R2.
+		d16 es d es f8 r r4 %10
+		R2.
+		b,16 c b c d8 r r4
+		b b b
+		b2 r4
+		R2.*4 %18
+		f16 g f g a8 r r4
+		R2.*3 %22
+		d4\f d d
+		d2 cis4
+		d,2 r4 %25
+		R2.
+		c'16\p d c d es!8 r r4
+		R2.
+		c16 d c d es8 r r4
+		R2. %30
+		fis,16 g fis g a8 r r4
+		b16 c b c d8 r r4
+		fis,16 g fis g a8 r r4
+		R2.
+		r4 b16 c b c d8 r %35
+		r4 b16 c b c d8 r
+		c4 b r
+		R2.*3 %40
+		b16\f c b c d8 r r4
+		a16 b a b c8 r r4
+		g16 a g a b8 r r4
+		fis16 g fis g a b a b c d c d
+		es4 d c %45
+		b2 r4
+		g' g g
+		g,2.\fermata \bar "|." %48 finis
 	}
 }

@@ -2603,11 +2603,105 @@ DasSchafVerstummtOrgano = {
 		\clef bass
 		\key g \minor \time 3/4 \tempoDasSchafVerstummt
 		g4\pE-! b-! c-!
+		g2 r4
+		b a g
+		d' d, r
+		g' d es %5
+		b2 r4
+		d-! c-! b-!
+		f2 r4
+		g'4-! f-! es-!
+		d r r %10
+		es d c
+		b r r
+		b b b
+		b2 r4
+		g c c, %15
+		f g a
+		b2 h4
+		c2 cis4
+		d2 r4
+		d c! b %20
+		a g f
+		g a a
+		d,2 r4
+		d'\fE d d
+		d2 r4 %25
+		d\pE a h
+		c2 r4
+		h g h
+		c2 r4
+		c c c %30
+		d2 r4
+		d d d
+		d2 r4
+		g, es' d
+		c b r %35
+		a g r
+		d g r
+		a a' g
+		fis g g,
+		c d d, %40
+		g g'\fE d
+		f! r c
+		es r b
+		d d d
+		d2 d,4 %45
+		g2 r4
+		g g g
+		g2.\fermata \bar "|." %48 finis
 	}
 }
 
 DasSchafVerstummtBassFigures = \figuremode {
-	
+	r4 <6>2
+	r2.
+	<6>4 <6\\>2
+	<6 4>4 <5 _+>2
+	r4 <6>2 %5
+	r2.
+	<6>4 q2
+	r2.
+	<6>4 q q
+	q2. %10
+	q4 q q
+	r2.
+	<6 4>4 <5 3> <4 2>
+	<5 3>2.
+	r %15
+	r4 <7> <6>
+	<5> <6> <\t>
+	<_!>2 <6 _!>4
+	r2.
+	<6>4 <6 _!> <6> %20
+	<5! _+> <\t \t> <6>
+	r <6 4> <5! _+>
+	r2.
+	<6 4>4 <5 3> <7+ 4 2!>
+	<8 3>2. %25
+	r4 <6> <\t>
+	<_->2.
+	<6>4 <_!> <6>
+	r2.
+	<5>4 <6>2 %30
+	<5 _+>2.
+	<6 4>
+	<5 _+>
+	r4 <6> <6 _!>
+	<6> q2 %35
+	<6\\>2.
+	<7 _+>
+	<5->2 <\t>4
+	<6 5>2.
+	<6>4 <_+>2 %40
+	r2 <6>4
+	r2 <6>4
+	r2 <6>4
+	<_+>2.
+	<9 7 _+>4 \bassFigureExtendersOn <8 6 _+> <7 5 _+> \bassFigureExtendersOff %45
+	r2.
+	<6 4>4 <5 3> <4 2>
+	<5 3>2. %48 finis
 }
 
 % Organo = {

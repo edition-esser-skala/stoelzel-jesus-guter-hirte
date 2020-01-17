@@ -646,12 +646,92 @@ DasSchafVerstummtAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \autoBeamOff \tempoDasSchafVerstummt
-		
+		g'4 g g
+		g2 r4
+		g a b
+		b a r
+		b b b %5
+		b2 r4
+		b c d
+		c r r
+		es d c
+		b r r %10
+		c b a
+		b r r
+		b b b
+		b,2\trill r4
+		b'4 g4. c8 %15
+		a4( b) c
+		d g,2
+		a8([ g)] g4 a
+		f d r
+		b' a g %20
+		a2.
+		r8 b f4 e8([ d)]
+		d4 r r
+		R2.*2 %25
+		f4 f f
+		es! c2
+		g'4 g2
+		es4 c2
+		c'4 a4. c8 %30
+		fis,4 d2~
+		d4 b'8([ a)] g([ b)]
+		a4 r r
+		b c b
+		a g2 %35
+		c4 b2
+		a4 g r
+		c c c
+		c b2
+		a4 fis2 %40
+		g r4
+		R2.*6 %47
+		R2.\fermataMarkup \bar "|." %48 finis
 	}
 }
 
 DasSchafVerstummtAltoLyrics = \lyricmode {
+	Das Schaf ver --
+	ſtummt
+	vor ſei -- nem
+	Schee -- rer,
+	die Un -- ſchuld %5
+	ſchweigt
+	in Sanfft -- muth
+	ſtill,
+	in Sanfft -- muth
+	ſtill, %10
+	die Un -- ſchuld
+	ſchweigt
+	in Sanfft -- muth
+	ſtill,
+	und der von %15
+	Gott __ ge --
+	ſand -- te
+	Leh -- rer redt
+	nicht mehr,
+	redt nicht mehr, %20
+	da
+	Er ſter -- ben
+	will.
 	
+	Hier -- mit gibt %26
+	Er dir
+	zu ver --
+	ſte -- hen,
+	du Schäf -- lein %30
+	ſolſt nur __
+	un -- ver --
+	zagt
+	auf dei -- nes
+	Hir -- ten %35
+	Lip -- pen
+	ſe -- hen,
+	wenn Sünd und
+	Höl -- le
+	dich ver -- %40
+	klagt. %41 finis
 }
 
 % AltoNotes = {

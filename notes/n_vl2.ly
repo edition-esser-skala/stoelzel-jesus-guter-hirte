@@ -542,6 +542,50 @@ DasSchafVerstummtViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 3/4 \tempoDasSchafVerstummt
-		
+		g'4\p d es
+		d g16 a g a b8 r
+		d,4-! fis-! g-!
+		g-! fis-! a16 g a fis
+		d4-! f-! g-! %5
+		f-! b16 c b c d8 r
+		f,4 a b
+		a f16 g f g a8 r
+		b4 a g
+		f b16 c b c d8 r %10
+		g,4 f es
+		d d16 es d es f8 r
+		es4 d c
+		d2 r4
+		R2.*4 %18
+		r4 d16 e d e f8 r
+		f4 e d %20
+		cis2 d4~
+		d d cis
+		d r r
+		g\f f e
+		d2 r4 %25
+		f\p c! d
+		g, c16 d c d es!8 r
+		d4 h d
+		g, c16 d c d es8 r
+		es4 es' es %30
+		d fis,16 g fis g a8 r
+		r4 g16 a g a b8 r
+		d,4 fis16 g fis g a8 fis
+		g4 g f
+		es d d16 e d e %35
+		fis4 g d16 e d e
+		fis4 g r
+		es! es es
+		d2 g4
+		es d d %40
+		g, g'16\f a g a b8 r
+		r4 f!16 g f g a8 r
+		r4 es!16 f es f g8 r
+		r4 fis16 g fis g a b a b
+		fis4 fis2 %45
+		g2 r4
+		c b a
+		g2.\fermata \bar "|." %48 finis
 	}
 }

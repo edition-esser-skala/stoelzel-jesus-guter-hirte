@@ -195,7 +195,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.2" "A R I A" "Das Schaf verſtummt vor ſeinem Scherer"
+			movement = \movementTitle "3.2" "A R I A" "Das Schaf verſtummt vor ſeinem Scheerer"
 		}
 		\paper {
 			systems-per-page = #2
@@ -205,7 +205,8 @@
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \DasSchafVerstummtOboeI \DasSchafVerstummtOboeII
+						\new Voice { \voiceOne \DasSchafVerstummtOboeI }
+						\new Voice { \voiceTwo \DasSchafVerstummtOboeII }
 					>>
 				>>
 				\new StaffGroup <<
@@ -219,10 +220,10 @@
 							\DasSchafVerstummtViolinoII
 						}
 					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
+					\new Staff <<
+						\set Staff.instrumentName = "Viola [I, II]"
 						\DasSchafVerstummtViola
-					}
+					>>
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto [1/2])" } }
@@ -238,7 +239,7 @@
 				\new FiguredBass { \DasSchafVerstummtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }
