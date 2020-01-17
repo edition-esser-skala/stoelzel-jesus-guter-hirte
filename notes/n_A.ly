@@ -642,6 +642,18 @@ MeinHirtIchAltoLyrics = \lyricmode {
 	dir zu __ Eh -- ren an -- zu -- le -- gen. %8 finis
 }
 
+DasSchafVerstummtAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \autoBeamOff \tempoDasSchafVerstummt
+		
+	}
+}
+
+DasSchafVerstummtAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

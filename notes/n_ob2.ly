@@ -38,3 +38,11 @@ IhrKommtMitOboeII = {
 		h4 r r2\fermata \bar "|." %29 finis
 	}
 }
+
+DasSchafVerstummtOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoDasSchafVerstummt
+		
+	}
+}

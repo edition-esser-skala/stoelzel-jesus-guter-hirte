@@ -537,3 +537,11 @@ AchErhoereDochViolinoII = {
 		R1. \markDaCapo \bar "||" %41 finis
 	}
 }
+
+DasSchafVerstummtViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoDasSchafVerstummt
+		
+	}
+}

@@ -792,6 +792,14 @@ AchErhoereDochViolinoI = {
 	}
 }
 
+DasSchafVerstummtViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoDasSchafVerstummt
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

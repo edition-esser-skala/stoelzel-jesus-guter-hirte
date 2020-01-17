@@ -96,3 +96,11 @@ MeinHirtAufOboeI = {
 		\once \slurDashed es( d32 c) b16 as? g8 f es4 r\fermata \bar "|."
 	}
 }
+
+DasSchafVerstummtOboeI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/4 \tempoDasSchafVerstummt
+		
+	}
+}

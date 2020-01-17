@@ -2598,6 +2598,18 @@ PilatusFindetBassFigures = \figuremode {
 	<6 4->8 <5 3> r2. %6 finis
 }
 
+DasSchafVerstummtOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/4 \tempoDasSchafVerstummt
+		g4\pE-! b-! c-!
+	}
+}
+
+DasSchafVerstummtBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

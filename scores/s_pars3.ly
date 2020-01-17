@@ -165,32 +165,80 @@
 % 			\midi { \tempo 4 = 75 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.5" "R E C I T A T I V O" "Pilatus findet keine Schuld an ihm"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \PilatusFindetTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \PilatusFindetTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\PilatusFindetOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \PilatusFindetBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.5" "R E C I T A T I V O" "Pilatus findet keine Schuld an ihm"
+			movement = \movementTitle "3.2" "A R I A" "Das Schaf verſtummt vor ſeinem Scherer"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
 			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = "Oboe I, II"
+						\partcombine \DasSchafVerstummtOboeI \DasSchafVerstummtOboeII
+					>>
+				>>
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\DasSchafVerstummtViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\DasSchafVerstummtViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\DasSchafVerstummtViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \PilatusFindetTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto [1/2])" } }
+					\new Voice = "Alto" { \dynamicUp \DasSchafVerstummtAltoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \PilatusFindetTenoreLyrics
+				\new Lyrics \lyricsto Alto \DasSchafVerstummtAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\PilatusFindetOrgano
+						\DasSchafVerstummtOrgano
 					}
 				>>
-				\new FiguredBass { \PilatusFindetBassFigures }
+				\new FiguredBass { \DasSchafVerstummtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }
