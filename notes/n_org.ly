@@ -2580,12 +2580,22 @@ PilatusFindetOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoPilatusFindet
-		e1
+		e1~
+		e2 f
+		g1~
+		g2 f
+		fis g4 es %5
+		f b, r2\fermata \bar "|." %6 finis
 	}
 }
 
 PilatusFindetBassFigures = \figuremode {
-	
+	<6>1
+	<5->
+	<6 _->2 <4+ 2>
+	r <6>
+	<6 5!> <_->4 <6> %5
+	<6 4->8 <5 3> r2. %6 finis
 }
 
 % Organo = {

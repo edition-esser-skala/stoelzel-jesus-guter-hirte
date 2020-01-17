@@ -1045,12 +1045,22 @@ PilatusFindetTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoPilatusFindet
-		
+		r4 r8 c e e f g
+		g b, b a a4 r16 f' f f
+		f8 e g e cis4 r16 cis cis d
+		e8. e16 e8 f d4 r8 d
+		d c! es d b4 r16 g' c, d %5
+		b4 r r2\fermata \bar "|." %6 finis
 	}
 }
 
 PilatusFindetTenoreLyrics = \lyricmode {
-	
+	Pi -- la -- tus fin -- det
+	kei -- ne Schuld an ihm. Je -- doch der
+	Prieſ -- ter Un -- ge -- ſtüm fährt wei -- ter
+	noch mit Kla -- gen fort. Der
+	Hey -- land a -- ber ſagt kein eintz -- ges %5
+	Wort. %6 finis
 }
 
 % TenoreNotes = {
