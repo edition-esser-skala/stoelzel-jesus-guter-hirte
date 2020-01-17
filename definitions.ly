@@ -355,6 +355,7 @@ tempoKaumGehtDer = \tempoMarkup "Recitativo"
 tempoAchErhoereDoch = \tempoMarkup "Aria"
 tempoDerHerrDer = \tempoMarkup "Recitativo"
 tempoMeinReichIst = \tempoMarkup "Aria"
+tempoPilatusFindet = \tempoMarkup "Recitativo"
 
 
 

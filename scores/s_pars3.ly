@@ -136,33 +136,61 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.4" "A R I A" "Mein Reich iſt nicht von dieſer Welt"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 			page-count = #1
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+% 					\new Voice = "Tenore" { \dynamicUp \MeinReichIstTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \MeinReichIstTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\MeinReichIstOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \MeinReichIstBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 75 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.4" "A R I A" "Mein Reich iſt nicht von dieſer Welt"
+			movement = \movementTitle "3.5" "R E C I T A T I V O" "Pilatus findet keine Schuld an ihm"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #23
 			system-system-spacing.minimum-distance = #23
 			systems-per-page = #5
-			page-count = #1
 		}
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
-					\new Voice = "Tenore" { \dynamicUp \MeinReichIstTenoreNotes }
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \PilatusFindetTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \MeinReichIstTenoreLyrics
+				\new Lyrics \lyricsto Tenore \PilatusFindetTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\MeinReichIstOrgano
+						\PilatusFindetOrgano
 					}
 				>>
-				\new FiguredBass { \MeinReichIstBassFigures }
+				\new FiguredBass { \PilatusFindetBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 75 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

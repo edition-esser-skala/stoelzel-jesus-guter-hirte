@@ -2576,6 +2576,18 @@ MeinReichIstBassFigures = \figuremode {
 	r1 %18 finis
 }
 
+PilatusFindetOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoPilatusFindet
+		e1
+	}
+}
+
+PilatusFindetBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
