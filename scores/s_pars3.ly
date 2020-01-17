@@ -363,9 +363,9 @@
 			movement = \movementTitle "3.10" "A R I A" "Erſtaunt ihr nicht, befleckte Sünder"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
-			systems-per-page = #4
+			system-system-spacing.basic-distance = #30
+			system-system-spacing.minimum-distance = #30
+			systems-per-page = #3
 		}
 		\score {
 			<<
@@ -389,7 +389,7 @@
 				\new FiguredBass { \ErstauntIhrNichtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

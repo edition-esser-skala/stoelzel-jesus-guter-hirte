@@ -2796,11 +2796,95 @@ ErstauntIhrNichtOrgano = {
 		\clef bass
 		\key d \major \time 3/4 \tempoErstauntIhrNicht
 		d4\f r8 r16 d'[ h8. fis16]
+		g4 a a,
+		d r8 r16 d'[ fis,8. d16]
+		h'4 h, g
+		a r fis' %5
+		g r e
+		fis r d
+		e r cis
+		d r r
+		h\pE r cis %10
+		d r g
+		a a, r
+		h r h
+		e r e,
+		a r a %15
+		d h e
+		a, h cis
+		d r r
+		h r r
+		a8 d a'4 a, %20
+		d r8 r16 d'[\fE fis,8. d16]
+		h'4 h, g
+		a r fis'
+		g r e
+		fis r d %25
+		e r cis
+		d a' a,
+		d\fermata r cis\pE
+		a h gis
+		a r a' %30
+		d, r d
+		cis r cis,
+		fis r r
+		g' r e
+		fis r d %35
+		e a a,
+		d r e
+		a8. h16 cis4 cis,
+		fis, r r
+		g' r g, %40
+		fis e d
+		g2.
+		fis2 r4 \markDaCapo \bar "||" %43 finis
 	}
 }
 
 ErstauntIhrNichtBassFigures = \figuremode {
-	
+	r2.
+	<6 5>
+	r2 <6>4
+	<7> <6> q
+	<9> <8> <6 5> %5
+	<9> <8> <6 5>
+	<9> <8> <6 5>
+	<9> <8> <6 5>
+	r2.
+	<7>4 <6> <6 5> %10
+	<9 4> <8 3> r
+	r2.
+	<9! _+>2 <8 \t>4
+	r2.
+	<9 _+>2 <8>4 %15
+	r <6\\> <_+>
+	r <7> <6 5!>
+	<4>8 <3> r2
+	<6\\>2.
+	r %20
+	r2 <6>4
+	<7> <6> q
+	<9> <8> <6 5>
+	<9> <8> <6 5>
+	<9> <8> <6 5> %25
+	<9> <8> <6 5>
+	r2.
+	r2 <6>4
+	q r <6 5>
+	<4> <3>2 %30
+	<7 3> <6 4+>4
+	<5+ 4> <\t _+>2
+	r2.
+	<9 [7]>4 <8 [6]> <[6]>
+	<9>8 <8> r2 %35
+	<7>2.
+	r2 <6>8. <5>16
+	<6>8. <6\\>16 <6 4>4 <5+ _+>
+	r2.
+	<7>2 <6>4 %40
+	<_+> <\t> <6>
+	<7> <6>2
+	<_+>2. %43 finis
 }
 
 % Organo = {

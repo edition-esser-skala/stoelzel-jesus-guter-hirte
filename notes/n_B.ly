@@ -628,12 +628,71 @@ ErstauntIhrNichtBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \major \time 3/4 \autoBeamOff \tempoErstauntIhrNicht
-		
+		R2.*8 %8
+		r8 r16 a' fis8. d16 a'4~
+		a8. h16 g4 g %10
+		g fis r
+		r8 r16 e cis8. a16 a'4~
+		a8. c16 h8. a16 g8 fis
+		g8. fis16 g8 r16 h g8. e16
+		cis'!4 r8 r16 a h8. cis16 %15
+		d8. h16 gis4. gis8
+		a4. h8 g8. g16
+		g8([ fis)] fis8 r16 a fis8. d16
+		gis4 r8 r16 e fis8. gis16
+		a8 d, a'4 a, %20
+		d r r
+		R2.*6 %27
+		r8\fermata d fis8. g16 a4~
+		a8 fis d4( h'8) d,
+		d([ cis)] cis8. e16 cis8. a16 %30
+		fis'4. a8 gis8. fis16
+		fis8([ eis)] eis4 r8 cis'
+		a8. gis16 fis8 r16 cis' d8. cis16
+		h4 r8 d cis8. h16
+		a8 d,8 r r16 a' h8. a16 %35
+		g4 r8 h a8. g16
+		fis8([ e)] d8 r16 d' cis8. h16
+		cis8. d16 a4 gis8([ fis)]
+		fis4 r8 r16 cis' ais8. fis16
+		h4 r8 d cis8. h16 %40
+		ais4 gis8 fis h h,
+		e g e4. fis8
+		fis4 r r \markDaCapo \bar "||" %43 finis
 	}
 }
 
 ErstauntIhrNichtBassoLyrics = \lyricmode {
+	Er -- ſtaunt ihr nicht, __ %9
+	be -- fleck -- te %10
+	Sün -- der,
+	er -- ſtaunt ihr nicht __
+	vor Got -- tes Straf -- ge --
+	rech -- tig -- keit, er -- ſtaunt ihr
+	nicht vor Got -- tes %15
+	Straf -- ge -- rech -- tig --
+	keit, be -- fleck -- te
+	Sün -- der, er -- ſtaunt ihr
+	nicht vor Got -- tes
+	Straf -- ge -- rech -- tig -- %20
+	keit?
 	
+	Wird Got -- tes Sohn __ %28
+	im wei -- ßen
+	Klei -- de ein Spott und %30
+	Greul ver -- ruch -- ter
+	Leu -- te, was
+	mei -- net ihr, was mei -- net
+	ihr boß -- haff -- ten
+	Kin -- der, was mei -- net %35
+	ihr boß -- haff -- ten
+	Kin -- der, das ihr zu
+	dul -- den wür -- dig __
+	seyd, was mei -- net
+	ihr boß -- haff -- ten %40
+	Kin -- der, das ihr zu
+	dul -- den wür -- dig
+	seyd? %43 finis
 }
 
 % BassoNotes = {

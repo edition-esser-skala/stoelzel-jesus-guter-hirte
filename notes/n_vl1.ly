@@ -863,7 +863,48 @@ ErstauntIhrNichtViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoErstauntIhrNicht
-		
+		r8 r16 a'\fE[ fis8. d16] d'4~
+		d8 e16 d cis8.[ h16 a8. g16]
+		fis8.[ a'16 fis8. d16] a'4~
+		a8 h16 a g8.[ fis16 e8. d16]
+		cis8-! h'( a) cis,4 a'8 %5
+		h,-! a'( g) h,4 g'8
+		a,-! g'( fis) a,4 fis'8
+		g,-! fis'( e) g,4 e'8
+		fis,4 r8 r16 a[\p fis8. d16]
+		d'4 r e %10
+		a,8-! h'( a) d,4 h'8
+		cis,4 r8 r16 e,[ cis8. a16]
+		dis'4 r dis
+		e,8.[ h'16 g8. e16] g'4~
+		g8.[ h16 a8. g16 fis8. e16] %15
+		fis4 r r
+		R2.
+		r8 r16 a,[ fis8. d16] d'4~
+		d8.[ fis16 e8. d16 cis8. h16]
+		cis8 d a4 a, %20
+		d8.[ a''16\fE fis8. d16] a'4~
+		a8 h16 a g8.[ fis16 e8. d16]
+		cis8-! h'( a) cis,4 a'8
+		h,-! a'( g) h,4 g'8
+		a,-! g'( fis) a,4 fis'8 %25
+		g,-! fis'( e) g,4 e'8
+		fis,8. d'16 cis4. d8
+		d4\fermata r r
+		R2.
+		r8 r16 e,[\p cis8. a16] cis'4~ %30
+		cis8. d16 h4. cis8
+		cis4 cis, r
+		r8 r16 cis'[ a8. fis16] fis'4~
+		fis8. g16 e2
+		r8 r16 a,[ fis8. d16] d'4~ %35
+		d8. e16 cis2
+		d4 r r
+		R2.
+		r8 r16 cis[ a8. fis16] fis'4~
+		fis8 g e2 %40
+		fis4 r r
+		R2.*2 \markDaCapo \bar "||" %43 finis
 	}
 }
 
