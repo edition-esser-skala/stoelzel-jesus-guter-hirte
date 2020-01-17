@@ -314,48 +314,82 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.9" "A C C O M P A G N A T O" "Diß iſt das Kleid, das Satan dir geraubt"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DiesIstDasKleidViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DiesIstDasKleidViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DiesIstDasKleidViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+% 					\new Voice = "Basso" { \dynamicUp \DiesIstDasKleidBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \DiesIstDasKleidBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DiesIstDasKleidOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DiesIstDasKleidBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.9" "A C C O M P A G N A T O" "Diß iſt das Kleid, das Satan dir geraubt"
+			movement = \movementTitle "3.10" "A R I A" "Erſtaunt ihr nicht, befleckte Sünder"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #4
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DiesIstDasKleidViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DiesIstDasKleidViolinoII
-						}
-					>>
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\DiesIstDasKleidViola
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "et Oboi" "unisoni" } }
+						\ErstauntIhrNichtViolinoI
 					}
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
-					\new Voice = "Basso" { \dynamicUp \DiesIstDasKleidBassoNotes }
+					\new Voice = "Basso" { \dynamicUp \ErstauntIhrNichtBassoNotes }
 				}
-				\new Lyrics \lyricsto Basso \DiesIstDasKleidBassoLyrics
+				\new Lyrics \lyricsto Basso \ErstauntIhrNichtBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DiesIstDasKleidOrgano
+						\ErstauntIhrNichtOrgano
 					}
 				>>
-				\new FiguredBass { \DiesIstDasKleidBassFigures }
+				\new FiguredBass { \ErstauntIhrNichtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

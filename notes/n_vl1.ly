@@ -859,6 +859,14 @@ DiesIstDasKleidViolinoI = {
 	}
 }
 
+ErstauntIhrNichtViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoErstauntIhrNicht
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

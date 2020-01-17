@@ -624,6 +624,18 @@ DiesIstDasKleidBassoLyrics = \lyricmode {
 	bannt. %11 finis
 }
 
+ErstauntIhrNichtBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoErstauntIhrNicht
+		
+	}
+}
+
+ErstauntIhrNichtBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

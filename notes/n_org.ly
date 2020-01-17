@@ -2791,6 +2791,18 @@ DiesIstDasKleidBassFigures = \figuremode {
 	<_+>4 q2. %11 finis
 }
 
+ErstauntIhrNichtOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \tempoErstauntIhrNicht
+		d4\f r8 r16 d'[ h8. fis16]
+	}
+}
+
+ErstauntIhrNichtBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
