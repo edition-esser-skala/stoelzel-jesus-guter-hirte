@@ -1094,12 +1094,28 @@ DerUnschuldSonnenTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \dorian \time 4/4 \autoBeamOff \tempoDerUnschuldSonnen
-		
+		r8 d d d es8. es16 es4
+		r8 es? es d fis8. fis16 fis8 g
+		g g r16 g e g cis,8 a d d
+		d a r f' es es es8. d16
+		d4 r16 d c b g'8 es c8. d16 %5
+		b4 r8 d b8. b16 b4
+		r8 e! e f f f r16 f f g
+		e8 e g e cis4 r8 a
+		a' d, g f d d r4\fermata \markAttacaE \bar "||" %9 finis
 	}
 }
 
 DerUnschuldSonnenTenoreLyrics = \lyricmode {
-	
+	Der Un -- schuld Son -- nen
+	Licht ſoll in dem Mar -- ter Krey -- ſe
+	wan -- dern von ei -- nem Un -- thier zu dem
+	an -- dern. Drum bringt man Je -- ſum
+	nun vor des He -- ro -- des Hoff -- ge -- %5
+	richt. Doch ſchwey -- get Er
+	auf viel Be -- fra -- gen und muß zu --
+	letz ein wei -- ßes Kleid zum
+	Schimpf zu -- rü -- cke tra -- gen. %9 finis
 }
 
 % TenoreNotes = {

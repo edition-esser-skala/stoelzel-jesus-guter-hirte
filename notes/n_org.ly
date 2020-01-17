@@ -2735,12 +2735,28 @@ DerUnschuldSonnenOrgano = {
 	\relative c {
 		\clef bass
 		\key g \dorian \time 4/4 \tempoDerUnschuldSonnen
-		fis,1
+		fis,1~
+		fis4. g8 a2
+		b a4 f
+		a d g, a
+		b2 es %5
+		f4 b, g2~
+		g f
+		g1
+		f4 g a d \markAttacaE \bar "||" %9 finis
 	}
 }
 
 DerUnschuldSonnenBassFigures = \figuremode {
-	
+	<6>2 <7->
+	r <6\\>
+	<6> <5! _+>4 <6>
+	<6 4>8 <5 _+> r4 <6-> <\t>
+	r2 <5>4 <6> %5
+	<6 4>8 <5 3> r4 <5>2
+	<6!>1
+	<6>2 <4+ 2>
+	<6>2 <6 4>8 <5 _+> r4 %9 finis
 }
 
 % Organo = {
