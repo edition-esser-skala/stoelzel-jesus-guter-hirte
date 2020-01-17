@@ -596,12 +596,32 @@ DiesIstDasKleidBassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \autoBeamOff \tempoDiesIstDasKleid
-		
+		r8 g' h d g,4 r8 g
+		g d f e e4 r8 e
+		h'8. h16 a8 h c4 a
+		f8 d gis a e4 r
+		r8 d c'4 r8 c c h %5
+		h4 r16 d, d d g8. g16 g4
+		r8 g h g e fis g fis
+		fis4 r16 fis a d, d'4 r8 d
+		h h d h gis8. gis16 gis8 a
+		a4 r16 a h cis d8. d16 h8 d %10
+		a4 r r2\fermata \bar "|." %11 finis
 	}
 }
 
 DiesIstDasKleidBassoLyrics = \lyricmode {
-	
+	Diß iſt das Kleid, das
+	Sa -- tan dir ge -- raubt, da --
+	mit, daß du dem Höchſ -- ten
+	gleich zu seyn ge -- glaubt.
+	Er -- ſchrick, ver -- lohr -- nes %5
+	Schaaf, vor der Ge -- rech -- tig -- keit,
+	die Gott all -- hier er -- ge -- hen
+	läßt! Und glau -- be feſt, du
+	ſeyſt in dei -- nem ſünd -- li -- chen Ge --
+	wand aus Got -- tes An -- ge -- ſicht ver -- %10
+	bannt. %11 finis
 }
 
 % BassoNotes = {

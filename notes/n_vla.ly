@@ -729,8 +729,15 @@ DasSchafVerstummtViola = {
 
 DiesIstDasKleidViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoDiesIstDasKleid
-		
+		R1*4
+		a'1 %5
+		h
+		g
+		a2 g~
+		g gis
+		a d,4-! g-! %10
+		e-! fis-! r2\fermata \bar "|." %11 finis
 	}
 }

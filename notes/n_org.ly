@@ -2763,12 +2763,32 @@ DiesIstDasKleidOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoDiesIstDasKleid
+		h!1~
+		h2 gis~
+		gis a
+		d e4 a,
+		fis1 %5
+		g2 e~
+		e1
+		d2 h'~
 		h1
+		a2 fis4-! g-! %10
+		a-! d-! r2\fermata \bar "|." %11 finis
 	}
 }
 
 DiesIstDasKleidBassFigures = \figuremode {
-	
+	<6>1
+	r2 q
+	q1
+	<5 3>4 <4+ 2> <6 4>8 <5 _+> r4
+	<6 5>1 %5
+	r2 <5>
+	r <6\\>
+	<_+> <6>
+	r <6\\>
+	<_+> <6> %10
+	<_+>4 q2. %11 finis
 }
 
 % Organo = {

@@ -848,7 +848,14 @@ DiesIstDasKleidViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoDiesIstDasKleid
-		
+		R1*4
+		a''1 %5
+		g
+		h,2 cis
+		d1~
+		d
+		cis2 d4-! d-! %10
+		cis-! d-! r2\fermata \bar "|." %11 finis
 	}
 }
 
