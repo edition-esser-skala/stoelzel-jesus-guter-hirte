@@ -592,6 +592,18 @@ RedeDurchDeinBassoLyrics = \lyricmode {
 	nicht an __ mir ver -- loh -- ren seyn! %8 finis
 }
 
+DiesIstDasKleidBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoDiesIstDasKleid
+		
+	}
+}
+
+DiesIstDasKleidBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -589,3 +589,11 @@ DasSchafVerstummtViolinoII = {
 		g2.\fermata \bar "|." %48 finis
 	}
 }
+
+DiesIstDasKleidViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDiesIstDasKleid
+		
+	}
+}

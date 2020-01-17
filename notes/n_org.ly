@@ -2759,6 +2759,18 @@ DerUnschuldSonnenBassFigures = \figuremode {
 	<6>2 <6 4>8 <5 _+> r4 %9 finis
 }
 
+DiesIstDasKleidOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDiesIstDasKleid
+		h1
+	}
+}
+
+DiesIstDasKleidBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -286,29 +286,73 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.8" "R E C I T A T I V O" "Der Unschuld Sonnen Licht"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \DerUnschuldSonnenTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DerUnschuldSonnenTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DerUnschuldSonnenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DerUnschuldSonnenBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.8" "R E C I T A T I V O" "Der Unschuld Sonnen Licht"
+			movement = \movementTitle "3.9" "A C C O M P A G N A T O" "Diß iſt das Kleid, das Satan dir geraubt"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #3
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\DiesIstDasKleidViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\DiesIstDasKleidViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\DiesIstDasKleidViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \DerUnschuldSonnenTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+					\new Voice = "Basso" { \dynamicUp \DiesIstDasKleidBassoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \DerUnschuldSonnenTenoreLyrics
+				\new Lyrics \lyricsto Basso \DiesIstDasKleidBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DerUnschuldSonnenOrgano
+						\DiesIstDasKleidOrgano
 					}
 				>>
-				\new FiguredBass { \DerUnschuldSonnenBassFigures }
+				\new FiguredBass { \DiesIstDasKleidBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }
