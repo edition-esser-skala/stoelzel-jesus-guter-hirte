@@ -108,9 +108,37 @@
 % 			\midi { \tempo 2. = 50 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.3" "R E C I T A T I V O" "Der HErr, der ſchon zuvor geſagt"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \DerHerrDerTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DerHerrDerTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DerHerrDerOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DerHerrDerBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.3" "R E C I T A T I V O" "Der HErr, der ſchon zuvor geſagt"
+			movement = \movementTitle "3.4" "A R I A" "Mein Reich iſt nicht von dieſer Welt"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #23
@@ -120,17 +148,17 @@
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \DerHerrDerTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+					\new Voice = "Tenore" { \dynamicUp \MeinReichIstTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \DerHerrDerTenoreLyrics
+				\new Lyrics \lyricsto Tenore \MeinReichIstTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DerHerrDerOrgano
+						\MeinReichIstOrgano
 					}
 				>>
-				\new FiguredBass { \DerHerrDerBassFigures }
+				\new FiguredBass { \MeinReichIstBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

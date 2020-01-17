@@ -996,6 +996,18 @@ DerHerrDerTenoreLyrics = \lyricmode {
 	Ant -- wort gab: %13 finis
 }
 
+MeinReichIstTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \time 4/4 \autoBeamOff \tempoMeinReichIst
+		
+	}
+}
+
+MeinReichIstTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

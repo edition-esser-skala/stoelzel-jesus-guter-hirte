@@ -2530,6 +2530,18 @@ DerHerrDerBassFigures = \figuremode {
 	<6 4>4 <5! _+> r2 %13 finis
 }
 
+MeinReichIstOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 4/4 \tempoMeinReichIst
+		r8 d'\pE b es d fis, g c,
+	}
+}
+
+MeinReichIstBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
