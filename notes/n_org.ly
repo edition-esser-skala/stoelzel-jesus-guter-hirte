@@ -2704,6 +2704,33 @@ DasSchafVerstummtBassFigures = \figuremode {
 	<5 3>2. %48 finis
 }
 
+RedeDurchDeinOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/1 \tempoRedeDurchDein
+			\set Staff.timeSignatureFraction = 4/4
+		b2\fE d4( es) f2 d es4( d) c2 b b\fermata
+		b' g c a b b, f'1\fermata
+		b,2 d4( es) f2 d es4( d) c2 b b\fermata
+		b' g c a b b, f'1\fermata
+		b2 g d g f b, f' f\fermata %5
+		b, d4( es) f2 fis g b,4( c) d2 d\fermata
+		g, g' f f, b b' es,1\fermata
+		b2 d4( es) f2 g es f b,1\fermata \bar "|." %8 finis
+	}
+}
+
+RedeDurchDeinBassFigures = \figuremode {
+	r2 <6>4 <\t> r2 <6> <5>4 <\t> <7> <6> r1
+	r <7>2 <6 5> r1 r
+	r2 <6>4 <\t> r2 <6> <5>4 <\t> <7> <6> r1
+	r <7>2 <6 5> r1 r
+	r2 <6> q <5>4 <6> r1 r %5
+	r2 <6>4 <\t> r2 <6 5> r <6>4 <\t> <_+>1
+	r r r r
+	r2 <6>4 <\t> r1 <6 5>2 <8>4 <7> r1 %8 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

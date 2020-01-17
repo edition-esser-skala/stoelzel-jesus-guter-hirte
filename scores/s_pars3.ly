@@ -193,53 +193,97 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
-	\bookpart {
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.2" "A R I A" "Das Schaf verſtummt vor ſeinem Scheerer"
+% 		}
+% 		\paper {
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Oboe I, II"
+% 						\new Voice { \voiceOne \DasSchafVerstummtOboeI }
+% 						\new Voice { \voiceTwo \DasSchafVerstummtOboeII }
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DasSchafVerstummtViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DasSchafVerstummtViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola [I, II]"
+% 						\DasSchafVerstummtViola
+% 					>>
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto [1/2])" } }
+% 					\new Voice = "Alto" { \dynamicUp \DasSchafVerstummtAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \DasSchafVerstummtAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DasSchafVerstummtOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DasSchafVerstummtBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
+\bookpart {
 		\header {
-			movement = \movementTitle "3.2" "A R I A" "Das Schaf verſtummt vor ſeinem Scheerer"
+			movement = \movementTitle "3.3" "C H O R A L" "Rede durch dein Stilleſchweigen"
 		}
-		\paper {
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Oboe I, II"
-						\new Voice { \voiceOne \DasSchafVerstummtOboeI }
-						\new Voice { \voiceTwo \DasSchafVerstummtOboeII }
-					>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \RedeDurchDeinSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \RedeDurchDeinSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \RedeDurchDeinAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \RedeDurchDeinAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \RedeDurchDeinTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \RedeDurchDeinTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \RedeDurchDeinBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \RedeDurchDeinBassoLyrics
 				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DasSchafVerstummtViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DasSchafVerstummtViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola [I, II]"
-						\DasSchafVerstummtViola
-					>>
-				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto [1/2])" } }
-					\new Voice = "Alto" { \dynamicUp \DasSchafVerstummtAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \DasSchafVerstummtAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DasSchafVerstummtOrgano
+						\RedeDurchDeinOrgano
 					}
 				>>
-				\new FiguredBass { \DasSchafVerstummtBassFigures }
+				\new FiguredBass { \RedeDurchDeinBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

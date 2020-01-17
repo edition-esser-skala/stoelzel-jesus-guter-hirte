@@ -1063,6 +1063,33 @@ PilatusFindetTenoreLyrics = \lyricmode {
 	Wort. %6 finis
 }
 
+RedeDurchDeinTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/1 \autoBeamOff \tempoRedeDurchDein
+			\set Staff.timeSignatureFraction = 4/4
+		d2 d c b b2. es4 d2 d\fermata
+		f g g f f f f1\fermata
+		d2 d c b b2. es4 d2 d\fermata
+		f g g f f f f1\fermata
+		f2 g f d4( es) f2 d4( b) a2 a\fermata %5
+		b f' f d d d d d\fermata
+		d d f! f f f g1\fermata
+		f2 f f d4( b) b2 a4( es') d1\fermata \bar "|." %8 finis
+	}
+}
+
+RedeDurchDeinTenoreLyrics = \lyricmode {
+	Re -- de durch dein Stil -- le -- ſchwei -- gen,
+	liebſ -- ter Je -- ſu, mir das Wort,
+	wenn mich Sün -- den ü -- ber -- zeu -- gen
+	und der Kla -- gen fort und fort,
+	wenn mein böß Ge -- wi -- ßen __ ſchwey -- get %5
+	und mir die Ver -- dam -- niß dräu -- et.
+	Ach, laß dei -- ne To -- des Pein
+	nicht an mir ver -- loh -- ren __ seyn! %8 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -565,6 +565,33 @@ MeinHirtIchBassoLyrics = \lyricmode {
 	dir zu Eh -- ren an -- zu -- le -- gen. %8 finis
 }
 
+RedeDurchDeinBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/1 \autoBeamOff \tempoRedeDurchDein
+			\set Staff.timeSignatureFraction = 4/4
+		b2\fE d4( es) f2 d es4( d) c2 b b\fermata
+		b' g c a b b, f'1\fermata
+		b,2 d4( es) f2 d es4( d) c2 b b\fermata
+		b' g c a b b, f'1\fermata
+		b2 g d g f b, f' f\fermata %5
+		b, d4( es) f2 fis g b,4( c) d2 d\fermata
+		g, g' f f, b b' es,1\fermata
+		b2 d4( es) f2 g es f b,1\fermata \bar "|." %8 finis
+	}
+}
+
+RedeDurchDeinBassoLyrics = \lyricmode {
+	Re -- de __ durch dein Stil -- le -- ſchwei -- gen,
+	liebſ -- ter Je -- ſu, mir das Wort,
+	wenn mich __ Sün -- den ü -- ber -- zeu -- gen
+	und der Kla -- gen fort und fort,
+	wenn mein böß Ge -- wi -- ßen ſchwey -- get %5
+	und mir __ die Ver -- dam -- niß __ dräu -- et.
+	Ach, laß dei -- ne To -- des Pein
+	nicht an __ mir ver -- loh -- ren seyn! %8 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

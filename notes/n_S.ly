@@ -764,6 +764,33 @@ AchErhoereDochSopranoLyrics = \lyricmode {
 	flott. %41 finis
 }
 
+RedeDurchDeinSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/1 \autoBeamOff \tempoRedeDurchDein
+			\set Staff.timeSignatureFraction = 4/4
+		b'2 b a f g a b b\fermata
+		d d es es d d4( c) c1\fermata
+		b2 b a f g a b b\fermata
+		d d es es d d4( c) c1\fermata
+		d2 es f b, a b c f,\fermata %5
+		d' d c c b b a a\fermata
+		b b c c d d es1\fermata
+		d2 d c b c2. b4 b1\fermata \bar "|." %8 finis
+	}
+}
+
+RedeDurchDeinSopranoLyrics = \lyricmode {
+	Re -- de durch dein Stil -- le -- ſchwei -- gen,
+	liebſ -- ter Je -- ſu, mir das __ Wort,
+	wenn mich Sün -- den ü -- ber -- zeu -- gen
+	und der Kla -- gen fort und __ fort,
+	wenn mein böß Ge -- wi -- ßen ſchwey -- get %5
+	und mir die Ver -- dam -- niß dräu -- et.
+	Ach, laß dei -- ne To -- des Pein
+	nicht an mir ver -- loh -- ren seyn! %8 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

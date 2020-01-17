@@ -734,6 +734,33 @@ DasSchafVerstummtAltoLyrics = \lyricmode {
 	klagt. %41 finis
 }
 
+RedeDurchDeinAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/1 \autoBeamOff \tempoRedeDurchDein
+			\set Staff.timeSignatureFraction = 4/4
+		f2 f f f es es f f\fermata
+		b b b c b2. b4 a1\fermata
+		f2 f f f es es f f\fermata
+		b b b c b2. b4 a1\fermata
+		b2 b b g c,4( f) f2 f f\fermata %5
+		f b a a g g fis fis\fermata
+		g g a a b b b1\fermata
+		b2 b a g g f f1\fermata \bar "|." %8 finis
+	}
+}
+
+RedeDurchDeinAltoLyrics = \lyricmode {
+	Re -- de durch dein Stil -- le -- ſchwei -- gen,
+	liebſ -- ter Je -- ſu, mir das Wort,
+	wenn mich Sün -- den ü -- ber -- zeu -- gen
+	und der Kla -- gen fort und fort,
+	wenn mein böß Ge -- wi -- ßen ſchwey -- get %5
+	und mir die Ver -- dam -- niß dräu -- et.
+	Ach, laß dei -- ne To -- des Pein
+	nicht an mir ver -- loh -- ren seyn! %8 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
