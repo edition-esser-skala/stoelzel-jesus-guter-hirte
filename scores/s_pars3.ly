@@ -195,7 +195,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = \movementTitle "3.2" "A R I A" "Das Schaf verſtummt vor ſeinem Scheerer"
+% 			movement = \movementTitle "3.6" "A R I A" "Das Schaf verſtummt vor ſeinem Scheerer"
 % 		}
 % 		\paper {
 % 			systems-per-page = #2
@@ -242,48 +242,76 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
-\bookpart {
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.7" "C H O R A L" "Rede durch dein Stilleſchweigen"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \RedeDurchDeinSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \RedeDurchDeinSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \RedeDurchDeinAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \RedeDurchDeinAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \RedeDurchDeinTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \RedeDurchDeinTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \RedeDurchDeinBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \RedeDurchDeinBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\RedeDurchDeinOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \RedeDurchDeinBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
+	\bookpart {
 		\header {
-			movement = \movementTitle "3.3" "C H O R A L" "Rede durch dein Stilleſchweigen"
+			movement = \movementTitle "3.8" "R E C I T A T I V O" "Der Unschuld Sonnen Licht"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \RedeDurchDeinSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \RedeDurchDeinSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \RedeDurchDeinAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \RedeDurchDeinAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \RedeDurchDeinTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \RedeDurchDeinTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \RedeDurchDeinBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \RedeDurchDeinBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \DerUnschuldSonnenTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \DerUnschuldSonnenTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\RedeDurchDeinOrgano
+						\DerUnschuldSonnenOrgano
 					}
 				>>
-				\new FiguredBass { \RedeDurchDeinBassFigures }
+				\new FiguredBass { \DerUnschuldSonnenBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

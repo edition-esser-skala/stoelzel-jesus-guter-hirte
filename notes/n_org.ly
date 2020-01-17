@@ -2731,6 +2731,18 @@ RedeDurchDeinBassFigures = \figuremode {
 	r2 <6>4 <\t> r1 <6 5>2 <8>4 <7> r1 %8 finis
 }
 
+DerUnschuldSonnenOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 4/4 \tempoDerUnschuldSonnen
+		fis,1
+	}
+}
+
+DerUnschuldSonnenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

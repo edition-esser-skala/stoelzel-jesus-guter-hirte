@@ -358,6 +358,7 @@ tempoMeinReichIst = \tempoMarkup "Aria"
 tempoPilatusFindet = \tempoMarkup "Recitativo"
 tempoDasSchafVerstummt = \tempoMarkup "Aria"
 tempoRedeDurchDein = \tempoMarkup "Choral"
+tempoDerUnschuldSonnen = \tempoMarkup "Recitativo"
 
 
 

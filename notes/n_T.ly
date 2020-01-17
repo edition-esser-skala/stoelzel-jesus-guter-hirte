@@ -1090,6 +1090,18 @@ RedeDurchDeinTenoreLyrics = \lyricmode {
 	nicht an mir ver -- loh -- ren __ seyn! %8 finis
 }
 
+DerUnschuldSonnenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \time 4/4 \autoBeamOff \tempoDerUnschuldSonnen
+		
+	}
+}
+
+DerUnschuldSonnenTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
