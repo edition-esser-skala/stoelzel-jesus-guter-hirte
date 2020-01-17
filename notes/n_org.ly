@@ -2534,12 +2534,46 @@ MeinReichIstOrgano = {
 	\relative c {
 		\clef bass
 		\key g \dorian \time 4/4 \tempoMeinReichIst
-		r8 d'\pE b es d fis, g c,
+		r8 d'\fE b es d fis,\pE g c,
+		b es d g fis d e fis
+		g c, b es d g, d' d,
+		g d''\fE b es d g, c, d
+		g, g'\pE d es b c d es %5
+		f, f' c g' f b a d
+		c b c c, f a b g
+		a, a' f b a g f d
+		g f e c! f, f' d g
+		f a b es, d g f b, %10
+		f f' fis d g, g' f? b
+		a d, a' a, d fis g es
+		b es d g f es f f,
+		b b'\fE g es' d fis,\pE g c,
+		b es d g fis d e fis %15
+		g c, b es d g, d' d,
+		g d''\fE b es d g, c, d
+		g,4 r r2\fermata \bar "|." %18 finis
 	}
 }
 
 MeinReichIstBassFigures = \figuremode {
-	
+	r8 <6 4> <6> q <_+> <6> r <_->
+	<6> r <_+> r <6> <_+> <6> <\t>
+	r <_-> <6> r <_+> r <6 4> <5 _+>
+	r <6 4> <6> q <_+> r <[_-]> <[_+]>
+	r4 <6> r8 <6 _-> <6> r %5
+	<4> <3> <6 [_-]> <6!> r4 <[6]>8 q
+	<6 4>4 <5 3> r8 <[6]> r <6!>
+	<_+>4 <[6]> <[_+]> <[6]>
+	r <6> <4>8 <3> <6> r
+	r <6> r4 <6>2 %10
+	<6 4>8 <5 3> <6> <_+> r4 <6>
+	<[_+]> <[6 4]>8 <[5 _+]> <_+> <[6]> r <[6]>
+	q r q <[6-]> <6 4>4 <5 3>
+	r4. <6>8 <[_+]> <[6]> r <[_-]>
+	<6> r <_+> r <6> <_+> <6> <\t> %15
+	r <_-> <6> r <_+> r <6 4> <5 _+>
+	r <6 4> <6> q <_+> r <[_-]> <[_+]>
+	r1 %18 finis
 }
 
 % Organo = {

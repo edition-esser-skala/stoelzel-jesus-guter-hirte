@@ -1000,12 +1000,45 @@ MeinReichIstTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \dorian \time 4/4 \autoBeamOff \tempoMeinReichIst
-		
+		r2 r8 d b es
+		d g, fis b a d c8. d16
+		b8 es d g fis g b, a16([ g)]
+		g4 r r2
+		r8 b b b d8. c16 b8 b %5
+		b a r b a d c b
+		a4 g f8 f' d8. e!16
+		cis8 a d8. e16 cis8 a d8. c?16
+		b8 d c8. b16 b8 a r4
+		r8 f' d g f b, a d %10
+		d c r d b g d'8. e!16
+		cis8 d f, e16([ d)] d8 d' b es
+		d g f es d4 c
+		b r r8 d b es
+		d g, fis b a d c8. d16 %15
+		b8 es d g fis g b, a16([ g)]
+		g4 r r2
+		R1\fermataMarkup \bar "|." %18 finis
 	}
 }
 
 MeinReichIstTenoreLyrics = \lyricmode {
-	
+	Mein Reich iſt
+	nicht von die -- ſer Welt, mein Reich
+	iſt nicht von die -- ſer Welt, von die -- ſer
+	Welt.
+	Ich bin als Kö -- nig zwar ge -- %5
+	kom -- men, daß ich die Wahr -- heit
+	zeu -- gen ſolt, doch Iſ -- ra --
+	el hat nicht ge -- wolt. Mein Hauß hat
+	mich nicht auf -- ge -- nom -- men,
+	mein Hauß hat mich nicht an -- ge -- %10
+	nom -- men, weil Sünd und Greul da --
+	rin -- nen Hoff -- ſtadt hält, weil Sünd und
+	Greul da -- rin -- nen Hoff -- ſtadt
+	hält. Mein Reich iſt
+	nicht von die -- ſer Welt, mein Reich %15
+	iſt nicht von die -- ſer Welt, von die -- ſer
+	Welt. %17 finis
 }
 
 % TenoreNotes = {

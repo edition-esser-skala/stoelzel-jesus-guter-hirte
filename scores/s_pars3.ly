@@ -144,6 +144,7 @@
 			system-system-spacing.basic-distance = #23
 			system-system-spacing.minimum-distance = #23
 			systems-per-page = #5
+			page-count = #1
 		}
 		\score {
 			<<
@@ -161,7 +162,7 @@
 				\new FiguredBass { \MeinReichIstBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 75 }
 		}
 	}
 }
