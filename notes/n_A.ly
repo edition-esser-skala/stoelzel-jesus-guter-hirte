@@ -801,12 +801,48 @@ DiesenHonigsuessenAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key e \major \time 12/8 \autoBeamOff \tempoDiesenHonigsuessen
-		
+		R1. \bar "S-S"
+		R1.*4 %5
+		r4. h'8([ a)] gis cis([ h)] a gis([ fis)] e
+		dis4. e4 fis8 gis([ e)] a gis4.
+		fis4 r8 h4 a8 gis([ a)] h e,([ fis)] gis
+		a4 r8 cis4 h8 ais([ h)] cis fis,([ gis)] ais
+		h4 r8 h4 a8 gis([ fis)] e fis([ e)] dis %10
+		h'([ a)] gis cis([ h)] a gis[( fis e] a[ gis fis])
+		e4 r8 r4. r2*3/2
+		R1.*2
+		r4.\fermata gis4 fis8 eis([ fis)] gis cis,[( dis)] eis %15
+		fis([ gis)] a h4 a8 gis([ a)] h e,([ dis)] e
+		dis4 r8 h'4 a8 gis([ a)] h e,([ fis)] gis
+		a4 a,8 cis'4 h8 ais([ h)] cis fis,([ gis)] ais
+		h4 h,8 dis'4 cis8 his([ cis)] dis gis,([ ais)] his
+		cis4 r8 cis4 h8 a([ fis)] h a([ fis)] gis %20
+		fis4 r8 h4 a!8 gis([ ais)] h ais([ h)] cis
+		fis,4 dis8 dis'4 cis8 his([ cis)] dis gis,([ ais)] his
+		cis4. h4 h8 ais8([ fis)] h dis,([ cis)] h
+		h4 r8 r4. r2*3/2 \bar "S-S" %24 finis
 	}
 }
 
 DiesenHonigsuessenAltoLyrics = \lyricmode {
+	Die -- ſen ho -- nig -- sü -- ßen %6
+	Spruch ſchreib dir in __ das Hert --
+	ze, die -- ſen ho -- nig -- sü -- ßen
+	Spruch, die -- ſen ho -- nig -- sü -- ßen
+	Spruch ſchreib dir in __ das Hert -- ze, %10
+	ſchreib dir in __ das Hert --
+	ze.
 	
+	Er iſt ei -- ne Freu -- den -- %15
+	kert -- ze in der trü -- ben Sün -- den
+	Nacht. Er ver -- treibt den Höl -- len
+	Schmert -- ze, er ver -- treibt den Höl -- len
+	Schmert -- ze, wel -- chen das Ge -- wi -- ßen
+	macht, un -- ter des Ge -- ſet -- zes %20
+	Fluch, er ver -- treibt den Höl -- len
+	Schmert -- ze, wel -- chen das Ge -- wi -- ßen
+	macht, un -- ter des Ge -- ſet -- zes
+	Fluch. %24 finis
 }
 
 % AltoNotes = {

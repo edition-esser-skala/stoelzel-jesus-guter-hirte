@@ -2967,12 +2967,58 @@ DiesenHonigsuessenOrgano = {
 	\relative c {
 		\clef bass
 		\key e \major \time 12/8 \tempoDiesenHonigsuessen
-		e4\fE fis8 gis fis e a4 r8 r r ais
+		e4\fE fis8 gis fis e a4 r8 r r ais \bar "S-S"
+		h4 a8 gis4 fis8 e4 dis8 e4 gis8
+		h4 a8 gis( a h) e,4 d8 cis4 h8
+		a4 r8 r4. fis'4 e8 dis e fis
+		h,4 r8 cis4 dis8 e4 a8 h4 h,8 %5
+		e4 fis8\pE gis fis e a4 r8 r r ais
+		h4 a8 gis4 fis8 e4 dis8 e4 gis8
+		h4 a8 gis a h e,4 d8 cis4 h8
+		a4. r fis'4 e8 dis( e) fis
+		h,4 a!8 gis4 fis8 e4 gis8 a4 h8 %10
+		gis4 e8 a' gis fis h4. h,
+		e4\fE fis8 gis a h e,4 d8 cis4 h8
+		a4 r8 r4. fis'4 e8 dis e fis
+		h,4. cis4 dis8 e4 a8 h4 h,8
+		e\fermata dis\pE cis his4 gis8 cis4 h8 a4 gis8 %15
+		fis4 e!8 dis'4 h8 e4 dis8 cis4 fis,8
+		h4 a!8 gis( a) h e4 d8 cis4 h8
+		a4 r8 r4. fis'4 e8 dis( e) fis
+		h,4 r8 r4. gis'4 fis8 e( fis) gis
+		cis,4 h!8 a!4 gis8 fis4 d'8 cis4 cis,8 %20
+		fis'4 e!8 dis4 h8 e4 dis8 cis4 ais8
+		dis4 cis8 his( cis) dis gis4 fis!8 e!4 dis8
+		cis4. cis, fis'4 gis8 fis4 fis,8
+		h'4 a!8\fE gis fis e a4 r8 r r ais \bar "S-S" %24 finis
 	}
 }
 
 DiesenHonigsuessenBassFigures = \figuremode {
-	
+	r4. <6> r r4 <7>8
+	r4 <2>8 <6>4 q8 r4 q8 r4 q8
+	r4 <2>8 <6>4 <7>8 r4 <2>8 <6>4 <6 _!>8
+	r2. <_+>4 <\t>8 <6>4 <_+>8
+	r4. <6!>4 <\t>8 r4. <6 4>4 <5 3>8 %5
+	r4. <6> r r4 <7>8
+	r4 <2>8 <6>4 q8 r4 <6 5>8 r4 <6>8
+	r4 <2>8 <6>4 <7>8 r4 <2>8 <6>4 <6 _!>8
+	r2. <_+>4 <\t>8 <6>4 <_+>8
+	r4 <2>8 <6>4 <6 _!>8 r4 <6>8 q4. %10
+	q2. <6 4>4. <5 3>
+	r <6>4 <7>8 r4 <2>8 <6>4 <6 _!>8
+	r2. <_+>4 <\t>8 <6>4 <_+>8
+	r4. <6!>4 <\t>8 r4. <6 4>4 <5 3>8
+	r <6\\> <8> <6>4 <7 _+>8 <_+>4 <\t>8 <6>4 <6\\>8 %15
+	r4 <2>8 <6>4 <7>8 r4 <6>8 <7>4 <7 _+>8
+	r4 <2>8 <6>4 <6>8 r4 <2>8 <6>4 <6 _!>8
+	r2. <_+>4 <\t>8 <6>4 <_+>8
+	r2. <_+>4 <\t>8 <6>4 <_+>8
+	r4 <2>8 <6>4 <6\\>8 r4 <6>8 <6 4>4 <5 _+>8 %20
+	<_+>4 <\t>8 <6>4 <7!>8 r4 <2>8 <6\\>4 <7>8
+	<5>4 <\t>8 <6>4 <7 5+ _++>8 <_+>4 <\t>8 <6>4 <6\\>8
+	<8 _+>4. <7! \t> <_+>4 <5 3>8 <6 4>4 <5 _+>8
+	r4 <2>8 <6>4. r r4 <7>8 %24 finis
 }
 
 % Organo = {

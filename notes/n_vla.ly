@@ -757,3 +757,35 @@ KommHerUndViola = {
 		R1\fermataMarkup \bar "|." %13 finis
 	}
 }
+
+DiesenHonigsuessenViola = {
+	\relative c' {
+		\clef alto
+		\key e \major \time 12/8 \tempoDiesenHonigsuessen
+		r4. h'8(\fE a) gis cis( h) a gis( fis) e \bar "S-S"
+		dis4. e4 fis8 gis( e) a gis4.\trill
+		fis4 r8 h4 a8 gis( a) h e,( fis) gis
+		a4 a,8 cis'4 h8 ais( h) cis fis,( gis) ais
+		h4 h,8 a'( gis) fis gis( e) cis' gis( e) fis %5
+		e4 r8 r4. r2*3/2
+		R1.
+		r2*3/2 r4. e4\p d8
+		cis( d) e a,4 r8 r4. fis'4 e8
+		dis( e) fis \once \slurDashed h,( cis) dis e4 r8 r4. %10
+		R1.
+		r4. h'4\f a8 gis( a) h e,( fis) gis
+		a4 a,8 cis'4 h8 ais( h) cis fis,( gis) ais
+		h4 h,8 a'( gis) fis gis( e) cis' \once \slurDashed gis( a) fis
+		e4\fermata r8 r4. r cis'4\p h8 %15
+		a( h) cis fis,4 r8 r2*3/2
+		r r4. e4 d8
+		cis( d) e a,4 r8 r4. fis'4 e8
+		dis( e) fis h,4 r8 r4. gis'4 fis8
+		e( fis) gis cis,( dis) eis fis4 r8 cis'4 h8 %20
+		ais( h) cis fis,4 r8 r2*3/2
+		r r4. gis4 fis8
+		\slurDashed eis( fis) gis cis,( dis) eis \slurSolid fis4 h,8 h4 ais8
+		h4. h'8(\fE a!) gis cis( h) a gis( fis) e \bar "S-S" %24 finis
+		
+	}
+}

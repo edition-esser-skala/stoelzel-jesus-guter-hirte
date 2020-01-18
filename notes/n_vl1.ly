@@ -924,14 +924,6 @@ KommHerUndViolinoI = {
 	}
 }
 
-DiesenHonigsuessenViolinoI = {
-	\relative c' {
-		\clef treble
-		\key e \major \time 12/8 \tempoDiesenHonigsuessen
-		
-	}
-}
-
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
