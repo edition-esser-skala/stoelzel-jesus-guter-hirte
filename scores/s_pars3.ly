@@ -498,48 +498,76 @@
 % 			\midi { \tempo 4. = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.14" "C H O R A L" "Ey, ſo richte dich empor"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \EySoRichteSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \EySoRichteSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \EySoRichteAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \EySoRichteAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \EySoRichteTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \EySoRichteTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \EySoRichteBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \EySoRichteBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\EySoRichteOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \EySoRichteBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.14" "C H O R A L" "Ey, ſo richte dich empor"
+			movement = \movementTitle "3.15" "R E C I T A T I V O" "Nachdem der Geißel ſcharffer Zahn"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \EySoRichteSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \EySoRichteSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \EySoRichteAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \EySoRichteAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EySoRichteTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \EySoRichteTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \EySoRichteBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \EySoRichteBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \NachdemDerGeisselTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \NachdemDerGeisselTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\EySoRichteOrgano
+						\NachdemDerGeisselOrgano
 					}
 				>>
-				\new FiguredBass { \EySoRichteBassFigures }
+				\new FiguredBass { \NachdemDerGeisselBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

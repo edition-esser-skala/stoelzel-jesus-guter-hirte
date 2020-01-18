@@ -3044,6 +3044,18 @@ EySoRichteBassFigures = \figuremode {
 	<6> q <6 4>2 <5 3> r1 %61 finis
 }
 
+NachdemDerGeisselOrgano = {
+	\relative c {
+		\clef bass
+		\key cis \minor \time 4/4 \tempoNachdemDerGeissel
+		
+	}
+}
+
+NachdemDerGeisselBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -1181,6 +1181,18 @@ EySoRichteTenoreLyrics = \lyricmode {
 	dei -- nes Kum -- mers trau -- rig __ macht. %6 finis
 }
 
+NachdemDerGeisselTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key cis \minor \time 4/4 \autoBeamOff \tempoNachdemDerGeissel
+		
+	}
+}
+
+NachdemDerGeisselTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
