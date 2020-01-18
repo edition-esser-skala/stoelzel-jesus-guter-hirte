@@ -2887,6 +2887,46 @@ ErstauntIhrNichtBassFigures = \figuremode {
 	<_+>2. %43 finis
 }
 
+HerodesUndPilatusOrgano = {
+	\relative c {
+		\clef bass
+		\key h \minor \time 4/4 \tempoHerodesUndPilatus
+		h1~
+		h2 gis
+		a ais~
+		ais1~
+		ais2 h %5
+		fis1
+		g~
+		g
+		h2 c
+		d4 g, e'2 %10
+		d g4 e
+		fis h, gis2~
+		gis1
+		a2 ais
+		h4 gis a'! a, \markAttacaE \bar "|" %15 finis
+	}
+}
+
+HerodesUndPilatusBassFigures = \figuremode {
+	<8 3>2 <7+ 4 2>
+	<8 3> <6>
+	r <6>
+	<\t> <5>
+	<\t>1 %5
+	<6>
+	r
+	r
+	<6>
+	r2 <6\\> %10
+	r2. <6>4
+	<_+>2 <6>
+	r1
+	r2 <6>
+	r4 <6 5> <6 4> <5 3> %15 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

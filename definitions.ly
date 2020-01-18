@@ -361,6 +361,7 @@ tempoRedeDurchDein = \tempoMarkup "Choral"
 tempoDerUnschuldSonnen = \tempoMarkup "Recitativo"
 tempoDiesIstDasKleid = \tempoMarkup "Accompagnato"
 tempoErstauntIhrNicht = \tempoMarkup "Aria"
+tempoHerodesUndPilatus = \tempoMarkup "Recitativo"
 
 
 

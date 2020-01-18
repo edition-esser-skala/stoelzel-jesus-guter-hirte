@@ -1118,6 +1118,46 @@ DerUnschuldSonnenTenoreLyrics = \lyricmode {
 	Schimpf zu -- rü -- cke tra -- gen. %9 finis
 }
 
+HerodesUndPilatusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key h \minor \time 4/4 \autoBeamOff \tempoHerodesUndPilatus
+		r4 r8 d cis8. cis16 cis d e fis
+		d8 d r16 d fis d h8 cis d cis
+		cis cis r16 e e e cis8. cis16 cis8 r16 cis
+		fis8 fis fis g e e r16 cis cis d
+		e8 e fis cis d4 r16 d d d %5
+		fis8. fis16 fis8 d a h c h
+		h h r16 d d d g8. g16 g4
+		r8 g g d h8. h16 d8 h
+		g4 r16 g' g d e8 e fis g
+		d d r h g' g g fis %10
+		fis4 r r8 h, e d
+		h h r16 h h cis d8. d16 d8 h
+		e4 r8 h d d d cis
+		cis4 r16 e e e cis8. cis16 cis d e fis
+		d4 r16 d d d d8. a16 a4 \markAttacaE \bar "|" %15 finis
+	}
+}
+
+HerodesUndPilatusTenoreLyrics = \lyricmode {
+	He -- ro -- des und Pi -- la -- tus
+	ſe -- hen, daß Je -- ſu ſey zu viel ge --
+	ſche -- hen, drum zeigt der Letz -- te -- re den
+	nei -- di -- ſchen Ver -- kläg -- nern des HEr -- ren
+	Un -- ſchuld Son -- nen -- klar, will auf das %5
+	Oſ -- ter -- feſt nach der Ge -- wohn -- heit
+	le -- ben, und ſtatt des Bar -- ra -- bae,
+	der ein ge -- fang -- ner Mör -- der
+	war, Ihm ſei -- ne Frey -- heit wie -- der --
+	ge -- ben. Des ſie ſich a -- ber %10
+	doch aus Boß -- heit
+	we -- gern. Sie ſu -- chen Bar -- ra -- bam, den
+	Wolff, den Mör -- der, zu be --
+	freyn und wol -- len ü -- ber das un -- ſchuld -- ge
+	Lamm das Cru -- ci -- fi -- ge ſchreyn. %15 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

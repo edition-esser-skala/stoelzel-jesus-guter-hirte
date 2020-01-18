@@ -358,38 +358,66 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.10" "A R I A" "Erſtaunt ihr nicht, befleckte Sünder"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #30
+% 			system-system-spacing.minimum-distance = #30
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "et Oboi" "unisoni" } }
+% 						\ErstauntIhrNichtViolinoI
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+% 					\new Voice = "Basso" { \dynamicUp \ErstauntIhrNichtBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \ErstauntIhrNichtBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\ErstauntIhrNichtOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \ErstauntIhrNichtBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.10" "A R I A" "Erſtaunt ihr nicht, befleckte Sünder"
+			movement = \movementTitle "3.11" "R E C I T A T I V O" "Herodes und Pilatus ſehen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #30
-			system-system-spacing.minimum-distance = #30
-			systems-per-page = #3
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "et Oboi" "unisoni" } }
-						\ErstauntIhrNichtViolinoI
-					}
-				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
-					\new Voice = "Basso" { \dynamicUp \ErstauntIhrNichtBassoNotes }
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \HerodesUndPilatusTenoreNotes }
 				}
-				\new Lyrics \lyricsto Basso \ErstauntIhrNichtBassoLyrics
+				\new Lyrics \lyricsto Tenore \HerodesUndPilatusTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\ErstauntIhrNichtOrgano
+						\HerodesUndPilatusOrgano
 					}
 				>>
-				\new FiguredBass { \ErstauntIhrNichtBassFigures }
+				\new FiguredBass { \HerodesUndPilatusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
