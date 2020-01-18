@@ -3026,12 +3026,22 @@ EySoRichteOrgano = {
 		\clef bass
 		\key e \major \time 4/1 \tempoEySoRichte
 			\set Staff.timeSignatureFraction = 4/4
-		
+		e2 e a a, h' h, e1\fermata
+		e2 cis gis e a e' h1\fermata
+		h2 h' e, cis fis fis, h1\fermata
+		h'2 ais h dis,4( e) fis2 fis, h1\fermata
+		cis2 gis' a e a fis e1\fermata %5
+		gis2 a gis e h' h, e1\fermata \bar "|." %6 finis
 	}
 }
 
 EySoRichteBassFigures = \figuremode {
-	
+	r1 r r2 <7> r1
+	r2 <6> q1 r r
+	r1 r <8 _+>2 <7 \t> r1
+	r2 <6> r <6>4 <\t> <4>2 <_+> r1
+	r1 r r2 <6> r1 %5
+	<6> q <6 4>2 <5 3> r1 %61 finis
 }
 
 % Organo = {

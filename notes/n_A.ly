@@ -850,12 +850,22 @@ EySoRichteAltoNotes = {
 		\clef treble
 		\key e \major \time 4/1 \autoBeamOff \tempoEySoRichte
 			\set Staff.timeSignatureFraction = 4/4
-		
+		gis'2 gis e a fis fis e1\fermata
+		e2 e e4( fis) gis2 e e dis1\fermata
+		h'2 h h cis ais2. ais4 h1\fermata
+		fis2 fis fis h h ais4( gis) fis1\fermata
+		cis'2 h a gis a a h1\fermata %5
+		gis4( h) a2 e e e dis4( cis) h1\fermata \bar "|." %6 finis
 	}
 }
 
 EySoRichteAltoLyrics = \lyricmode {
-	
+	Ey, ſo rich -- te dich em -- por,
+	du be -- trüb -- tes An -- ge -- ſicht!
+	Laß das Seuff -- zen, nimm her -- vor
+	dei -- nes Glau -- bens Freu -- den __ Licht,
+	diß be -- halt, wenn dich die Nacht %5
+	dei -- nes Kum -- mers trau -- rig __ macht. %6 finis
 }
 
 % AltoNotes = {

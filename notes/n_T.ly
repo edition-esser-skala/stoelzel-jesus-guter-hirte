@@ -1163,12 +1163,22 @@ EySoRichteTenoreNotes = {
 		\clef "treble_8"
 		\key e \major \time 4/1 \autoBeamOff \tempoEySoRichte
 			\set Staff.timeSignatureFraction = 4/4
-		
+		h2 h a e' dis dis h1\fermata
+		h2 a e e' cis h h1\fermata
+		dis2 dis e e cis fis fis1\fermata
+		dis2 cis h fis' fis2. e4 dis1\fermata
+		gis2 gis e e e fis gis1\fermata %5
+		e2 e h h h h4( a) gis1\fermata %6 finis
 	}
 }
 
 EySoRichteTenoreLyrics = \lyricmode {
-	
+	Ey, ſo rich -- te dich em -- por,
+	du be -- trüb -- tes An -- ge -- ſicht!
+	Laß das Seuff -- zen, nimm her -- vor
+	dei -- nes Glau -- bens Freu -- den Licht,
+	diß be -- halt, wenn dich die Nacht %5
+	dei -- nes Kum -- mers trau -- rig __ macht. %6 finis
 }
 
 % TenoreNotes = {

@@ -700,12 +700,22 @@ EySoRichteBassoNotes = {
 		\clef bass
 		\key e \major \time 4/1 \autoBeamOff \tempoEySoRichte
 			\set Staff.timeSignatureFraction = 4/4
-		
+		e2 e a a, h' h, e1\fermata
+		e2 cis gis e a e' h1\fermata
+		h2 h' e, cis fis fis, h1\fermata
+		h'2 ais h dis,4( e) fis2 fis, h1\fermata
+		cis2 gis' a e a fis e1\fermata %5
+		gis2 a gis e h' h, e1\fermata \bar "|." %6 finis
 	}
 }
 
 EySoRichteBassoLyrics = \lyricmode {
-	
+	Ey, ſo rich -- te dich em -- por,
+	du be -- trüb -- tes An -- ge -- ſicht!
+	Laß das Seuff -- zen, nimm her -- vor
+	dei -- nes Glau -- bens Freu -- den Licht,
+	diß be -- halt, wenn dich die Nacht %5
+	dei -- nes Kum -- mers trau -- rig macht. %6 finis
 }
 
 % BassoNotes = {

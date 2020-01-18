@@ -796,12 +796,22 @@ EySoRichteSopranoNotes = {
 		\clef treble
 		\key e \major \time 4/1 \autoBeamOff \tempoEySoRichte
 			\set Staff.timeSignatureFraction = 4/4
-		
+		e'2 h cis cis h a gis1\fermata
+		gis2 a h h a gis fis1\fermata
+		fis'2 fis gis gis fis e dis1\fermata
+		h2 cis dis4( cis) dis2 cis2. h4 h1\fermata
+		e2 dis cis h cis dis e1\fermata %5
+		h2 cis h gis gis fis e1\fermata \bar "|." %6 finis
 	}
 }
 
 EySoRichteSopranoLyrics = \lyricmode {
-	
+	Ey, ſo rich -- te dich em -- por,
+	du be -- trüb -- tes An -- ge -- ſicht!
+	Laß das Seuff -- zen, nimm her -- vor
+	dei -- nes Glau -- bens Freu -- den Licht,
+	diß be -- halt, wenn dich die Nacht %5
+	dei -- nes Kum -- mers trau -- rig macht. %6 finis
 }
 
 % SopranoNotes = {
