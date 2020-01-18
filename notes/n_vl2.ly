@@ -604,3 +604,11 @@ DiesIstDasKleidViolinoII = {
 		a-! a-! r2\fermata \bar "|." %11 finis
 	}
 }
+
+KommHerUndViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoKommHerUnd
+		
+	}
+}

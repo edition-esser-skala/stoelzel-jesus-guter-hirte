@@ -392,29 +392,73 @@
 % 			\midi { \tempo 4 = 120 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.11" "R E C I T A T I V O" "Herodes und Pilatus ſehen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \HerodesUndPilatusTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \HerodesUndPilatusTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\HerodesUndPilatusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \HerodesUndPilatusBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.11" "R E C I T A T I V O" "Herodes und Pilatus ſehen"
+			movement = \movementTitle "3.12" "A C C O M P A G N A T O" "Komm her und ſiehe deinen Hirten"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\KommHerUndViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\KommHerUndViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\KommHerUndViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \HerodesUndPilatusTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
+					\new Voice = "Alto" { \dynamicUp \KommHerUndAltoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \HerodesUndPilatusTenoreLyrics
+				\new Lyrics \lyricsto Alto \KommHerUndAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\HerodesUndPilatusOrgano
+						\KommHerUndOrgano
 					}
 				>>
-				\new FiguredBass { \HerodesUndPilatusBassFigures }
+				\new FiguredBass { \KommHerUndBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

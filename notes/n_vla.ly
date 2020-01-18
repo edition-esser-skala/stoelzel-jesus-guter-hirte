@@ -741,3 +741,11 @@ DiesIstDasKleidViola = {
 		e-! fis-! r2\fermata \bar "|." %11 finis
 	}
 }
+
+KommHerUndViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoKommHerUnd
+		
+	}
+}

@@ -2927,6 +2927,18 @@ HerodesUndPilatusBassFigures = \figuremode {
 	r4 <6 5> <6 4> <5 3> %15 finis
 }
 
+KommHerUndOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoKommHerUnd
+		d1
+	}
+}
+
+KommHerUndBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

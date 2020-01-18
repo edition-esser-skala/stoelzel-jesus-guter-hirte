@@ -761,6 +761,18 @@ RedeDurchDeinAltoLyrics = \lyricmode {
 	nicht an mir ver -- loh -- ren seyn! %8 finis
 }
 
+KommHerUndAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \autoBeamOff \tempoKommHerUnd
+		
+	}
+}
+
+KommHerUndAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
