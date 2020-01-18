@@ -1158,6 +1158,19 @@ HerodesUndPilatusTenoreLyrics = \lyricmode {
 	Lamm das Cru -- ci -- fi -- ge ſchreyn. %15 finis
 }
 
+EySoRichteTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key e \major \time 4/1 \autoBeamOff \tempoEySoRichte
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+EySoRichteTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -791,6 +791,19 @@ RedeDurchDeinSopranoLyrics = \lyricmode {
 	nicht an mir ver -- loh -- ren seyn! %8 finis
 }
 
+EySoRichteSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 4/1 \autoBeamOff \tempoEySoRichte
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+EySoRichteSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -3021,6 +3021,19 @@ DiesenHonigsuessenBassFigures = \figuremode {
 	r4 <2>8 <6>4. r r4 <7>8 %24 finis
 }
 
+EySoRichteOrgano = {
+	\relative c {
+		\clef bass
+		\key e \major \time 4/1 \tempoEySoRichte
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+EySoRichteBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

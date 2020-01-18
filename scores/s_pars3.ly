@@ -464,38 +464,82 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.13" "A R I A" "Dieſen honigsüßen Spruch"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #20
+% 			system-system-spacing.minimum-distance = #20
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup \with { \smallerStaffDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "e Violi" } }
+% 						\DiesenHonigsuessenViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
+% 					\new Voice = "Alto" { \dynamicUp \DiesenHonigsuessenAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \DiesenHonigsuessenAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DiesenHonigsuessenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DiesenHonigsuessenBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.13" "A R I A" "Dieſen honigsüßen Spruch"
+			movement = \movementTitle "3.14" "C H O R A L" "Ey, ſo richte dich empor"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
-			systems-per-page = #4
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup \with { \smallerStaffDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "e Violi" } }
-						\DiesenHonigsuessenViola
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \EySoRichteSopranoNotes }
 					}
+					\new Lyrics \lyricsto Soprano \EySoRichteSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \EySoRichteAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \EySoRichteAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \EySoRichteTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \EySoRichteTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \EySoRichteBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \EySoRichteBassoLyrics
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
-					\new Voice = "Alto" { \dynamicUp \DiesenHonigsuessenAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \DiesenHonigsuessenAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DiesenHonigsuessenOrgano
+						\EySoRichteOrgano
 					}
 				>>
-				\new FiguredBass { \DiesenHonigsuessenBassFigures }
+				\new FiguredBass { \EySoRichteBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

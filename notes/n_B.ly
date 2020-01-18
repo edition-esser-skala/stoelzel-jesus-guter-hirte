@@ -695,6 +695,19 @@ ErstauntIhrNichtBassoLyrics = \lyricmode {
 	seyd? %43 finis
 }
 
+EySoRichteBassoNotes = {
+	\relative c {
+		\clef bass
+		\key e \major \time 4/1 \autoBeamOff \tempoEySoRichte
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+EySoRichteBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

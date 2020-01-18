@@ -845,6 +845,19 @@ DiesenHonigsuessenAltoLyrics = \lyricmode {
 	Fluch. %24 finis
 }
 
+EySoRichteAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 4/1 \autoBeamOff \tempoEySoRichte
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+EySoRichteAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

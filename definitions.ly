@@ -365,6 +365,7 @@ tempoHerodesUndPilatus = \tempoMarkup "Recitativo"
 tempoKommHerUnd = \tempoMarkup "Accompagnato"
 	tempoKommHerUndB = \tempoMarkup "[Arioſo]"
 tempoDiesenHonigsuessen = \tempoMarkup "Aria"
+tempoEySoRichte = \tempoMarkup "Choral"
 
 
 
