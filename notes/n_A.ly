@@ -797,6 +797,18 @@ KommHerUndAltoLyrics = \lyricmode {
 	ge -- ben. %13 finis
 }
 
+DiesenHonigsuessenAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \major \time 12/8 \autoBeamOff \tempoDiesenHonigsuessen
+		
+	}
+}
+
+DiesenHonigsuessenAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

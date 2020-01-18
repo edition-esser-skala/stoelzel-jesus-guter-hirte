@@ -420,48 +420,82 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.12" "A C C O M P A G N A T O" "Komm her und ſiehe deinen Hirten"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\KommHerUndViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\KommHerUndViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\KommHerUndViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
+% 					\new Voice = "Alto" { \dynamicUp \KommHerUndAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \KommHerUndAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\KommHerUndOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \KommHerUndBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.12" "A C C O M P A G N A T O" "Komm her und ſiehe deinen Hirten"
+			movement = \movementTitle "3.13" "A R I A" "Dieſen honigsüßen Spruch"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #30
+			system-system-spacing.minimum-distance = #30
+			systems-per-page = #3
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\KommHerUndViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\KommHerUndViolinoII
-						}
-					>>
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\KommHerUndViola
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "e Violi" } }
+						\DiesenHonigsuessenViolinoI
 					}
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
-					\new Voice = "Alto" { \dynamicUp \KommHerUndAltoNotes }
+					\new Voice = "Alto" { \dynamicUp \DiesenHonigsuessenAltoNotes }
 				}
-				\new Lyrics \lyricsto Alto \KommHerUndAltoLyrics
+				\new Lyrics \lyricsto Alto \DiesenHonigsuessenAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\KommHerUndOrgano
+						\DiesenHonigsuessenOrgano
 					}
 				>>
-				\new FiguredBass { \KommHerUndBassFigures }
+				\new FiguredBass { \DiesenHonigsuessenBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

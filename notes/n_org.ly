@@ -2963,6 +2963,18 @@ KommHerUndBassFigures = \figuremode {
 	<6 4> <5 _+> <_+>2 %13 finis
 }
 
+DiesenHonigsuessenOrgano = {
+	\relative c {
+		\clef bass
+		\key e \major \time 12/8 \tempoDiesenHonigsuessen
+		e4\fE fis8 gis fis e a4 r8 r r ais
+	}
+}
+
+DiesenHonigsuessenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
