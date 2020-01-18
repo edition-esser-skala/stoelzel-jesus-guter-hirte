@@ -912,7 +912,15 @@ KommHerUndViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoKommHerUnd
-		
+		fis'2 g
+		fis e
+		d fis
+		e1
+		gis~ %5
+		gis2 a
+		e4 dis \tempoKommHerUndB cis r
+		R1*5 %12
+		R1\fermataMarkup \bar "|." %13 finis
 	}
 }
 

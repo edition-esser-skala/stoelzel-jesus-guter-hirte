@@ -765,12 +765,36 @@ KommHerUndAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \autoBeamOff \tempoKommHerUnd
-		
+		r8 a' fis d h' h h d
+		d a r16 a d d, g8 g g fis
+		fis4 r8 a fis fis fis16 gis a gis
+		gis4 r8 e gis gis h gis
+		e4 r16 e gis h! d8 d d cis %5
+		cis cis r16 cis cis gis a4 r8 cis
+		cis8. gis16 gis4 \tempoKommHerUndB r r8 a
+		gis16([ eis)] cis8 a' gis a eis fis8. gis16
+		cis,8 h' a8. gis16 gis8 cis, fis a16([ fis)]
+		dis4 r8 fis gis16([ a)] h8 e,8. fis16 %10
+		dis8 h r h' a!4 gis
+		cis8. a16 fis8([ gis16)] a dis,4 r8 e
+		e h r4 r2\fermata \bar "|." %13 finis
 	}
 }
 
 KommHerUndAltoLyrics = \lyricmode {
-	
+	Komm her und ſie -- he dei -- nen
+	Hir -- ten, ver -- zag -- tes Schäf -- lein, nä -- her
+	an. Diß e -- ben, daß der Fein -- de
+	Liſt gantz un -- ver -- mö -- gend
+	iſt, ihm ein -- ges Un -- recht auf -- zu -- %5
+	bür -- den, diß iſts, was dich er -- freu -- en
+	kan. Denn
+	lei -- det Gott, der kei -- ne Schul -- den
+	hat, an dei -- ner ſtatt, ſo kanſt du
+	nun des feſ -- ten Glau -- bens %10
+	le -- ben: In Je -- ſu
+	ſey dir al -- le Schuld ver --
+	ge -- ben. %13 finis
 }
 
 % AltoNotes = {

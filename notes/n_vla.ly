@@ -744,8 +744,16 @@ DiesIstDasKleidViola = {
 
 KommHerUndViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 4/4 \tempoKommHerUnd
-		
+		a'2 h
+		a g
+		fis1
+		gis
+		e %5
+		gis2 fis4 a
+		gis gis \tempoKommHerUndB e r
+		R1*5 %12
+		R1\fermataMarkup \bar "|." %13 finis
 	}
 }

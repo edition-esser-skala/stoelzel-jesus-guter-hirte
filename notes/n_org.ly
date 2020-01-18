@@ -2931,12 +2931,36 @@ KommHerUndOrgano = {
 	\relative c {
 		\clef bass
 		\key d \major \time 4/4 \tempoKommHerUnd
-		d1
+		d1~
+		d~
+		d2 dis
+		e1~
+		e %5
+		eis2 fis
+		gis4 gis, \tempoKommHerUndB cis8 cis' a fis
+		eis4 fis8 eis fis gis a h
+		cis eis, fis fis, cis' h a fis
+		h cis dis h e dis cis fis, %10
+		h cis dis h cis dis e gis,
+		a4 a' a gis
+		h h, e2\fermata \bar "|." %13 finis
 	}
 }
 
 KommHerUndBassFigures = \figuremode {
-	
+	<5 3>2 <6 4>
+	<5 3> <7 4 2>
+	<8 3> <6>
+	<_+>1
+	r %5
+	<6 _+>
+	<6 4>4 <5+ _+> <5+> <6>
+	<6 _+> r8 <6 _+> r <6\\> <6> <6\\>
+	<5+ _+> <6 5 _+> r4 <5+ _+>8 <\t \t> <6>4
+	<_+> <6> <_+>8 <6> <7 5+> <7 _+> %10
+	<_+>4 <6> <6!>8 <\t> <_+> <6>
+	<5>4 <6> <4+ 2> <6>
+	<6 4> <5 _+> <_+>2 %13 finis
 }
 
 % Organo = {

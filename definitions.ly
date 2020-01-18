@@ -363,6 +363,7 @@ tempoDiesIstDasKleid = \tempoMarkup "Accompagnato"
 tempoErstauntIhrNicht = \tempoMarkup "Aria"
 tempoHerodesUndPilatus = \tempoMarkup "Recitativo"
 tempoKommHerUnd = \tempoMarkup "Accompagnato"
+	tempoKommHerUndB = \tempoMarkup "[Arioſo]"
 
 
 

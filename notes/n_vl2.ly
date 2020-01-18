@@ -609,6 +609,14 @@ KommHerUndViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 4/4 \tempoKommHerUnd
-		
+		\once \tieDashed d'1~
+		d2 cis
+		a-\critnote h
+		h1~
+		h %5
+		cis
+		cis4 his \tempoKommHerUndB cis r
+		R1*5 %12
+		R1\fermataMarkup \bar "|." %13 finis
 	}
 }
