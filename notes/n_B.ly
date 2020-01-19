@@ -758,12 +758,75 @@ DuBistVonErdenBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \major \time 4/4 \autoBeamOff \tempoDuBistVonErden
-		
+		R1*7 %7
+		r8 a a' a a4 gis
+		cis,8([ e)] cis'4 cis h
+		r8 e, a cis h e, fis dis %10
+		e4 r r2
+		r8 e cis' a d h cis a
+		h e, cis' a d8. cis16 cis4
+		r8 cis h a gis([ fis)] e4
+		fis4. gis8 a([ e)] a4 %15
+		d,~ d16[ fis e d] cis4~ cis16[ e] d([ cis])
+		cis8 h r4 r2
+		r8 e cis' cis cis4 h8([ a)]
+		gis a r d d16[ cis d h] cis[ h cis a]
+		h[ a h gis] cis[ h cis a] d[ cis d h] cis[ h] cis([ a)] %20
+		h8. e,16 e4 r8 e a h
+		e,([ fis16 gis a8)] a, d4 e
+		a, r r2
+		R1*6 %29
+		r8\fermata e' cis' cis cis4 h %30
+		cis8 gis a4 gis8 cis, gis' a
+		h h h16([ d)] cis8 a([ gis)] fis4
+		r2 r8 d! d' d
+		d4 cis h4. cis16[( d])
+		cis8 cis h16([ a)] gis([ fis)] eis4 r8 cis %35
+		d'4. h16([ d)] cis4. fis,8
+		h4. a16([ gis)] a4 r8 a
+		gis cis, cis' h a gis a4
+		gis gis8 a h!4 h
+		h ais r2 %40
+		r r4 a8 h16([ cis)]
+		d4. d8 cis([ h a g]
+		fis4) e8([ d)] a4.( fis'8)
+		d2 r \markDaCapo \bar "||" %44 finis
 	}
 }
 
 DuBistVonErdenBassoLyrics = \lyricmode {
+	Du biſt von Er -- den, %8
+	Staub und A -- ſchen,
+	was prahlſt und pran -- gerſt du ſo %10
+	ſehr,
+	was prahlſt und pran -- gerſt du ſo
+	ſehr, was prahlſt und pran -- gerſt du,
+	du biſt von Er -- den,
+	Staub und A -- ſchen, %15
+	Staub __ _ und
+	A -- ſchen,
+	von Er -- den, Staub und
+	A -- ſchen, was prahlſt __ _
+	_ _ _ _ und %20
+	pran -- gerſt du, was prahlſt und
+	pran -- gerſt du ſo
+	sehr?
 	
+	Ach wol -- leſt du dies %30
+	wohl be -- flei -- ßen, in Got -- tes
+	Au -- gen ſchön zu hei -- ßen,
+	ſo müß -- teſt
+	du je mehr und
+	mehr, je mehr und mehr, ſo %35
+	müß -- teſt du je
+	mehr und mehr dich
+	in der Bu -- ße Thrä -- nen
+	wa -- ſchen, in der Bu -- ße
+	Thrä -- nen, %40
+	in der
+	Bu -- ße Thrä --
+	nen wa --
+	ſchen. %44 finis
 }
 
 % BassoNotes = {

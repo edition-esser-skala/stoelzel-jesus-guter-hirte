@@ -808,8 +808,51 @@ BespiegeltEuchViola = {
 
 DuBistVonErdenViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \major \time 4/4 \tempoDuBistVonErden
-		
+		a4\fE r8 cis d d d d
+		e e e e fis fis fis fis
+		gis gis gis gis a a a a
+		e r e r e r e r
+		e r e r e4 r %5
+		r8 cis cis cis cis4 r
+		r8 h h h h4 r8 e
+		e4 r8 cis\p fis fis e e
+		e4 r8 e a a h h
+		e, a16 gis a8 r r2 %10
+		e4\f r8 gis a a a a
+		e\p e e e e e e e
+		e e e e e4-! e-!
+		r2 r4 r8 gis
+		a4 r8 h e,4 r8 cis %15
+		fis4 r8 gis a4 r8 e
+		e4 r8 e e4 a8 gis
+		fis h, r4 r2
+		e8 a, r fis' e r e r
+		e r e r e r e r %20
+		e4 r8 e e gis fis e
+		e4 r r2
+		r4 r8 e\f d d h' h
+		gis4 r8 a fis fis d' d
+		h4 r8 e, cis cis fis d %25
+		e r e r e r e r
+		e r e r e4 r
+		r8 cis cis cis cis4 r
+		r8 h h h e e16 a, h8 e
+		e4\fermata r r2 %30
+		cis8\p r cis r cis4 r
+		r2 r4 r8 a'
+		d,4 r8 e a,4 r8 a
+		a4 r8 a fis'4 e
+		e r r r8 eis %35
+		fis4 r8 gis eis4 r8 fis
+		dis4 r8 eis fis4 r8 cis
+		cis4 r r2
+		R1
+		r4 r8 cis d!4 r8 e! %40
+		a,4 r8 a a2~
+		a1
+		d,4 r r2
+		R1 \markDaCapo \bar "||" %44 finis
 	}
 }

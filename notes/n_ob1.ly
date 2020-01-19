@@ -149,6 +149,46 @@ DuBistVonErdenOboeI = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoDuBistVonErden
-		
+		R1*2
+		r2 r4 r8 fis'\fE
+		gis r a r gis r a r
+		gis r a r gis h,16 cis d h cis d %5
+		e2~ e8 a,16 h cis a h cis
+		d2~ d8 gis,16 a h gis a h
+		cis4 r r2
+		R1*3 %11
+		gis'8\p r a r gis r a r
+		gis r a r gis r a r
+		r2 \once \tieDashed e,~
+		e1~ %15
+		e~
+		e4 r8 h' cis4. cis8
+		h e, r4 r2
+		r4 r8 d' d r cis r
+		h r cis r d r cis r %20
+		\pa h e, e'[ e] e4 d~
+		d8 cis \pd r4 r2
+		r4 r8 cis,\f d2
+		e fis
+		gis a4 r8 a' %25
+		gis r a r gis r a r
+		gis r a r gis h,16 cis d h cis d
+		e2~ e8 a,16 h cis a h cis
+		d2~ d8 cis h8. a16
+		a4\fermata r r2 %30
+		cis8\p r cis r cis4 r
+		R1
+		r8 g! g'! g g4 fis
+		e r8 e h2
+		a4 r cis2~ %35
+		cis1~
+		cis~
+		cis4 r r2
+		R1
+		r2 r8 g! g'! g %40
+		g4 fis e a,
+		a1
+		d,4 r r2
+		R1 \markDaCapo \bar "||" %44 finis
 	}
 }

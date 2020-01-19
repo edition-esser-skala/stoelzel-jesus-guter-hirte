@@ -628,8 +628,7 @@
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = "Oboe I, II"
-						\new Voice { \voiceOne \DuBistVonErdenOboeI }
-						\new Voice { \voiceTwo \DuBistVonErdenOboeII }
+						\partcombine \DuBistVonErdenOboeI \DuBistVonErdenOboeII
 					>>
 				>>
 				\new StaffGroup <<
@@ -656,7 +655,7 @@
 				\new FiguredBass { \DuBistVonErdenBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 110 }
 		}
 	}
 }

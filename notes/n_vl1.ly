@@ -944,7 +944,50 @@ DuBistVonErdenViolinoI = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoDuBistVonErden
-		
+		r8 a\fE a' a a4 gis
+		cis,8 e cis' cis cis4 h
+		e,8 gis e' e e4 d~
+		d16 cis d h cis h cis a h_[ a h gis] cis h cis a
+		d cis d h cis h cis a h4 r %5
+		r8 e,16 fis gis e fis gis a4 r
+		r8 d,16 e fis d e fis gis4 r8 e'
+		cis4 r8 a,\p h' h h h
+		h4( a8) a, d' d d d
+		d4( cis8) r r2 %10
+		r8 e,\f e' e e4 d!~
+		d16 cis\p d h cis h cis a h_[ a h gis] cis h cis a
+		d cis d h cis h cis a h4-! a-!
+		r2 r8 e e' e
+		e d, d' d d cis, cis' cis %15
+		cis h, h' h h a, a' a
+		a gis gis' gis gis4 fis8 e
+		dis-! e-! r4 r2
+		r8 a, a' a gis r a r
+		gis r a r gis r a r %20
+		gis e, e' e e4 d~
+		d8 cis r4 r2
+		r8 a,\f a' a a4 gis
+		cis,8( e16 gis) cis8 cis cis4 h
+		e,8( gis16 h) e8 e e4 d~ %25
+		d16( cis d h) cis( h cis a) h_[( a h gis)] cis( h cis a)
+		d( cis d h) cis( h cis a) h4 r
+		r8 e16 fis gis e fis gis a8 a, r4
+		r8 d16 e fis d e fis gis8 a4 gis8
+		a,4\fermata r r2 %30
+		eis'8\p r fis r eis4 r
+		r2 r8 fis, fis' fis
+		fis4 e!2 d4
+		r8 cis, a' a a4 gis!
+		a r r8 cis cis' cis %35
+		cis h, h' h h a, a' a
+		a gis, gis' gis gis fis, fis' fis
+		fis eis r4 r2
+		R1
+		r8 fis, fis' fis fis4 e!~ %40
+		e8 d, d' d d cis, cis' cis
+		cis h, h' h a2
+		d,4 r r2
+		R1 \markDaCapo \bar "||" %44 finis
 	}
 }
 

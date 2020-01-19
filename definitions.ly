@@ -533,7 +533,6 @@ tempoDuBistVonErden = \tempoMarkup "Aria"
 		extraNatural = ##t
 		\override NoteHead.style = #'baroque
 		aDueText = \markup { \medium \remark "a 2" }
-		soloText = \markup { \medium \remark "Tromba I solo" }
 		\override DynamicTextSpanner.style = #'none
 	}
 	\context {

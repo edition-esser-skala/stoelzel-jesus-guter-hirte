@@ -3135,11 +3135,97 @@ DuBistVonErdenOrgano = {
 		\clef bass
 		\key a \major \time 4/4 \tempoDuBistVonErden
 		a4\fE r8 a h' h h h
+		h4 a8 a, d' d d d
+		d4 cis8 a, fis'' fis fis fis
+		e r e r e, r e r
+		e e e e e e, r4 %5
+		r8 cis'16 d e cis d e fis8 fis, r4
+		r8 h16 cis d h cis d e8 e, r e
+		a4 r8 a\pE d,4 e
+		a r8 a fis'4 gis
+		a8 a, cis a gis cis a h %10
+		e,4\fE r8 e fis' fis fis fis
+		e\pE r e r e, r e r
+		e' e e e e,4 a
+		d2 e~
+		e1~ %15
+		e~
+		e8 e, r e a' a a a
+		a gis r a, d'! d d d
+		d cis fis, h, e r e r
+		e r e r e r e r %20
+		e4 r8 d cis cis, fis gis
+		a4 r8 cis d4 e
+		a, r8 a\f h' h h h
+		h4 a8 a, d' d d d
+		d4 cis8 a, fis'' fis fis fis %25
+		e r e r e, r e r
+		e e e e e e, r4
+		r8 cis'16 d e cis d e fis8 fis, r4
+		r8 h16 cis d h cis d e8 a, d e
+		a,4\fermata r8 a\pE d' d d d %30
+		cis r cis, r cis4 r
+		dis eis fis r
+		h, r8 cis d4 d,
+		a' r8 cis d4 e
+		a,8 a' h h, cis2~ %35
+		cis1~
+		cis~
+		cis4 r8 cis fis4 his,
+		cis r dis eis
+		fis r8 fis, h4 cis %40
+		d r8 d, a'2~
+		a1
+		d,4 fis a2
+		d r \markDaCapo \bar "||" %44 finis
 	}
 }
 
 DuBistVonErdenBassFigures = \figuremode {
-	
+	r2 <7>4 <6>
+	<4 2> <6> <7> <6>
+	<4 2> <6> <[7]> <[6]>
+	<7 5>4 <6 4> <5 3> <6 4>
+	<7 5> <6 4> <5 3>2 %5
+	r1
+	r
+	r2 <6 5>
+	<[9]>4 <[8]> <6 5> <[6 5]>
+	<5 4> <[6]> q <[6 5]>8 <[_+]> %10
+	r2 <7>4 <6!>
+	<7 5>4 <6 4> <5 3> <6 4>
+	<7 5> <6 4> <5 3>2
+	<7>4 <6>8 <5> r2
+	<9 8 4>4 <\t 7 \t> <8 7> <\t 6> %15
+	<7 6> <\t 5> <6 5> <\t 4>
+	<[4]>8 <[3]>4. <7>4 <6>8 <5>
+	<4+ 2> <[6]> r4 <7> <6>8 <[5]>
+	<4 2> <6> r <7> <7 5>4 <6 4>
+	<5 3> <6 4> <7 5> <6 4> %20
+	<5 3>4. <2>8 <7>4 <6>8 <\t>
+	<4> <3> r <6> <6 5>2
+	r2 <7>4 <6>
+	<4 2> <6> <7> <6>
+	<4 2> <6> <7> <6> %25
+	<7 5>4 <6 4> <5 3> <6 4>
+	<7 5> <6 4> <5 3>2
+	r1
+	r2. <6 5>4
+	r2 <7>4 <6>8 <5> %30
+	<5 _+>4 <6 4> <5 _+>2
+	<6>4 <6 5>2.
+	<6! 5>4. <5!>8 <[9]>4 <[8]>
+	<4> <3> <6 5>2
+	r4 <6 5> <_+>2 %35
+	<9 8 4>4 <\t 7 \t> <8 7 _+> <\t 6 4>
+	<7 6 2+> <\t 5 _+> <6 5> <\t 4>
+	<4>8 <_+> r <7 _+> r4 <7 _+>
+	<_+>2 <6!>4 <6 5>
+	<4> <_+>8 <\t> <6! [5]>4 <5!> %40
+	<9> <8> <4> <3>
+	<10 4> <9 \t> <8 3>2
+	r4 <6> <6 4> <5 3>
+	r1 %44 finis
 }
 
 % Organo = {
