@@ -625,6 +625,14 @@ BespiegeltEuchViolinoII = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoBespiegeltEuch
-		
+		dis'1
+		e2 d
+		cis h
+		ais1
+		h~ %5
+		h2 cis
+		h4 h h r
+		\tempoBespiegeltEuchB R1*5 %12
+		R1\fermataMarkup \bar "|."
 	}
 }

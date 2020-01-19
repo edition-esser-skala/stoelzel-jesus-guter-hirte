@@ -794,6 +794,14 @@ BespiegeltEuchViola = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 4/4 \tempoBespiegeltEuch
-		
+		h'1~
+		h
+		gis
+		cis,
+		h %5
+		gis'2 a
+		gis4 fis gis r
+		\tempoBespiegeltEuchB R1*5 %12
+		R1\fermataMarkup \bar "|."
 	}
 }

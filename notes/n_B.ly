@@ -722,12 +722,36 @@ BespiegeltEuchBassoNotes = {
 	\relative c {
 		\clef bass
 		\key a \major \time 4/4 \autoBeamOff \tempoBespiegeltEuch
-		
+		r8 fis a fis dis4 r16 h' h gis
+		e8 e r16 e gis h d!8 d d cis
+		cis4 cis8 gis16 a h8 h d cis
+		ais ais r16 fis ais cis ais8. ais16 ais8 h
+		h4 r16 h h h dis,8 h a' gis %5
+		e4 r16 h' e h cis8 cis a gis
+		e4 r r r8 gis
+		\tempoBespiegeltEuchB gis dis r a'16 gis fis8 fis r dis16 dis
+		fis8 fis a gis eis eis r16 gis gis cis
+		cis8 fis, cis dis e e r16 e gis e %10
+		cis8 dis e dis dis4 r16 h' h h
+		h8 fis gis a! gis gis r16 gis h e,
+		cis'8 a fis a e4 r\fermata \bar "|." %13 finis
 	}
 }
 
 BespiegeltEuchBassoLyrics = \lyricmode {
-	
+	Be -- ſpie -- gelt euch, ge -- ſchminck -- te
+	Pfau -- en, in die -- ſem blut -- gen Jam -- mer
+	Bild! O bleibt ihr hier vor Furcht und
+	Grau -- en, von Angſt und Schre -- cken un -- er -- 
+	füllt, ſo müßt ihr här -- ter noch als %5
+	Stein und wil -- der als ein Hey -- de
+	ſeyn. Ach!
+	Sün -- der, ach er -- wä -- ge! So viel
+	Wun -- den, Beul und Schlä -- ge, ſo viel Ver --
+	ſpot -- ten und Ver -- ſpey -- en zahlt Je -- ſus %10
+	jetzt dem Rich -- ter dar, dich vom Ge --
+	rich -- te zu be -- frey -- en, das dei -- nes
+	Hoch -- muths Straf -- fe war. %13 finis
 }
 
 % BassoNotes = {

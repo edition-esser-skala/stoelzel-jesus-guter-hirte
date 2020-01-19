@@ -3099,11 +3099,35 @@ BespiegeltEuchOrgano = {
 		\clef bass
 		\key a \major \time 4/4 \tempoBespiegeltEuch
 		a1
+		gis2 e
+		eis'1
+		e
+		dis %5
+		e2 a
+		h4 h, e2
+		\tempoBespiegeltEuchB his1~
+		his2 h
+		ais1~ %10
+		ais2 h
+		dis e
+		a4 d, e a,\fermata \bar "|." %13 finis
 	}
 }
 
 BespiegeltEuchBassFigures = \figuremode {
-	
+	<4+ 2>1
+	<6>2 <7!>
+	<6>1
+	<4+ 2>
+	<6> %5
+	<9>4 <8>2.
+	<6 4>4 <5 _+>2.
+	<6 _+>2 <7 \t>
+	r <4+ 2>
+	<6>1 %10
+	r2 <_+>
+	<6> <8>4 <7!>
+	r1 %13 finis
 }
 
 % Organo = {
