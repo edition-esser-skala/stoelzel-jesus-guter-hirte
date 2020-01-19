@@ -3047,13 +3047,51 @@ EySoRichteBassFigures = \figuremode {
 NachdemDerGeisselOrgano = {
 	\relative c {
 		\clef bass
-		\key cis \minor \time 4/4 \tempoNachdemDerGeissel
-		
+		\key a \major \time 4/4 \tempoNachdemDerGeissel
+		cis2 his~
+		his1
+		cis2 gis'
+		a1
+		ais %5
+		h2 e,
+		fis4 h, gis!2~
+		gis a~
+		a cis
+		d ais %10
+		h a
+		gis!1
+		a2 eis'
+		fis gis4 gis,
+		cis2 h %15
+		a ais~
+		ais h
+		a~ a4 gis8 e
+		cis'2 h8 a gis e
+		cis'2 h\fermata \bar "||" %20 finis
 	}
 }
 
 NachdemDerGeisselBassFigures = \figuremode {
-	
+	r2 <6 _+>
+	r1
+	r2 <6 5!>
+	<8> <7!>
+	<6>1 %5
+	r2 <_!>
+	<_+> <6>
+	r1
+	r2 <6 5!>
+	r <6> %10
+	r <4+ 2>
+	<6>1
+	r2 <6>
+	r <6 4>4 <5+ _+>
+	r2 <4+ 2> %15
+	<6> <6 5!>
+	r <_+>
+	<4+ 2>2. <6>4
+	<5> <6\\> <_+>8 <\t> <6>4
+	<6\\>2 <_+> %20 finis
 }
 
 % Organo = {

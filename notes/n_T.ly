@@ -1184,13 +1184,51 @@ EySoRichteTenoreLyrics = \lyricmode {
 NachdemDerGeisselTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key cis \minor \time 4/4 \autoBeamOff \tempoNachdemDerGeissel
-		
+		\key a \major \time 4/4 \autoBeamOff \tempoNachdemDerGeissel
+		r8 e e gis gis dis dis e
+		fis4 r8 fis fis gis a gis
+		e e r16 e e fis d!8 d d cis
+		cis4 r8 e g g g fis
+		fis4 r8 fis fis cis d e %5
+		d d r fis g g e d
+		h4 r16 d d h e4 r8 e
+		e h d cis cis4 r8 a
+		cis cis d e e g, r16 g g fis
+		fis8 fis r16 fis' fis fis fis8 e fis cis %10
+		d d r fis dis8. dis16 dis8 dis
+		e4 r8 e e d fis e
+		cis4 r8 cis gis'8. gis16 fis8 gis
+		a fis d! cis cis8. gis16 gis4
+		r8 e' e e eis8. eis16 eis8 fis %15
+		fis4 r16 fis fis gis e4 r8 e
+		cis dis e dis dis4 r16 fis fis fis
+		dis8. dis16 fis8 h, h8. h16 e4
+		r8 e e e dis([ fis16)] dis h8 e
+		ais, cis e dis dis4 r\fermata \bar "||" %20 finis
 	}
 }
 
 NachdemDerGeisselTenoreLyrics = \lyricmode {
-	
+	Nach -- dem der Gei -- ßel ſcharf -- fer
+	Zahn den heil -- gen Leib zer -- 
+	ri -- ßen, legt Ihm der ra -- send -- tol -- le
+	Hauff den Pur -- pur Man -- tel
+	an und ſetzt Ihm ei -- ne %5
+	Kro -- ne von ſpitz -- gen Dor -- nen
+	auf, gibt Ihm ein Rohr in
+	ſei -- ne rech -- te Hand, fällt
+	doch aus Spott und Hoh -- ne zu ſei -- nen
+	Fü -- ßen, fängt an, als Kö -- nig Ihn zu %10
+	grü -- ßen, speyt a -- ber auch zu -- 
+	gleich Ihm in das An -- ge -- 
+	ſicht und ſchont des blut -- gen
+	Haupts mit har -- ten Schlä -- gen nicht.
+	Nach -- dem Er al -- ſo zu -- ge -- %15
+	richt und ü -- ber -- all von
+	Blut und Spei -- chel naß, führt Ihn Pi --
+	la -- tus ſelbſt he -- raus und ſpricht:
+	Seht, welch ein Menſch iſt das, seht,
+	welch ein Menſch iſt das. %20 finis
 }
 
 % TenoreNotes = {

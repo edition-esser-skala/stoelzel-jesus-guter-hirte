@@ -549,7 +549,7 @@
 		\paper {
 			system-system-spacing.basic-distance = #23
 			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			systems-per-page = #4
 		}
 		\score {
 			<<
