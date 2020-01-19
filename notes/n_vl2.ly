@@ -672,3 +672,11 @@ IstsNichtGenugViolinoII = {
 		R1\fermataMarkup \bar "|." %16 finis
 	}
 }
+
+WennMichNachViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 3/8 \tempoWennMichNach
+		
+	}
+}

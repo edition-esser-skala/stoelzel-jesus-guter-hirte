@@ -1027,6 +1027,14 @@ IstsNichtGenugViolinoI = {
 	}
 }
 
+WennMichNachViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 3/8 \tempoWennMichNach
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

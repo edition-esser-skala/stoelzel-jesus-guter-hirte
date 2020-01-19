@@ -856,6 +856,18 @@ IstsNichtGenugSopranoLyrics = \lyricmode {
 	nie -- mahls gu -- tes thut. %16 finis
 }
 
+WennMichNachSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 3/8 \autoBeamOff \tempoWennMichNach
+		
+	}
+}
+
+WennMichNachSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

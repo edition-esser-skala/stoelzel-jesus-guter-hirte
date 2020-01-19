@@ -758,9 +758,53 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.21" "A C C O M P A G N A T O" "Iſts nicht genug, daß mein getreuer Hirte"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IstsNichtGenugViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IstsNichtGenugViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\IstsNichtGenugViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das wehmüthige" "Schäflein" "(Canto 2)" } }
+% 					\new Voice = "Soprano" { \dynamicUp \IstsNichtGenugSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \IstsNichtGenugSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IstsNichtGenugOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \IstsNichtGenugBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.21" "A C C O M P A G N A T O" "Iſts nicht genug, daß mein getreuer Hirte"
+			movement = \movementTitle "3.22" "A R I A" "Wenn mich nach den tollen Freuden"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #35
@@ -772,34 +816,34 @@
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\IstsNichtGenugViolinoI
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+							\WennMichNachViolinoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\IstsNichtGenugViolinoII
+							\set Staff.instrumentName = \markup { \center-column {  "Violino II" "Oboe II" } }
+							\WennMichNachViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\IstsNichtGenugViola
+						\WennMichNachViola
 					}
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das wehmüthige" "Schäflein" "(Canto 2)" } }
-					\new Voice = "Soprano" { \dynamicUp \IstsNichtGenugSopranoNotes }
+					\new Voice = "Soprano" { \dynamicUp \WennMichNachSopranoNotes }
 				}
-				\new Lyrics \lyricsto Soprano \IstsNichtGenugSopranoLyrics
+				\new Lyrics \lyricsto Soprano \WennMichNachSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IstsNichtGenugOrgano
+						\WennMichNachOrgano
 					}
 				>>
-				\new FiguredBass { \IstsNichtGenugBassFigures }
+				\new FiguredBass { \WennMichNachBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

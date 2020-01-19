@@ -3394,6 +3394,18 @@ IstsNichtGenugBassFigures = \figuremode {
 	<_-> <6- 4>8 <5 _+> <_->4 %16 finis
 }
 
+WennMichNachOrgano = {
+	\relative c {
+		\clef bass
+		\key es \lydian \time 3/8 \tempoWennMichNach
+		es8\pE es es
+	}
+}
+
+WennMichNachBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
