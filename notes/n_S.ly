@@ -814,6 +814,18 @@ EySoRichteSopranoLyrics = \lyricmode {
 	dei -- nes Kum -- mers trau -- rig macht. %6 finis
 }
 
+IstsNichtGenugSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoIstsNichtGenug
+		
+	}
+}
+
+IstsNichtGenugSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

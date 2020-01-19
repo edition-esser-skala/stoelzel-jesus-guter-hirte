@@ -652,3 +652,11 @@ DuBesaessestViolinoII = {
 		a8 g fis e d2\fermata \bar "|." %9
 	}
 }
+
+IstsNichtGenugViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoIstsNichtGenug
+		
+	}
+}

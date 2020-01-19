@@ -872,3 +872,11 @@ DuBesaessestViola = {
 		fis8 d a cis d2\fermata \bar "|." %9 finis
 	}
 }
+
+IstsNichtGenugViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoIstsNichtGenug
+		
+	}
+}

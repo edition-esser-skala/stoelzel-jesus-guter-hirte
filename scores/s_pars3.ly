@@ -730,29 +730,73 @@
 % 			\midi { \tempo 4 = 70 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.20" "R E C I T A T I V O" "Pilatus will ſofort ſich eyfriger beſtreben"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \PilatusWillSofortTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \PilatusWillSofortTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\PilatusWillSofortOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \PilatusWillSofortBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.20" "R E C I T A T I V O" "Pilatus will ſofort ſich eyfriger beſtreben"
+			movement = \movementTitle "3.21" "A C C O M P A G N A T O" "Iſts nicht genug, daß mein getreuer Hirte"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #4
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\IstsNichtGenugViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\IstsNichtGenugViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\IstsNichtGenugViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \PilatusWillSofortTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das wehmüthige" "Schäflein" "(Canto 2)" } }
+					\new Voice = "Canto" { \dynamicUp \IstsNichtGenugCantoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \PilatusWillSofortTenoreLyrics
+				\new Lyrics \lyricsto Canto \IstsNichtGenugCantoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\PilatusWillSofortOrgano
+						\IstsNichtGenugOrgano
 					}
 				>>
-				\new FiguredBass { \PilatusWillSofortBassFigures }
+				\new FiguredBass { \IstsNichtGenugBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

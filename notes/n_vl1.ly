@@ -1007,6 +1007,14 @@ DuBesaessestViolinoI = {
 	}
 }
 
+IstsNichtGenugViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoIstsNichtGenug
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

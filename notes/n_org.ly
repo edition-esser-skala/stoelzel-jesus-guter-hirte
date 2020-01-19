@@ -3352,6 +3352,18 @@ PilatusWillSofortBassFigures = \figuremode {
 	<6 4>4 <5+ _+> r2 %21 finis
 }
 
+IstsNichtGenugOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoIstsNichtGenug
+		c1
+	}
+}
+
+IstsNichtGenugBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
