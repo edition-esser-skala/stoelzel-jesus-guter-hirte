@@ -991,6 +991,22 @@ DuBistVonErdenViolinoI = {
 	}
 }
 
+DuBesaessestViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoDuBesaessest
+		r4 d'8.\p e16 cis8 h a16 g g8
+		fis4 d'8 fis h,8. cis16 d8 e
+		cis h16 a e'8 e e8. fis16 d8 d
+		d4 h8 e cis fis16 e gis,8. e'16
+		cis8 h16 a e'8 fis g e fis8. g16 %5
+		e4 d8 fis e16 d d8 r g
+		fis e16 d cis8. d16 d4 a8 c
+		h16 a a8 r g' fis e16 d cis8. d16
+		d8 h a g fis2\fermata \bar "|." %9 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

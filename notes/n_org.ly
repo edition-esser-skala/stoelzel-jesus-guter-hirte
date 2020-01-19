@@ -3272,6 +3272,34 @@ DieFeindeFahrenBassFigures = \figuremode {
 	r1 %17 finis
 }
 
+DuBesaessestOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoDuBesaessest
+		d8\pE e fis g a, h cis a
+		d e fis d g e fis gis
+		a h cis a fis fis, h a
+		gis? fis gis? e a d e e,
+		a a' g! fis e a d, g, %5
+		a g fis d g fis r e
+		d g' a a, d e fis d
+		g d r cis d g a a,
+		d d d d d2\fermata \bar "|." %9 finis
+	}
+}
+
+DuBesaessestBassFigures = \figuremode {
+	r4 <6>8 q r <6\\> <6> <7>
+	r4 <6> r8 <6> q q
+	r4 <6> <7> <5 3>8 <\t \t>
+	<6 5>4. <_+>8 r4 <_+>
+	r <6>8 q r4. <6 5>8 %5
+	r8 <2> <6>4 q8 q r q
+	r2. <6>8 <7!>
+	r4. <6 5>8 r4 <_+>
+	r8 <6 4> <5 3> <7 4 2> <8 3>2 %9 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -658,32 +658,76 @@
 % 			\midi { \tempo 4 = 110 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.18" "R E C I T A T I V O" "Die Feinde fahren immer fort"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \DieFeindeFahrenTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DieFeindeFahrenTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DieFeindeFahrenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DieFeindeFahrenBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.18" "R E C I T A T I V O" "Die Feinde fahren immer fort"
+			movement = \movementTitle "3.19" "A R I A" "Du beſäßeſt keine Macht"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+							\DuBesaessestViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = \markup { \center-column {  "Violino II" "Oboe II" } }
+							\DuBesaessestViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\DuBesaessestViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \DieFeindeFahrenTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+					\new Voice = "Tenore" { \dynamicUp \DuBesaessestTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \DieFeindeFahrenTenoreLyrics
+				\new Lyrics \lyricsto Tenore \DuBesaessestTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DieFeindeFahrenOrgano
+						\DuBesaessestOrgano
 					}
 				>>
-				\new FiguredBass { \DieFeindeFahrenBassFigures }
+				\new FiguredBass { \DuBesaessestBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }

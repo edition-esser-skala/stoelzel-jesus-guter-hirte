@@ -636,3 +636,19 @@ BespiegeltEuchViolinoII = {
 		R1\fermataMarkup \bar "|."
 	}
 }
+
+DuBesaessestViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoDuBesaessest
+		r4 a'8\p h a gis e e
+		d4 a'8 a g g d h'
+		a4 a8 a a cis h h
+		h4. h8 a a e e
+		e a h a g a a h %5
+		cis4 a8 a h a r cis
+		d h a8. a16 a4 d,8 d
+		d d r e' d h a8. a16
+		a8 g fis e d2\fermata \bar "|." %9
+	}
+}

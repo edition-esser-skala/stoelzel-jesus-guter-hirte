@@ -1275,6 +1275,34 @@ DieFeindeFahrenTenoreLyrics = \lyricmode {
 	auf: %17 finis
 }
 
+DuBesaessestTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 4/4 \autoBeamOff \tempoDuBesaessest
+		r4 d8. e16 cis8 h a16([ g)] g8
+		fis4 d'8 fis h,8. cis16 d8 e
+		cis h16([ a)] e'8 e e8. fis16 d8 d
+		d4 h8 e cis fis16([ e)] gis,8. e'16
+		cis8 h16([ a)] e'8 fis g e fis8. g16 %5
+		e4 d8 fis e16([ d)] d8 r g
+		fis e16([ d)] cis8. d16 d4 a8 c
+		h16([ a)] a8 r g' fis e16([ d)] cis8. d16
+		d4 r r2\fermata \bar "|." %9 finis
+	}
+}
+
+DuBesaessestTenoreLyrics = \lyricmode {
+	Du be -- ſä -- ßeſt kei -- ne
+	Macht ü -- ber mei -- nen Tod und
+	Le -- ben, wär ſie nicht in je -- ner
+	Nacht dir von o -- ben her ge --
+	ge -- ben. Doch die Klä -- ger ha -- bens %5
+	Schuld, und ich lei -- de, ich
+	lei -- de mit Ge -- dult, und ich
+	lei -- de, ich lei -- de mit Ge --
+	dult. %9 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

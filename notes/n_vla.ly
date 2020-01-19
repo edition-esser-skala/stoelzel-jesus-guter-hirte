@@ -856,3 +856,19 @@ DuBistVonErdenViola = {
 		R1 \markDaCapo \bar "||" %44 finis
 	}
 }
+
+DuBesaessestViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 4/4 \tempoDuBesaessest
+		r4 d8\p g e d a cis
+		a g fis d' d g fis e
+		e d cis e fis fis fis fis
+		e4 e8 e e d16 cis h8 h
+		a cis h d h cis d8. e16 %5
+		a,4 d8 d g, d' r e
+		a g16 fis e8. e16 fis4 a8 fis
+		g fis r a a g16 fis e8. fis16
+		fis8 d a cis d2\fermata \bar "|." %9 finis
+	}
+}
