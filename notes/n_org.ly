@@ -3356,12 +3356,42 @@ IstsNichtGenugOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoIstsNichtGenug
-		c1
+		c1~
+		c2 cis~
+		cis d
+		gis,1~
+		gis2 a16 a' a a g?4 %5
+		r4 r16 cis, cis cis d8 d f f
+		a4 r g2
+		f8 f f f f f f f
+		f, f f f b2
+		es1 %10
+		f4 f, b2
+		g f
+		es e~
+		e f
+		fis g %15
+		c d4 g,\fermata \bar "|." %16 finis
 	}
 }
 
 IstsNichtGenugBassFigures = \figuremode {
-	
+	r1
+	<7->2 <6>
+	<5>1
+	<7 _!>2 <6 \t>
+	r2. <4+ 2>4 %5
+	r4 r16 <6 5>8. <9>8 <8> <6>4
+	<4> <_+> <6 _->2
+	r1
+	<7->
+	<5->2 <4 2> %10
+	<6 4->4 <5 3>2.
+	<_!>2 <\t>
+	<6> <6 5->
+	r1
+	<7->2 <_-> %15
+	<_-> <6- 4>8 <5 _+> <_->4 %16 finis
 }
 
 % Organo = {

@@ -792,7 +792,7 @@ DiesenHonigsuessenViola = {
 
 BespiegeltEuchViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \major \time 4/4 \tempoBespiegeltEuch
 		h'1~
 		h
@@ -875,8 +875,20 @@ DuBesaessestViola = {
 
 IstsNichtGenugViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoIstsNichtGenug
-		
+		g'1~
+		g2 e
+		a d~
+		d h!
+		gis e16. e32 e16 e e4 %5
+		r r16 cis cis cis a f' a f a f d d
+		e4 r b'2
+		c16( b) a( g) f8 c16( b) a( g) a( b) c8 f
+		c16( c) c( c) c( c) c( c) b?4 r
+		b'2 a %10
+		f4 f d2
+		R1*4 %15
+		R1\fermataMarkup \bar "|." %16 finis
 	}
 }

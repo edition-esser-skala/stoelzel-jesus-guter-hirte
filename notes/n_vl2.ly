@@ -657,6 +657,18 @@ IstsNichtGenugViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoIstsNichtGenug
-		
+		c'1~
+		c2 e~
+		e f~
+		f e~
+		e~ e16. a,32 a16 a a4 %5
+		r r16 g g g f d f a d a a a
+		a4 r e'2
+		f4 r8 f,16( g) a( b) c( f) e( d) c( b)
+		a( es) es( es) es( es) es( es) f4 r
+		es'2 c %10
+		b4 a f2
+		R1*4 %15
+		R1\fermataMarkup \bar "|." %16 finis
 	}
 }

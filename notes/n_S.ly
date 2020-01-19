@@ -818,12 +818,42 @@ IstsNichtGenugSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \autoBeamOff \tempoIstsNichtGenug
-		
+		r8 g' c e c4 r8 g
+		b b b a a a r16 a b a
+		g8 g b a f4 r16 d' d d
+		f8 f f e e e r16 h h c
+		d8 d f e c4 r16 a g a %5
+		b8 b b a f4 r8 d'
+		d8. cis16 cis cis d e b8 b b a
+		a4 r8 c a4 r16 b c d
+		es8 es es es d d r16 d es f
+		g,4 r16 g a b a8 c es d %10
+		b b r4 r8 d f d
+		h4 r16 h h c d8 d f es
+		c4 r16 c c d b4 r8 b
+		g a b a a4 r16 c c d
+		es8 es es d b4 r8 g %15
+		es' es r a,16 b g4 r\fermata \bar "|." %16 finis
 	}
 }
 
 IstsNichtGenugSopranoLyrics = \lyricmode {
-	
+	Iſts nicht ge -- nug, daß
+	mein ge -- treu -- er Hir -- te ſein To -- des
+	Ur -- theil an -- ge -- hört? Wird Ihm die
+	har -- te Jam -- mer Bür -- de durch Blut und
+	Wun -- den noch ver -- mehrt! O mehr als %5
+	Ty -- ger -- haff -- te Wuth! Die
+	Mord -- be -- gier er -- ſäufft ſich ſonſt im war -- men
+	Blut, doch hier, da Je -- ſu
+	Blut wie Ströh -- me flie -- ßet, thut es nichts
+	mehr, als daß es Oel ins Feu -- er %10
+	gie -- ßet. Ach ed -- ler
+	Leib! da -- rum zer -- fleiſcht man dich ſo
+	ſehr und läßt dich faſt von
+	al -- lem Blu -- te leer, weil mein ver --
+	derb -- tes Fleiſch und Blut gar %15
+	nie -- mahls gu -- tes thut. %16 finis
 }
 
 % SopranoNotes = {

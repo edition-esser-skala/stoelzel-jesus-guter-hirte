@@ -787,9 +787,9 @@
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das wehmüthige" "Schäflein" "(Canto 2)" } }
-					\new Voice = "Canto" { \dynamicUp \IstsNichtGenugCantoNotes }
+					\new Voice = "Soprano" { \dynamicUp \IstsNichtGenugSopranoNotes }
 				}
-				\new Lyrics \lyricsto Canto \IstsNichtGenugCantoLyrics
+				\new Lyrics \lyricsto Soprano \IstsNichtGenugSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
