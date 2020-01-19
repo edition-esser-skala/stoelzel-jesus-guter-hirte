@@ -3300,6 +3300,18 @@ DuBesaessestBassFigures = \figuremode {
 	r8 <6 4> <5 3> <7 4 2> <8 3>2 %9 finis
 }
 
+PilatusWillSofortOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoPilatusWillSofort
+		h1
+	}
+}
+
+PilatusWillSofortBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

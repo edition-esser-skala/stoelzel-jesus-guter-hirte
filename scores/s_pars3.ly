@@ -686,48 +686,76 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.19" "A R I A" "Du beſäßeſt keine Macht"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+% 							\DuBesaessestViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column {  "Violino II" "Oboe II" } }
+% 							\DuBesaessestViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DuBesaessestViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+% 					\new Voice = "Tenore" { \dynamicUp \DuBesaessestTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DuBesaessestTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DuBesaessestOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DuBesaessestBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 70 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.19" "A R I A" "Du beſäßeſt keine Macht"
+			movement = \movementTitle "3.20" "R E C I T A T I V O" "Pilatus will ſofort ſich eyfriger beſtreben"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
-							\DuBesaessestViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = \markup { \center-column {  "Violino II" "Oboe II" } }
-							\DuBesaessestViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\DuBesaessestViola
-					}
-				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
-					\new Voice = "Tenore" { \dynamicUp \DuBesaessestTenoreNotes }
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \PilatusWillSofortTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \DuBesaessestTenoreLyrics
+				\new Lyrics \lyricsto Tenore \PilatusWillSofortTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DuBesaessestOrgano
+						\PilatusWillSofortOrgano
 					}
 				>>
-				\new FiguredBass { \DuBesaessestBassFigures }
+				\new FiguredBass { \PilatusWillSofortBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

@@ -1303,6 +1303,18 @@ DuBesaessestTenoreLyrics = \lyricmode {
 	dult. %9 finis
 }
 
+PilatusWillSofortTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 4/4 \autoBeamOff \tempoPilatusWillSofort
+		
+	}
+}
+
+PilatusWillSofortTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
