@@ -1307,12 +1307,52 @@ PilatusWillSofortTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \major \time 4/4 \autoBeamOff \tempoPilatusWillSofort
-		
+		r4 r8 fis d8. d16 e8 fis
+		g4 r8 g e8. e16 cis?8 fis
+		d d r d d a h c
+		h h r d fis8. fis16 e8 d
+		g4 r16 g g d h8 g f' e %5
+		e4 r8 e e([ h)] r16 h h c
+		d8 d e h c4 r8 e
+		f f f e e 4 r16 e g e
+		c8 c h c c8. g16 g4
+		r8 e' e e c8. c16 c4 %10
+		r8 c e d h4 g'8 d16 d
+		h8. h16 h8 r16 d g8 g d16 e f e
+		c4 r16 e e e cis8. cis16 e8 f
+		d4 r8 f es d cis d
+		a4 r16 f' e d g8 d f e %15
+		e4 r8 e dis dis cis h
+		e8. e16 e8 r16 g g8. d16 d8 d
+		h h d h \tempoPilatusWillSofortB g4 r8 g'
+		fis a fis e16([ d)] g4 f
+		e16([ d)] e8 r e c h16([ a)] f'8 e %20
+		e8. h16 h4 r2\fermata \bar "|." %21 finis
 	}
 }
 
 PilatusWillSofortTenoreLyrics = \lyricmode {
-	
+	Pi -- la -- tus will ſo --
+	fort ſich ey -- fri -- ger be --
+	ſtre -- ben, die Frey -- heit Ihm zu
+	ge -- ben. Je -- doch der Fein -- de
+	Wort bringt ihm die ſchnö -- de Mey -- nung %5
+	bey: daß er, __ gäb er den
+	Kla -- gen kein Ge -- hör, des
+	Kay -- ſers Freund nicht ſey, weil Je -- ſus
+	ſich für ei -- nen Kö -- nig hielt.
+	So -- bald er Men -- ſchen -- furcht %10
+	im Hert -- zen fühlt, bricht er den
+	To -- des Stab, nimmt Wa -- ßer, wäſcht die Hän -- de
+	ab, und will an Je -- ſu Blut und
+	Pein hie -- mit un -- ſchul -- dig
+	ſeyn. Al -- lein das Volck lädt fre -- vent -- %15
+	lich diß un -- ſchul -- di -- ge
+	Blut auf ſich. Den Bar -- ra -- bam ſtellt
+	man auf frey -- en Fuß, da
+	Je -- ſus noch vor ſei -- nem
+	To -- de die ſcharf -- fe Gei -- ßel %20
+	lei -- den muß. %21 finis
 }
 
 % TenoreNotes = {

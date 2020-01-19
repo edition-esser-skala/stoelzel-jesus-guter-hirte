@@ -3304,12 +3304,52 @@ PilatusWillSofortOrgano = {
 	\relative c {
 		\clef bass
 		\key g \major \time 4/4 \tempoPilatusWillSofort
-		h1
+		h1~
+		\once \tieDashed h~
+		h2 fis'
+		g a
+		h1 %5
+		c2 gis~
+		gis a
+		d, c
+		f g4 g,
+		c2 a~ %10
+		a g
+		f1
+		e2 g
+		f g
+		a4 d h!2 %15
+		c h4 a
+		g2 h~
+		h \tempoPilatusWillSofortB h8 a h g
+		d'4 r8 c h a h g
+		c h c gis a2 %20
+		h e,\fermata \bar "|." %21 finis
 	}
 }
 
 PilatusWillSofortBassFigures = \figuremode {
-	
+	r1
+	<6 4>2 <7+ 4 2+>
+	<8 3> <6>
+	r <6>
+	<6>1 %5
+	r2 <6>
+	r1
+	<5 _!>4 <6 \t> r2
+	r2 <6 4>4 <5 3>
+	r1 %10
+	<5>4 <6\\> r2
+	<2>1
+	<6>2 <4+ 2>
+	<6> <6- _->
+	<6! 4>8 <5 _+> <_!>4 <6>2 %15
+	r <5+ _+>4 <\t \t>
+	<6>2 <6 _!>
+	r <6>
+	r4. <2>8 <6>4 <5!>8 <\t>
+	r4. <6>8 r4 <6!>8 <5> %20
+	<6 4>4 <5+ _+> r2 %21 finis
 }
 
 % Organo = {

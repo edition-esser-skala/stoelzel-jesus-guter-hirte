@@ -373,6 +373,7 @@ tempoDuBistVonErden = \tempoMarkup "Aria"
 tempoDieFeindeFahren = \tempoMarkup "Recitativo"
 tempoDuBesaessest = \tempoMarkup "Aria"
 tempoPilatusWillSofort = \tempoMarkup "Recitativo"
+	tempoPilatusWillSofortB = \tempoMarkup "[Arioſo]"
 
 
 
