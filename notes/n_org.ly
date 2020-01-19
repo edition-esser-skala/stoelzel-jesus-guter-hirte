@@ -3232,12 +3232,44 @@ DieFeindeFahrenOrgano = {
 	\relative c {
 		\clef bass
 		\key fis \phrygian \time 4/4 \tempoDieFeindeFahren
+		fis1~
+		fis2 gis,
+		eis1
+		fis2 gis
+		a h %5
+		cis d
 		fis1
+		g~
+		g
+		h,2 cis! %10
+		\once \tieDashed fis1~
+		fis2 e
+		d ais~
+		ais1
+		h2 fis' %15
+		g gis
+		a r\fermata \bar "|." %17 finis
 	}
 }
 
 DieFeindeFahrenBassFigures = \figuremode {
-	
+	<8 3>2 <7+ 4 2+>
+	<8 3> <5 3>
+	<6 _+>1
+	r2 <6!>
+	r <6!> %5
+	<6 5>1
+	<6>
+	r
+	r
+	<6>2 <6 5> %10
+	<6>1
+	r2 <7>4 <6>
+	r2 <6>
+	r1
+	r2 <6> %15
+	<7>4 <6> <6 5>2
+	r1 %17 finis
 }
 
 % Organo = {

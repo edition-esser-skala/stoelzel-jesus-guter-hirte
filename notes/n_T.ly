@@ -1235,12 +1235,44 @@ DieFeindeFahrenTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key fis \phrygian \time 4/4 \autoBeamOff \tempoDieFeindeFahren
-		
+		r8 cis fis cis eis8. eis16 eis8 fis
+		fis4 r8 fis d d h16 cis d cis
+		cis4 r8 cis d d d cis
+		a a r16 fis' fis fis e!8 h cis d
+		cis cis r16 e e fis g!8. g16 g4 %5
+		r8 g g fis fis fis r16 a, a a
+		d8. d16 d8 fis d4 r16 a c h
+		h8 h r d g8. g16 g8 fis
+		g4 r8 d h8. h16 d8 h
+		g4 r16 g' g g e8 fis g fis %10
+		d8. d16 d8 r16 fis a8 a fis fis
+		d4 r8 d g g g fis
+		fis fis r fis fis cis cis d
+		e4 r8 e g g g fis
+		d d r d d a d fis %15
+		fis([ h,)] r h h cis d cis
+		cis4 r r2\fermata \bar "|." %17 finis
 	}
 }
 
 DieFeindeFahrenTenoreLyrics = \lyricmode {
-	
+	Die Fein -- de fah -- ren im -- mer
+	fort, den Rich -- ter zu der Un -- ſchuld
+	Mord mit Schrey -- en zu be --
+	we -- gen. Je -- doch Pi -- la -- tus ſetzt da --
+	ge -- gen: Es ſey nichts ſtraf -- bah -- res %5
+	an Ihm zu fin -- den. So ſoll die
+	Kla -- ge ſich nun -- mehr auf die -- ſes
+	grün -- den: Es ha -- be ihr Ge --
+	ſetz den Tod Ihm zu -- ge --
+	dacht, weil Er ſich ſelbſt zu Got -- tes %10
+	Sohn ge -- macht. Pi -- la -- tus will hie --
+	rauf zur Ant -- wort Ihn ver --
+	bin -- den mit Vor -- wand, daß ſein
+	Tod und Le -- ben bey ihm
+	ſtün -- den. Drum thut Er ſei -- nen %15
+	Mund mit die -- ſen Wor -- ten
+	auf: %17 finis
 }
 
 % TenoreNotes = {
