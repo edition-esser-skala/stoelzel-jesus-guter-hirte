@@ -1231,6 +1231,18 @@ NachdemDerGeisselTenoreLyrics = \lyricmode {
 	welch ein Menſch iſt das. %20 finis
 }
 
+DieFeindeFahrenTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key fis \phrygian \time 4/4 \autoBeamOff \tempoDieFeindeFahren
+		
+	}
+}
+
+DieFeindeFahrenTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

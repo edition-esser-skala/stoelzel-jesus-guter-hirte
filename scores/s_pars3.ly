@@ -614,48 +614,76 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.17" "A R I A" "Du biſt von Erden, Staub und Aſchen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Oboe I, II"
+% 						\partcombine \DuBistVonErdenOboeI \DuBistVonErdenOboeII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
+% 						\DuBistVonErdenViolinoI
+% 					}
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\DuBistVonErdenViola
+% 					>>
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+% 					\new Voice = "Basso" { \dynamicUp \DuBistVonErdenBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \DuBistVonErdenBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DuBistVonErdenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DuBistVonErdenBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 110 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.17" "A R I A" "Du biſt von Erden, Staub und Aſchen"
+			movement = \movementTitle "3.18" "R E C I T A T I V O" "Die Feinde fahren immer fort"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #4
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff <<
-						\set Staff.instrumentName = "Oboe I, II"
-						\partcombine \DuBistVonErdenOboeI \DuBistVonErdenOboeII
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
-						\DuBistVonErdenViolinoI
-					}
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\DuBistVonErdenViola
-					>>
-				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
-					\new Voice = "Basso" { \dynamicUp \DuBistVonErdenBassoNotes }
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \DieFeindeFahrenTenoreNotes }
 				}
-				\new Lyrics \lyricsto Basso \DuBistVonErdenBassoLyrics
+				\new Lyrics \lyricsto Tenore \DieFeindeFahrenTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DuBistVonErdenOrgano
+						\DieFeindeFahrenOrgano
 					}
 				>>
-				\new FiguredBass { \DuBistVonErdenBassFigures }
+				\new FiguredBass { \DieFeindeFahrenBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 110 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

@@ -370,6 +370,7 @@ tempoNachdemDerGeissel = \tempoMarkup "Recitativo"
 tempoBespiegeltEuch = \tempoMarkup "Accompagnato"
 	tempoBespiegeltEuchB = \tempoMarkup "[Recitativo]"
 tempoDuBistVonErden = \tempoMarkup "Aria"
+tempoDieFeindeFahren = \tempoMarkup "Recitativo"
 
 
 

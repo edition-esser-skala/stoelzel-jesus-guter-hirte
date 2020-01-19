@@ -3228,6 +3228,18 @@ DuBistVonErdenBassFigures = \figuremode {
 	r1 %44 finis
 }
 
+DieFeindeFahrenOrgano = {
+	\relative c {
+		\clef bass
+		\key fis \phrygian \time 4/4 \tempoDieFeindeFahren
+		fis1
+	}
+}
+
+DieFeindeFahrenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
