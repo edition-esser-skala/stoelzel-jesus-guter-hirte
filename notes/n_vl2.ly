@@ -620,3 +620,11 @@ KommHerUndViolinoII = {
 		R1\fermataMarkup \bar "|." %13 finis
 	}
 }
+
+BespiegeltEuchViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoBespiegeltEuch
+		
+	}
+}

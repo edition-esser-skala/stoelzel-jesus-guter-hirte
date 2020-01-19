@@ -718,6 +718,18 @@ EySoRichteBassoLyrics = \lyricmode {
 	dei -- nes Kum -- mers trau -- rig macht. %6 finis
 }
 
+BespiegeltEuchBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \autoBeamOff \tempoBespiegeltEuch
+		
+	}
+}
+
+BespiegeltEuchBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

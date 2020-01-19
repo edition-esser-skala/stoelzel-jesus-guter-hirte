@@ -367,6 +367,7 @@ tempoKommHerUnd = \tempoMarkup "Accompagnato"
 tempoDiesenHonigsuessen = \tempoMarkup "Aria"
 tempoEySoRichte = \tempoMarkup "Choral"
 tempoNachdemDerGeissel = \tempoMarkup "Recitativo"
+tempoBespiegeltEuch = \tempoMarkup "Accompagnato"
 
 
 

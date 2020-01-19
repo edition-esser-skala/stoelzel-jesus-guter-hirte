@@ -542,29 +542,73 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.15" "R E C I T A T I V O" "Nachdem der Geißel ſcharffer Zahn"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \NachdemDerGeisselTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \NachdemDerGeisselTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\NachdemDerGeisselOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \NachdemDerGeisselBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.15" "R E C I T A T I V O" "Nachdem der Geißel ſcharffer Zahn"
+			movement = \movementTitle "3.16" "A C C O M P A G N A T O" "Beſpiegelt euch, geſchminckte Pfauen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #4
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\BespiegeltEuchViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\BespiegeltEuchViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\BespiegeltEuchViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \NachdemDerGeisselTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+					\new Voice = "Basso" { \dynamicUp \BespiegeltEuchBassoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \NachdemDerGeisselTenoreLyrics
+				\new Lyrics \lyricsto Basso \BespiegeltEuchBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\NachdemDerGeisselOrgano
+						\BespiegeltEuchOrgano
 					}
 				>>
-				\new FiguredBass { \NachdemDerGeisselBassFigures }
+				\new FiguredBass { \BespiegeltEuchBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

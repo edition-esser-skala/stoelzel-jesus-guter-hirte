@@ -3094,6 +3094,18 @@ NachdemDerGeisselBassFigures = \figuremode {
 	<6\\>2 <_+> %20 finis
 }
 
+BespiegeltEuchOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \tempoBespiegeltEuch
+		a1
+	}
+}
+
+BespiegeltEuchBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
