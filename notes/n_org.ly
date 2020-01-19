@@ -3130,6 +3130,18 @@ BespiegeltEuchBassFigures = \figuremode {
 	r1 %13 finis
 }
 
+DuBistVonErdenOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \tempoDuBistVonErden
+		a4\fE r8 a h' h h h
+	}
+}
+
+DuBistVonErdenBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

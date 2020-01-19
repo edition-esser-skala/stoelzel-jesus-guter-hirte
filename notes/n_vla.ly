@@ -805,3 +805,11 @@ BespiegeltEuchViola = {
 		R1\fermataMarkup \bar "|."
 	}
 }
+
+DuBistVonErdenViola = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoDuBistVonErden
+		
+	}
+}

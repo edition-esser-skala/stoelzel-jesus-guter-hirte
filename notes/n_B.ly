@@ -754,6 +754,18 @@ BespiegeltEuchBassoLyrics = \lyricmode {
 	Hoch -- muths Straf -- fe war. %13 finis
 }
 
+DuBistVonErdenBassoNotes = {
+	\relative c {
+		\clef bass
+		\key a \major \time 4/4 \autoBeamOff \tempoDuBistVonErden
+		
+	}
+}
+
+DuBistVonErdenBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

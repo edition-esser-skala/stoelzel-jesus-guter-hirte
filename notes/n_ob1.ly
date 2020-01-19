@@ -144,3 +144,11 @@ DasSchafVerstummtOboeI = {
 		g,2.\fermata \bar "|." %48 finis
 	}
 }
+
+DuBistVonErdenOboeI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 4/4 \tempoDuBistVonErden
+		
+	}
+}
