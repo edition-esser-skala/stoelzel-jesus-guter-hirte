@@ -950,6 +950,19 @@ WennMichNachSopranoLyrics = \lyricmode {
 	ſchloß. %43 finis
 }
 
+LassDeineLiebeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/1 \autoBeamOff \tempoLassDeineLiebe
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+LassDeineLiebeSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

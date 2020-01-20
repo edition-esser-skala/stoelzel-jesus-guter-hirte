@@ -380,6 +380,7 @@ tempoPilatusWillSofort = \tempoMarkup "Recitativo"
 	tempoPilatusWillSofortB = \tempoMarkup "[Arioſo]"
 tempoIstsNichtGenug = \tempoMarkup "Accompagnato"
 tempoWennMichNach = \tempoMarkup "Aria"
+tempoLassDeineLiebe = \tempoMarkup "Choral"
 
 
 

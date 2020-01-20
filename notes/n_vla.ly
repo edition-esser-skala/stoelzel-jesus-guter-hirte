@@ -948,3 +948,12 @@ WennMichNachViola = {
 		\time 4/4 f r f r g r f r \markAttaca \bar "|" %49 finis
 	}
 }
+
+LassDeineLiebeViola = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/1 \tempoLassDeineLiebe
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}

@@ -829,6 +829,19 @@ DuBistVonErdenBassoLyrics = \lyricmode {
 	ſchen. %44 finis
 }
 
+LassDeineLiebeBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \lydian \time 4/1 \autoBeamOff \tempoLassDeineLiebe
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+LassDeineLiebeBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

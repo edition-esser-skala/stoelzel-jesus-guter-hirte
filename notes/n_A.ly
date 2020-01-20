@@ -868,6 +868,19 @@ EySoRichteAltoLyrics = \lyricmode {
 	dei -- nes Kum -- mers trau -- rig __ macht. %6 finis
 }
 
+LassDeineLiebeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/1 \autoBeamOff \tempoLassDeineLiebe
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+LassDeineLiebeAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

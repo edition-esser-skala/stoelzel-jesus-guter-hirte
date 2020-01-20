@@ -1355,6 +1355,19 @@ PilatusWillSofortTenoreLyrics = \lyricmode {
 	lei -- den muß. %21 finis
 }
 
+LassDeineLiebeTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \lydian \time 4/1 \autoBeamOff \tempoLassDeineLiebe
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+LassDeineLiebeTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

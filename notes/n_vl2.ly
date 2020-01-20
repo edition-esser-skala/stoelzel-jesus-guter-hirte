@@ -728,3 +728,12 @@ WennMichNachViolinoII = {
 		\time 4/4 b r c r b r b r \markAttaca \bar "|" %49 finis
 	}
 }
+
+LassDeineLiebeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/1 \tempoLassDeineLiebe
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}

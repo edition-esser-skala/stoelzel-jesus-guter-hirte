@@ -802,48 +802,108 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "3.22" "A R I A" "Wenn mich nach den tollen Freuden"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
+% 							\WennMichNachViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = \markup { \center-column {  "Violino II" "Oboe II" } }
+% 							\WennMichNachViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\WennMichNachViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das wehmüthige" "Schäflein" "(Canto 2)" } }
+% 					\new Voice = "Soprano" { \dynamicUp \WennMichNachSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \WennMichNachSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\WennMichNachOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \WennMichNachBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 8 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "3.22" "A R I A" "Wenn mich nach den tollen Freuden"
+			movement = \movementTitle "3.23" "C H O R A L" "Laß deine Liebe doch"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = \markup { \center-column { "Violino I" "Oboe I" } }
-							\WennMichNachViolinoI
+							\LassDeineLiebeViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = \markup { \center-column {  "Violino II" "Oboe II" } }
-							\WennMichNachViolinoII
+							\LassDeineLiebeViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\WennMichNachViola
+						\LassDeineLiebeViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das wehmüthige" "Schäflein" "(Canto 2)" } }
-					\new Voice = "Soprano" { \dynamicUp \WennMichNachSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \WennMichNachSopranoLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \LassDeineLiebeSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \LassDeineLiebeSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \LassDeineLiebeAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \LassDeineLiebeAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \LassDeineLiebeTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \LassDeineLiebeTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \LassDeineLiebeBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \LassDeineLiebeBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\WennMichNachOrgano
+						\LassDeineLiebeOrgano
 					}
 				>>
-				\new FiguredBass { \WennMichNachBassFigures }
+				\new FiguredBass { \LassDeineLiebeBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 8 = 90 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

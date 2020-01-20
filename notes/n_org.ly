@@ -3502,6 +3502,19 @@ WennMichNachBassFigures = \figuremode {
 	r4 <7> <6 4> <5 3>
 }
 
+LassDeineLiebeOrgano = {
+	\relative c {
+		\clef bass
+		\key es \lydian \time 4/1 \tempoLassDeineLiebe
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+LassDeineLiebeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
