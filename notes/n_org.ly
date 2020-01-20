@@ -3529,6 +3529,19 @@ LassDeineLiebeBassFigures = \figuremode {
 	r r2 <6>4 <\t> <4>2 <3> r1 %8 finis
 }
 
+SeeleGehAufOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/1 \tempoSeeleGehAuf
+			\set Staff.timeSignatureFraction = 4/4
+		b2 d4( es) f2 d es4( d) c2 b1\fermata
+	}
+}
+
+SeeleGehAufBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

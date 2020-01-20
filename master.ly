@@ -8,7 +8,8 @@
 
 % \include "scores/s_pars1.ly"
 % \include "scores/s_pars2.ly"
-\include "scores/s_pars3.ly"
+% \include "scores/s_pars3.ly"
+\include "scores/s_pars4.ly"
 
 
 % \include "parts/p_fl1.ly"

@@ -895,6 +895,19 @@ LassDeineLiebeAltoLyrics = \lyricmode {
 	durch dei -- nen Geiſt he -- raus. %8 finis
 }
 
+SeeleGehAufAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/1 \autoBeamOff \tempoSeeleGehAuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+SeeleGehAufAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -977,6 +977,19 @@ LassDeineLiebeSopranoLyrics = \lyricmode {
 	durch dei -- nen Geiſt he -- raus. %8 finis
 }
 
+SeeleGehAufSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/1 \autoBeamOff \tempoSeeleGehAuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+SeeleGehAufSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

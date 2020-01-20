@@ -382,6 +382,8 @@ tempoIstsNichtGenug = \tempoMarkup "Accompagnato"
 tempoWennMichNach = \tempoMarkup "Aria"
 tempoLassDeineLiebe = \tempoMarkup "Choral"
 
+tempoSeeleGehAuf = \tempoMarkup "Choral"
+
 
 
 % modify the Scheme function 'format-bass-figure'

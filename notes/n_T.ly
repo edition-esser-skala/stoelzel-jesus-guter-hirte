@@ -1382,6 +1382,19 @@ LassDeineLiebeTenoreLyrics = \lyricmode {
 	durch dei -- nen Geiſt he -- raus. %8 finis
 }
 
+SeeleGehAufTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/1 \autoBeamOff \tempoSeeleGehAuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+SeeleGehAufTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

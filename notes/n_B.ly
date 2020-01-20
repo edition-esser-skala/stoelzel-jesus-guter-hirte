@@ -856,6 +856,19 @@ LassDeineLiebeBassoLyrics = \lyricmode {
 	durch dei -- nen Geiſt he -- raus. %8 finis
 }
 
+SeeleGehAufBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/1 \autoBeamOff \tempoSeeleGehAuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+SeeleGehAufBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
