@@ -734,6 +734,13 @@ LassDeineLiebeViolinoII = {
 		\clef treble
 		\key es \lydian \time 4/1 \tempoLassDeineLiebe
 			\set Staff.timeSignatureFraction = 4/4
-		
+		b'2 es, es es es d es1\fermata
+		\time 5/1 r2 es f a! b es, es( d) es1\fermata
+		\time 4/1 r2 es es es es d es1\fermata
+		\time 5/1 r2 es f a! b es, es( d) es1\fermata
+		\time 4/1 r2 d d e f f e1\fermata %5
+		r2 es f f f2. f4 f1\fermata
+		r2 g as f es es es1\fermata
+		r2 es d es es d4( c) b1\fermata \bar "|." %8 finis
 	}
 }

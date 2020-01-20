@@ -834,12 +834,26 @@ LassDeineLiebeBassoNotes = {
 		\clef bass
 		\key es \lydian \time 4/1 \autoBeamOff \tempoLassDeineLiebe
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 es c as b b, es1\fermata
+		\time 5/1 r2 es' d c b es b1 es\fermata
+		\time 4/1 r2 es c as b b, es1\fermata
+		\time 5/1 r2 es' d c b es b1 es\fermata
+		\time 4/1 r2 b as g f as c1\fermata %5
+		r2 es! d b f' f, b1\fermata
+		r2 es as, b c4( des) es2 as,1\fermata
+		r2 es' b g4( as) b2 b, es1\fermata \bar "|." %8 finis
 	}
 }
 
 LassDeineLiebeBassoLyrics = \lyricmode {
-	
+	Laß dei -- ne Lie -- be doch
+	in Marck und See -- le drin -- gen,
+	hilff mir, mein ſünd -- lich Fleiſch
+	mit al -- len Lüſ -- ten zwin -- gen.
+	Halt mei -- ne See -- le rein, %5
+	mein Hert -- ze sey dein Haus
+	und wirfft, was welt -- lich iſt,
+	durch dei -- nen Geiſt he -- raus. %8 finis
 }
 
 % BassoNotes = {

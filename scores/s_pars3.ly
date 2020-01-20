@@ -251,7 +251,7 @@
 % 			<<
 % 				\new ChoirStaff <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
+% 						\set Staff.instrumentName = "Canto"
 % 						\new Voice = "Soprano" { \dynamicUp \RedeDurchDeinSopranoNotes }
 % 					}
 % 					\new Lyrics \lyricsto Soprano \RedeDurchDeinSopranoLyrics
@@ -507,7 +507,7 @@
 % 			<<
 % 				\new ChoirStaff <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
+% 						\set Staff.instrumentName = "Canto"
 % 						\new Voice = "Soprano" { \dynamicUp \EySoRichteSopranoNotes }
 % 					}
 % 					\new Lyrics \lyricsto Soprano \EySoRichteSopranoLyrics
@@ -871,7 +871,7 @@
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
+						\set Staff.instrumentName = "Canto"
 						\new Voice = "Soprano" { \dynamicUp \LassDeineLiebeSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \LassDeineLiebeSopranoLyrics

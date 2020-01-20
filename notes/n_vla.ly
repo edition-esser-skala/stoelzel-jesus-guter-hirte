@@ -951,9 +951,16 @@ WennMichNachViola = {
 
 LassDeineLiebeViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \lydian \time 4/1 \tempoLassDeineLiebe
 			\set Staff.timeSignatureFraction = 4/4
-		
+		g'2 b, c c f, b b1\fermata
+		\time 5/1 r2 b b es d b b1 g\fermata
+		\time 4/1 r2 b c c f, b b1\fermata
+		\time 5/1 r2 b b es d b b1 g\fermata
+		\time 4/1 r2 b b b c c c1\fermata %5
+		r2 b b d^\critnote c2. c4 d1\fermata
+		r2 es es d c b c1\fermata
+		r2 b b b b2. as4 g1\fermata \bar "|." %8 finis
 	}
 }

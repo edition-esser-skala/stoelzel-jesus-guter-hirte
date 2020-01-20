@@ -955,12 +955,26 @@ LassDeineLiebeSopranoNotes = {
 		\clef treble
 		\key es \lydian \time 4/1 \autoBeamOff \tempoLassDeineLiebe
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 g' g c b2. as4 g1\fermata
+		\time 5/1 r2 g b es, f g f1 es\fermata
+		\time 4/1 r2 g g c b2. as4 g1\fermata
+		\time 5/1 r2 g b es, f g f1 es\fermata
+		\time 4/1 r2 f f g as2. g4 g1\fermata %5
+		r2 g f b b2. a4 b1\fermata
+		r2 b c b as g as1\fermata
+		r2 g f g f2. es4 es1\fermata \bar "|." %8 finis
 	}
 }
 
 LassDeineLiebeSopranoLyrics = \lyricmode {
-	
+	Laß dei -- ne Lie -- be doch
+	in Marck und See -- le drin -- gen,
+	hilff mir, mein ſünd -- lich Fleiſch
+	mit al -- len Lüſ -- ten zwin -- gen.
+	Halt mei -- ne See -- le rein, %5
+	mein Hert -- ze sey dein Haus
+	und wirfft, was welt -- lich iſt,
+	durch dei -- nen Geiſt he -- raus. %8 finis
 }
 
 % SopranoNotes = {

@@ -1360,12 +1360,26 @@ LassDeineLiebeTenoreNotes = {
 		\clef "treble_8"
 		\key es \lydian \time 4/1 \autoBeamOff \tempoLassDeineLiebe
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 b c c f, b b1\fermata
+		\time 5/1 r2 b b es d b b1 g\fermata
+		\time 4/1 r2 b c c f, b b1\fermata
+		\time 5/1 r2 b b es d b b1 g\fermata
+		\time 4/1 r2 b b b c c c1\fermata %5
+		r2 b b d^\critnote c2. c4 d1\fermata
+		r2 es es d c b c1\fermata
+		r2 b b b b2. as4 g1\fermata \bar "|." %8 finis
 	}
 }
 
 LassDeineLiebeTenoreLyrics = \lyricmode {
-	
+	Laß dei -- ne Lie -- be doch
+	in Marck und See -- le drin -- gen,
+	hilff mir, mein ſünd -- lich Fleiſch
+	mit al -- len Lüſ -- ten zwin -- gen.
+	Halt mei -- ne See -- le rein, %5
+	mein Hert -- ze sey dein Haus
+	und wirfft, was welt -- lich iſt,
+	durch dei -- nen Geiſt he -- raus. %8 finis
 }
 
 % TenoreNotes = {

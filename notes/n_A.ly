@@ -873,12 +873,26 @@ LassDeineLiebeAltoNotes = {
 		\clef treble
 		\key es \lydian \time 4/1 \autoBeamOff \tempoLassDeineLiebe
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 es es es es d es1\fermata
+		\time 5/1 r2 es f a! b es, es( d) es1\fermata
+		\time 4/1 r2 es es es es d es1\fermata
+		\time 5/1 r2 es f a! b es, es( d) es1\fermata
+		\time 4/1 r2 d d e f f e1\fermata %5
+		r2 es f f f2. f4 f1\fermata
+		r2 g as f es es es1\fermata
+		r2 es d es es d4( c) b1\fermata \bar "|." %8 finis
 	}
 }
 
 LassDeineLiebeAltoLyrics = \lyricmode {
-	
+	Laß dei -- ne Lie -- be doch
+	in Marck und See -- le drin -- gen,
+	hilff mir, mein ſünd -- lich Fleiſch
+	mit al -- len Lüſ -- ten zwin -- gen.
+	Halt mei -- ne See -- le rein, %5
+	mein Hert -- ze sey dein Haus
+	und wirfft, was welt -- lich iſt,
+	durch dei -- nen Geiſt he -- raus. %8 finis
 }
 
 % AltoNotes = {

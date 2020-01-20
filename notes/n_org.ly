@@ -3507,12 +3507,26 @@ LassDeineLiebeOrgano = {
 		\clef bass
 		\key es \lydian \time 4/1 \tempoLassDeineLiebe
 			\set Staff.timeSignatureFraction = 4/4
-		
+		es,2 es' c as b b, es1\fermata
+		\time 5/1 r2 es' d c b es b1 es\fermata
+		\time 4/1 r2 es c as b b, es1\fermata
+		\time 5/1 r2 es' d c b es b1 es\fermata
+		\time 4/1 r2 b as g f as c1\fermata %5
+		r2 es! d b f' f, b1\fermata
+		r2 es as, b c4( des) es2 as,1\fermata
+		r2 es' b g4( as) b2 b, es1\fermata \bar "|." %8 finis
 	}
 }
 
 LassDeineLiebeBassFigures = \figuremode {
-	
+	r1 r <5 4>2 <\t 3> r1
+	r <6>2 <6!> r1 <4>2 <3> r1
+	r1 r <5 4>2 <\t 3> r1
+	r <6>2 <6!> r1 <4>2 <3> r1
+	r <2>2 <6!> <_-> <6> <_!>1 %5
+	r <6> <4>2 <\t>4 <_!> r1
+	r r <6->4 <\t> r2 r1
+	r r2 <6>4 <\t> <4>2 <3> r1 %8 finis
 }
 
 % Organo = {
