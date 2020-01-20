@@ -843,7 +843,7 @@
 				\new FiguredBass { \WennMichNachBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 8 = 90 }
 		}
 	}
 }

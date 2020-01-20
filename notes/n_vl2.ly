@@ -677,6 +677,54 @@ WennMichNachViolinoII = {
 	\relative c' {
 		\clef treble
 		\key es \lydian \time 3/8 \tempoWennMichNach
-		
+		r8 es'\p es
+		es es es
+		es es es
+		es d d
+		es es\fE es %5
+		c c c
+		b b\pE b
+		g g g
+		f b c
+		\time 4/4 b r f r g r f r %10
+		\time 3/8 f4 r8
+		r16 d' d d d d
+		d d d d d d
+		d d d d d d
+		es8 es, r %15
+		r16 e' e e e e
+		e? e e e e e
+		e? e e e e e
+		f8 f, r
+		r g' h %20
+		c c, es!
+		f, f' a!
+		b b, d
+		es, g'8.[ a16]
+		fis8 fis,4 %25
+		g fis8
+		d g'\fE g
+		g g g
+		g g g
+		g g fis %30
+		g es\pE es
+		es es es
+		es es es
+		es es d
+		es b\fE b %35
+		c c c
+		b b\pE b
+		c8. d16 es f
+		b,8 es es,
+		as8. c16 b as %40
+		g es g8 a
+		\time 4/4 b r c r b r b r
+		\time 3/8 b8 g\fE es
+		es es es
+		es es es %45
+		es es d
+		es es es
+		c' c c
+		\time 4/4 b r c r b r b r \markAttaca \bar "|" %49 finis
 	}
 }

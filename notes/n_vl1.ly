@@ -1031,7 +1031,55 @@ WennMichNachViolinoI = {
 	\relative c' {
 		\clef treble
 		\key es \lydian \time 3/8 \tempoWennMichNach
-		
+		r8 b'\p es
+		\appoggiatura des c8. b16 c es
+		es8( b16) as b es
+		es8( as,16) g as f'
+		g,8 g'\fE g %5
+		g( f16) g as b
+		d, b d8[\pE d]
+		d( c16) d es f
+		a,! f es'8[ es]
+		\time 4/4 d r b\trill r c r a\trill r %10
+		\time 3/8 b f g_+
+		as8. g16 as c
+		\appoggiatura b8 as8. g16 as c
+		\appoggiatura b8 as8. g16 as b
+		g8 g a_+ %15
+		b8. a16 b d
+		\appoggiatura c8 b8. a16 b d
+		\appoggiatura c8 b8. a16 b c
+		a8 f' f
+		f8. as16 g f %20
+		es! c es8[ es]
+		es8. g16 f es
+		d8 d d
+		d8. es16 c c
+		c8. d16 b a %25
+		d([es)] b8 a16( g)
+		g8 d'\fE g
+		\appoggiatura f! es8. d16 es g
+		g8( d16) c d g
+		g8( c,16) b c a' %30
+		b,16 g b8[\pE es]
+		\appoggiatura des c8. b16 c es
+		es8( b16) as b es
+		es8( as,16) g as f'
+		g,8 g'\fE g %35
+		g( f16) g as b
+		d, b b'4~\pE
+		b8 c, as'~
+		as b, g'~
+		g as, f'~ %40
+		f g, es'
+		\time 4/4 d r es r es r d r
+		\time 3/8 es b\fE es
+		\appoggiatura des c8. b16 c es
+		es8( b16) as b es %45
+		es8( as,16) g as f'
+		g,8 g' g
+		g( f16) g as b
+		\time 4/4 d,8 r es r es r d r \markAttaca \bar "|" %49 finis
 	}
 }
 

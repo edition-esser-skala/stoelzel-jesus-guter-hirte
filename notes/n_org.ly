@@ -3399,11 +3399,107 @@ WennMichNachOrgano = {
 		\clef bass
 		\key es \lydian \time 3/8 \tempoWennMichNach
 		es8\pE es es
+		es es es
+		es es es
+		es es es
+		es es\fE es %5
+		as, as as
+		b b\pE b
+		es es es
+		f g a
+		\time 4/4 b r d, r es r f r %10
+		\time 3/8 b,4 r8
+		b b b
+		b b b
+		b b b
+		es4 r8 %15
+		c c c
+		c c c
+		c c c
+		f4 r8
+		g g g %20
+		c, c c
+		f f f
+		b, b b
+		es es es
+		d d d %25
+		b16 c d8 d,
+		g g\fE g
+		g g g
+		g g g
+		g g g %30
+		g es'[\pE es]
+		es es es
+		es es es
+		es es es
+		es es\fE es %35
+		as as as
+		b b\pE b
+		b b b
+		b b b
+		b, b b %40
+		es es c
+		\time 4/4 b r a! r b r b r
+		\time 3/8 es, es\fE es
+		es es es
+		es es es %45
+		es es es
+		es es' es
+		as as as
+		\time 4/4 b r a r b r b, r \markAttaca \bar "|" %49 finis
 	}
 }
 
 WennMichNachBassFigures = \figuremode {
-	
+	r4.
+	<7- 4->8 <6 \t>4
+	<5 3>4.
+	<8 4- 2>8 <7 \t \t>4
+	<8 3>4. %5
+	<7>8 <6>4
+	r4.
+	<7>8 <6>4
+	r8 <6> <6 5>
+	r4 <6> q2 %10
+	r4.
+	<7->
+	<\t>
+	q
+	r %15
+	<7 _!>
+	<\t \t>
+	q
+	r
+	<7 _!> %20
+	<_->
+	<7 _!>
+	r
+	<7>4 <6>8
+	<7 _+>4. %25
+	<6>16 <3> <6 4>8 <5 _+>
+	r4.
+	<7! 4>8 <6 \t>4
+	<5 3>4.
+	<8 4 2>4 <7+ \t \t>8 %30
+	<8 3>8 <5 3>4
+	<7- 4->8 <6 \t>4
+	<5 3>4.
+	<8 4- 2>4 <7 \t \t>8
+	<8 3>4. %35
+	<7>8 <6>4
+	r4.
+	<8 4 2>4 <7- \t \t>8
+	<7- 5 3> <6 4>4
+	<7- 6 4 2> <\t 5 3>8 %40
+	<9>8 <8> <6!>
+	r4 <7> <6 4> <5 3>
+	r4.
+	<7- 4->8 <6 \t>4
+	<5 3>4.
+	<8 4- 2>4 <7 \t \t>8
+	<8 3>4.
+	<7>8 <6>4
+	r4 <7> <6 4> <5 3>
 }
 
 % Organo = {

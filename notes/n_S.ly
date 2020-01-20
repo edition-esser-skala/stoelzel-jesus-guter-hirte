@@ -860,12 +860,94 @@ WennMichNachSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \lydian \time 3/8 \autoBeamOff \tempoWennMichNach
-		
+		r8 b' es
+		\appoggiatura des c8. b16 c es
+		es8([ b16)] as b es
+		es8([ as,16)] g as f'
+		g,8 r r %5
+		R4.
+		r8 d' d
+		d([ c16)] d es f
+		a,! f es'8 es
+		\time 4/4 d r b\trill r c r a\trill r %10
+		\time 3/8 b f g_+
+		as8. g16 as c
+		\appoggiatura b8 as8. g16 as c
+		\appoggiatura b8 as8. g16 as b
+		g8 g a_+ %15
+		b8. a16 b d
+		\appoggiatura c8 b8. a16 b d
+		\appoggiatura c8 b8. a16 b c
+		a8 f' f
+		f8. as16 g f %20
+		es! c es8 es
+		es8. g16 f es
+		d8 d d
+		d8. es16 c c
+		c8. d16 b a %25
+		d es b8 a16([ g)]
+		g4 r8
+		R4.*3 %30
+		r8 b es
+		\appoggiatura des c8. b16 c es
+		es8([ b16)] as b es
+		es8([ as,16)] g as f'
+		g,8 r r %35
+		R4.
+		r8 b b
+		c8. d16 es f
+		b,8 es16([ d es8)]
+		as,8. c16 b as %40
+		g es g8 a
+		\time 4/4 b r c r b r r r16 g
+		\time 3/8 es4 r8
+		R4.*5 %48
+		\time 4/4 R1 \markAttaca \bar "|" %49 finis
 	}
 }
 
 WennMichNachSopranoLyrics = \lyricmode {
+	Wenn mich
+	nach den tol -- len
+	Freu -- den die -- ſer
+	eit -- len Welt ge --
+	lüſt, %5
 	
+	ach ſo
+	zei -- ge mir dein
+	Lei -- den, das gantz
+	un -- aus -- ſprech -- lich %10
+	iſt. Stell mir
+	vor, wie du im
+	Gar -- ten blut -- ge --
+	färb -- ten Schweiß ver --
+	goßt, und auf %15
+	wie viel bitt -- re
+	Ar -- ten du den
+	Kreut -- zes Kelch ge --
+	koſt. Laß mich
+	ſehn, wie Strick und %20
+	Ban -- de dich un --
+	ſchuld -- ges Lamm um --
+	faßt, und wie
+	vie -- le Schmach und
+	Schan -- de du für %25
+	mich er -- dul -- det
+	haſt.
+	
+	Zei -- ge %31
+	mir, wie aus den
+	Beu -- len ſich dein
+	ro -- thes Blut er --
+	goß, %35
+	
+	als dich
+	an der Mar -- ter
+	Säu -- len, __
+	an der Mar -- ter %40
+	Säu -- len Gei -- ßel,
+	Peitſch und Ruth um --
+	ſchloß. %43 finis
 }
 
 % SopranoNotes = {

@@ -268,6 +268,10 @@ markDaCapo = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
 	\mark \markup { \remark "da capo" }
 }
+markAttaca = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "attaca" }
+}
 markAttacaE = {
 	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
 	\mark \markup { \remarkE "attaca" }

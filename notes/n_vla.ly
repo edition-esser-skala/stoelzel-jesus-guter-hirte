@@ -895,8 +895,56 @@ IstsNichtGenugViola = {
 
 WennMichNachViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \lydian \time 3/8 \tempoWennMichNach
-		
+		r8 g'\pE g
+		as as as
+		g g g
+		f f f
+		es b\fE b %5
+		as as' as
+		f f\pE f
+		es es es
+		c b f'
+		\time 4/4 f r d r c r c r %10
+		\time 3/8 d4 r8
+		r16 f f f f f
+		f f f f f f
+		f f f f f f
+		b,4 r8 %15
+		r16 g' g g g g
+		g g g g g g
+		g g g g g g
+		c,4 d'8
+		h g4~ %20
+		g8 es! c'
+		a! f4~
+		f8 d b'
+		g es4
+		a, d8~ %25
+		d d4
+		b8 b'\fE b 
+		c c c
+		b b b
+		a a a %30
+		g g\pE g
+		as as as
+		g g g
+		f f f
+		es es\fE es %35
+		es as as
+		f d\pE d
+		es es c
+		d b b
+		c c d %40
+		es es es
+		\time 4/4 f r f r g r f r
+		\time 3/8 g es\fE g
+		as as as
+		g g g %45
+		f f f
+		b, b b
+		as c f
+		\time 4/4 f r f r g r f r \markAttaca \bar "|" %49 finis
 	}
 }
