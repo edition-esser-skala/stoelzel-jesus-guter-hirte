@@ -3535,11 +3535,21 @@ SeeleGehAufOrgano = {
 		\key b \major \time 4/1 \tempoSeeleGehAuf
 			\set Staff.timeSignatureFraction = 4/4
 		b2 d4( es) f2 d es4( d) c2 b1\fermata
+		\time 5/1 b2 b' f d es b f'( f,) b1\fermata
+		\time 4/1 b2 d4( es) f2 d es4( d) c2 b1\fermata
+		\time 5/1 b2 b' f d es b f'( f,) b1\fermata
+		\time 4/1 b'2 f g f b b, f'1\fermata %5
+		b2 a g4( a) b2 f f, b1\fermata \bar "|." %6 finis
 	}
 }
 
 SeeleGehAufBassFigures = \figuremode {
-	
+	r2 <6>4 <\t> r2 <6> r <6> r1
+	r r2 <6> r1 <4>2 <3> r1
+	r2 <6>4 <\t> r2 <6> r <6> r1
+	r r2 <6> r1 <4>2 <3> r1
+	r1 r r r %5
+	r2 <6> q4 <\t> r2 <4> <3> r1 %6 finis
 }
 
 % Organo = {

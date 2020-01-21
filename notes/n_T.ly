@@ -1387,12 +1387,22 @@ SeeleGehAufTenoreNotes = {
 		\clef "treble_8"
 		\key b \major \time 4/1 \autoBeamOff \tempoSeeleGehAuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		d2 d c b b c4( es) d1\fermata
+		\time 5/1 f2 f f f g f f2.( es4) d1\fermata
+		\time 4/1 d2 d c b b c4( es) d1\fermata
+		\time 5/1 f2 f f f g f f2.( es4) d1\fermata
+		\time 4/1 f2 f d4( b) f'2 f f f1\fermata %5
+		f2 f g f f f d1\fermata \bar "|." %6 finis
 	}
 }
 
 SeeleGehAufTenoreLyrics = \lyricmode {
-	
+	See -- le, geh auf Gol -- ga -- tha,
+	ſetz dich un -- ter Je -- ſus Kreut -- ze,
+	und be -- den -- cke, was dich da
+	für ein Trieb zur Bu -- ße reit -- ze.
+	Willſt du un -- em -- pfind -- lich ſeyn, %5
+	o, ſo biſt du mehr als Stein. %6 finis
 }
 
 % TenoreNotes = {

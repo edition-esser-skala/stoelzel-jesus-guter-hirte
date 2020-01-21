@@ -861,12 +861,22 @@ SeeleGehAufBassoNotes = {
 		\clef bass
 		\key b \major \time 4/1 \autoBeamOff \tempoSeeleGehAuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		b2 d4( es) f2 d es4( d) c2 b1\fermata
+		\time 5/1 b2 b' f d es b f'( f,) b1\fermata
+		\time 4/1 b2 d4( es) f2 d es4( d) c2 b1\fermata
+		\time 5/1 b2 b' f d es b f'( f,) b1\fermata
+		\time 4/1 b'2 f g f b b, f'1\fermata %5
+		b2 a g4( a) b2 f f, b1\fermata \bar "|." %6 finis
 	}
 }
 
 SeeleGehAufBassoLyrics = \lyricmode {
-	
+	See -- le, __ geh auf Gol -- ga -- tha,
+	ſetz dich un -- ter Je -- ſus Kreut -- ze,
+	und be -- den -- cke, was dich da
+	für ein Trieb zur Bu -- ße reit -- ze.
+	Willſt du un -- em -- pfind -- lich ſeyn, %5
+	o, ſo biſt __ du mehr als Stein. %6 finis
 }
 
 % BassoNotes = {

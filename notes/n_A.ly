@@ -900,12 +900,22 @@ SeeleGehAufAltoNotes = {
 		\clef treble
 		\key b \major \time 4/1 \autoBeamOff \tempoSeeleGehAuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		f2 f f f es es f1\fermata
+		\time 5/1 b2 b a b b b \once \stemUp b( a4 g) f1\fermata
+		\time 4/1 f2 f f f es es f1\fermata
+		\time 5/1 b2 b a b b b \once \stemUp b( a4 g) f1\fermata
+		\time 4/2 b2 a g a b b a1\fermata %5
+		b2 c b b \once \stemUp b a4( g) f1\fermata \bar "|." %6 finis
 	}
 }
 
 SeeleGehAufAltoLyrics = \lyricmode {
-	
+	See -- le, geh auf Gol -- ga -- tha,
+	ſetz dich un -- ter Je -- ſus Kreut -- ze,
+	und be -- den -- cke, was dich da
+	für ein Trieb zur Bu -- ße reit -- ze.
+	Willſt du un -- em -- pfind -- lich ſeyn, %5
+	o, ſo biſt du mehr als __ Stein. %6 finis
 }
 
 % AltoNotes = {

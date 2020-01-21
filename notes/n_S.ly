@@ -982,12 +982,22 @@ SeeleGehAufSopranoNotes = {
 		\clef treble
 		\key b \major \time 4/1 \autoBeamOff \tempoSeeleGehAuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		b'2 b a b g a b1\fermata
+		\time 5/1 d2 d c f es d c1 b\fermata
+		\time 4/1 b2 b a b g a b1\fermata
+		\time 5/1 d2 d c f es d c1 b\fermata
+		\time 4/1 d2 c b c d d4( c) c1\fermata %5
+		d2 f es d c2. b4 b1\fermata \bar "|." %6 finis
 	}
 }
 
 SeeleGehAufSopranoLyrics = \lyricmode {
-	
+	See -- le, geh auf Gol -- ga -- tha,
+	ſetz dich un -- ter Je -- ſus Kreut -- ze,
+	und be -- den -- cke, was dich da
+	für ein Trieb zur Bu -- ße reit -- ze.
+	Willſt du un -- em -- pfind -- lich ſeyn, %5
+	o, ſo biſt du mehr als Stein. %6 finis
 }
 
 % SopranoNotes = {

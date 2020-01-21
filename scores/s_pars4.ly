@@ -23,7 +23,7 @@
 		\header {
 			movement = \movementTitle "4.1" "C H O R A L" "Seele, geh auf Golgatha"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 page-count = #1 }
 		\score {
 			<<
 				\new ChoirStaff <<
