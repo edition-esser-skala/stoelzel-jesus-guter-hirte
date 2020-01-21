@@ -63,29 +63,73 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.2" "R E C I T A T I V O" "Das Kreutz, daran man Jeſum hefftet"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #4
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \DasKreutzDaranTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DasKreutzDaranTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DasKreutzDaranOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DasKreutzDaranBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.2" "R E C I T A T I V O" "Das Kreutz, daran man Jeſum hefftet"
+			movement = \movementTitle "4.3" "A C C O M P A G N A T O" "Ihr Töchter von Jeruſalem"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #4
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\IhrToechterJerusalemsViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\IhrToechterJerusalemsViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\IhrToechterJerusalemsViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \DasKreutzDaranTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+					\new Voice = "Tenore" { \dynamicUp \IhrToechterJerusalemsTenoreNotes }
 				}
-				\new Lyrics \lyricsto Tenore \DasKreutzDaranTenoreLyrics
+				\new Lyrics \lyricsto Tenore \IhrToechterJerusalemsTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DasKreutzDaranOrgano
+						\IhrToechterJerusalemsOrgano
 					}
 				>>
-				\new FiguredBass { \DasKreutzDaranBassFigures }
+				\new FiguredBass { \IhrToechterJerusalemsBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

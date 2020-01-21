@@ -1099,6 +1099,14 @@ LassDeineLiebeViolinoI = {
 	}
 }
 
+IhrToechterJerusalemsViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoIhrToechterJerusalems
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

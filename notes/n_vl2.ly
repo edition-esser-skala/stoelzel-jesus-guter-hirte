@@ -744,3 +744,11 @@ LassDeineLiebeViolinoII = {
 		r2 es d es es d4( c) b1\fermata \bar "|." %8 finis
 	}
 }
+
+IhrToechterJerusalemsViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoIhrToechterJerusalems
+		
+	}
+}

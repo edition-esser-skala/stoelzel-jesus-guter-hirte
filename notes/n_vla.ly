@@ -964,3 +964,11 @@ LassDeineLiebeViola = {
 		r2 b b b b2. as4 g1\fermata \bar "|." %8 finis
 	}
 }
+
+IhrToechterJerusalemsViola = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoIhrToechterJerusalems
+		
+	}
+}

@@ -1437,6 +1437,18 @@ DasKreutzDaranTenoreLyrics = \lyricmode {
 	ſicht und ſprach: %11 finis
 }
 
+IhrToechterJerusalemsTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \lydian \time 4/4 \autoBeamOff \tempoIhrToechterJerusalems
+		
+	}
+}
+
+IhrToechterJerusalemsTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

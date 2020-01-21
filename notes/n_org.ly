@@ -3584,6 +3584,18 @@ DasKreutzDaranBassFigures = \figuremode {
 	r2 <7 _->4 <7-> %11 finis
 }
 
+IhrToechterJerusalemsOrgano = {
+	\relative c {
+		\clef bass
+		\key b \lydian \time 4/4 \tempoIhrToechterJerusalems
+		
+	}
+}
+
+IhrToechterJerusalemsBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
