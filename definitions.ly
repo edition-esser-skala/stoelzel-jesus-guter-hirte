@@ -383,6 +383,7 @@ tempoWennMichNach = \tempoMarkup "Aria"
 tempoLassDeineLiebe = \tempoMarkup "Choral"
 
 tempoSeeleGehAuf = \tempoMarkup "Choral"
+tempoDasKreutzDaran = \tempoMarkup "Recitativo"
 
 
 

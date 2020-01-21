@@ -1405,6 +1405,18 @@ SeeleGehAufTenoreLyrics = \lyricmode {
 	o, ſo biſt du mehr als Stein. %6 finis
 }
 
+DasKreutzDaranTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \time 4/4 \autoBeamOff \tempoDasKreutzDaran
+		
+	}
+}
+
+DasKreutzDaranTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

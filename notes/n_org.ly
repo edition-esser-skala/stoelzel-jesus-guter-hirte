@@ -3552,6 +3552,18 @@ SeeleGehAufBassFigures = \figuremode {
 	r2 <6> q4 <\t> r2 <4> <3> r1 %6 finis
 }
 
+DasKreutzDaranOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 4/4 \tempoDasKreutzDaran
+		g1
+	}
+}
+
+DasKreutzDaranBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

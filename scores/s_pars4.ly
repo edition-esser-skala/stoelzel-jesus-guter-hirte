@@ -19,48 +19,76 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\markup \null
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.1" "C H O R A L" "Seele, geh auf Golgatha"
+% 		}
+% 		\paper { systems-per-page = #2 page-count = #1 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \SeeleGehAufSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \SeeleGehAufSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \SeeleGehAufAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \SeeleGehAufAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \SeeleGehAufTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \SeeleGehAufTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \SeeleGehAufBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \SeeleGehAufBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SeeleGehAufOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \SeeleGehAufBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.1" "C H O R A L" "Seele, geh auf Golgatha"
+			movement = \movementTitle "4.2" "R E C I T A T I V O" "Das Kreutz, daran man Jeſum hefftet"
 		}
-		\paper { systems-per-page = #2 page-count = #1 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #4
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \SeeleGehAufSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \SeeleGehAufSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \SeeleGehAufAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \SeeleGehAufAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \SeeleGehAufTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \SeeleGehAufTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \SeeleGehAufBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \SeeleGehAufBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \DasKreutzDaranTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \DasKreutzDaranTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SeeleGehAufOrgano
+						\DasKreutzDaranOrgano
 					}
 				>>
-				\new FiguredBass { \SeeleGehAufBassFigures }
+				\new FiguredBass { \DasKreutzDaranBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
