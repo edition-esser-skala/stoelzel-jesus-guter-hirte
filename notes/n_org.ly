@@ -3631,11 +3631,145 @@ SoSchrecklichHierOrgano = {
 		\clef bass
 		\key g \dorian \time 2/2 \tempoSoSchrecklichHier
 		g2\fE r4 a
+		b2 c
+		d r
+		g g,
+		cis1 %5
+		d4 d2 c8 b
+		es2 es,
+		r4 es'2 d8 c
+		f2 f,
+		r4 f'2 es8 d %10
+		g2 g,
+		r4 g'2 f8 es?
+		f4 b es, f
+		b,2 r4 g
+		c2 c' %15
+		d d,
+		g, r4 a\pE
+		b2 c
+		d r
+		g, r %20
+		cis1
+		d4 d2\fE c8 b
+		es2 es,
+		r4 es'2 d8 c
+		f2 f, %25
+		b r4 g\pE
+		c2 r4 c
+		f2 r4 es
+		d2 r4 d
+		g g,2 f'!4 %30
+		e!2 r4 e
+		f, f'2 es4
+		d2 r4 d
+		es, es'2 d4
+		c2 r4 c %35
+		d c b es
+		d2 d,
+		g\fE r4 a
+		b2 fis
+		g4 g'2 f!4 %40
+		e!2 c
+		f,4 f'2 es4
+		d2 b
+		es,4 es'2 d4
+		c2 a %45
+		d4 c b es
+		d2 d,
+		g\fermata r4 f!\pE
+		e!2 f
+		b h %50
+		c r
+		h1
+		c4 c'2 b!4
+		a2 r4 g
+		fis2 r4 d %55
+		g2 r4 f
+		e!2 r4 c
+		f2 r4 e
+		d2 d,
+		e' cis %60
+		d a4 g
+		f f'2 e8 d
+		e,4 e'2 d4
+		c!2 r4 b!
+		a1 %65
+		\tempoSoSchrecklichHierB gis
+		a
+		d,2 r \markDaCapo \bar "||" %68 finis
 	}
 }
 
 SoSchrecklichHierBassFigures = \figuremode {
-	
+	r2. <7>4
+	<6>2 <6 _->4 <5 \t>
+	<_+>1
+	r
+	<7 _!> %5
+	<4>4 <_+>2 <5 2>8 <\t \t>
+	<7>2 <6>
+	r4 <6>2.
+	<7->2 <6>
+	r4 <6>2. %10
+	<7>2 <6->
+	r4 <6->2.
+	<7->2 <6 5>
+	r1
+	<7 _->2 \bassFigureExtendersOn <6 _->4 <5 _-> \bassFigureExtendersOff %15
+	<_+>1
+	r2. <7>4
+	<6>2 <6 _->4 <5 \t>
+	<_+>1
+	r %20
+	<7 _!>
+	<_+>2. <5 2>8 <\t \t>
+	<7>2 <6>
+	r4 <6>2.
+	<7->1 %25
+	r
+	<7 _!>
+	r2. <2>4
+	<7 _+>1
+	r2. <6 4>4 %30
+	<7>2. <6>4
+	r2. <2>4
+	<7>2. <6>4
+	r2. <2>4
+	<7 _->2. <6 \t>4 %35
+	<_+> <\t> <6> q
+	<6 4>2 <5 _+>
+	r2. <7>4
+	<6>2 q4 <5>
+	r2. <2>4 %40
+	<5->2 <[\t]>
+	<9 _->4 <[8 \t]>2 <[\t \t]>4
+	<5->2 <[\t]>
+	<9>4 <[8]>2 <[\t]>4
+	<6! 5 [_-]>2 <5-> %45
+	<_+>4 <4+ 3-> <6> q
+	<6 4>2 <5 _+>
+	r2. <2>4
+	<6 5>1
+	<7>2 <6> %50
+	<_!>1
+	<7>
+	<4>4 <\t> <3> <\t>
+	<6>2. q4
+	<6 5>2. <7 _+>4 %55
+	r2. <2>4
+	<6 5>2. <7 _!>4
+	r2. <2>4
+	r1
+	r2 <6> %60
+	r <_+>4 <[\t]>
+	<6>1
+	<9>4 <8 6>2.
+	r <6 4>4
+	<7 _+>1 %65
+	<7 5!>
+	<6 4>2 <5 _+>
+	r1 %68 finis
 }
 
 % Organo = {

@@ -883,12 +883,95 @@ SoSchrecklichHierBassoNotes = {
 	\relative c {
 		\clef bass
 		\key g \dorian \time 2/2 \autoBeamOff \tempoSoSchrecklichHier
-		
+		R1*16 %16
+		r4 g' d'2~
+		d4 c8([ b)] a4 g
+		fis4. e8 d4 a'
+		b a b a %20
+		b g b2
+		a r
+		R1*3 %25
+		r4 b, b'2~
+		b4 d c, b'
+		a g8 f c'2~
+		c4 es d, c'
+		b4. a8 g4 d' %30
+		c2 c,
+		r4 c' a f
+		b b b b
+		b( g) es b'
+		a2. b8([ a)] %35
+		a4 d, d' g,
+		b2( a)
+		g r
+		R1*9 %47
+		r4\fermata d b'2~
+		b4 g a2~
+		a4 b g4. f8 %50
+		e!4 g a g
+		a f a( h8) c
+		c2 g
+		r4 c, c'2~
+		c4 es d, c' %55
+		b g b2~
+		b4 d c, b'
+		a f a2~
+		a4 c b a
+		g b a g %60
+		f2 e
+		r4 a a d
+		g,2. a8([ h)]
+		c1(
+		cis2) a %65
+		\tempoSoSchrecklichHierB r4 d, d'2~
+		d4 a8 b e,4. d8
+		d2 r \markDaCapo \bar "||" %68 finis
 	}
 }
 
 SoSchrecklichHierBassoLyrics = \lyricmode {
+	So ſchreck -- %17
+	lich hier die
+	Stra -- fe iſt, ſo
+	greu -- lich iſt vor %20
+	Gott die Sün --
+	de.
 	
+	So ſchreck -- %26
+	lich hier die
+	Stra -- fe, ſo ſchreck --
+	lich hier die
+	Stra -- fe iſt, ſo %30
+	greu -- lich,
+	ſo greu -- lich
+	iſt vor Gott die
+	Sün -- de, ſo
+	greu -- lich %35
+	iſt vor Gott die
+	Sün --
+	de.
+	
+	Gott wei -- %48
+	ſet dir, __
+	o Sün -- den %50
+	Knecht, an ſei -- nem
+	ein -- ge -- bohr -- nen
+	Kin -- de,
+	wie hoch __
+	ſein al -- ler -- %55
+	heilg -- ſtes Recht, __
+	ſein al -- ler --
+	heilg -- ſtes Recht __
+	dein fre -- vel --
+	haff -- tes Thun em -- %60
+	pfin -- de,
+	weil es ſein
+	Sohn ſo __
+	ſchmertz --
+	lich, %65
+	ſo ſchmertz --
+	lich, ſo ſchmertz -- lich
+	büßt. %68 finis
 }
 
 % BassoNotes = {

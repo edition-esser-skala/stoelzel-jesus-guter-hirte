@@ -986,8 +986,71 @@ IhrToechterJerusalemsViola = {
 
 SoSchrecklichHierViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \dorian \time 2/2 \tempoSoSchrecklichHier
-		
+		b2\fE r4 c
+		g2 es'
+		a, r4 fis'
+		g( fis) g( fis)
+		g2 g,4 g' %5
+		g( fis) r2
+		r4 g2 f!4
+		es2 g
+		r4 a2 g4
+		f2 a %10
+		r4 b2 a4
+		g2 b
+		a4 b2 a4
+		b2 r4 d
+		es,2 es' %15
+		a, r4 fis
+		g2 r
+		R1*2
+		d2\p r %20
+		e!2. g4
+		d2 r
+		r4 g2\fE f!4
+		es2 g
+		r4 a2 g4 %25
+		f2 r
+		g\p r4 c,
+		c2 r
+		a' r4 d,
+		d2 r %30
+		r4 g2 c,4
+		c2 r
+		r4 f2 b,4
+		b2 r
+		r4 es2 es4 %35
+		d2 r
+		R1
+		b'2\fE r4 a
+		g2 a
+		d, r4 d %40
+		c2 g'~
+		g4 as,8 b c4 d8 es
+		f2 f~
+		f4 g,8 as b4 c8 d
+		es2. c4 %45
+		a! fis' g g
+		g2 fis
+		g\fermata r
+		R1*2 %50
+		c,2\pE r
+		d1
+		c
+		R
+		r2 r4 d %55
+		d2 r
+		r r4 c
+		c2 r
+		R1*3 %61
+		r2 r4 f
+		g2 r4 f
+		g e2 e4
+		e2 a %65
+		\tempoSoSchrecklichHierB d2 h
+		a1
+		f2 r \markDaCapo \bar "||" %68 finis
 	}
 }

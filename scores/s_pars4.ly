@@ -137,7 +137,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.4" "A R I A" "So ſchrecklich hier die Sprache iſt"
+			movement = \movementTitle "4.4" "A R I A" "So ſchrecklich hier die Strafe iſt"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #22
@@ -170,7 +170,7 @@
 				\new FiguredBass { \SoSchrecklichHierBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 110 }
+			\midi { \tempo 2 = 100 }
 		}
 	}
 }

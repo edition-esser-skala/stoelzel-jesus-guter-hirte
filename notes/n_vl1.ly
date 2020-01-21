@@ -1122,7 +1122,71 @@ SoSchrecklichHierViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \dorian \time 2/2 \tempoSoSchrecklichHier
-		
+		r4 g'\fE d'2~
+		d4 c8 b a4 g
+		fis4. e8 d4 a'
+		b( a) b( a)
+		b( g) b2\trill %5
+		a r4 d~
+		d es,8 f g4 a8 b
+		c4 c,2 es'4~
+		es f,8 g a4 b8 c
+		d4 d,2 f'4~ %10
+		f g,8 a b4 c8 d
+		es4 es,2 es'4~
+		es d c4. b8
+		b4 f' b2~
+		b4 c8 b a4 g %15
+		fis4. es8 d c b a
+		b4 g r2
+		R1
+		r2 r4 fis'\p
+		g( fis) g( fis) %20
+		g2 g,
+		fis4 d2\f d'4~
+		d es,8 f g4 a8 b
+		c4 c,2 es'4~
+		es f,8 g a4 b8 c %25
+		d4 b r2
+		e!2\p r4 e
+		f f, r2
+		fis'2 r4 fis
+		g g, r b'~ %30
+		b c,8 d e!4 f8 g
+		a4 f,2 a'4~
+		a b,8 c d4 es8 f
+		g4 es,2 g'4~
+		g a,8 b c4 d8 es %35
+		fis,4 d r2
+		R1
+		r4 d'\fE g2~
+		g4 f8 es d4 c
+		b4. a8 g4 b'~ %40
+		b c,8 d e!4 f8 g
+		as4 f,2 as'4~
+		as b,8 c d4 es8 f
+		g4 es,2 g'4~
+		g a,!8 b c4 d8 es %45
+		fis,4 es' d c
+		b2 a
+		g\fermata r
+		R1*2 %50
+		r4 e'!\p f e
+		f2 f,~
+		f e
+		R1
+		r2 r4 fis' %55
+		g2 r
+		r r4 e!
+		f2 r
+		R1*3 %61
+		r2 r4 f~
+		f8 g, g a c h c d
+		e4 c,2 g''4~
+		g a,8 h cis4 d8 e %65
+		\tempoSoSchrecklichHierB f1~
+		f2 cis
+		d r \markDaCapo \bar "||" %68 finis
 	}
 }
 
