@@ -3557,11 +3557,31 @@ DasKreutzDaranOrgano = {
 		\clef bass
 		\key g \dorian \time 4/4 \tempoDasKreutzDaran
 		g1
+		fis
+		f2 es?4 as
+		g c a2~
+		a b~ %5
+		b es
+		f4 b, g2~
+		g1
+		f2 fis
+		g a %10
+		b c4 f, \markAttacaE \bar "|" %11 finis
 	}
 }
 
 DasKreutzDaranBassFigures = \figuremode {
-	
+	<5 3>2 <6- 4>
+	<6>1
+	<4! 2>2 <6>4 q
+	<6- 4>8 <5 _!> <_->4 <6 5->2
+	r1 %5
+	r2 <5>4 <6>
+	<6 4>8 <5 3> r4 <6!>2
+	<4+ 2>1
+	<6>2 <7->4. <6>8
+	r2 <6!> %10
+	r2 <7 _->4 <7-> %11 finis
 }
 
 % Organo = {

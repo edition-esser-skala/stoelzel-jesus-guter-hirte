@@ -1409,12 +1409,32 @@ DasKreutzDaranTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \dorian \time 4/4 \autoBeamOff \tempoDasKreutzDaran
-		
+		r8 d g d es es es d
+		d d r16 d a b c8 c es d
+		h h r16 g' g g g8 c, f es
+		c4 r8 es es es d c
+		f f r16 f f c \appoggiatura es8 d8. d16 d4 %5
+		d es8 f g es c d
+		b4 r16 d f b, e8. e16 g8 e
+		cis8 cis r cis cis d e f
+		d4 r es8 es16 es es8 d
+		b4 r16 g' g g f!8 c d es %10
+		d4 r8 f b,4 r \markAttacaE \bar "|" %11 finis
 	}
 }
 
 DasKreutzDaranTenoreLyrics = \lyricmode {
-	
+	Das Kreutz, da -- ran man Je -- ſum
+	heff -- tet, trägt Er, biß auf den Todt ent --
+	kräff -- tet, auf den ver -- wund -- ten Rü -- cken
+	fort, biß Si -- mon von Cy --
+	re -- nen, der von dem Fel -- de kam, %5
+	es, doch ge -- zwun -- gen, ü -- ber --
+	nahm. Viel Wei -- ber folg -- ten Ihm mit
+	Thrä -- nen biß zum be -- ſtimm -- ten
+	Ort, Ihn zu be -- kla -- gen,
+	nach. Zu die -- ſen wandt Er ſein Ge -- %10
+	ſicht und ſprach: %11 finis
 }
 
 % TenoreNotes = {
