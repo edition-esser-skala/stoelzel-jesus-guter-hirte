@@ -91,48 +91,86 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.3" "A C C O M P A G N A T O" "Ihr Töchter von Jeruſalem"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IhrToechterJerusalemsViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IhrToechterJerusalemsViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\IhrToechterJerusalemsViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
+% 					\new Voice = "Tenore" { \dynamicUp \IhrToechterJerusalemsTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \IhrToechterJerusalemsTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IhrToechterJerusalemsOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \IhrToechterJerusalemsBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.3" "A C C O M P A G N A T O" "Ihr Töchter von Jeruſalem"
+			movement = \movementTitle "4.4" "A R I A" "So ſchrecklich hier die Sprache iſt"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #3
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\IhrToechterJerusalemsViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\IhrToechterJerusalemsViolinoII
-						}
-					>>
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\IhrToechterJerusalemsViola
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "ed Oboi" "unisoni" } }
+						\SoSchrecklichHierViolinoI
 					}
+					\new Staff <<
+						\set Staff.instrumentName = "Viola"
+						\SoSchrecklichHierViola
+					>>
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "JESUS, der" "gute Hirte" } }
-					\new Voice = "Tenore" { \dynamicUp \IhrToechterJerusalemsTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+					\new Voice = "Basso" { \dynamicUp \SoSchrecklichHierBassoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \IhrToechterJerusalemsTenoreLyrics
+				\new Lyrics \lyricsto Basso \SoSchrecklichHierBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IhrToechterJerusalemsOrgano
+						\SoSchrecklichHierOrgano
 					}
 				>>
-				\new FiguredBass { \IhrToechterJerusalemsBassFigures }
+				\new FiguredBass { \SoSchrecklichHierBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 110 }
 		}
 	}
 }

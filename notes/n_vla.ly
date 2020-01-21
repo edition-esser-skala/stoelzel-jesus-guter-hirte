@@ -983,3 +983,11 @@ IhrToechterJerusalemsViola = {
 		R1\fermataMarkup \bar "|." %16 finis
 	}
 }
+
+SoSchrecklichHierViola = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 2/2 \tempoSoSchrecklichHier
+		
+	}
+}

@@ -1118,6 +1118,14 @@ IhrToechterJerusalemsViolinoI = {
 	}
 }
 
+SoSchrecklichHierViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 2/2 \tempoSoSchrecklichHier
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -385,6 +385,7 @@ tempoLassDeineLiebe = \tempoMarkup "Choral"
 tempoSeeleGehAuf = \tempoMarkup "Choral"
 tempoDasKreutzDaran = \tempoMarkup "Recitativo"
 tempoIhrToechterJerusalems = \tempoMarkup "Accompagnato"
+tempoSoSchrecklichHier = \tempoMarkup "Aria"
 
 
 

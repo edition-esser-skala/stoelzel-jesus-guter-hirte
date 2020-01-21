@@ -879,6 +879,18 @@ SeeleGehAufBassoLyrics = \lyricmode {
 	o, ſo biſt __ du mehr als Stein. %6 finis
 }
 
+SoSchrecklichHierBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 2/2 \autoBeamOff \tempoSoSchrecklichHier
+		
+	}
+}
+
+SoSchrecklichHierBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

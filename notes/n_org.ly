@@ -3626,6 +3626,18 @@ IhrToechterJerusalemsBassFigures = \figuremode {
 	<7>4 <6> <_+>2 %16 finis
 }
 
+SoSchrecklichHierOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 2/2 \tempoSoSchrecklichHier
+		g2\fE r4 a
+	}
+}
+
+SoSchrecklichHierBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
