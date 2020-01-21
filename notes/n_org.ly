@@ -3588,12 +3588,42 @@ IhrToechterJerusalemsOrgano = {
 	\relative c {
 		\clef bass
 		\key b \lydian \time 4/4 \tempoIhrToechterJerusalems
-		
+		d1~
+		d2 c~
+		c b
+		g1
+		f2 fis %5
+		g8 g' b, g d'4 d,
+		g8 g' d b f'!4 f,
+		b d es2~
+		es4 r f f,
+		b2 fis~ %10
+		fis1
+		g
+		a4 d, h' r8 g
+		c h c d es f g g,
+		c4 r8 a b b' fis d %15
+		es2 d\fermata \bar "|." %16 finis
 	}
 }
 
 IhrToechterJerusalemsBassFigures = \figuremode {
-	
+	<6>1
+	r2 <7 _->
+	<6 \t>1
+	<6!>2 <4+ 2>
+	<6> <\t> %5
+	<9>4 <6> <4> <_+>
+	r <6 _!> <4> <3>
+	r <6> <9 5> <8 \t>8 <\t 6>
+	<4 2>4 r <6 4> <5 3>
+	r2 <6> %10
+	r1
+	<5 3>2 <4+ 2>
+	<6 4>8 <5 _+> r4 <6 5>4. <7 _!>8
+	<_->4. <6!>8 <6> <_-> <_!>4
+	<_->4. <6 5->8 r4 <6>8 <_+> %15
+	<7>4 <6> <_+>2 %16 finis
 }
 
 % Organo = {

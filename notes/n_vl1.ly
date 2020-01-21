@@ -1103,7 +1103,18 @@ IhrToechterJerusalemsViolinoI = {
 	\relative c' {
 		\clef treble
 		\key b \lydian \time 4/4 \tempoIhrToechterJerusalems
-		
+		f'1
+		b
+		a2 b~
+		b a~
+		a1~ %5
+		a8 d, g2 fis4
+		g8 b, b'2 a4
+		b8 b, f'2 es4~
+		es r d c
+		b r r2 %10
+		R1*5 %15
+		R1\fermataMarkup \bar "|." %16 finis
 	}
 }
 

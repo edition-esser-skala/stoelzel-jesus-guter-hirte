@@ -1441,12 +1441,42 @@ IhrToechterJerusalemsTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key b \lydian \time 4/4 \autoBeamOff \tempoIhrToechterJerusalems
-		
+		r8 b b c d d f d
+		b4 r16 b c d es4 r16 es es es
+		c8 d es? d d d r f
+		e4 r8 e cis8. cis16 cis8 d
+		d d r d d c es d %5
+		b b r b a8. b16 c8 d
+		b4 r8 d c8. d16 es8 f
+		d4 r8 b g8. a16 b8 c
+		a4 r16 es' es d b4 r
+		r r8 d d8. a16 a8 b %10
+		c c r es c8. c16 a8 d
+		b b r16 d g g cis,8. cis16 cis8 d
+		d a r4 r8 f' f f
+		es4 r8 h c f d8. c16
+		c8 es es es d4 r8 d %15
+		d g, c8.\trill d16 d4 r\fermata \bar "|." %16 finis
 	}
 }
 
 IhrToechterJerusalemsTenoreLyrics = \lyricmode {
-	
+	Ihr Töch -- ter von Je -- ru -- ſa --
+	lem, be -- weint mich nicht, weint ü -- ber
+	euch und eu -- re Kin -- der. Denn
+	ja, man wird bey künfft -- gen
+	Ta -- gen mit Furcht und Zit -- tern %5
+	ſa -- gen: Glück -- ſe -- lig iſt der
+	Leib, der kei -- ne Frucht ge --
+	zeugt! Glück -- ſe -- lig iſt das
+	Weib, das nie ge -- ſäugt!
+	Da wer -- den ſich die %10
+	Sün -- der aus Ban -- gig -- keit und
+	Schre -- cken mit Fel -- ſen ſu -- chen zu be --
+	de -- cken. Drum, will man
+	diß am grü -- nen Holtz be --
+	gehn, was wird man ſich am %15
+	dür -- ren un -- ter -- ſtehn? %16 finis
 }
 
 % TenoreNotes = {

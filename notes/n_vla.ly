@@ -967,8 +967,19 @@ LassDeineLiebeViola = {
 
 IhrToechterJerusalemsViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \lydian \time 4/4 \tempoIhrToechterJerusalems
-		
+		f1~
+		f2 g
+		es f
+		g a~
+		a1 %5
+		b8 b, d4 d4. d8
+		d4 d8 f! f4 f
+		f8 d b2 g4
+		a r f' f8( es)
+		d4 r r2 %10
+		R1*5 %15
+		R1\fermataMarkup \bar "|." %16 finis
 	}
 }
