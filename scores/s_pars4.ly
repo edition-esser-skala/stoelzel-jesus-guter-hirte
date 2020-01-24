@@ -288,7 +288,7 @@
 				\new FiguredBass { \KommSetzeDichBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 110 }
+			\midi { \tempo 4. = 60 }
 		}
 	}
 }

@@ -1077,9 +1077,55 @@ ErschrocknesSchaefleinViola = {
 
 KommSetzeDichViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \minor \time 6/8 \tempoKommSetzeDich
-		\partial 8
-		
+		\partial 8 d8\fE \bar "S-S" f( e) d b'4.
+		e, d4 cis8
+		\slurDashed d( a) e' d8.( cis16) d8 \slurSolid
+		cis16( d) e( f) g( a) b4 e,8
+		f16( g) a( b) c( a) g4 cis,8 %5
+		d16( e) f( g) a( f) d( e) f( g) a( f)
+		d4 g8 a4 a,8
+		d4 r8 r4.
+		R2.*3 %11
+		a16(\fE h) cis( d) e( cis) a( h) cis( d) e( cis)
+		a4 cis'8 d4 d,8\pE
+		cis4 d8 g,4 g'8
+		a4 g8 f4 e8 %15
+		d4 cis8 d4 d8
+		cis16(\fE d) e( f) g( a) b4 e,8\pE
+		f4 r8 a,4.~\fE
+		a16( h) cis( d) e( f) g4 cis,8
+		d4\pE r8 r4. %20
+		g16( a) b( c) d( b) g4 r8
+		f16( g) a( b) c( a) f4 r8
+		e16( f) g( a) b( g) e4 r8
+		d16( e) f( g) a( f) d4 g,8
+		a4 d8 a'4 a,8 %25
+		d4 r8 r4.
+		r r4 a'8\fE
+		\once \slurDashed f( e) d a4 b'8
+		e,4. d4 cis8
+		d( a) e' d8.( cis16) d8 %30
+		cis16( d) e( f) g( a) b4 e,8
+		f16( g) a( b) c( a) g4 cis,8
+		d16( e) f( g) a( f) d( e) f( g) a( f)
+		d4 b'8 a4 a,8
+		d4\fermata r8 r4. %35
+		R2.
+		c16(\fE d) e( f) g( e) c( d) e( f) g( e)
+		c(\pE d) e( f) g( e) c( d) e( f) g( e)
+		f( g) a( b) c( a) f( g) a( b) c( a)
+		f( g) a( b) c( a) f( g) a( b) c( a) %40
+		b4 b,8 r4.
+		R2.
+		\slurDashed d16(\fE e!) f( g) a( b) \slurSolid c4 fis,8
+		g16( a) b( c) d( b) g( a) b( c) d( b)
+		c,(\pE d) e( f) g( e) c4 r8 %45
+		f16( g) a( b) c( a) f( g) a( b) c( a)
+		d,( e) fis( g) a( fis) d4 r8
+		g,16( a) b( c) d( b) g4 r8
+		R2.*3 %51
+		r4. r4 a'8\fE \markDaCapo \bar "S-S" %52 finis
 	}
 }

@@ -958,13 +958,91 @@ KommSetzeDichAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 6/8 \autoBeamOff \tempoKommSetzeDich
-		\partial 8
-		
+		\partial 8 r8 \bar "S-S" R2.*7 %7
+		r2*3/4 r4 a'8
+		a([ g)] f f([ e)] d
+		cis4. d4 e8 %10
+		f([ d)] g f8.([ e16)] f8
+		e4 r8 r4.
+		r r4 a8
+		a([ g)] f f([ e)] d
+		cis4. d4 e8 %15
+		f([ e)] g f8.([ e16)] f8
+		e4 r8 r4 b'8
+		a8.([ c16)] a8 f4 r8
+		r4. r4 g8
+		f8.([ a16)] f8 d4 r8 %20
+		b'4 b8 b4 b8
+		b([ a]) a r4.
+		g4 g8 g4 g8
+		g([ f)] f r4 b8
+		a([ g)] f f([ e)] d %25
+		d4 r8 r4 b'8
+		a4 d8 f,([ e)] d
+		d4 r8 r4.
+		R2.*6 %34
+		r4.\fermata r4 c'!8 %35
+		c([ b)] a a([ g)] f
+		e4 r8 r4 g8
+		b4 b8 b4 b8
+		b([ a)] a r4 c8
+		es4 es8 es4 es8 %40
+		es([ d)] d r4 f,8
+		g4 es'8 d([ c)] b
+		b4 r8 r4.
+		r r4 b8
+		b4 b8 b4 b8 %45
+		b([ a)] r r4 f8
+		c'4 c8 c4 c8
+		c b r r4 b8
+		a([ g)] f g([ f)] e
+		f4.~ f4 c8 %50
+		d4 b'8 a([ g)] f
+		f4 r8 r4. \markDaCapo \bar "S-S" %52 finis
 	}
 }
 
 KommSetzeDichAltoLyrics = \lyricmode {
+	Komm, %8
+	ſet -- ze dich in
+	Schat -- ten, des %10
+	du __ be -- geh -- ret
+	haſt,
+	komm,
+	ſet -- ze dich in
+	Schat -- ten, des %15
+	du __ be -- geh -- ret
+	haſt, komm,
+	ſet -- ze dich,
+	komm,
+	ſet -- ze dich, %20
+	ſet -- ze dich in
+	Schat -- ten,
+	ſet -- ze dich in
+	Schat -- ten, des
+	du __ be -- geh -- ret %25
+	haſt, des
+	du be -- geh -- ret
+	haſt.
 	
+	Ent -- %35
+	ſchüt -- te dich der
+	Laſt, laß
+	hier mit dir ſich
+	gat -- ten, laß
+	hier mit dir ſich %40
+	gat -- ten ver --
+	gnüg -- te Ruh und
+	Raſt,
+	ent --
+	ſchüt -- te dich der %45
+	Laſt, laß
+	hier mit dir ſich
+	gat -- ten ver --
+	gnüg -- te Ruh und
+	Raſt, __ ver -- %50
+	gnüg -- te Ruh und
+	Raſt. %52 finis
 }
 
 % AltoNotes = {

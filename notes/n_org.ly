@@ -3850,13 +3850,114 @@ KommSetzeDichOrgano = {
 	\relative c {
 		\clef bass
 		\key d \minor \time 6/8 \tempoKommSetzeDich
-		\partial 8 d8\fE d4 d8 g4 g8
-		
+		\partial 8 d8\fE \bar "S-S" d4 d8 g4 g8
+		a4 g8 f4 e8
+		d4 cis8 d4 d,8
+		a'4 a'8 g4 g,8
+		f4 f'8 e4 e,8 %5
+		d4 r8 r4.
+		f'4 g8 a4 a,8
+		d4 e8\pE f e d
+		cis4 d8 g4 gis8
+		a4 g8 f4 e8 %10
+		d4 cis8 d4 d,8
+		a'4\fE r8 r4.
+		cis4 cis'8 d4 d,8\pE
+		cis4 d8 g,4 g'8
+		a4 g8 f4 e8 %15
+		d4 cis8 d4 d,8
+		a'4\fE a'8 g4 g,8\pE
+		f4 r8 f'4\fE d8
+		a'4. a,
+		d4\pE e8 f4 d8 %20
+		g,4 r8 r4 c8
+		f4 r8 r4 b,8
+		e4 r8 r4 a,8
+		d4 r8 r4 g8
+		a4 d,8 a'4 a,8 %25
+		d4 e8 f4 g8
+		f e d a'4 a,8\fE
+		d4 e8 f4 g8
+		a4 g8 f4 e8
+		d4 cis8 d4 d,8 %30
+		a'4 a'8 g4 g,8
+		f4 f'8 e4 e,8
+		d4 r8 r4.
+		f'4 g8 a4 a,8
+		d4\fermata cis8\pE d4 e8 %35
+		f4 f,8 b4 h8
+		c4\fE r8 r4.
+		c\pE c,
+		f4 r8 r4.
+		f' f, %40
+		b4 c8 d4 d,8
+		es'4 c8 f4 f,8
+		b4\fE b'8 a4 a,8
+		g4 r8 r4 g'8
+		c4\pE r8 e,4 c8 %45
+		f,4 r8 r4 f8
+		d4 r8 fis'4 d8
+		g,4 r8 g' f e
+		f4 a,8 b4 c8
+		f4 e8 d4 a8 %50
+		b4 g8 c4 c,8
+		f'4 e8\fE d4 cis8 \markDaCapo \bar "S-S" %52 finis
 	}
 }
 
 KommSetzeDichBassFigures = \figuremode {
-	
+	r8 r4. <7>8 <6> <5>
+	<_+>4 <\t>8 <6>4 <6\\>8
+	r4 <6 5>8 r4.
+	<_+>4. <6>
+	q <6\\> %5
+	r2.
+	<6>4. <6 4>4 <5 _+>8
+	r4 <6\\>8 <6> <6\\>4
+	<6>4. <7>8 <6> <5 _!>
+	<_+>4 <\t>8 <6>4 <6\\>8 %10
+	r4 <6 5>8 r4.
+	<_+>2.
+	<7>8 <6> <5> r4.
+	<6 5> <7>8 <6> <5>
+	<_+>4 <\t>8 <6>4 <6\\>8 %15
+	r4 <6 5>8 r4.
+	<_+>4. <6>
+	<5 3>2.
+	<_+>
+	r4 <\t>8 <6>4. %20
+	r4. r4 <7>8
+	<4> <3> r r4 <7>8
+	r4. r4 <7 _+>8
+	<4> <3> r r4.
+	<_+> <6 4>4 <5 _+>8 %25
+	r4 <6\\>8 <6>4.
+	q <6 4>4 <5 _+>8
+	r4. <6>
+	<_+>4 <\t>8 <6>4 <6\\>8
+	r4 <6 5>8 r4. %30
+	<_+>4. <6>
+	q <6\\>
+	r2.
+	<6>4. <6 4>4 <5 _+>8
+	r4 <6>8 q4 <6!>8 %35
+	r4. <7>8 <6> <5>
+	r2.
+	<7->
+	<9 4>8 <8 3> r r4.
+	<7->2. %40
+	<9 4->8 <8 3> <\t \t> <6>4.
+	r4 <_->8 <6 4>4 <5 3>8
+	r4. <6\\>
+	r2.
+	<7 _!>4. <6 5>4 <7>8 %45
+	<4> <3> r r4.
+	<7 _+>4. <6 5>4 <7 _+>8
+	<4> <3> r <5 3> <\t \t> <6 5>
+	r4 <6>8 <6>4.
+	r4 <\t>8 r4 <6>8 %50
+	r4. <6 4>4 <5 3>8
+	r4 <6\\>8 r4 <6>8
 }
 
 % Organo = {

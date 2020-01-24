@@ -76,7 +76,53 @@ KommSetzeDichFlautoI = {
 	\relative c' {
 		\clef treble
 		\key d \minor \time 6/8 \tempoKommSetzeDich
-		\partial 8
-		
+		\partial 8 a''8\fE \bar "S-S" a( g) f f( e) d
+		\appoggiatura d cis4.\trill d4 e8
+		f( d) g \appoggiatura g \once \slurDashed f8.( e16) f8
+		e4.~ \slurDashed e16( f) g( a) b8
+		a4 a,8 cis16( d) e( f) g8 \slurSolid %5
+		f4. a
+		d8.( c32 b) a16 g f8( d) e
+		d4 r8 r4.
+		R2.*3 %11
+		e4.\fE g
+		b8 a16( g) f( e) f8( e) d\pE
+		a4. b'
+		a4 cis,8 d4 e8 %15
+		f( d) g \appoggiatura g8 f8.( e16) f8
+		e4.~\fE e16( f) g( a) b8\pE
+		a4 r8 r4.
+		cis,~\fE \slurDashed cis16( d) e( f) g8 \slurSolid
+		f4\pE r8 r4. %20
+		b4 b8 b4 b8
+		b( a) a a4 a8
+		g4 g8 g4 g8
+		g( f) f \once \slurDashed f( e) d
+		cis4 d8 d4 cis8 %25
+		d4 r8 r4.
+		r r4 a'8\fE
+		a( g) f f( e) d
+		cis4.\trill d4 e8
+		f( d) g \once \slurDashed f8.( e16) f8 %30
+		e4.~ e16( f) g( a) b8
+		a4 a,8 cis16( d) e( f) g8
+		f4. a
+		d8.( c32 b) a16 g f8( d) e
+		d4\fermata r8 r4. %35
+		R2.
+		e4.\fE g
+		b4\pE b8 b4 b8
+		b( a) a a4 c8
+		es4 es8 es4 es8 %40
+		es( d) d r4.
+		R2.
+		r4. \slurDashed fis,16(\fE g) a( b) c8 \slurSolid
+		b4. d
+		e!4\pE r8 r4 e,8 %45
+		f4. f,4 f'8
+		fis4 r8 r4 fis8
+		g4. g,4 r8
+		R2.*3 %51
+		r4. r4 a'8\fE \markDaCapo \bar "S-S" %52 finis
 	}
 }
