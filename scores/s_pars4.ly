@@ -201,9 +201,53 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.6" "A C C O M P A G N A T O" "Erſchrocknes Schäflein, komm nach Golgatha"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\ErschrocknesSchaefleinViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\ErschrocknesSchaefleinViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\ErschrocknesSchaefleinViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 1)" } }
+% 					\new Voice = "Alto" { \dynamicUp \ErschrocknesSchaefleinAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \ErschrocknesSchaefleinAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\ErschrocknesSchaefleinOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \ErschrocknesSchaefleinBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.6" "A C C O M P A G N A T O" "Erſchrocknes Schäflein, komm nach Golgatha"
+			movement = \movementTitle "4.8" "A R I A" "Komm, ſetze dich in Schatten"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #35
@@ -213,36 +257,38 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
+					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\ErschrocknesSchaefleinViolinoI
+							\set Staff.instrumentName = "Flauto I"
+							\KommSetzeDichFlautoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\ErschrocknesSchaefleinViolinoII
+							\set Staff.instrumentName = "Flauto II"
+							\KommSetzeDichFlautoII
 						}
 					>>
+				>>
+				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\ErschrocknesSchaefleinViola
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "e Viole" } }
+						\KommSetzeDichViola
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = "Das Evangelium"
-					\new Voice = "Alto" { \dynamicUp \ErschrocknesSchaefleinAltoNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 1)" } }
+					\new Voice = "Alto" { \dynamicUp \KommSetzeDichAltoNotes }
 				}
-				\new Lyrics \lyricsto Alto \ErschrocknesSchaefleinAltoLyrics
+				\new Lyrics \lyricsto Alto \KommSetzeDichAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\ErschrocknesSchaefleinOrgano
+						\KommSetzeDichOrgano
 					}
 				>>
-				\new FiguredBass { \ErschrocknesSchaefleinBassFigures }
+				\new FiguredBass { \KommSetzeDichBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 110 }
 		}
 	}
 }

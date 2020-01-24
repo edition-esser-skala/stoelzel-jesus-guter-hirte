@@ -1074,3 +1074,12 @@ ErschrocknesSchaefleinViola = {
 		r4 g a2\fermata \bar "|." %13 finis
 	}
 }
+
+KommSetzeDichViola = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 6/8 \tempoKommSetzeDich
+		\partial 8
+		
+	}
+}

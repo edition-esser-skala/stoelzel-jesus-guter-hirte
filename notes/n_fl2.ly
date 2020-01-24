@@ -4,3 +4,11 @@
 
 \version "2.18.0"
 
+KommSetzeDichFlautoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 6/8 \tempoKommSetzeDich
+		\partial 8
+		
+	}
+}

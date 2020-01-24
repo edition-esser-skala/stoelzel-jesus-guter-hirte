@@ -477,7 +477,7 @@
 			<<
 				\new StaffGroup \with { \smallerStaffDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "e Violi" } }
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "e Viole" } }
 						\DiesenHonigsuessenViola
 					}
 				>>

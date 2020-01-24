@@ -71,3 +71,12 @@ SeinHertzeFlautoI = {
 		R2*3 \markDaCapo \bar "||" %64 finis
 	}
 }
+
+KommSetzeDichFlautoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 6/8 \tempoKommSetzeDich
+		\partial 8
+		
+	}
+}

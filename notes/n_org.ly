@@ -3846,6 +3846,19 @@ ErschrocknesSchaefleinBassFigures = \figuremode {
 	r
 }
 
+KommSetzeDichOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 6/8 \tempoKommSetzeDich
+		\partial 8 d8\fE d4 d8 g4 g8
+		
+	}
+}
+
+KommSetzeDichBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

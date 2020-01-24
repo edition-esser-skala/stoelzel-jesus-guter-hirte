@@ -954,6 +954,19 @@ ErschrocknesSchaefleinAltoLyrics = \lyricmode {
 	ſucht. %13 finis
 }
 
+KommSetzeDichAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 6/8 \autoBeamOff \tempoKommSetzeDich
+		\partial 8
+		
+	}
+}
+
+KommSetzeDichAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
