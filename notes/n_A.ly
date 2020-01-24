@@ -922,12 +922,36 @@ ErschrocknesSchaefleinAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \lydian \time 4/4 \autoBeamOff \tempoErschrocknesSchaeflein
-		
+		r8 b' d b g4 g
+		g8 a b a f4 r8 c'
+		a a b c fis, fis r fis
+		a b c b g4 r8 d'
+		d f,! f e e e r16 g g c %5
+		b!8 b b a a a r a
+		f d gis a e4 r
+		r8 c' c c a8. h16 c8 h
+		h h r g h h c d
+		h4 r8 h h c d g, %10
+		c c r g e g b a
+		a a r c d d r b16 a
+		f4 r r2\fermata \bar "|." %13 finis
 	}
 }
 
 ErschrocknesSchaefleinAltoLyrics = \lyricmode {
-	
+	Er -- ſchrock -- nes Schäf -- lein,
+	komm nach Gol -- ga -- tha! Schau,
+	dei -- nes Hir -- ten Ar -- me ſind
+	lieb -- reich aus -- ge -- ſpannt, daß
+	Er ſich dein er -- bar -- me und dir das %5
+	Pa -- ra -- dieß auf -- ſchlie -- ße, da --
+	raus du warſt ver -- bannt.
+	Sein Kreutz wird dir zum Baum des
+	Le -- bens, an ſol -- chem blüht die
+	Frucht, die dei -- ner Keh -- len %10
+	ſü -- ße, und die du nicht ver --
+	ge -- bens ſo ſehn -- lich haſt ge --
+	ſucht. %13 finis
 }
 
 % AltoNotes = {

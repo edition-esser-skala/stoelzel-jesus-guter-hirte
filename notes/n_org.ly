@@ -3814,12 +3814,36 @@ ErschrocknesSchaefleinOrgano = {
 	\relative c {
 		\clef bass
 		\key b \lydian \time 4/4 \tempoErschrocknesSchaeflein
-		b1
+		b1~
+		b2 a~
+		a1~
+		a2 b
+		h c~ %5
+		c cis
+		d e4 e,
+		a1
+		g
+		f %10
+		e
+		f2 b!
+		r4 c f,2\fermata \bar "|." %13 finis
 	}
 }
 
 ErschrocknesSchaefleinBassFigures = \figuremode {
-	
+	<5 3>2 <4 2>
+	r <6>
+	<\t> <6\\>
+	r <6>
+	<\t>1 %5
+	r2 <6>
+	r <6 4>4 <5! _+>
+	<5 3>2 <6\\>
+	<_!>1
+	<4! 2> %10
+	<6>
+	r
+	r
 }
 
 % Organo = {

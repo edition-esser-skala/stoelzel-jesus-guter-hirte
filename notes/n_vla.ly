@@ -1057,8 +1057,20 @@ SoSchrecklichHierViola = {
 
 ErschrocknesSchaefleinViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \lydian \time 4/4 \tempoErschrocknesSchaeflein
-		
+		b'2 g~
+		g f
+		a1~
+		a2 g~
+		g c,~ %5
+		c a
+		d c4 h
+		c2 a'
+		h1~
+		h %10
+		c
+		a2 b!
+		r4 g a2\fermata \bar "|." %13 finis
 	}
 }

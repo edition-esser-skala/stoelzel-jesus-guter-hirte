@@ -1194,7 +1194,19 @@ ErschrocknesSchaefleinViolinoI = {
 	\relative c' {
 		\clef treble
 		\key b \lydian \time 4/4 \tempoErschrocknesSchaeflein
-		
+		f'2 e~
+		e f~
+		f fis~
+		fis g~
+		g1~ %5
+		g2 a~
+		a~ a8 e gis4
+		a2 fis
+		g1~
+		g~ %10
+		g
+		f
+		r4 e f2\fermata \bar "|." %13 finis
 	}
 }
 

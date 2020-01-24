@@ -768,6 +768,18 @@ ErschrocknesSchaefleinViolinoII = {
 	\relative c' {
 		\clef treble
 		\key b \lydian \time 4/4 \tempoErschrocknesSchaeflein
-		
+		d'2 c~
+		c1~
+		c~
+		c2 d~
+		d e~ %5
+		e1
+		f2 e4 e
+		e2 c
+		d1~
+		d %10
+		e
+		c2 d
+		r4 c c2\fermata \bar "|." %13 finis
 	}
 }
