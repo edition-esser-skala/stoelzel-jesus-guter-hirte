@@ -3810,6 +3810,18 @@ KaumAlsErBassFigures = \figuremode {
 	r <6 4>8 <5 3> r4 %14 finis
 }
 
+ErschrocknesSchaefleinOrgano = {
+	\relative c {
+		\clef bass
+		\key b \lydian \time 4/4 \tempoErschrocknesSchaeflein
+		b1
+	}
+}
+
+ErschrocknesSchaefleinBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

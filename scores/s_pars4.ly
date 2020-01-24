@@ -173,29 +173,73 @@
 % 			\midi { \tempo 2 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.5" "R E C I T A T I V O" "Kaum als Er zu der Schedelſtätte"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \KaumAlsErTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \KaumAlsErTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\KaumAlsErOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \KaumAlsErBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.5" "R E C I T A T I V O" "Kaum als Er zu der Schedelſtätte"
+			movement = \movementTitle "4.6" "A C C O M P A G N A T O" "Erſchrocknes Schäflein, komm nach Golgatha"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\ErschrocknesSchaefleinViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\ErschrocknesSchaefleinViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\ErschrocknesSchaefleinViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \KaumAlsErTenoreNotes }
+					\set Staff.instrumentName = "Das Evangelium"
+					\new Voice = "Alto" { \dynamicUp \ErschrocknesSchaefleinAltoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \KaumAlsErTenoreLyrics
+				\new Lyrics \lyricsto Alto \ErschrocknesSchaefleinAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\KaumAlsErOrgano
+						\ErschrocknesSchaefleinOrgano
 					}
 				>>
-				\new FiguredBass { \KaumAlsErBassFigures }
+				\new FiguredBass { \ErschrocknesSchaefleinBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

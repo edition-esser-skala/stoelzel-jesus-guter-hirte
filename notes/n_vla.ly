@@ -1054,3 +1054,11 @@ SoSchrecklichHierViola = {
 		f2 r \markDaCapo \bar "||" %68 finis
 	}
 }
+
+ErschrocknesSchaefleinViola = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoErschrocknesSchaeflein
+		
+	}
+}

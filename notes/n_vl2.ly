@@ -763,3 +763,11 @@ IhrToechterJerusalemsViolinoII = {
 		R1\fermataMarkup \bar "|." %16 finis
 	}
 }
+
+ErschrocknesSchaefleinViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoErschrocknesSchaeflein
+		
+	}
+}

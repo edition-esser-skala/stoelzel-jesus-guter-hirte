@@ -1190,6 +1190,14 @@ SoSchrecklichHierViolinoI = {
 	}
 }
 
+ErschrocknesSchaefleinViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoErschrocknesSchaeflein
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

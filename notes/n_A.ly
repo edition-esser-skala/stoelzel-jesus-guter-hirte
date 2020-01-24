@@ -918,6 +918,18 @@ SeeleGehAufAltoLyrics = \lyricmode {
 	o, ſo biſt du mehr als __ Stein. %6 finis
 }
 
+ErschrocknesSchaefleinAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \autoBeamOff \tempoErschrocknesSchaeflein
+		
+	}
+}
+
+ErschrocknesSchaefleinAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

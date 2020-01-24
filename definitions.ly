@@ -388,6 +388,7 @@ tempoIhrToechterJerusalems = \tempoMarkup "Accompagnato"
 tempoSoSchrecklichHier = \tempoMarkup "Aria"
 	tempoSoSchrecklichHierB = \tempoMarkup "Adagio"
 tempoKaumAlsEr = \tempoMarkup "Recitativo"
+tempoErschrocknesSchaeflein = \tempoMarkup "Accompagnato"
 
 
 
