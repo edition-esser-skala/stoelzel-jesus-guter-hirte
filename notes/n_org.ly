@@ -3776,12 +3776,38 @@ KaumAlsErOrgano = {
 	\relative c {
 		\clef bass
 		\key c \major \time 4/4 \tempoKaumAlsEr
-		
+		e,1
+		d
+		c2 e'~
+		e f
+		a,1 %5
+		b
+		g2 a4 d
+		b1
+		a
+		b?2 fis~ %10
+		fis g~
+		g b~
+		b a
+		b c4 f, \markAttacaE \bar "||" %14 finis
 	}
 }
 
 KaumAlsErBassFigures = \figuremode {
-	
+	<6>1
+	q
+	r2 <6>
+	r1
+	<6>2 <5-> %5
+	r1
+	<5 _->4 <6! \t> <6 4>8 <5 _+> r4
+	r1
+	<7 5->
+	r2 <6> %10
+	<5> <_->
+	r <6>
+	<4! 2>2 <6!>
+	r <6 4>8 <5 3> r4 %14 finis
 }
 
 % Organo = {

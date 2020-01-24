@@ -1483,12 +1483,38 @@ KaumAlsErTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \major \time 4/4 \autoBeamOff \tempoKaumAlsEr
-		
+		r8 g' g e c8. c16 d8 e
+		f f r16 f f d h8. h16 h d f e
+		e4 r8 e c4 r8 c
+		e g b, a a a r f'
+		f8. c16 c8 d es es g f %5
+		d4 r r8 d d d
+		g f e! f d d r4
+		r r8 f f f d b
+		es4 r8 g es8. es16 es8 c
+		f c d es d d r16 d d es %10
+		c8 c es d b4 r8 d
+		g g g fis g4 r16 g g g
+		e!8. e16 g8 c, f4 r16 f a f
+		d8 d e f c4 r \markAttacaE \bar "||" %14 finis
 	}
 }
 
 KaumAlsErTenoreLyrics = \lyricmode {
-	
+	Kaum als Er zu der Sche -- del --
+	ſtät -- te in gro -- ßer Mat -- tig -- keit ge -- lan -- get
+	war, bot man, als
+	ob man Mit -- leyd hät -- te, Ihm
+	Myrr -- hen Wein nebſt Gall und E -- ßig %5
+	dar. Doch als Ers
+	ſchmeckt, wolt Ers nicht trin -- cken.
+	Drauf wurd Er an das
+	Kreutz und bey -- der -- ſeits zur
+	Rech -- ten und zur Lin -- cken, zwey Ü -- bel -- %10
+	thä -- ter an -- ge -- pflöckt, Pi --
+	la -- ti Schrifft da -- bey, daß Er der
+	Ju -- den Kö -- nig ſey, zu o -- berſt
+	an das Kreutz ge -- ſteckt. %14 finis
 }
 
 % TenoreNotes = {
