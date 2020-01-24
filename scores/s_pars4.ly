@@ -135,42 +135,70 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.4" "A R I A" "So ſchrecklich hier die Strafe iſt"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #22
+% 			system-system-spacing.minimum-distance = #22
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "ed Oboi" "unisoni" } }
+% 						\SoSchrecklichHierViolinoI
+% 					}
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\SoSchrecklichHierViola
+% 					>>
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+% 					\new Voice = "Basso" { \dynamicUp \SoSchrecklichHierBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \SoSchrecklichHierBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SoSchrecklichHierOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \SoSchrecklichHierBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.4" "A R I A" "So ſchrecklich hier die Strafe iſt"
+			movement = \movementTitle "4.5" "R E C I T A T I V O" "Kaum als Er zu der Schedelſtätte"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #22
-			system-system-spacing.minimum-distance = #22
-			systems-per-page = #3
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #4
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "ed Oboi" "unisoni" } }
-						\SoSchrecklichHierViolinoI
-					}
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\SoSchrecklichHierViola
-					>>
-				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
-					\new Voice = "Basso" { \dynamicUp \SoSchrecklichHierBassoNotes }
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \KaumAlsErTenoreNotes }
 				}
-				\new Lyrics \lyricsto Basso \SoSchrecklichHierBassoLyrics
+				\new Lyrics \lyricsto Tenore \KaumAlsErTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SoSchrecklichHierOrgano
+						\KaumAlsErOrgano
 					}
 				>>
-				\new FiguredBass { \SoSchrecklichHierBassFigures }
+				\new FiguredBass { \KaumAlsErBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 100 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

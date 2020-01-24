@@ -3772,6 +3772,18 @@ SoSchrecklichHierBassFigures = \figuremode {
 	r1 %68 finis
 }
 
+KaumAlsErOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoKaumAlsEr
+		
+	}
+}
+
+KaumAlsErBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

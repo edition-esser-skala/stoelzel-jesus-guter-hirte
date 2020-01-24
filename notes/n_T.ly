@@ -1479,6 +1479,18 @@ IhrToechterJerusalemsTenoreLyrics = \lyricmode {
 	dür -- ren un -- ter -- ſtehn? %16 finis
 }
 
+KaumAlsErTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoKaumAlsEr
+		
+	}
+}
+
+KaumAlsErTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
