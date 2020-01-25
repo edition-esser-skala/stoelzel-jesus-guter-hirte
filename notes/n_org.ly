@@ -3983,6 +3983,18 @@ RuhNurAufBassFigures = \figuremode {
 	r1 r <_+>2 <6>4 <\t> r2 <_+> r1 %6 finis
 }
 
+DerHeylandHingeOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoDerHeylandHinge
+		h!1
+	}
+}
+
+DerHeylandHingeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

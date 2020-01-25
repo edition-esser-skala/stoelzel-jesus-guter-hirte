@@ -1540,6 +1540,18 @@ RuhNurAufTenoreLyrics = \lyricmode {
 	der an -- dern Schäf -- lein, ru -- he nur. %6 finis
 }
 
+DerHeylandHingeTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \autoBeamOff \tempoDerHeylandHinge
+		
+	}
+}
+
+DerHeylandHingeTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

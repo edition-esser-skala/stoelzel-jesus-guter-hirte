@@ -291,48 +291,76 @@
 % 			\midi { \tempo 4. = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.8" "C H O R A L" "Ruh nur auf Jeſu liebſten Hertzen"
+% 		}
+% 		\paper { systems-per-page = #2 page-count = #1 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \RuhNurAufSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \RuhNurAufSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \RuhNurAufAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \RuhNurAufAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \RuhNurAufTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \RuhNurAufTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \RuhNurAufBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \RuhNurAufBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\RuhNurAufOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \RuhNurAufBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.8" "C H O R A L" "Ruh nur auf Jeſu liebſten Hertzen"
+			movement = \movementTitle "4.9" "R E C I T A T I V O" "Der Heyland hinge nackt und bloß"
 		}
-		\paper { systems-per-page = #2 page-count = #1 }
+		\paper {
+			system-system-spacing.basic-distance = #23
+			system-system-spacing.minimum-distance = #23
+			systems-per-page = #5
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \RuhNurAufSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \RuhNurAufSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \RuhNurAufAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \RuhNurAufAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \RuhNurAufTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \RuhNurAufTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \RuhNurAufBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \RuhNurAufBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \DerHeylandHingeTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \DerHeylandHingeTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\RuhNurAufOrgano
+						\DerHeylandHingeOrgano
 					}
 				>>
-				\new FiguredBass { \RuhNurAufBassFigures }
+				\new FiguredBass { \DerHeylandHingeBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
