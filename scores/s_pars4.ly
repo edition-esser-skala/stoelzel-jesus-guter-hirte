@@ -453,48 +453,92 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.12" "C H O R A L" "Es freut ſchon Jeſus ſich"
+% 		}
+% 		\paper { systems-per-page = #2 page-count = #1 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \EsFreutSchonSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \EsFreutSchonSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \EsFreutSchonAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \EsFreutSchonAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \EsFreutSchonTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \EsFreutSchonTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \EsFreutSchonBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \EsFreutSchonBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\EsFreutSchonOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \EsFreutSchonBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.12" "C H O R A L" "Es freut ſchon Jeſus ſich"
+			movement = \movementTitle "4.13" "R E C I T A T I V O" "Und um die ſechſte Stunde"
 		}
-		\paper { systems-per-page = #2 page-count = #1 }
+		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\UndUmDieViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\UndUmDieViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \EsFreutSchonSopranoNotes }
+						\set Staff.instrumentName = "Viola"
+						\UndUmDieViola
 					}
-					\new Lyrics \lyricsto Soprano \EsFreutSchonSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \EsFreutSchonAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \EsFreutSchonAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EsFreutSchonTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \EsFreutSchonTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \EsFreutSchonBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \EsFreutSchonBassoLyrics
 				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
+					\new Voice = "Tenore" { \dynamicUp \UndUmDieTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \UndUmDieTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\EsFreutSchonOrgano
+						\UndUmDieOrgano
 					}
 				>>
-				\new FiguredBass { \EsFreutSchonBassFigures }
+				\new FiguredBass { \UndUmDieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

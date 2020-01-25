@@ -867,3 +867,11 @@ AchVonDiesemViolinoII = {
 		c as'\pE g \bar "S-S" %55 finis
 	}
 }
+
+UndUmDieViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoUndUmDie
+		
+	}
+}

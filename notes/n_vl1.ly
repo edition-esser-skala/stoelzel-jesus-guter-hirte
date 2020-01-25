@@ -1294,6 +1294,14 @@ AchVonDiesemViolinoI = {
 	}
 }
 
+UndUmDieViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoUndUmDie
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -1213,3 +1213,11 @@ AchVonDiesemViola = {
 		c es\pE es \bar "S-S" %55 finis
 	}
 }
+
+UndUmDieViola = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoUndUmDie
+		
+	}
+}

@@ -1637,6 +1637,18 @@ EsFreutSchonTenoreLyrics = \lyricmode {
 	die wird für Freu -- den ſin -- gen. %6 finis
 }
 
+UndUmDieTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \dorian \time 4/4 \autoBeamOff \tempoUndUmDie
+		
+	}
+}
+
+UndUmDieTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

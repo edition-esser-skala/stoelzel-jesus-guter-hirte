@@ -4240,6 +4240,18 @@ EsFreutSchonBassFigures = \figuremode {
 	r <6>4 <\t> r2 r1 r %6 finis
 }
 
+UndUmDieOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoUndUmDie
+		c1~
+	}
+}
+
+UndUmDieBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
