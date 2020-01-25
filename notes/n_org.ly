@@ -4245,11 +4245,65 @@ UndUmDieOrgano = {
 		\clef bass
 		\key c \dorian \time 4/4 \tempoUndUmDie
 		c1~
+		c2 a
+		d1
+		es2 f4 b,
+		\key g \dorian \tempoUndUmDieB g r8 g' fis4 r8 f %5
+		es4 e d r8 d
+		d4 cis d r8 d
+		g g, b g \tempoUndUmDieC d'2
+		c h
+		b a %10
+		b d
+		c4 c, f2
+		g a
+		g1
+		f2 d' %15
+		c e
+		f g4 c,
+		b!2 a
+		d1~
+		d2 \tempoUndUmDieD es8 d es c %20
+		h a h g as g as f
+		g g' es c f d g g,
+		\tempoUndUmDieE c2 a!~
+		a1~
+		a2 b %25
+		h1
+		c2 d4 es
+		f f, b2\fermata \bar "|." %28 finis
 	}
 }
 
 UndUmDieBassFigures = \figuremode {
-	
+	r1
+	r2 <6 5>
+	<6>1
+	r2 <6 4>8 <5 3> r4
+	r2 <6>4. <\t>8 %5
+	<6>4 <6\\> <_+>4. <7 _+>8
+	<6 4>4 <7 _!> <_+>4. <\t>8
+	r4 <6> <_+>2
+	<4+ 2> <6>
+	<4 2> <6> %10
+	r <6>
+	<6 4>4 <5 3>2.
+	<6>2 <_+>
+	<4+ 2>1
+	<6>2 <6!> %15
+	r <6>
+	q <6 4>8 <5 _!> r4
+	<2>2 <6>
+	q1
+	r2 r4. <_->8 %20
+	<6>4. <6- _!>8 <5- 3>8 <\t \t> <6> <6 _->
+	<_!>4 <6>8 <_-> q <\t> <6- 4> <5 _!>
+	<_->2 <6>
+	<\t> <5->
+	r1 %25
+	<6>
+	<_->2 <6>
+	<6 4>4 <5 3>2. %28 finis
 }
 
 % Organo = {

@@ -872,6 +872,12 @@ UndUmDieViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoUndUmDie
-		
+		R1*4
+		\key g \dorian \tempoUndUmDieB g''4 r8 d d4 r8 d %5
+		es4 g, d' r8 d
+		d4 e a,8 fis a g16 fis
+		g2\trill \tempoUndUmDieC fis4 r
+		R1*19 %27
+		R1\fermataMarkup \bar "|." %28 finis
 	}
 }

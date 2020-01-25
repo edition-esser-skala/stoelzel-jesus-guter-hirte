@@ -1641,12 +1641,66 @@ UndUmDieTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \dorian \time 4/4 \autoBeamOff \tempoUndUmDie
-		
+		r4 r8 c^\Evangeliste es es g es
+		c c r16 c c d es8 es es d
+		b4 r8 b f' f es f
+		g8. g16 es8 d b b r4
+		\key g \dorian \tempoUndUmDieB r8 d^\Jesus b4 r8 d a4 %5
+		c8. c16 cis8 cis d a c?[( b16 a]
+		b2)\trill a4 r
+		r2 \tempoUndUmDieC r4 r8 d^\Evangeliste
+		fis8. fis16 fis fis e! d g8 d f? e
+		e e r16 e g c, f8 f, es' d %10
+		d4 r16 d es f f8([ b,)] r f'^\Jesus
+		f16([ c)] c8 r4 r8 c^\Evangeliste f c
+		e8. e16 g8 e cis4 r16 cis cis d
+		e4 r8 e e f g f
+		d4 r16 f f f h,8 d f e %15
+		e4 r16 e f g g4 c,
+		d8. d16 d e f e c4 r8 e
+		g8. g16 e8 c f4 r16 c^\Jesus es d
+		b4 r8 f'^\Evangeliste d8. d16 d8 b
+		d f as g \tempoUndUmDieD g4 r8 es^\Jesus %20
+		d g, g' es c d16([ es)] f8 d
+		h4 r8 c c c c16([ g)] g8
+		\tempoUndUmDieE r4 r16 es'^\Evangeliste es es c4 r8 f
+		f c c d es4 r8 g
+		c, d es d d4 r8 d %25
+		d8. g,16 g8 d' f f g d
+		es4 r8 c f b, g' r16 b,
+		b8 f r4 r2\fermata \bar "|." %28 finis
 	}
 }
 
 UndUmDieTenoreLyrics = \lyricmode {
-	
+	Und um die ſech -- ſte
+	Stun -- de ward ei -- ne di -- cke Fin -- ſter --
+	niß. Da -- bey ver -- nahm man
+	diß aus Je -- ſu Mun -- de:
+	Mein Gott! Mein Gott! %5
+ 	Wa -- rum haſ -- tu mich ver -- la --
+	ßen?
+	Die
+	Fein -- de trie -- ben ih -- ren Spott ge -- wohn -- ter --
+	ma -- ßen, ſo -- gar mit Je -- ſu Angst -- ge -- %10
+	ſchrey. Er a -- ber rief: __ Mich
+	dürſ -- tet. Und ei -- ner
+	von den Knech -- ten lief, nahm ei -- nen
+	Schwamm, ſteckt ſol -- chen auf ein
+	Rohr, und hielt dem faſt er -- würg -- ten %15
+	Lamm auf ſol -- che Wei -- ſe
+	Y -- so -- pen und E -- ßig vor. Hie --
+	rauf wird Je -- ſus laut: Es iſt voll --
+	bracht. Und a -- ber -- mahl ſchrie
+	Er mit gant -- zer Macht: Mein %20
+	Va -- ter, ich be -- feh -- le __ mei -- nen
+	Geiſt in dei -- ne Hän -- de.
+	Und als Er nun ge --
+	zah -- let und ge -- leiſt, was
+	Er doch nicht ge -- raubt, ſo %25
+	neig -- te ſich mit ſei -- nem blut -- gen
+	Haupt ſein Le -- ben auch zum
+	En -- de. %28 finis
 }
 
 % TenoreNotes = {

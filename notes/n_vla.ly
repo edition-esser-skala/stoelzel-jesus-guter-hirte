@@ -1216,8 +1216,14 @@ AchVonDiesemViola = {
 
 UndUmDieViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \dorian \time 4/4 \tempoUndUmDie
-		
+		R1*4
+		\key g \dorian \tempoUndUmDieB d'4 r8 g, a4 r8 d, %5
+		g4 r8 g a4 r8 a
+		d,4 g, d' r8 d
+		d2\trill \tempoUndUmDieC d4 r
+		R1*19 %27
+		R1\fermataMarkup \bar "|." %28 finis
 	}
 }

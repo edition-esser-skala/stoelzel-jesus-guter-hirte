@@ -400,6 +400,10 @@ tempoOLippenDie = \tempoMarkup "Accompagnato"
 tempoAchVonDiesem = \tempoMarkup "Aria"
 tempoEsFreutSchon = \tempoMarkup "Choral"
 tempoUndUmDie = \tempoMarkup "Recitativo"
+	tempoUndUmDieB = \tempoMarkup "Accompagnato"
+	tempoUndUmDieC = \tempoMarkup "[Recitativo]"
+	tempoUndUmDieD = \tempoMarkup "[Arioſo]"
+	tempoUndUmDieE = \tempoMarkup "[Recitativo]"
 
 
 
