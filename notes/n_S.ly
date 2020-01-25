@@ -1199,6 +1199,18 @@ EsFreutSchonSopranoLyrics = \lyricmode {
 	die wird für Freu -- den ſin -- gen. %6 finis
 }
 
+IhrHimmelKlagtSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoIhrHimmelKlagt
+		
+	}
+}
+
+IhrHimmelKlagtSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -4306,6 +4306,18 @@ UndUmDieBassFigures = \figuremode {
 	<6 4>4 <5 3>2. %28 finis
 }
 
+IhrHimmelKlagtOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoIhrHimmelKlagt
+		g'8\fE g, r4 r8 g' g g
+	}
+}
+
+IhrHimmelKlagtBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -182,3 +182,11 @@ AchVonDiesemOboeII = {
 		c4 r r \bar "S-S" %55 finis
 	}
 }
+
+IhrHimmelKlagtOboeII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoIhrHimmelKlagt
+		
+	}
+}

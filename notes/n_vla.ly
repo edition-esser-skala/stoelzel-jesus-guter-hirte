@@ -1227,3 +1227,11 @@ UndUmDieViola = {
 		R1\fermataMarkup \bar "|." %28 finis
 	}
 }
+
+IhrHimmelKlagtViola = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoIhrHimmelKlagt
+		
+	}
+}

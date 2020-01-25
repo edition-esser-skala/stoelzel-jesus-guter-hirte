@@ -1091,6 +1091,18 @@ EsFreutSchonAltoLyrics = \lyricmode {
 	die wird für Freu -- den ſin -- gen. %6 finis
 }
 
+IhrHimmelKlagtAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoIhrHimmelKlagt
+		
+	}
+}
+
+IhrHimmelKlagtAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

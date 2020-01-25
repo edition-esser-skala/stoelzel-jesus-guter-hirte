@@ -404,6 +404,7 @@ tempoUndUmDie = \tempoMarkup "Recitativo"
 	tempoUndUmDieC = \tempoMarkup "[Recitativo]"
 	tempoUndUmDieD = \tempoMarkup "[Arioſo]"
 	tempoUndUmDieE = \tempoMarkup "[Recitativo]"
+tempoIhrHimmelKlagt = \tempoMarkup "Coro"
 
 
 

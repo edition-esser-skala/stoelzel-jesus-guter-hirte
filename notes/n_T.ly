@@ -1703,6 +1703,18 @@ UndUmDieTenoreLyrics = \lyricmode {
 	En -- de. %28 finis
 }
 
+IhrHimmelKlagtTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoIhrHimmelKlagt
+		
+	}
+}
+
+IhrHimmelKlagtTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

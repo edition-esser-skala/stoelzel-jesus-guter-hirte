@@ -497,45 +497,117 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.13" "R E C I T A T I V O" "Und um die ſechſte Stunde"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\UndUmDieViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\UndUmDieViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\UndUmDieViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
+% 					\new Voice = "Tenore" { \dynamicUp \UndUmDieTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \UndUmDieTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\UndUmDieOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \UndUmDieBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.13" "R E C I T A T I V O" "Und um die ſechſte Stunde"
+			movement = \movementTitle "4.14" "C O R O" "Ihr Himmel klagt"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\IhrHimmelKlagtOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\IhrHimmelKlagtOboeII
+						}
+					>>
+				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\UndUmDieViolinoI
+							\IhrHimmelKlagtViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\UndUmDieViolinoII
+							\IhrHimmelKlagtViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\UndUmDieViola
+						\IhrHimmelKlagtViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
-					\new Voice = "Tenore" { \dynamicUp \UndUmDieTenoreNotes }
-				}
-				\new Lyrics \lyricsto Tenore \UndUmDieTenoreLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto 1 ed 2"
+						\new Voice = "Soprano" { \dynamicUp \IhrHimmelKlagtSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \IhrHimmelKlagtSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \IhrHimmelKlagtAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \IhrHimmelKlagtAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \IhrHimmelKlagtTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \IhrHimmelKlagtTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \IhrHimmelKlagtBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \IhrHimmelKlagtBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\UndUmDieOrgano
+						\IhrHimmelKlagtOrgano
 					}
 				>>
-				\new FiguredBass { \UndUmDieBassFigures }
+				\new FiguredBass { \IhrHimmelKlagtBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

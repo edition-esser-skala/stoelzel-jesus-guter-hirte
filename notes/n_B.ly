@@ -1020,6 +1020,18 @@ EsFreutSchonBassoLyrics = \lyricmode {
 	die wird für Freu -- den ſin -- gen. %6 finis
 }
 
+IhrHimmelKlagtBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \autoBeamOff \tempoIhrHimmelKlagt
+		
+	}
+}
+
+IhrHimmelKlagtBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

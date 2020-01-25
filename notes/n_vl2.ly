@@ -881,3 +881,11 @@ UndUmDieViolinoII = {
 		R1\fermataMarkup \bar "|." %28 finis
 	}
 }
+
+IhrHimmelKlagtViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoIhrHimmelKlagt
+		
+	}
+}
