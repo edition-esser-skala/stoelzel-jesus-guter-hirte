@@ -347,7 +347,7 @@
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
+					\set Staff.instrumentName = \markup { \center-column { "Der Schächer" "(Alto 2)" \vspace #.5 "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
 					\new Voice = "Tenore" { \dynamicUp \DerHeylandHingeTenoreNotes }
 				}
 				\new Lyrics \lyricsto Tenore \DerHeylandHingeTenoreLyrics

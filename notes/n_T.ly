@@ -1544,12 +1544,74 @@ DerHeylandHingeTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key f \major \time 4/4 \autoBeamOff \tempoDerHeylandHinge
-		
+		r8 g'^\Evangeliste g d f f f e
+		e4 r8 c e8. e16 e8 f
+		g c, r16 c e g e8. e16 e8 f
+		f4 r16 f f c a8 f es' d
+		d d r d es4 es %5
+		c8 c es d b4 r8 d
+		g g e g cis,4 r8 a
+		f' d cis d a4 r
+		r4 f'^\Jesus r c8 d
+		es es es d d4 r16 d b d %10
+		g,8 a b a a4 r8 f'^\Evangeliste
+		f c es d h h r d
+		f8. f16 f8 as g f g d
+		es4 r16 es g es c8 c f as
+		d,4 r16 d f b, es8. es16 d8 es %15
+		b b r4 r r8 es
+		c d es d d4 r16 d d es
+		es8 c d a b4 r16 d d g
+		e8. e16 f8 g cis,4 r16 cis cis d
+		e8 e g f d4 r16 d e f %20
+		d8. d16 d4 r8 d cis d
+		a4 r r2
+		\clef treble \tempoDerHeylandHingeB r4 r8 b'^\Schaecher es, c' c es,
+		d4 r8 f e g b8. c16
+		a4 r8 f b f g as %25
+		g4 r16 g a b b8. f16 f4
+		\clef "treble_8" \tempoDerHeylandHingeC r8 d^\Evangeliste d e! fis8. fis16 e8 d
+		g8. g16 g8 r16 d^\Jesus \tempoDerHeylandHingeD b8. a16 g8 g'
+		f! c16([ d]) es8. f16 d4 r8 g
+		f c16([ d)] es8. f16 d4 r8 d %30
+		c16([ h)] h8 c d es4 r8 es
+		d c h c g4 r \markAttacaE \bar "||" %32 finis
 	}
 }
 
 DerHeylandHingeTenoreLyrics = \lyricmode {
-	
+	Der Hey -- land hin -- ge nackt und
+	bloß, und ü -- ber ſei -- nem
+	Klei -- de warff ſchon das Krie -- ges Volck das
+	Loß, als Er die hoch -- be -- trüb -- ten
+	Bey -- de, Ma -- ri -- am %5
+	und Jo -- han -- nem, ſah, zu
+	wel -- chen die -- ſes Wort vom
+	Kreutz he -- rab ge -- ſchah:
+	Weib, ſie -- he,
+	die -- ſer iſt dein Sohn, und du ſolſt %10
+	ſei -- ne Mut -- ter ſeyn. Und
+	die fü -- rü -- ber gin -- gen, be --
+	leg -- ten Ihn bey al -- ler ſei -- ner
+	Pein mit Läſ -- te -- run -- gen, Spott und
+	Hohn, des glei -- chen auch, die bey Ihm %15
+	hin -- gen. Biß 
+	der zur rech -- ten Hand des Hir -- ten
+	Un -- ſchuld doch er -- kant und in buß --
+	fert -- ger See -- len Angſt als ein ver --
+	lohr -- nes Schäf -- lein ſich mit die -- ſem %20
+	Glau -- bens Wort zu Ihm ge --
+	wandt:
+	Ge -- denck, o HErr, an
+	mich, ge -- denck, o HErr, an
+	mich, wenn du in dei -- nem %25
+	Reich, in dei -- nem Reich an -- langſt.
+	Wo -- rauf der HEr -- re ſich ver --
+	neh -- men ließ: Ich ſa -- ge dir, glaub
+	du es __ ſi -- cher -- lich, glaub
+	du es __ ſi -- cher -- lich, heut %30
+	war -- tet noch auf dich das
+	ſchö -- ne Pa -- ra -- dieß. %32 finis
 }
 
 % TenoreNotes = {

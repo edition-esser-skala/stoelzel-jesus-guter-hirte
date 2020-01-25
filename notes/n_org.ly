@@ -3988,11 +3988,73 @@ DerHeylandHingeOrgano = {
 		\clef bass
 		\key f \major \time 4/4 \tempoDerHeylandHinge
 		h!1
+		c
+		e2 g
+		a1
+		fis~ %5
+		fis2 g~
+		g1
+		gis2 a4 d,
+		b!2 a~
+		a b %10
+		e,! f~
+		f d'~
+		d h
+		c as~
+		as g4 as %15
+		b es c2~
+		c fis,~
+		fis g~
+		g1~
+		g2 f! %20
+		b g
+		a4 d r2
+		\tempoDerHeylandHingeB b8 b b b b b a a
+		b b b b g g g g
+		f f f f d d d d %25
+		es es e e f'4 f,
+		\tempoDerHeylandHingeC b2-\critnote a
+		g~ \tempoDerHeylandHingeD g8 a b g
+		a f' g a b b,16 c d8 es
+		d f g a b b, d b %30
+		es d c h c d es c
+		f2 g4 c, \markAttacaE \bar "||" %32 finis
 	}
 }
 
 DerHeylandHingeBassFigures = \figuremode {
-	
+	<6>1
+	r
+	<6>2 <6 _->
+	<6>1
+	q2 <7-> %5
+	<\t>4. <6>8 r2
+	<6! 4+ 2>1
+	<7 _!>2 <_+>
+	r2 <6 _!>
+	<5->1 %10
+	<6>
+	r2 <6!>
+	r <6>
+	<_-> <5->4 <6>
+	<6 4 2>2 <6->4 <5-> %15
+	<6 4->8 <5 3> r4 <_->2
+	r <6>
+	<7->4 <6> r2
+	<6! 4+ 2>1
+	r2 <6> %20
+	r1
+	<_+>
+	r2 <4- 2>4 <\t \t>
+	r2 <6!>
+	r <6>4. <5->8 %25
+	r4 <6 5> <6 4> <5 3>
+	r2 <6\\>
+	r r8 <6\\> <6>4
+	<6!> <6->8 <6> r4 <6>
+	q8 r <6-> <6> r4 <6> %30
+	<6>8 <6!> <_-> <6> <_->4 <6>8 <_->
+	<6 5 _->2 <_!>4 <_-> %32 finis
 }
 
 % Organo = {

@@ -280,12 +280,13 @@ markFermata = \mark \markup { \musicglyph #"scripts.ufermata" }
 scriptOut = \once \override Script.avoid-slur = #'outside
 alwaysScriptOut = \override Script.avoid-slur = #'outside
 
-Gesetze = \markup { \remark "Das Geſetze" }
-Evangelium = \markup { \remark "Das Evangelium" }
-Evangeliste = \markup { \remark "Der Evangeliſte" }
-Jesus = \markup { \remark "JESUS, der gute Hirte" }
 DasErschrockene = \markup { \remark "Das erſchrockene Schäflein" }
 DasDanckbare = \markup { \remark "Das danckbare Schäflein" }
+Schaecher = \markup { \remark "Der Schächer" }
+Evangeliste = \markup { \remark "Der Evangeliſte" }
+Evangelium = \markup { \remark "Das Evangelium" }
+Gesetze = \markup { \remark "Das Geſetze" }
+Jesus = \markup { \remark "JESUS, der gute Hirte" }
 
 
 
@@ -392,6 +393,9 @@ tempoErschrocknesSchaeflein = \tempoMarkup "Accompagnato"
 tempoKommSetzeDich = \tempoMarkup "Aria"
 tempoRuhNurAuf = \tempoMarkup "Choral"
 tempoDerHeylandHinge = \tempoMarkup "Recitativo"
+	tempoDerHeylandHingeB = \tempoMarkup "[Arioſo]"
+	tempoDerHeylandHingeC = \tempoMarkup "[Recitativo]"
+	tempoDerHeylandHingeD = \tempoMarkup "[Arioſo]"
 
 
 
