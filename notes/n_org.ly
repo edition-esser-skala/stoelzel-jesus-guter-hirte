@@ -4097,6 +4097,18 @@ OLippenDieBassFigures = \figuremode {
 	r1 %15 finis
 }
 
+AchVonDiesemOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 3/4 \tempoAchVonDiesem
+		c2\pE c'4
+	}
+}
+
+AchVonDiesemBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

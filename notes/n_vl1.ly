@@ -1232,6 +1232,14 @@ OLippenDieViolinoI = {
 	}
 }
 
+AchVonDiesemViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 3/4 \tempoAchVonDiesem
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

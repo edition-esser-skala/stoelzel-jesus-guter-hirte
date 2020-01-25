@@ -805,3 +805,11 @@ OLippenDieViolinoII = {
 		g2 r\fermata \bar "|." %15 finis
 	}
 }
+
+AchVonDiesemViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 3/4 \tempoAchVonDiesem
+		
+	}
+}

@@ -1151,3 +1151,11 @@ OLippenDieViola = {
 		es2 r\fermata \bar "|." %15 finis
 	}
 }
+
+AchVonDiesemViola = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 3/4 \tempoAchVonDiesem
+		
+	}
+}

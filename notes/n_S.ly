@@ -1062,6 +1062,18 @@ OLippenDieSopranoLyrics = \lyricmode {
 	Sün -- de macht, ver -- la -- chen. %14 finis
 }
 
+AchVonDiesemSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 3/4 \autoBeamOff \tempoAchVonDiesem
+		
+	}
+}
+
+AchVonDiesemSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -192,3 +192,11 @@ DuBistVonErdenOboeI = {
 		R1 \markDaCapo \bar "||" %44 finis
 	}
 }
+
+AchVonDiesemOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 3/4 \tempoAchVonDiesem
+		
+	}
+}

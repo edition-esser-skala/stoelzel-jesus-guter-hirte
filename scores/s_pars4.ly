@@ -363,45 +363,101 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
-	\bookpart {
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.10" "A C C O M P A G N A T O" "O Lippen! die von Honig triefen"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\OLippenDieViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\OLippenDieViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\OLippenDieViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das glaubende" "Schäflein" "(Canto 1)" } }
+% 					\new Voice = "Soprano" { \dynamicUp \OLippenDieSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \OLippenDieSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\OLippenDieOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \OLippenDieBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
+		\bookpart {
 		\header {
-			movement = \movementTitle "4.10" "A C C O M P A G N A T O" "O Lippen! die von Honig triefen"
+			movement = \movementTitle "4.11" "A R I A" "Ach von dieſem Kreutze thaut"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
 			systems-per-page = #2
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\AchVonDiesemOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\AchVonDiesemOboeII
+						}
+					>>
+				>>
+				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\OLippenDieViolinoI
+							\AchVonDiesemViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\OLippenDieViolinoII
+							\AchVonDiesemViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\OLippenDieViola
+						\AchVonDiesemViola
 					}
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Das glaubende" "Schäflein" "(Canto 1)" } }
-					\new Voice = "Soprano" { \dynamicUp \OLippenDieSopranoNotes }
+					\new Voice = "Soprano" { \dynamicUp \AchVonDiesemSopranoNotes }
 				}
-				\new Lyrics \lyricsto Soprano \OLippenDieSopranoLyrics
+				\new Lyrics \lyricsto Soprano \AchVonDiesemSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\OLippenDieOrgano
+						\AchVonDiesemOrgano
 					}
 				>>
-				\new FiguredBass { \OLippenDieBassFigures }
+				\new FiguredBass { \AchVonDiesemBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }
