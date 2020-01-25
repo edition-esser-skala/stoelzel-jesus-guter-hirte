@@ -335,29 +335,73 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.9" "R E C I T A T I V O" "Der Heyland hinge nackt und bloß"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Der Schächer" "(Alto 2)" \vspace #.5 "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
+% 					\new Voice = "Tenore" { \dynamicUp \DerHeylandHingeTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DerHeylandHingeTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DerHeylandHingeOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DerHeylandHingeBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.9" "R E C I T A T I V O" "Der Heyland hinge nackt und bloß"
+			movement = \movementTitle "4.10" "A C C O M P A G N A T O" "O Lippen! die von Honig triefen"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\OLippenDieViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\OLippenDieViolinoII
+						}
+					>>
+					\new Staff {
+						\set Staff.instrumentName = "Viola"
+						\OLippenDieViola
+					}
+				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Der Schächer" "(Alto 2)" \vspace #.5 "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
-					\new Voice = "Tenore" { \dynamicUp \DerHeylandHingeTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das glaubende" "Schäflein" "(Canto 1)" } }
+					\new Voice = "Soprano" { \dynamicUp \OLippenDieSopranoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \DerHeylandHingeTenoreLyrics
+				\new Lyrics \lyricsto Soprano \OLippenDieSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DerHeylandHingeOrgano
+						\OLippenDieOrgano
 					}
 				>>
-				\new FiguredBass { \DerHeylandHingeBassFigures }
+				\new FiguredBass { \OLippenDieBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

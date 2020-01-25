@@ -4057,6 +4057,18 @@ DerHeylandHingeBassFigures = \figuremode {
 	<6 5 _->2 <_!>4 <_-> %32 finis
 }
 
+OLippenDieOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoOLippenDie
+		es,8 es' es es es2~
+	}
+}
+
+OLippenDieBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

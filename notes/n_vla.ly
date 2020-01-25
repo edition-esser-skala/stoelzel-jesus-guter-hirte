@@ -1129,3 +1129,11 @@ KommSetzeDichViola = {
 		r4. r4 a'8\fE \markDaCapo \bar "S-S" %52 finis
 	}
 }
+
+OLippenDieViola = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoOLippenDie
+		
+	}
+}

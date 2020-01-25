@@ -783,3 +783,11 @@ ErschrocknesSchaefleinViolinoII = {
 		r4 c c2\fermata \bar "|." %13 finis
 	}
 }
+
+OLippenDieViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoOLippenDie
+		
+	}
+}

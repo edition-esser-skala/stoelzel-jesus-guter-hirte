@@ -396,6 +396,7 @@ tempoDerHeylandHinge = \tempoMarkup "Recitativo"
 	tempoDerHeylandHingeB = \tempoMarkup "[Arioſo]"
 	tempoDerHeylandHingeC = \tempoMarkup "[Recitativo]"
 	tempoDerHeylandHingeD = \tempoMarkup "[Arioſo]"
+tempoOLippenDie = \tempoMarkup "Accompagnato"
 
 
 

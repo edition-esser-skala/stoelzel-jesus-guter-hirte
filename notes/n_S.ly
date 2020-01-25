@@ -1023,6 +1023,18 @@ RuhNurAufSopranoLyrics = \lyricmode {
 	der an -- dern Schäf -- lein, ru -- he nur. %6 finis
 }
 
+OLippenDieSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \autoBeamOff \tempoOLippenDie
+		
+	}
+}
+
+OLippenDieSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -1210,6 +1210,14 @@ ErschrocknesSchaefleinViolinoI = {
 	}
 }
 
+OLippenDieViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoOLippenDie
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
