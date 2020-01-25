@@ -4222,12 +4222,22 @@ EsFreutSchonOrgano = {
 		\clef bass
 		\key es \lydian \time 4/1 \tempoEsFreutSchon
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 es g, as b2. b4 es,1\fermata
+		r2 d' c b f' f, b1\fermata
+		r2 b es c g' g, c c\fermata
+		r es as g4( as) b2 b, es es\fermata
+		r d es as, g as b b\fermata %5
+		r es as,4( b) c2 as b es, es\fermata \bar "|." %6 finis
 	}
 }
 
 EsFreutSchonBassFigures = \figuremode {
-	
+	r1 <6> <6 4>2 <5 3> r1
+	r2 <6> <5>4 <6!> r2 <4> <3> r1
+	r r <4>2 <\t>4 <_!> r1
+	r2 <5- 3> <5 3>4 <6 4> <6> <\t> <4>2 <\t>4 <3> r1
+	r2 <6> r1 <6>2 <8>4 <7> r1 %5
+	r <6>4 <\t> r2 r1 r %6 finis
 }
 
 % Organo = {

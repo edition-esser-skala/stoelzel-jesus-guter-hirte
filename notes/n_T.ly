@@ -1619,12 +1619,22 @@ EsFreutSchonTenoreNotes = {
 		\clef "treble_8"
 		\key es \lydian \time 4/1 \autoBeamOff \tempoEsFreutSchon
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 b b as g4( as) b2 g1\fermata
+		r2 b4( f) c'2 d4( es) f2. f4 d1\fermata
+		r2 d b es d2. d4 es2 es\fermata
+		r es es4( f) g2 f2. f4 g2 g\fermata
+		r b, b as es'4( d) c2 f, b\fermata %5
+		r b as g f f g g\fermata \bar "|." %6 finis
 	}
 }
 
 EsFreutSchonTenoreLyrics = \lyricmode {
-	
+	Es freut ſchon Je -- ſus ſich,
+	daß Er ſein Schäf -- lein, dich
+	wird auf die Ach -- ſeln le -- gen
+	und dich auf gu -- ten We -- gen
+	zu ſei -- ner Heer -- de brin -- gen, %5
+	die wird für Freu -- den ſin -- gen. %6 finis
 }
 
 % TenoreNotes = {

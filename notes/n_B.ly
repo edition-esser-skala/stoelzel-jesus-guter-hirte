@@ -1002,12 +1002,22 @@ EsFreutSchonBassoNotes = {
 		\clef bass
 		\key es \lydian \time 4/1 \autoBeamOff \tempoEsFreutSchon
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 es g, as b2. b4 es,1\fermata
+		r2 d' c b f' f, b1\fermata
+		r2 b es c g' g, c c\fermata
+		r es as g4( as) b2 b, es es\fermata
+		r d es as, g as b b\fermata %5
+		r es as,4( b) c2 as b es, es\fermata \bar "|." %6 finis
 	}
 }
 
 EsFreutSchonBassoLyrics = \lyricmode {
-	
+	Es freut ſchon Je -- ſus ſich,
+	daß Er ſein Schäf -- lein, dich
+	wird auf die Ach -- ſeln le -- gen
+	und dich auf gu -- ten We -- gen
+	zu ſei -- ner Heer -- de brin -- gen, %5
+	die wird für Freu -- den ſin -- gen. %6 finis
 }
 
 % BassoNotes = {

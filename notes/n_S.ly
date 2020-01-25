@@ -1181,12 +1181,22 @@ EsFreutSchonSopranoNotes = {
 		\clef treble
 		\key es \lydian \time 4/1 \autoBeamOff \tempoEsFreutSchon
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 g' b c g f es1\fermata
+		r2 b' es d c2. b4 b1\fermata
+		r2 b g c c2. h4 c2 c\fermata
+		r b c4( d) es2 es2. d4 es2 es\fermata
+		r b g c b as4( g) f2 f\fermata %5
+		r g f es es d es es\fermata \bar "|." %6 finis
 	}
 }
 
 EsFreutSchonSopranoLyrics = \lyricmode {
-	
+	Es freut ſchon Je -- ſus ſich,
+	daß Er ſein Schäf -- lein, dich
+	wird auf die Ach -- ſeln le -- gen
+	und dich auf gu -- ten We -- gen
+	zu ſei -- ner Heer -- de __ brin -- gen, %5
+	die wird für Freu -- den ſin -- gen. %6 finis
 }
 
 % SopranoNotes = {

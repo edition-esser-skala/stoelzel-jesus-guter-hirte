@@ -1073,12 +1073,22 @@ EsFreutSchonAltoNotes = {
 		\clef treble
 		\key es \lydian \time 4/1 \autoBeamOff \tempoEsFreutSchon
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 es es es es d es1\fermata
+		r2 f g4( a!) b2 b a b1\fermata
+		r2 f es g g2. g4 g2 g\fermata
+		r g as b b2. b4 b2 b\fermata
+		r f es es es es d d\fermata %5
+		r es c c c b b b\fermata \bar "|." %6 finis
 	}
 }
 
 EsFreutSchonAltoLyrics = \lyricmode {
-	
+	Es freut ſchon Je -- ſus ſich,
+	daß Er __ ſein Schäf -- lein, dich
+	wird auf die Ach -- ſeln le -- gen
+	und dich auf gu -- ten We -- gen
+	zu ſei -- ner Heer -- de brin -- gen, %5
+	die wird für Freu -- den ſin -- gen. %6 finis
 }
 
 % AltoNotes = {

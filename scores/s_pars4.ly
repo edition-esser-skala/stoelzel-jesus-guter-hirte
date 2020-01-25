@@ -457,7 +457,7 @@
 		\header {
 			movement = \movementTitle "4.12" "C H O R A L" "Es freut ſchon Jeſus ſich"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 page-count = #1 }
 		\score {
 			<<
 				\new ChoirStaff <<
