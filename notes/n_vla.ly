@@ -1132,8 +1132,22 @@ KommSetzeDichViola = {
 
 OLippenDieViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \dorian \time 4/4 \tempoOLippenDie
-		
+		r16 es' es b b g32 f g16 es b2
+		c d16 f f b b f32 es f16 d
+		b1~
+		b2 es4 r
+		r16 c c c c c c c d2~ %5
+		d es4 r
+		r8 r16 es es8 r r r16 a! a8 r
+		r16 g g16. d32 d16. h32 h16. h32 g8 g'-! es-! c-!
+		g16. es32 g16. c32 es16. c32 es16. g32 a!8 c-! a-! f-!
+		c32 c c c c[ c c c] c c c c c[ c c c] b8 r b r %10
+		d r g r g2
+		es as
+		b c
+		h c8 r d, r
+		es2 r\fermata \bar "|." %15 finis
 	}
 }

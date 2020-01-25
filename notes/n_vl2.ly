@@ -788,6 +788,20 @@ OLippenDieViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoOLippenDie
-		
+		r16 g''32 f g16 es32 d es16 b32 as? b16 g es2
+		f~ f16 d'32 c d16 d32 c d16 b32 a b16 f
+		b1~
+		b2 b4 r
+		r16 f f f f f f f f2~ %5
+		f g4 r
+		r8 r16 as' as8 r r r16 c, c8 r
+		r16 c c16. g32 g16. f32 f16. d32 c8 c'-! g-! es-!
+		c16. g32 c16. es32 g16. es32 g16. c32 c8 f-! c-! a!-!
+		f32 es es es es[ es es es] es es es es es[ es es es] d8 r b' r %10
+		h r h r c2
+		b c
+		e f
+		d c8 r g r
+		g2 r\fermata \bar "|." %15 finis
 	}
 }

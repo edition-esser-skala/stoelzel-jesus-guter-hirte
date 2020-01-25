@@ -4062,11 +4062,39 @@ OLippenDieOrgano = {
 		\clef bass
 		\key c \dorian \time 4/4 \tempoOLippenDie
 		es,8 es' es es es2~
+		es d8 d d d
+		d,1~
+		d2 r16 es f g as b c d
+		es8 es es es d2~ %5
+		d c4 r
+		r8 r16 as' as8 r r r16 fis fis8 r
+		r g g g, c32 c c c c[ c c c] c c c c c[ c c c]
+		c8 r c, r f32 f f f f[ f f f] f f f f f[ f f f]
+		f f f f f[ f f f] f f f f f[ f f f] \kneeBeam b,16. b''32 a16. b32 d,8 r %10
+		g,16. g'32 f16. g32 h,8 r c2
+		g as
+		g f~
+		f es8 r g r
+		c2 r\fermata \bar "|." %15 finis
 	}
 }
 
 OLippenDieBassFigures = \figuremode {
-	
+	r1
+	<4! 2>2 <6>
+	<\t>2 <5->
+	r1
+	<4! 2>2 <6!> %5
+	r1
+	r2 r8. <6 5 _!>16 r4
+	<6 4>8 <\t \t> <5 _!>4 r2
+	r <_!>
+	<7>2. <6>4 %10
+	<7 _!> <6 5>2.
+	<6 _->4 <5->2.
+	<6!>2 <_->
+	<4! 2> <6>4 <_!>
+	r1 %15 finis
 }
 
 % Organo = {

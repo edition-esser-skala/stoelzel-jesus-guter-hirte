@@ -1027,12 +1027,39 @@ OLippenDieSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 4/4 \autoBeamOff \tempoOLippenDie
-		
+		r2 r8 b' g' es
+		a,! c es d b b r f'
+		f([ b,)] r16 b b c as4 r8 as
+		f' as, as g g4 r
+		r2 r8 d' d es %5
+		f f as g es4 r16 es g es
+		c4 r8 c c c h c
+		g4 r r2
+		r8 g' es c a!4 r8 f
+		a c es d d d r16 d f d %10
+		h8. h16 r8 d16 g,  es8 es r16 es' es g
+		es8 b des c c4 r8 c
+		e8. e16 f8 g as4 r16 as f as
+		h,8. h16 h8 r16 es c8 g r4
+		R1\fermataMarkup \bar "|." %15 finis
 	}
 }
 
 OLippenDieSopranoLyrics = \lyricmode {
-	
+	O Lip -- pen!
+	die von Ho -- nig trie -- fen. O
+	Mund! der aus dem Tod ins
+	Le -- ben ru -- fen kan.
+	Nun hör ich %5
+	kei -- nen Teu -- fel an, wie ſehr er
+	auch mit Höl -- len -- flam -- men
+	droht.
+	Braußt im -- mer hin, ihr
+	fürch -- ter -- li -- chen Tief -- fen, er -- öff -- ne, %10
+	Ab -- grund, dei -- nen Ra -- chen; da ich bey
+	mei -- nem Hir -- ten bin, kan
+	ich die größ -- te Noth, die ſonst die
+	Sün -- de macht, ver -- la -- chen. %14 finis
 }
 
 % SopranoNotes = {

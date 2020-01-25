@@ -1214,7 +1214,21 @@ OLippenDieViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoOLippenDie
-		
+		r16 b''32 as b16 g32 f g16 es32 d es16 b g2
+		a! b16 b'32 a b16 f32 es f16 d32 c d16 b
+		f'1~
+		f2 es4 r
+		r16 a,! a a a a a a h2~ %5
+		h c4 r
+		r8 r16 c' c8 r r r16 d, d8 r
+		r16 es es16. h32 h16. d32 d16. f,32 es8 es'-! c-! g-!
+		es16. c32 es16. g32 c16. g32 c16. es32 f8 a!-! f-! c-!
+		a32 a, a a a[ a a a] a a a a a[ a a a] b8 r f'' r %10
+		f r f r es2~
+		es1
+		g2 as?
+		g g8 r h, r
+		c2 r\fermata \bar "|." %15 finis
 	}
 }
 
