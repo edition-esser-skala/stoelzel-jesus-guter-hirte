@@ -979,12 +979,22 @@ RuhNurAufBassoNotes = {
 		\clef bass
 		\key d \minor \time 5/1 \autoBeamOff \tempoRuhNurAuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 d f a d a b g a a,\fermata
+		r f' e c f d g a d,1\fermata
+		r2 d f a d a b g a a,\fermata
+		r f' e c f d g a d,1\fermata
+		r2 a d c! f a,4( b) c2 c f,1\fermata %5
+		r2 f' c d a f4( e) d2 a' d,1\fermata \bar "|." %6 finis
 	}
 }
 
 RuhNurAufBassoLyrics = \lyricmode {
-	
+	Ruh nur auf Je -- ſu lieb -- ſten Hert -- zen
+	als ſein ge -- fund -- nes Schäf -- lein ſtill,
+	ſo er, nach vie -- ler Dor -- nen Schmert -- zen,
+	an ſei -- ner Brust er -- wär -- men will,
+	und trägt dich heim zur rech -- ten Spur %5
+	der an -- dern Schäf -- lein, ru -- he nur. %6 finis
 }
 
 % BassoNotes = {

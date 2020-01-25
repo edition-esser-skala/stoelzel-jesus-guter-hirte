@@ -1522,12 +1522,22 @@ RuhNurAufTenoreNotes = {
 		\clef "treble_8"
 		\key d \minor \time 5/1 \autoBeamOff \tempoRuhNurAuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 d d cis d c b b a cis^\critnote\fermata
+		r f c e c f e e f1\fermata
+		r2 d d cis d c b b a cis^\critnote\fermata
+		r f c e c f e e f1\fermata
+		r2 cis d e f f f e f1\fermata %5
+		r2 f e d cis d d cis d1\fermata \bar "|." %6 finis
 	}
 }
 
 RuhNurAufTenoreLyrics = \lyricmode {
-	
+	Ruh nur auf Je -- ſu lieb -- ſten Hert -- zen
+	als ſein ge -- fund -- nes Schäf -- lein ſtill,
+	ſo er, nach vie -- ler Dor -- nen Schmert -- zen,
+	an ſei -- ner Brust er -- wär -- men will,
+	und trägt dich heim zur rech -- ten Spur %5
+	der an -- dern Schäf -- lein, ru -- he nur. %6 finis
 }
 
 % TenoreNotes = {

@@ -1050,12 +1050,22 @@ RuhNurAufAltoNotes = {
 		\clef treble
 		\key d \minor \time 5/1 \autoBeamOff \tempoRuhNurAuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 f a a a a f g e e\fermata
+		r a g g f a b a a1\fermata
+		r2 f a a a a f g e e\fermata
+		r a g g f a b a a1\fermata
+		r2 a a c! c c c c a1\fermata %5
+		r2 c c a a a a a f1\fermata \bar "|." %6 finis
 	}
 }
 
 RuhNurAufAltoLyrics = \lyricmode {
-	
+	Ruh nur auf Je -- ſu lieb -- ſten Hert -- zen
+	als ſein ge -- fund -- nes Schäf -- lein ſtill,
+	ſo er, nach vie -- ler Dor -- nen Schmert -- zen,
+	an ſei -- ner Brust er -- wär -- men will,
+	und trägt dich heim zur rech -- ten Spur %5
+	der an -- dern Schäf -- lein, ru -- he nur. %6 finis
 }
 
 % AltoNotes = {

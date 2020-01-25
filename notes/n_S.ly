@@ -1005,12 +1005,22 @@ RuhNurAufSopranoNotes = {
 		\clef treble
 		\key d \minor \time 5/1 \autoBeamOff \tempoRuhNurAuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 a' d e f e d e cis a\fermata
+		r c c c a d d cis d1\fermata
+		r2 a d e f e d e cis a\fermata
+		r c c c a d d cis d1\fermata
+		r2 e f g a4( g) a2 g2. f4 f1\fermata %5
+		r2 a g f e d4( e) f2 e d1\fermata %6 finis
 	}
 }
 
 RuhNurAufSopranoLyrics = \lyricmode {
-	
+	Ruh nur auf Je -- ſu lieb -- ſten Hert -- zen
+	als ſein ge -- fund -- nes Schäf -- lein ſtill,
+	ſo er, nach vie -- ler Dor -- nen Schmert -- zen,
+	an ſei -- ner Brust er -- wär -- men will,
+	und trägt dich heim zur rech -- ten Spur %5
+	der an -- dern Schäf -- lein, ru -- he nur. %6 finis
 }
 
 % SopranoNotes = {

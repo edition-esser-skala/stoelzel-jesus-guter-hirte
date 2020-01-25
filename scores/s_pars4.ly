@@ -295,7 +295,7 @@
 		\header {
 			movement = \movementTitle "4.8" "C H O R A L" "Ruh nur auf Jeſu liebſten Hertzen"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 page-count = #1 }
 		\score {
 			<<
 				\new ChoirStaff <<

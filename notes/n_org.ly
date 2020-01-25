@@ -3965,12 +3965,22 @@ RuhNurAufOrgano = {
 		\clef bass
 		\key d \minor \time 5/1 \tempoRuhNurAuf
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 d f a d a b g a a,\fermata
+		r f' e c f d g a d,1\fermata
+		r2 d f a d a b g a a,\fermata
+		r f' e c f d g a d,1\fermata
+		r2 a d c! f a,4( b) c2 c f,1\fermata %5
+		r2 f' c d a f4( e) d2 a' d,1\fermata \bar "|." %6 finis
 	}
 }
 
 RuhNurAufBassFigures = \figuremode {
-	
+	r1 <6>2 <_+> r <_!> r <6> <_+>1
+	r2 <5!> <6>1 r <6 5>2 <_+> r1
+	r <6>2 <_+> r <_!> r <6> <_+>1
+	r2 <5!> <6>1 r <6 5>2 <_+> r1
+	r2 <_+> r1 r2 <6>4 <\t> <4>2 <3> r1 %5
+	r1 r <_+>2 <6>4 <\t> r2 <_+> r1 %6 finis
 }
 
 % Organo = {
