@@ -407,50 +407,94 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
-		\bookpart {
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.11" "A R I A" "Ach von dieſem Kreutze thaut"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\AchVonDiesemOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\AchVonDiesemOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff \with { aDueText = \markup { \null } } <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
+% 						\partcombine \AchVonDiesemViolinoI \AchVonDiesemViolinoII
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\AchVonDiesemViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das glaubende" "Schäflein" "(Canto 1)" } }
+% 					\new Voice = "Soprano" { \dynamicUp \AchVonDiesemSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \AchVonDiesemSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\AchVonDiesemOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \AchVonDiesemBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
+	\bookpart {
 		\header {
-			movement = \movementTitle "4.11" "A R I A" "Ach von dieſem Kreutze thaut"
+			movement = \movementTitle "4.12" "C H O R A L" "Es freut ſchon Jeſus ſich"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\AchVonDiesemOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\AchVonDiesemOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new Staff \with { aDueText = \markup { \null } } <<
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
-						\partcombine \AchVonDiesemViolinoI \AchVonDiesemViolinoII
-					>>
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\AchVonDiesemViola
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \EsFreutSchonSopranoNotes }
 					}
+					\new Lyrics \lyricsto Soprano \EsFreutSchonSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \EsFreutSchonAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \EsFreutSchonAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \EsFreutSchonTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \EsFreutSchonTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \EsFreutSchonBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \EsFreutSchonBassoLyrics
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das glaubende" "Schäflein" "(Canto 1)" } }
-					\new Voice = "Soprano" { \dynamicUp \AchVonDiesemSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \AchVonDiesemSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\AchVonDiesemOrgano
+						\EsFreutSchonOrgano
 					}
 				>>
-				\new FiguredBass { \AchVonDiesemBassFigures }
+				\new FiguredBass { \EsFreutSchonBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

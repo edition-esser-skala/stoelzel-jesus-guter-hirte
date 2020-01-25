@@ -1068,6 +1068,19 @@ RuhNurAufAltoLyrics = \lyricmode {
 	der an -- dern Schäf -- lein, ru -- he nur. %6 finis
 }
 
+EsFreutSchonAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/1 \autoBeamOff \tempoEsFreutSchon
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+EsFreutSchonAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -4217,6 +4217,19 @@ AchVonDiesemBassFigures = \figuremode {
 	<5 3> <6-> <5> %55 finis
 }
 
+EsFreutSchonOrgano = {
+	\relative c {
+		\clef bass
+		\key es \lydian \time 4/1 \tempoEsFreutSchon
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+EsFreutSchonBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

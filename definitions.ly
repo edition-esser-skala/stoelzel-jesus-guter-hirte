@@ -398,6 +398,7 @@ tempoDerHeylandHinge = \tempoMarkup "Recitativo"
 	tempoDerHeylandHingeD = \tempoMarkup "[Arioſo]"
 tempoOLippenDie = \tempoMarkup "Accompagnato"
 tempoAchVonDiesem = \tempoMarkup "Aria"
+tempoEsFreutSchon = \tempoMarkup "Choral"
 
 
 

@@ -1176,6 +1176,19 @@ AchVonDiesemSopranoLyrics = \lyricmode {
 	Ach von %55 finis
 }
 
+EsFreutSchonSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \lydian \time 4/1 \autoBeamOff \tempoEsFreutSchon
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+EsFreutSchonSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

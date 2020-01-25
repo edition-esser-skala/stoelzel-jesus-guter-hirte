@@ -1614,6 +1614,19 @@ DerHeylandHingeTenoreLyrics = \lyricmode {
 	ſchö -- ne Pa -- ra -- dieß. %32 finis
 }
 
+EsFreutSchonTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \lydian \time 4/1 \autoBeamOff \tempoEsFreutSchon
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+EsFreutSchonTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

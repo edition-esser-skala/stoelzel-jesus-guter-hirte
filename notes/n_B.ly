@@ -997,6 +997,19 @@ RuhNurAufBassoLyrics = \lyricmode {
 	der an -- dern Schäf -- lein, ru -- he nur. %6 finis
 }
 
+EsFreutSchonBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \lydian \time 4/1 \autoBeamOff \tempoEsFreutSchon
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+EsFreutSchonBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
