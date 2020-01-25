@@ -974,6 +974,19 @@ SoSchrecklichHierBassoLyrics = \lyricmode {
 	büßt. %68 finis
 }
 
+RuhNurAufBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 5/1 \autoBeamOff \tempoRuhNurAuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+RuhNurAufBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

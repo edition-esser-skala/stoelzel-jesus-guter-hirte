@@ -390,6 +390,7 @@ tempoSoSchrecklichHier = \tempoMarkup "Aria"
 tempoKaumAlsEr = \tempoMarkup "Recitativo"
 tempoErschrocknesSchaeflein = \tempoMarkup "Accompagnato"
 tempoKommSetzeDich = \tempoMarkup "Aria"
+tempoRuhNurAuf = \tempoMarkup "Choral"
 
 
 

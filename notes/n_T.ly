@@ -1517,6 +1517,19 @@ KaumAlsErTenoreLyrics = \lyricmode {
 	an das Kreutz ge -- ſteckt. %14 finis
 }
 
+RuhNurAufTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 5/1 \autoBeamOff \tempoRuhNurAuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+RuhNurAufTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

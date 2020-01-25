@@ -1045,6 +1045,19 @@ KommSetzeDichAltoLyrics = \lyricmode {
 	Raſt. %52 finis
 }
 
+RuhNurAufAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 5/1 \autoBeamOff \tempoRuhNurAuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+RuhNurAufAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

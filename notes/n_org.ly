@@ -3960,6 +3960,19 @@ KommSetzeDichBassFigures = \figuremode {
 	r4 <6\\>8 r4 <6>8
 }
 
+RuhNurAufOrgano = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 5/1 \tempoRuhNurAuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+RuhNurAufBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -245,50 +245,94 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.7" "A R I A" "Komm, ſetze dich in Schatten"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Flauto I"
+% 							\KommSetzeDichFlautoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Flauto II"
+% 							\KommSetzeDichFlautoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "e Viole" } }
+% 						\KommSetzeDichViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 1)" } }
+% 					\new Voice = "Alto" { \dynamicUp \KommSetzeDichAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \KommSetzeDichAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\KommSetzeDichOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \KommSetzeDichBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.8" "A R I A" "Komm, ſetze dich in Schatten"
+			movement = \movementTitle "4.8" "C H O R A L" "Ruh nur auf Jeſu liebſten Hertzen"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Flauto I"
-							\KommSetzeDichFlautoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Flauto II"
-							\KommSetzeDichFlautoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
+				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "e Viole" } }
-						\KommSetzeDichViola
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \RuhNurAufSopranoNotes }
 					}
+					\new Lyrics \lyricsto Soprano \RuhNurAufSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \RuhNurAufAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \RuhNurAufAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \RuhNurAufTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \RuhNurAufTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \RuhNurAufBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \RuhNurAufBassoLyrics
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 1)" } }
-					\new Voice = "Alto" { \dynamicUp \KommSetzeDichAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \KommSetzeDichAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\KommSetzeDichOrgano
+						\RuhNurAufOrgano
 					}
 				>>
-				\new FiguredBass { \KommSetzeDichBassFigures }
+				\new FiguredBass { \RuhNurAufBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 60 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

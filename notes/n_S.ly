@@ -1000,6 +1000,19 @@ SeeleGehAufSopranoLyrics = \lyricmode {
 	o, ſo biſt du mehr als Stein. %6 finis
 }
 
+RuhNurAufSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 5/1 \autoBeamOff \tempoRuhNurAuf
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+RuhNurAufSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
