@@ -1154,8 +1154,62 @@ OLippenDieViola = {
 
 AchVonDiesemViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \dorian \time 3/4 \tempoAchVonDiesem
-		
+		r4 es\pE es \bar "S-S"
+		d es d
+		g c, f
+		d r g\fE
+		g g\pE c %5
+		f, es c
+		c r8 d es4
+		c' f, b
+		g r es\fE
+		es r es %10
+		es b'\pE g
+		es2 b'4
+		as2 f4
+		d r g
+		g r c, %15
+		c r f
+		f r f
+		b, r b
+		b d' h
+		g r8 f es[ d] %20
+		c4 c h
+		es r as
+		d, r g
+		g r g
+		g c b! %25
+		c r8 d, c4
+		c c h
+		c r c\fE
+		c r c
+		c c f %30
+		d r8 d c4
+		as' d, g
+		es\fermata g\pE b
+		es,2 b4
+		c f es %35
+		b r b\fE
+		b g'\pE f
+		es2 c4
+		f d b'
+		a r d, %40
+		d r d
+		d r a
+		g r g'
+		g r g
+		g r d %45
+		c g c'
+		f,2 es4
+		es2 d4
+		es r es
+		es r es %50
+		es2 es4
+		c2 b4
+		b2 a!4
+		b r d\fE
+		c es\pE es \bar "S-S" %55 finis
 	}
 }

@@ -810,6 +810,60 @@ AchVonDiesemViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 3/4 \tempoAchVonDiesem
-		
+		r4 as''\pE g \bar "S-S"
+		f as g
+		c,( f) as
+		g, r h\fE
+		c es8.(\pE f32 g) f4 %5
+		d b' es,
+		as r8 f g4
+		f d2\trill
+		es4 r g,\fE
+		as r as %10
+		g des'4.\pE es8
+		c4( d) es
+		d( f) as
+		h, r h
+		c c' b! %15
+		a! r a,
+		b b' d,
+		es r es
+		d f8.( g32 as) g4
+		es r8 f g4 %20
+		as8([ f)] d2
+		c4 r c
+		h r h
+		c r c
+		h f' e %25
+		as r8 h, c4~
+		c8 f d2
+		c4 r e,\fE
+		f r f
+		es! es' f %30
+		g4 r8 h, c4~
+		c8 f d2
+		c4\fermata es\pE d
+		c( d) es
+		as, as' g %35
+		d r d\fE
+		es b\pE b
+		b( a!) es'
+		d( g4.) a8
+		fis4 r fis, %40
+		g r g
+		fis r fis'
+		g r h,
+		c r c
+		h r h' %45
+		c es,8.( f32 g) f4
+		d c8 b es4~
+		es8 as f2
+		es4 r g,
+		as r as %50
+		g es' g
+		a,! g8 f f'4~
+		f8 g d4( c)
+		b r h\fE
+		c as'\pE g \bar "S-S" %55 finis
 	}
 }

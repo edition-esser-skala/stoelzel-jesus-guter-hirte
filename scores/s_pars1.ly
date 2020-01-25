@@ -114,7 +114,7 @@
 				}
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
 						\AchWoBinViolinoI
 					}
 				>>
@@ -231,12 +231,12 @@
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Flauti" "unisoni" } }
+					\set Staff.instrumentName = \markup { \center-column { "Flauti" "uniſoni" } }
 					\SeinHertzeFlautoI
 				}
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
 						\SeinHertzeViolinoI
 					}
 					\new Staff {

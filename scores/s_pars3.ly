@@ -371,7 +371,7 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "et Oboi" "unisoni" } }
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "et Oboi" "uniſoni" } }
 						\ErstauntIhrNichtViolinoI
 					}
 				>>
@@ -633,7 +633,7 @@
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
 						\DuBistVonErdenViolinoI
 					}
 					\new Staff <<

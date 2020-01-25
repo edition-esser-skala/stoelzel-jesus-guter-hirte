@@ -1066,12 +1066,114 @@ AchVonDiesemSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 3/4 \autoBeamOff \tempoAchVonDiesem
-		
+		r4 as'' g \bar "S-S"
+		f( as) g
+		c,( f) as
+		h, r r
+		r es8.([ f32 g)] f4 %5
+		d b' es,
+		as r8 f g4
+		f d2
+		es4 r r
+		R2. %10
+		r4 des4. es8
+		c4( d) es
+		d( f) as
+		h, g' f
+		es2 r4 %15
+		r8 c f4 es
+		d8([ c)] d4 r
+		r b4. es8
+		d4 f8.([ g32 as)] g4
+		es r8 f g4 %20
+		as8([ f)] d2
+		c4 es d8([ c)]
+		g'2.~
+		g~
+		g4 f e %25
+		as r8 h, c4~
+		c8 f d2
+		c r4
+		R2.*4 %32
+		r4\fermata es d
+		c( d) es
+		as,( as') g %35
+		f b, r
+		r b b
+		b( a!) es'
+		d( g4.) a8
+		fis4 d d %40
+		d( es8[ d)] d4
+		d( c8[ b)] c4
+		b g' g
+		g( as8[ g)] g4
+		g( f8[ es)] f4 %45
+		es es8.([ f32 g)] f4
+		d c8([ b)] es4~
+		es8 as f2
+		es4 b4. es8
+		c as c4. es8 %50
+		b4 es g
+		a,! g8([ f)] f'4~
+		f8 g d4( c)
+		b2 r4
+		r as' g \bar "S-S" %55 finis
 	}
 }
 
 AchVonDiesemSopranoLyrics = \lyricmode {
+	Ach von
+	die -- ſem
+	Kreut -- ze
+	thaut
+	lau -- ter %5
+	Troſt, lau -- ter
+	Troſt auf mein
+	Ge -- wi --
+	ßen,
+	%10
+	ach von
+	die -- ſem
+	Kreut -- ze
+	thaut lau -- ter
+	Troſt %15
+	auf mein Ge --
+	wi -- ßen,
+	lau -- ter
+	Troſt, lau -- ter
+	Troſt auf mein %20
+	Ge -- wi --
+	ßen, lau -- ter
+	Troſt, __
 	
+	lau -- ter %25
+	Troſt auf mein __
+	Ge -- wi --
+	ßen.
+	
+	Sollt ich %33
+	nun __ ver --
+	za -- gen %35
+	mü -- ßen,
+	da mein
+	Glau -- be
+	dem __ ver --
+	traut, der nach %40
+	ei -- nen
+	Schä -- cher
+	ſchaut, der nach
+	ei -- nen
+	Schä -- cher %45
+	ſchaut, ihm __ den
+	Him -- mel __ auf --
+	zu -- ſchlie --
+	ßen, der nach
+	ei -- nen Schä -- cher %50
+	ſchaut, ihm den
+	Him -- mel __ auf --
+	zu -- ſchlie --
+	ßen?
+	Ach von %55 finis
 }
 
 % SopranoNotes = {

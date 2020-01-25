@@ -148,7 +148,7 @@
 % 			<<
 % 				\new StaffGroup <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "ed Oboi" "unisoni" } }
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "ed Oboi" "uniſoni" } }
 % 						\SoSchrecklichHierViolinoI
 % 					}
 % 					\new Staff <<
@@ -411,11 +411,7 @@
 		\header {
 			movement = \movementTitle "4.11" "A R I A" "Ach von dieſem Kreutze thaut"
 		}
-		\paper {
-% 			system-system-spacing.basic-distance = #35
-% 			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -431,15 +427,9 @@
 					>>
 				>>
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\AchVonDiesemViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\AchVonDiesemViolinoII
-						}
+					\new Staff \with { aDueText = \markup { \null } } <<
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
+						\partcombine \AchVonDiesemViolinoI \AchVonDiesemViolinoII
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
@@ -460,7 +450,7 @@
 				\new FiguredBass { \AchVonDiesemBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

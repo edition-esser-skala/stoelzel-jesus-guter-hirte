@@ -1236,7 +1236,61 @@ AchVonDiesemViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 3/4 \tempoAchVonDiesem
-		
+		r4 as''\pE g \bar "S-S"
+		f as g
+		c,( f) as
+		h, r d\fE
+		es es8.(\pE f32 g) f4 %5
+		d b' es,
+		as r8 f g4
+		f d2\trill
+		es4 r b\fE
+		c r c %10
+		b des4.\pE es8
+		c4( d) es
+		d( f) as
+		h, r d
+		es c' b! %15
+		a! r c,
+		d b' as
+		g r g
+		f f8.( g32 as) g4
+		es r8 f g4 %20
+		as8([ f)] d2
+		c4 r f
+		g r d
+		es r es
+		d f e %25
+		as r8 h, c4~
+		c8 f d2
+		c4 r g\fE
+		as r as
+		g es' f %30
+		g4 r8 h, c4~
+		c8 f d2
+		c4\fermata es\pE d
+		c( d) es
+		as, as' g %35
+		f r f\fE
+		g b,\pE b
+		b( a!) es'
+		d( g4.) a8
+		fis4 r a, %40
+		b r b
+		a r fis'
+		g r d
+		es r es
+		d r h' %45
+		c es,8.( f32 g) f4
+		d c8 b es4~
+		es8 as f2
+		es4 r b
+		c r c %50
+		b es g
+		a,! g8 f f'4~
+		f8 g d4( c)
+		b r d\fE
+		es as\pE g \bar "S-S" %55 finis
 	}
 }
 

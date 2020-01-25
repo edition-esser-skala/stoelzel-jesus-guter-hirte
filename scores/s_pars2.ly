@@ -80,7 +80,7 @@
 				>>
 				\new StaffGroup \with { \smallerGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "unisoni" } }
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "uniſoni" } }
 						\IhrKommtMitViolinoI
 					}
 				>>
@@ -186,7 +186,7 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "et Oboi" "unisoni" } }
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "ed Oboi" "uniſoni" } }
 						\BilligWaerViolinoI
 					}
 				>>

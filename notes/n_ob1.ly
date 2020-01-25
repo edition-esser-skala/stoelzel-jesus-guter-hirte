@@ -197,6 +197,48 @@ AchVonDiesemOboeI = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 3/4 \tempoAchVonDiesem
-		
+		R2. \bar "S-S"
+		R2.*2
+		d'16\fE h c d g,4~ g16 d' c d
+		es4 r r %5
+		R2.*3
+		b16\fE g as b es,4~ es16 b' as b
+		c as b c es,4~ es16 c' b as %10
+		b4 r r
+		R2.*2
+		d16\pE h c d g,4~ g16 d' c d
+		es4 c r %15
+		c16 a! b c f,4~ f16 c' b c
+		d4 b r
+		b16 g as b es,4~ es16 g' f es
+		f4 r r
+		R2.*3 %22
+		d16 h c d g,4~ g16 d' c d
+		es c d es g,4~ g16 es' d c
+		d4 r r %25
+		R2.*2
+		g,16\fE es f g c,4~ c16 g' as? b
+		as f g as c,4~ c16 as' g f
+		g4 es' f %30
+		g r8 h, c4~
+		c8 f d2
+		c4\fermata r r
+		R2.*2 %35
+		f16\fE d es f b,4~ b16 f' g as
+		g4 r r
+		R2.*2
+		a,!16\pE fis g a d,4~ d16 c' b a %40
+		b g a b d,4~ d16 b' a g
+		a4 r r
+		d16 b c d g,4~ g16 f'! es d
+		es c d es g,4~ g16 es' d c
+		d4 r r %45
+		R2.*3
+		b16 g as b es,4~ es16 des' c b
+		c as b c es,4~ es16 c' b as %50
+		b4 r r
+		R2.*2
+		d16\fE b c d g,4~ g16 f' es d
+		es4 r r \bar "S-S" %55 finis
 	}
 }

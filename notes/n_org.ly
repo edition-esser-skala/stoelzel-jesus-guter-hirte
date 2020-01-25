@@ -4101,12 +4101,120 @@ AchVonDiesemOrgano = {
 	\relative c {
 		\clef bass
 		\key c \dorian \time 3/4 \tempoAchVonDiesem
-		c2\pE c'4
+		c2\pE c'4 \bar "S-S"
+		d c h
+		es, as f
+		g r g\fE
+		c, c'\pE a! %5
+		b, g c
+		f r8 b es,4
+		as b b,
+		es r es\fE
+		es r es %10
+		es g,\pE es
+		as2 g4
+		f2 f'4
+		g r g,
+		c r c %15
+		f r f
+		b, r b
+		b r b
+		b h g
+		c r8 d es4 %20
+		f g g,
+		c r as
+		g r g
+		g r g
+		g as' g %25
+		f r8 g as4
+		f g g,
+		c r c\fE
+		c r c
+		c as as' %30
+		g r8 f es4
+		f g g,
+		c2\fermata g4\pE
+		as2 g4
+		f d es %35
+		b' r b\fE
+		es2 d4\pE
+		c2 c'4
+		b2 g4
+		d r d %40
+		d r d
+		d r d,
+		g r g
+		g r g
+		g r g %45
+		c c' as
+		b as g
+		as b b,
+		es r es
+		es r es %50
+		es2 c4
+		f es d
+		es f f,
+		b r g\fE
+		c2 c'4\pE \bar "S-S" %55 finis
 	}
 }
 
 AchVonDiesemBassFigures = \figuremode {
-	
+	<5>4 <6-> <5>
+	<3> <6-> <6>
+	q q <_->
+	<_!> r q
+	r2 <6>4 %5
+	r <6> r
+	<_->2.
+	<6>
+	r
+	<6 4->2 <\t \t>4 %10
+	<5 3> <6 5-> <7->
+	<3> <4!> <6>
+	<6 _->2 <5 \t>4
+	<_!>2 <7 _!>4
+	r2 <7->4 %15
+	<_!>2 <7>4
+	r2 <7->4
+	<6 4>2.
+	<5 3>4 <6 5> <_!>
+	r4. <6!>8 <6>4 %20
+	<_-> <4> <_!>
+	r2 <6>4
+	<_!>2 <5 _!>4
+	<6 4>2 <\t \t>4
+	<5 _!> <6> <6! _-> %25
+	<_->4. <_!>8 <5 3>4
+	<_-> <4> <_!>
+	r2 <5 _!>4
+	<6- 4>2 <\t \t>4
+	<5 _-> <5> <6> %30
+	<_!>4. <\t>8 <6>4
+	<_-> <4> <_!>
+	r2.
+	<3>4 <4> <6>
+	<_-> <6 5-> r %35
+	r2.
+	r2 <6>4
+	<7> <6!> <\t>
+	<5> <6> r
+	<_+>2 <5 _+>4 %40
+	<6 4>2 <\t \t>4
+	<5 _+>2 <7 _+>4
+	r2 <5 _!>4
+	<6 4>2 <\t \t>4
+	<5 _!>2 <\t \t>4 %45
+	r2 <6>4
+	r <2> <6>
+	r <4> <3>
+	r2 <5 3>4
+	<6 4->2 <\t \t>4 %50
+	<5 3>2.
+	<_!>4 <\t> <6>
+	<9>8 <8> <6 4>4 <5 _!>
+	r2 <_!>4
+	<5 3> <6-> <5> %55 finis
 }
 
 % Organo = {

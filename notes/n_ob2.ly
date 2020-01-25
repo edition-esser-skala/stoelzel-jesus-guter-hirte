@@ -138,6 +138,47 @@ AchVonDiesemOboeII = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 3/4 \tempoAchVonDiesem
-		
+		R2.*3
+		r4 d'16\fE h c d g, h a h
+		c4 r r %5
+		R2.*3
+		r4 b16\fE g as b es, g f g
+		as4 c16 as b c es, as g f %10
+		g4 r r
+		R2.*2
+		r4 d'16\pE h c d g, h a h
+		c4 es, r %15
+		r c'16 a! b c f, a g a
+		b4 d, r
+		r b'16 g as b es, es' d c
+		d4 r r
+		R2.*3 %22
+		r4 d16 h c d g, h a h
+		c4 es16 c d es g, c h a
+		h4 r r %25
+		R2.*2
+		r4 g16\fE es f g c, e f g
+		f4 as16 f g as c, f es d
+		es4 c'2 %30
+		h4 r8 g g4
+		c2 h4
+		c\fermata r r
+		R2.*2 %35
+		r4 f16\fE d es f b, d es f
+		es4 r r
+		R2.*2
+		r4 a,16\pE fis g a d, a' g fis %40
+		g4 b16 g a b d, g fis e
+		fis4 r r
+		r d'16 b c d g, d' c h
+		c4 es16 c d es g, c h a
+		h4 r r %45
+		R2.*3
+		r4 b16 g as b es, b' as g
+		as4 c16 as b c es, as g f %50
+		g4 r r
+		R2.*2
+		r4 d'16\fE b c d g, d' c h
+		c4 r r \bar "S-S" %55 finis
 	}
 }
