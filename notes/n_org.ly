@@ -4440,12 +4440,120 @@ AusDerNaturOrgano = {
 	\relative c {
 		\clef bass
 		\key b \major \time 3/2 \tempoAusDerNatur
-		
+		\set Timing.measurePosition = #(ly:make-moment -5/8) r8 r2 b2\fE b' a
+		b d, e
+		f c' c,
+		f r r
+		g h, g %5
+		c c, r
+		f' a, f
+		b b, r
+		es' r r
+		f r r %10
+		g r r
+		a r4 a, b2
+		r4 es f2 f,
+		b r r
+		b,\pE b' a %15
+		b d, e
+		f c' c,
+		f r r
+		g' h, g
+		c c, r %20
+		f' a, f
+		b b, r
+		es' es, es~
+		es\fermata r es'
+		d es f %25
+		b,\fE r r
+		f' r r
+		g r r
+		a r4 a, b2
+		r4 es f2 f, %30
+		b\fermata b'\pE g
+		a, a' fis
+		g, g' f
+		e, e' c
+		f, f f %35
+		f f f
+		f f f
+		b b' g
+		c, c, r
+		c' e c %40
+		f2. e4 d2
+		a1 r2
+		a' cis, a
+		d f, d
+		g'1 g,2 %45
+		c e, c
+		f fis d
+		g d' d,
+		g g' b
+		a cis, a %50
+		a a a
+		a a a
+		gis1 a2
+		r4 g' a2 a,
+		d r4 r8 \markDaCapo \bar "||" %55 finis
 	}
 }
 
 AusDerNaturBassFigures = \figuremode {
-	
+	r8 r2 r1 <6>2
+	r <6> q
+	r <_!>1
+	r1.
+	<_!>2 <6> <6 4>4. <5 _!>8 %5
+	r1.
+	r2 <6> <6 4>4. <5 3>8
+	r1.
+	r
+	r %10
+	r
+	<6>2. q
+	r4 q r1
+	r1.
+	r1 <6>2 %15
+	r q q
+	r <_!>1
+	r1.
+	<_!>2 <6> <6 4>4. <5 _!>8
+	r1. %20
+	r2 <6> <6 4>4. <5 3>8
+	r1.
+	<7>2 <6> <5>
+	<2>1 <\t>2
+	<6>1. %25
+	r
+	r
+	r
+	<6>2. q
+	r4 q r1 %30
+	r1.
+	<5->1 <6>4 <5>
+	r1 <2>2
+	<6>1 q4 <5>
+	r1. %35
+	r
+	<7->
+	r
+	<7 _!>
+	q2 <6 5> <7 _!> %40
+	r1.
+	<5! _+>
+	q2 <6 5> <7 5! _+>
+	r2 <6>1
+	r1. %45
+	<7 _!>2 <6 5> <7 _!>
+	r <6 5> <6 4>4. <5 _+>8
+	r2 <_+>1
+	r1 <6>2
+	<5! _+>2 <6 5> <6 4>4. <5! _+>8 %50
+	<6 4>1.
+	<5! _+>
+	<7 _!>1 <5! _+>2
+	r2 <6 4> <5! _+>
+	r2 r4 r8 %55 finis
 }
 
 % Organo = {

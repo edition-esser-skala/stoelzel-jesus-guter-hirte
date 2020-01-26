@@ -1083,12 +1083,89 @@ AusDerNaturBassoNotes = {
 	\relative c {
 		\clef bass
 		\key b \major \time 3/2 \autoBeamOff \tempoAusDerNatur
-		
+		\set Timing.measurePosition = #(ly:make-moment -5/8) r8 r2 R1.*13 %13
+		r2 r4 r8 b' b4. b8
+		b2~ b4. d,8 es4. f8 %15
+		d4( c) b4. b'8 a4. g8
+		a4. f8 e2. f4
+		f2 r r
+		r r4 r8 d' c4. h8
+		c2~ c r %20
+		r r4 r8 c b!4. a8
+		b2 b,4 b' c d
+		es,4. d'8 c2( \tuplet 3/2 2 { b4 a) b }
+		a2\fermata r4 r8 f g4. a8
+		b4. d,8 es2 f %25
+		b, r r
+		R1.*4 %30
+		r2\fermata r4 r8 d' d4. d8
+		c,2. es'!4 d c
+		b( a) g4. b8 b4. b8
+		c,2. d'4 c b
+		a( g) f2 r %35
+		r r4 r8 f f4. g8
+		es!2 r4 r8 c' c4. es,8
+		d4( c) b4. b'8 b4. b8
+		b2 r r4 r8 c,
+		b'2~ b4. d8 c4. b8 %40
+		a4( g) f2 a
+		cis,1 r2
+		R1.
+		r4 r8 a' d4. c!8 b4. a8
+		b4( a) b1 %45
+		r4 r8 c, b'4. d8 c4. b8
+		a4( g) a4. c8 b4. a8
+		b4. g8 fis2. g4
+		g2 r r
+		r r a %50
+		d~ d4. cis8 d4. f,8
+		e2 a, r4 cis'
+		d2 d, a'
+		r4 b f2 e
+		d r4 r8 \markDaCapo \bar "||" %55 finis
 	}
 }
 
 AusDerNaturBassoLyrics = \lyricmode {
+	Aus der Na -- %14
+	tur __ er -- zürn -- tem %15
+	Bli -- cke er -- ken -- ne
+	dei -- ne Mi -- ße --
+	that,
+	aus der Na --
+	tur __ %20
+	er -- zürn -- tem
+	Bli -- cke er -- ken -- ne
+	dei -- ne Mi -- ße --
+	that, er -- ken -- ne
+	dei -- ne Mi -- ße -- %25
+	that.
 	
+	Dem Him -- mel %31
+	graut dich an -- zu --
+	ſe -- hen, drum will ſein
+	Licht ver -- hül -- let
+	ſte -- hen. %35
+	Der Ab -- grund
+	bebt, die Fel -- ſen
+	ſprin -- gen und ſind be --
+	reit, be --
+	reit, __ dich zu ver -- %40
+	ſchlin -- gen. Wa --
+	rum?
+	
+	weil dei -- ne Sünd und
+	Tü -- cke, %45
+	weil dei -- ne Sünd und
+	Tü -- cke den Schöpf -- fer
+	jetz ge -- töd -- tet
+	hat,
+	weil %50
+	dei -- ne Sünd und
+	Tü -- cke den
+	Schöpf -- fer jetz
+	ge -- töd -- tet
+	hat. %55 finis
 }
 
 % BassoNotes = {

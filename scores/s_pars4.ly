@@ -674,9 +674,9 @@
 			movement = \movementTitle "4.16" "A R I A" "Aus der Natur erzürntem Blicke"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
-			systems-per-page = #4
+			system-system-spacing.basic-distance = #30
+			system-system-spacing.minimum-distance = #30
+			systems-per-page = #3
 		}
 		\score {
 			<<

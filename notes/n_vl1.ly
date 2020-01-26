@@ -1377,7 +1377,57 @@ AusDerNaturViolinoI = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 3/2 \tempoAusDerNatur
-		
+		\set Timing.measurePosition = #(ly:make-moment -5/8) b''8\fE b4. b8 b2 b4. d,8 es4. f8
+		d2 b4. b'8 a4. g8
+		a4. f8 e2. f4
+		f2~ f4 as8( g) f( es) d( c)
+		h4. d8 g,4. f'8 es4. d8 %5
+		es2~ es4 g8( f) es( d) c( b)
+		a4. c8 f,4. es'8 d4. c8
+		d2~ d4 f8( es) d( c) b( a)
+		g4. es'8 d2( c4) b
+		a'4. es8 d2( c4) b %10
+		b'4. es,8 d2( c4) b
+		c'2 r8 c,( d es) d2
+		r8 g,( a b) a2.\trill b4
+		b2 r r
+		R1.*3 %17
+		r2 r4 as'8(\pE g) f( es) d( c)
+		h4. d8 g,4. f'8 es4. d8
+		es2~ es4 \once \slurDashed g8( f) es( d c b) %20
+		a4. c8 f,4. es'8 d4. c8
+		d2~ d4 \once \slurDashed f8( es) d( c b a)
+		g2 g'1
+		f,2\fermata r r
+		R1. %25
+		r4 r8 es'\fE d2( c4) b
+		a'4. es8 d2( c4) b
+		b'4. es,8 d2( c4) b
+		c'2 r8 c,( d es) d2
+		r8 g,( a b) a2.\trill b4 %30
+		b2\fermata r r
+		R1.*3
+		r8 f(\pE e f) a f( e f) c' f,( e f) %35
+		c f( e f) a f( e f) c' \slurDashed f,( es d)
+		es es( d es) a es( d es) c' es,( d c) \slurSolid
+		d4 r r2 r
+		r r4 d'8( c) d( c b a)
+		e4. g8 c,4. b'8 a4. g8 %40
+		f2 r r
+		r r4 b'8( a) g( f e d)
+		cis4. e8 a,4. g'8 f4. e8
+		f2 d, r
+		r r4 \once \slurDashed d'8( c) b( a g f) %45
+		e4. g8 c,4. b'8 a4. g8
+		f2 r r
+		R1.
+		r2 r4 \once \slurDashed b'8( a) g( f e d)
+		cis4. e8 a,4. g'8 f4. e8 %50
+		f2 f,4 e f d
+		cis( b' a) gis a e
+		f1\trill e2
+		R1.
+		r2 r4 r8 \markDaCapo \bar "||" %55 finis
 	}
 }
 
