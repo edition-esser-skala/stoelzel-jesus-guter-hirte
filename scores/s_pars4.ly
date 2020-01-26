@@ -625,48 +625,82 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.15" "A C C O M P A G N A T O" "Jedoch was regen ſich bey dieſem Todt"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\JedochWasRegenViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\JedochWasRegenViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\JedochWasRegenViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das erſchreckte" "Schäflein" "(Canto II)" } }
+% 					\new Voice = "Soprano" { \dynamicUp \JedochWasRegenSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \JedochWasRegenSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\JedochWasRegenOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \JedochWasRegenBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.15" "A C C O M P A G N A T O" "Jedoch was regen ſich bey dieſem Todt"
+			movement = \movementTitle "4.16" "A R I A" "Aus der Natur erzürntem Blicke"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			systems-per-page = #4
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\JedochWasRegenViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\JedochWasRegenViolinoII
-						}
-					>>
 					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\JedochWasRegenViola
+						\set Staff.instrumentName = \markup { \center-column { "Violini" "ed Oboi" "uniſoni" } }
+						\AusDerNaturViolinoI
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das erſchreckte" "Schäflein" "(Canto II)" } }
-					\new Voice = "Soprano" { \dynamicUp \JedochWasRegenSopranoNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+					\new Voice = "Basso" { \dynamicUp \AusDerNaturBassoNotes }
 				}
-				\new Lyrics \lyricsto Soprano \JedochWasRegenSopranoLyrics
+				\new Lyrics \lyricsto Basso \AusDerNaturBassoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\JedochWasRegenOrgano
+						\AusDerNaturOrgano
 					}
 				>>
-				\new FiguredBass { \JedochWasRegenBassFigures }
+				\new FiguredBass { \AusDerNaturBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 2 = 100 }
 		}
 	}
 }

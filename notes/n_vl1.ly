@@ -1373,6 +1373,14 @@ JedochWasRegenViolinoI = {
 	}
 }
 
+AusDerNaturViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/2 \tempoAusDerNatur
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

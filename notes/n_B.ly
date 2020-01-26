@@ -1079,6 +1079,18 @@ IhrHimmelKlagtBassoLyrics = \lyricmode {
 	klagt, ihr Wol -- cken, gie -- ßet %30 finis
 }
 
+AusDerNaturBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/2 \autoBeamOff \tempoAusDerNatur
+		
+	}
+}
+
+AusDerNaturBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

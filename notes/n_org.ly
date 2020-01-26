@@ -4436,6 +4436,18 @@ JedochWasRegenBassFigures = \figuremode {
 	<6 4> <5 3>2. %25 finis
 }
 
+AusDerNaturOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/2 \tempoAusDerNatur
+		
+	}
+}
+
+AusDerNaturBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
