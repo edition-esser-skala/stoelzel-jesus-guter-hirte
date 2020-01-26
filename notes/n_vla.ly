@@ -1267,8 +1267,28 @@ IhrHimmelKlagtViola = {
 
 JedochWasRegenViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \lydian \time 4/4 \tempoJedochWasRegen
-		
+		b8 b b b b b b b
+		b b b b b4 r
+		g' r \tuplet 3/2 8 { a16( g f) a([ g f)] a( g f) a([ g f)] }
+		\tuplet 3/2 8 { b( a g) b([ a g)] b( a g) b([ a g)] } a4 r
+		h r c r %5
+		f,8 r d r g r g r
+		\tuplet 3/2 8 { es16([ d c)] es( d c) es([ d c)] es( d c) } c4 r
+		a2 a
+		a'1
+		\tuplet 3/2 8 { b16([ a g)] b( a g) b([ a g)] b( a g) } g4 c, %10
+		c a b2
+		a4 g a16. c32 c16. c32 f8 r
+		r16 r32 g g16. g32 g8 r r16 r32 a a16. a32 a8 r
+		r16 r32 f f16. f32 f8 r r16 r32 d d16. d32 d8 r
+		r16 r32 e e16. e32 e8 r r16 r32 c c16. c32 c8 r %15
+		r16 r32 a a16. a32 a8 a' a16. f32 d8 r4
+		r16 b \noBeam g8 r4 r16 c' g es c8 r
+		r16 r32 c c16. c32 c8 r16 c d8 r r16 r32 f f16. f32
+		es8 g r4 r8 r16 f f4
+		R1*5 %24
+		R1\fermataMarkup \bar "|." %25 finis
 	}
 }

@@ -4380,12 +4380,60 @@ JedochWasRegenOrgano = {
 	\relative c {
 		\clef bass
 		\key b \lydian \time 4/4 \tempoJedochWasRegen
-		
+		b8 b b b b b b b
+		b b b b b4 r
+		g r f8 f f f
+		f f f f f4 r
+		f r es r %5
+		f8 r f r g r g r
+		c c c c f,4 r
+		fis1~
+		fis
+		g8 g g g c2 %10
+		f, b
+		c4 c, f16. f'32 f16. f32 f8 r
+		r16 r32 e e16. e32 e8 r r16 r32 d d16. d32 d8 r
+		r16 r32 d d16. d32 d8 r r16 r32 d d16. d32 d8 r
+		r16 r32 c c16. c32 c8 r r16 r32 c c16. c32 c8 r %15
+		r16 r32 cis cis16. cis32 cis8 a d r r r16 fis
+		g8 r r r16 h, c4 r16 r32 c es16. c32
+		f16. f,32 f16. f32 f8 r16 f b4 r16 r32 b b16. b32
+		es4 r r8 r16 f b,4
+		\tempoJedochWasRegenB g2 es' %20
+		as \tempoJedochWasRegenC g8 g, g' f
+		es c h g c d es e
+		f16. f,32 f'16. f,32 f'16. f,32 f'16. f,32 f'16. f,32 f'16. f,32 f'16. f,32 f'16. f,32
+		f'16. f,32 es'16. es,32 d'16. d,32 d'16. d,32 es4 e'
+		f f, b2\fermata \bar "|." %25 finis
 	}
 }
 
 JedochWasRegenBassFigures = \figuremode {
-	
+	<8 3>2 <7 4- 2>
+	<\t \t \t> <8 3>
+	<6!> <5 3>
+	<6 4> <5 3>
+	<4! 2> <6> %5
+	<6- _->4 <6! 4! 2> <6- 4> <5 _!>
+	<_->2 <7- _!>
+	<6>1
+	r
+	r2 <7- _!> %10
+	r <5>4 <6>
+	<6 4>4 <5 _!> r2
+	r16. <6\\>32 r4. r2
+	r16. <6!>32 r4. r2
+	r r16. <7->32 r4. %15
+	r16. <6>32 r4 <6 4>16. <5 _+>32 r4.. <6>16
+	r4.. <6>16 <_->4. <6>8
+	r1
+	r
+	<_!>2 <6> %20
+	<5-> <_!>4. <4! 2>8
+	<6> <_-> <6> <_!> <_-> <6!> <6> <6 5->
+	<5 3>4. <6 4>8 <5 3>4. <6 4>8
+	<5 3> <\t \t> <6>4 r <6 5>
+	<6 4> <5 3>2. %25 finis
 }
 
 % Organo = {

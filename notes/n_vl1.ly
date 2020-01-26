@@ -1349,7 +1349,27 @@ JedochWasRegenViolinoI = {
 	\relative c' {
 		\clef treble
 		\key b \lydian \time 4/4 \tempoJedochWasRegen
-		
+		\tuplet 3/2 8 { f16( es? d) f([ es d)] f( es d) f([ es d)] es( d c) es([ d c)] es( d c) es'([ d c)] }
+		a'8 a a a b4 r
+		e,! r f8 f, f' f,
+		f' f, f' f, f4 r
+		g' r g r %5
+		as8 r g r es r d r
+		c c, c' c, a''4 r
+		a1~
+		a
+		g8 g, g' g, e'!2 %10
+		f4 f, f2~
+		f4 e! f16. a32 a16. a32 c8 r
+		r16 r32 g' g16. g32 g8 r r16 r32 f f16. f32 f8 r
+		r16 r32 f f16. f32 f8 r r16 r32 h, h16. h32 h8 r
+		r16 r32 c c16. c32 c8 r r16 r32 e, e16. e32 e8 r %15
+		r16 r32 e' e16. e32 e16. g32 f16. e32 f8 r r16 d \noBeam d,8
+		r4 r16 g' \noBeam g,8 r16 g' es c g8 r
+		r16 r32 a a16. a32 a8 r16 a b32 b'( a g f es d c) b-! b( a g f es d c)
+		b4 r r8 r16 a'' b4
+		R1*5 %24
+		R1\fermataMarkup \bar "|." %25 finis
 	}
 }
 

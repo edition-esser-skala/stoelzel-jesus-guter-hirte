@@ -1321,12 +1321,60 @@ JedochWasRegenSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \lydian \time 4/4 \autoBeamOff \tempoJedochWasRegen
-		
+		r8 f' d b a8. a16 a4
+		r8 es' es16([ d)] es8 d4 r16 d f d
+		b8. b16 b([ a)] b8 a a r4
+		r2 r8 c es r16 d
+		h8. h16 h8 c c4 r16 g c es %5
+		des8 f h, c c g r4
+		r2 r8 c es r16 d
+		\appoggiatura es8 d8. d16 d4 r8 d d a
+		fis4 r8 d c' c es d
+		b4 r8 b g a b a %10
+		a4 r16 c es d d8 b g a
+		f4 r r r8 f
+		cis'8. cis16 e8 a, f'4 r8 f
+		h,8 r16 h d8 h f f f e
+		e4 r8 g b b b a %15
+		a a r4 r8 a d4
+		r8 b d g, es'4 r8 es
+		a, c es d d d r16 d f d
+		g8 r16 g a,8 b f4 r8 d'
+		\tempoJedochWasRegenB h8. h16 d8 es c4 r16 c d es %20
+		c8. c16 h8 c \tempoJedochWasRegenC h4 r8 g
+		c es16([ d)] d16. es32 f16. g32 es8. d16 c([ d)] b8
+		a f r16 c' d b a4 r16 c d b
+		f8 c' f b, g4 r8 b
+		b f r4 r2\fermata \bar "|." %25 finis
 	}
 }
 
 JedochWasRegenSopranoLyrics = \lyricmode {
-	
+	Je -- doch was re -- gen ſich
+	bey die -- ſem Todt für ſchre -- ckens --
+	vol -- le Trau -- er Glo -- cken?
+	O weh! ach
+	un -- er -- hör -- te Noth! Mein Troſt fängt %5
+	in mir an zu ſto -- cken.
+	O Furcht! o
+	Ban -- gig -- keit! Der Him -- mel
+	geht in ei -- nem Trau -- er
+	Kleid und hül -- let ſei -- nen %10
+	Schein in ſchwart -- ze Trau -- er De -- cken
+	ein. Es
+	be -- bet Hertz und Geiſt, denn
+	ja, die Er -- de zit -- tert un -- ter
+	mir und ſchei -- net zu zer -- %15
+	fal -- len. Ich ſeh,
+	wie dort und hier bei
+	fürch -- ter -- li -- chen Knal -- len ein Felß zer --
+	ſpringt, ein Berg zer -- reißt. Wo --
+	hin, ach Gott! wo -- hin ſoll ich er -- %20
+	ſchreck -- tes Schäf -- lein fliehn? Der
+	Him -- mel ſcheint durch ſei -- nen Blick mich zu ver --
+	ja -- gen, die Er -- de bebt, die Er -- de
+	bebt, mich fer -- ner nicht zu
+	tra -- gen. %25 finis
 }
 
 % SopranoNotes = {

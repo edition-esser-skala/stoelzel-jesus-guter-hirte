@@ -923,6 +923,26 @@ JedochWasRegenViolinoII = {
 	\relative c' {
 		\clef treble
 		\key b \lydian \time 4/4 \tempoJedochWasRegen
-		
+		\tuplet 3/2 8 { d16( c b) d([ c b)] d( c b) d([ c b)] c( b a) c([ b a)] c( b a) c'([ b a)] }
+		\tuplet 3/2 8 { es'( d c) es([ d c)] es( d c) es([ d c)] } d4 r
+		b r \tuplet 3/2 8 { c16([ b a)] c( b a) c([ b a)] c( b a) }
+		\tuplet 3/2 8 { d( c b) d([ c b)] d( c b) d([ c b)] } c4 r
+		d r es? r %5
+		des8 r h r c r h r
+		\tuplet 3/2 8 { g16( f es) g([ f es)] g( f es) g([ f es)] } es4 r
+		d2 d'~
+		d1~
+		\tuplet 3/2 8 { d16( c b) d([ c b)] d( c b) d([ c b)] } b2 %10
+		a4 c, d2
+		c4 c c16. f32 f16. f32 a8 r
+		r16 r32 cis cis16. cis32 cis8 r r16 r32 d d16. d32 d8 r
+		r16 r32 h h16. h32 h8 r r16 r32 f f16. f32 f8 r
+		r16 r32 g g16. g32 g8 r r16 r32 g g16. g32 g8 r %15
+		r16 r32 a a16. a32 a16. e'32 d16. cis32 d8 r16 d d,8 r
+		r8 r16 d' g,8 r r16 es' c g es8 r
+		r16 r32 f f16. f32 f8 r16 f f8 r r32 b( a g f es d c)
+		g''4 r r8 r16 c, d4
+		R1*5 %24
+		R1\fermataMarkup \bar "|." %25 finis
 	}
 }
