@@ -1091,16 +1091,122 @@ EsFreutSchonAltoLyrics = \lyricmode {
 	die wird für Freu -- den ſin -- gen. %6 finis
 }
 
-IhrHimmelKlagtAltoNotes = {
+IhrHimmelKlagtAltoINotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoIhrHimmelKlagt
-		
+		R1*6 %6
+		r2 r8 b' b b
+		b4 r8 b a a g g \bar "S-S"
+		g([ fis] g4) fis r
+		r8 g g g g4 r %10
+		r8 f f f f4 r8 b
+		a a g g g([ fis] g4)
+		fis8 fis a16([ g)] g([ fis)] fis4 r
+		r2 r4 r8 b
+		a r a r a r r r16 a %15
+		a4 r r8 g g8. g16
+		g4 r r8 g a8. a16
+		d,8 d b([ g)] d' d d8. d16
+		es!4 r8 es d r d r
+		d r r r16 d d4 r %20
+		R1
+		r2\fermata r8 b' b b
+		a f f f f2~
+		f4 f r2
+		r8 c c' c h g g g %25
+		g2~ g4 g8 g
+		g g g as g4 g
+		g8 g g4 r8 f f8. f16
+		f4 r8 f f f a d,
+		d4 r8 b' a a g g \bar "S-S" %30 finis
 	}
 }
 
-IhrHimmelKlagtAltoLyrics = \lyricmode {
+IhrHimmelKlagtAltoILyrics = \lyricmode {
+	Ihr Him -- mel, %7
+	klagt, ihr Wol -- cken, gie -- ßet
+	Thrä -- nen!
+	Ihr Him -- mel, klagt, %10
+	ihr Him -- mel, klagt, ihr
+	Wol -- cken, gie -- ßet Thrä --
+	nen! Denn Gott iſt todt,
+	denn
+	Gott, denn Gott iſt %15
+	todt. Ihr Him -- mel,
+	klagt, ihr Wol -- cken,
+	gie -- ßet Thrä -- nen! Denn Gott iſt
+	todt, denn Gott, denn Gott
+	iſt todt. %20
 	
+	O gro -- ßes
+	Wort! Gott wird ge -- quä --
+	let.
+	O gro -- ßer Mord! Gott wird ent -- %25
+	ſee -- let. O
+	nie -- mals noch er -- hör -- te
+	Noth! Wer iſt, der nicht er --
+	ſtaunt und ſagt: Ihr Him -- mel,
+	klagt, ihr Wol -- cken, gie -- ßet %30 finis
+}
+
+IhrHimmelKlagtAltoIINotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoIhrHimmelKlagt
+		R1*6 %6
+		r2 r8 b' b b
+		b4 r8 b a a g g \bar "S-S"
+		g([ fis] g4) fis r
+		r8 g g g g4 r %10
+		r8 f f f f4 r8 b
+		a a g g g([ fis] g4)
+		fis8 r r4 r a16([ g)] g([ fis)]
+		fis4 r r r8 b
+		a r a r a r r r16 a %15
+		a4 r r8 g g8. g16
+		g4 r r8 g a8. a16
+		d,8 d b([ g)] d' d d8. d16
+		es!4 r8 es d r d r
+		d r r r16 d d4 r %20
+		R1
+		r2\fermata r8 b' b b
+		a f f f f2~
+		f4 f r2
+		r8 c c' c h g g g %25
+		g2~ g4 g8 g
+		g g g as g4 g
+		g8 g g4 r8 f f8. f16
+		f4 r8 f f f a d,
+		d4 r8 b' a a g g \bar "S-S" %30 finis
+	}
+}
+
+IhrHimmelKlagtAltoIILyrics = \lyricmode {
+	Ihr Him -- mel, %7
+	klagt, ihr Wol -- cken, gie -- ßet
+	Thrä -- nen!
+	Ihr Him -- mel, klagt, %10
+	ihr Him -- mel, klagt, ihr
+	Wol -- cken, gie -- ßet Thrä --
+	nen! Gott iſt
+	todt, denn
+	Gott, denn Gott iſt %15
+	todt. Ihr Him -- mel,
+	klagt, ihr Wol -- cken,
+	gie -- ßet Thrä -- nen! Denn Gott iſt
+	todt, denn Gott, denn Gott
+	iſt todt. %20
+	
+	O gro -- ßes
+	Wort! Gott wird ge -- quä --
+	let.
+	O gro -- ßer Mord! Gott wird ent -- %25
+	ſee -- let. O
+	nie -- mals noch er -- hör -- te
+	Noth! Wer iſt, der nicht er --
+	ſtaunt und ſagt: Ihr Him -- mel,
+	klagt, ihr Wol -- cken, gie -- ßet %30 finis
 }
 
 % AltoNotes = {

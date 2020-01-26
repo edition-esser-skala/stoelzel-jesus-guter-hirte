@@ -1024,12 +1024,59 @@ IhrHimmelKlagtBassoNotes = {
 	\relative c {
 		\clef bass
 		\key g \minor \time 4/4 \autoBeamOff \tempoIhrHimmelKlagt
-		
+		R1*6 %6
+		r2 r8 g' g f16([ es)]
+		b'4 r8 g d' c h h, \bar "S-S"
+		c([ d] es4) d r
+		r8 g g g c,4 r %10
+		r8 f f f b,4 r8 g
+		d' c h8. h16 c8([ d] es4)
+		d r r2
+		r r4 r8 g
+		a r a r a, r r r16 a %15
+		d4 r r8 h' h8. h16
+		c4 r r8 g fis8. fis16
+		g8. g,16 cis4 d8 d g g,
+		c4 r8 c d8 r d r
+		d r r r16 d g,4 r %20
+		R1
+		r2\fermata r8 d' d c16([ b)]
+		f'8 f f f f4( d8[ b]
+		f'4) f, r2
+		r8 es' es d16([ c)] g'8 g g g %25
+		g4( es8[ c] g'4) g,8 g
+		c d es f g4 g,
+		c8 c' c4 r8 a a8. a16
+		b4 r8 b, f' f fis8. fis16
+		g4 r8 g d' c h h, \bar "S-S" %30 finis
 	}
 }
 
 IhrHimmelKlagtBassoLyrics = \lyricmode {
+	Ihr Him -- mel, %7
+	klagt, ihr Wol -- cken, gie -- ßet
+	Thrä -- nen!
+	Ihr Him -- mel, klagt, %10
+	ihr Him -- mel, klagt, ihr
+	Wol -- cken, gie -- ßet Thrä --
+	nen!
+	Denn
+	Gott, denn Gott iſt %15
+	todt. Ihr Him -- mel,
+	klagt, ihr Wol -- cken,
+	gie -- ßet Thrä -- nen! Denn Gott iſt
+	todt, denn Gott, denn Gott
+	iſt todt. %20
 	
+	O gro -- ßes
+	Wort! Gott wird ge -- quä --
+	let.
+	O gro -- ßer Mord! Gott wird ent -- %25
+	ſee -- let. O
+	nie -- mals noch er -- hör -- te
+	Noth! Wer iſt, der nicht er --
+	ſtaunt und ſagt: Ihr Him -- mel,
+	klagt, ihr Wol -- cken, gie -- ßet %30 finis
 }
 
 % BassoNotes = {

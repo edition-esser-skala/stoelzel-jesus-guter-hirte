@@ -4311,10 +4311,80 @@ IhrHimmelKlagtOrgano = {
 		\clef bass
 		\key g \minor \time 4/4 \tempoIhrHimmelKlagt
 		g'8\fE g, r4 r8 g' g g
+		a a, r4 r8 b' b b
+		cis, a r4 r8 d' d d
+		h, g r4 r8 c' c c
+		d4 d, g, r %5
+		cis r d d,
+		g r r8 g' g f16 es
+		b'8 b, r g' d' c h h, \bar "S-S"
+		c d es4 d r8 d
+		g, g' g g, c4 r8 c %10
+		f, f' f f, b4 r8 g
+		d' c h8. h16 c8 d es4
+		d r r8 d d,4
+		r8 d' d,4 g8 g' g g
+		a2 a, %15
+		d8 d' d d h,4 h'
+		c,8 c' c c a, g fis4
+		g cis d8 d g g,
+		c c' c c, d2
+		d, g4 r %20
+		cis r4 d d,
+		g\fermata r r8 d' d c16 b
+		f'2 f,~
+		f r
+		r8 es' es d16 c g'2 %25
+		g,1
+		c8 d es f g4 g,
+		c8 c' c c, a4 r8 a'
+		b4 r8 b, f'4 fis
+		g r8 g d' c h h, \bar "S-S" %30 finis
 	}
 }
 
 IhrHimmelKlagtBassFigures = \figuremode {
+	r2 r8 <6 4>4.
+	<6\\>2 r8 <[6 3]> <[\t 4!]>4
+	<6 5>8 <7 5! _+> r2.
+	<6 5>8 <7 _!> r4 r8 <_->4.
+	<7 _+>1 %5
+	<6 5 _!>2 <5 _+>8 <6 4> <5 4> <\t _+>
+	r2 r8 <6>4.
+	<4>8 <3> r4 <[_+]>8 <[\t]> <[6]> <[7 _!]>
+	r <_+> <6>4 <_+>4. <\t>8
+	<7 _!>2 <_!>4. <\t>8 %10
+	<7->1
+	<_+>8 <\t> <6> <5> r <_+> <6>4
+	<_+>2 r8 q <\t>4
+	r8 <_+> <\t>4 <5> <6!>
+	<7 5! _+>4 <6 4> <5! 4> <\t _+> %15
+	r2 <6 5>
+	<_-> <5>8 <6> <7> <6>16 <5>
+	r4 <7 _!> <_+> <7 _!>
+	<5>4 <6> <7 _+> <6- 4>
+	<5 4> <\t _+>2. %20
+	<6 5 _!>2 <5 _+>8 <6 4> <5 4> <\t _+>
+	r2 r8 <6>4.
+	<5 3>4 <6 4>8 <7 5> <6 4>2
+	<5 4>4 <\t 3> r2
+	r8 <6>4. <5 _!>4 <6 4>8 <7 5 _!> %25
+	<6 4>2 <5 \t>4 <\t _!>
+	r8 <6!> <6> <6 5 _-> <6 4>4 <5 _!>
+	r2 <6 5>4. <6>8
+	r2 <5 4>8 <7 3> <6> <5>
+	<9> <8>4. <_+>8 <\t> <6> <7 _!> %30 finis
+}
+
+JedochWasRegenOrgano = {
+	\relative c {
+		\clef bass
+		\key b \lydian \time 4/4 \tempoJedochWasRegen
+		
+	}
+}
+
+JedochWasRegenBassFigures = \figuremode {
 	
 }
 

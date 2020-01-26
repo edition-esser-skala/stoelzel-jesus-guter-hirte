@@ -471,7 +471,7 @@
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene Schäflein (Canto 2)" "Das Evangelium (Alto 2)" "Der Evangeliſte" "Das Geſetze (Basſo)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene Schäflein (Canto II)" "Das Evangelium (Alto II)" "Der Evangeliſte" "Das Geſetze (Basſo)" } }
 					\new Voice = "Tenore" { \dynamicUp \DiesWortWirdTenoreNotes }
 				}
 				\new Lyrics \lyricsto Tenore \DiesWortWirdTenoreLyrics
@@ -515,7 +515,7 @@
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto II)" } }
 					\new Voice = "Alto" { \dynamicUp \WennAuchDeinerAltoNotes }
 				}
 				\new Lyrics \lyricsto Alto \WennAuchDeinerAltoLyrics
@@ -543,7 +543,7 @@
 		\score {
 			<<
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das danckbare" "Schäflein" "(Canto 2)" \vspace #.5 "Das Evangelium" "(Alto 1)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das danckbare" "Schäflein" "(Canto II)" \vspace #.5 "Das Evangelium" "(Alto I)" } }
 					\new Voice = "Soprano" { \dynamicUp \WieKanIchSopranoNotes }
 				}
 				\new Lyrics \lyricsto Soprano \WieKanIchSopranoLyrics
@@ -587,7 +587,7 @@
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das danckbare" "Schäflein" "(Canto 2)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das danckbare" "Schäflein" "(Canto II)" } }
 					\new Voice = "Soprano" { \dynamicUp \GuterHirteDiesesSopranoNotes }
 				}
 				\new Lyrics \lyricsto Soprano \GuterHirteDiesesSopranoLyrics

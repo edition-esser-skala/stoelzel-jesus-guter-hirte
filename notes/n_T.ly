@@ -1707,12 +1707,59 @@ IhrHimmelKlagtTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key g \minor \time 4/4 \autoBeamOff \tempoIhrHimmelKlagt
-		
+		R1*6 %6
+		r2 r8 b b g'
+		f4 r8 g d d d g, \bar "S-S"
+		g([ d' g, c)] a4 r
+		r8 h h h c4 r %10
+		r8 a a a b4 r8 b
+		d d d g, g([ d' g, c)]
+		a4 r r2
+		r r4 r8 g'
+		e r a, r e' r r r16 e %15
+		f4 r r8 d g8. g16
+		c,4 r r8 es! a, d
+		g,8. g16 g8([ b)] d,8 fis g8. d'16
+		c4 r8 c a r b r
+		d r r r16 a b4 r %20
+		R1
+		r2\fermata r8 b b b
+		c es d a b2
+		f r
+		r8 c' c c d f es h %25
+		c2 g4 r8 g
+		g h c c16([ d)] es8([ f)] g4
+		es8 c c4 r8 c f8. f16
+		d4 r8 b c c d8. d16
+		g,4 r8 g' d d d g, \bar "S-S" %30 finis
 	}
 }
 
 IhrHimmelKlagtTenoreLyrics = \lyricmode {
+	Ihr Him -- mel, %7
+	klagt, ihr Wol -- cken, gie -- ßet
+	Thrä -- nen!
+	Ihr Him -- mel, klagt, %10
+	ihr Him -- mel, klagt, ihr
+	Wol -- cken, gie -- ßet Thrä --
+	nen!
+	Denn
+	Gott, denn Gott iſt %15
+	todt. Ihr Him -- mel,
+	klagt, ihr Wol -- cken,
+	gie -- ßet Thrä -- nen! Denn Gott iſt
+	todt, denn Gott, denn Gott
+	iſt todt. %20
 	
+	O gro -- ßes
+	Wort! Gott wird ge -- quä --
+	let.
+	O gro -- ßer Mord! Gott wird ent -- %25
+	ſee -- let. O
+	nie -- mals noch er -- hör -- te
+	Noth! Wer iſt, der nicht er --
+	ſtaunt und ſagt: Ihr Him -- mel,
+	klagt, ihr Wol -- cken, gie -- ßet %30 finis
 }
 
 % TenoreNotes = {

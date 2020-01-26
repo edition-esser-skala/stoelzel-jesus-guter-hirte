@@ -229,7 +229,7 @@
 % 					}
 % 				>>
 % 				\new Staff {
-% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 1)" } }
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto I)" } }
 % 					\new Voice = "Alto" { \dynamicUp \ErschrocknesSchaefleinAltoNotes }
 % 				}
 % 				\new Lyrics \lyricsto Alto \ErschrocknesSchaefleinAltoLyrics
@@ -275,7 +275,7 @@
 % 					}
 % 				>>
 % 				\new Staff {
-% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 1)" } }
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto I)" } }
 % 					\new Voice = "Alto" { \dynamicUp \KommSetzeDichAltoNotes }
 % 				}
 % 				\new Lyrics \lyricsto Alto \KommSetzeDichAltoLyrics
@@ -347,7 +347,7 @@
 % 		\score {
 % 			<<
 % 				\new Staff {
-% 					\set Staff.instrumentName = \markup { \center-column { "Der Schächer" "(Alto 2)" \vspace #.5 "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
+% 					\set Staff.instrumentName = \markup { \center-column { "Der Schächer" "(Alto II)" \vspace #.5 "Der Evangeliſte" \vspace #.5 "JESUS, der" "gute Hirte" } }
 % 					\new Voice = "Tenore" { \dynamicUp \DerHeylandHingeTenoreNotes }
 % 				}
 % 				\new Lyrics \lyricsto Tenore \DerHeylandHingeTenoreLyrics
@@ -391,7 +391,7 @@
 % 					}
 % 				>>
 % 				\new Staff {
-% 					\set Staff.instrumentName = \markup { \center-column { "Das glaubende" "Schäflein" "(Canto 1)" } }
+% 					\set Staff.instrumentName = \markup { \center-column { "Das glaubende" "Schäflein" "(Canto I)" } }
 % 					\new Voice = "Soprano" { \dynamicUp \OLippenDieSopranoNotes }
 % 				}
 % 				\new Lyrics \lyricsto Soprano \OLippenDieSopranoLyrics
@@ -437,7 +437,7 @@
 % 					}
 % 				>>
 % 				\new Staff {
-% 					\set Staff.instrumentName = \markup { \center-column { "Das glaubende" "Schäflein" "(Canto 1)" } }
+% 					\set Staff.instrumentName = \markup { \center-column { "Das glaubende" "Schäflein" "(Canto I)" } }
 % 					\new Voice = "Soprano" { \dynamicUp \AchVonDiesemSopranoNotes }
 % 				}
 % 				\new Lyrics \lyricsto Soprano \AchVonDiesemSopranoLyrics
@@ -541,73 +541,129 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.14" "C O R O" "Ihr Himmel klagt"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\IhrHimmelKlagtOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\IhrHimmelKlagtOboeII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IhrHimmelKlagtViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IhrHimmelKlagtViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\IhrHimmelKlagtViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto I"
+% 						\new Voice = "SopranoI" { \dynamicUp \IhrHimmelKlagtSopranoINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoI \IhrHimmelKlagtSopranoILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto II"
+% 						\new Voice = "SopranoII" { \dynamicUp \IhrHimmelKlagtSopranoIINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoII \IhrHimmelKlagtSopranoIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto I"
+% 						\new Voice = "AltoI" { \dynamicUp \IhrHimmelKlagtAltoINotes }
+% 					}
+% 					\new Lyrics \lyricsto AltoI \IhrHimmelKlagtAltoILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto II"
+% 						\new Voice = "AltoII" { \dynamicUp \IhrHimmelKlagtAltoIINotes }
+% 					}
+% 					\new Lyrics \lyricsto AltoII \IhrHimmelKlagtAltoIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \IhrHimmelKlagtTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \IhrHimmelKlagtTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \IhrHimmelKlagtBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \IhrHimmelKlagtBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IhrHimmelKlagtOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \IhrHimmelKlagtBassFigures }
+% 			>>
+% 			\layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/4) }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.14" "C O R O" "Ihr Himmel klagt"
+			movement = \movementTitle "4.15" "A C C O M P A G N A T O" "Jedoch was regen ſich bey dieſem Todt"
 		}
-		\paper { systems-per-page = #1 }
+		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\IhrHimmelKlagtOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\IhrHimmelKlagtOboeII
-						}
-					>>
-				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\IhrHimmelKlagtViolinoI
+							\JedochWasRegenViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\IhrHimmelKlagtViolinoII
+							\JedochWasRegenViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\IhrHimmelKlagtViola
+						\JedochWasRegenViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Canto 1 ed 2"
-						\new Voice = "Soprano" { \dynamicUp \IhrHimmelKlagtSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \IhrHimmelKlagtSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \IhrHimmelKlagtAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \IhrHimmelKlagtAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \IhrHimmelKlagtTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \IhrHimmelKlagtTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \IhrHimmelKlagtBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \IhrHimmelKlagtBassoLyrics
-				>>
+				\new Staff {
+					\set Staff.instrumentName = \markup { \center-column { "Das erſchreckte" "Schäflein" "(Canto II)" } }
+					\new Voice = "Soprano" { \dynamicUp \JedochWasRegenSopranoNotes }
+				}
+				\new Lyrics \lyricsto Soprano \JedochWasRegenSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IhrHimmelKlagtOrgano
+						\JedochWasRegenOrgano
 					}
 				>>
-				\new FiguredBass { \IhrHimmelKlagtBassFigures }
+				\new FiguredBass { \JedochWasRegenBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

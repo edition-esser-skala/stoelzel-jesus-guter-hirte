@@ -1230,8 +1230,45 @@ UndUmDieViola = {
 
 IhrHimmelKlagtViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 4/4 \tempoIhrHimmelKlagt
+		g'8\fE g, r4 r8 c' c c
+		c,4 r r8 d' d d
+		e,4 r r8 f f f
+		d4 r r8 es es es
+		a,4 d d r %5
+		e r a,8.( b32 c) d8 a
+		b4 r r8 b b b
+		b4 r8 b d d d g \bar "S-S"
+		g d g, c a4 r
+		r8 h' h g g4 r %10
+		r8 a a f f4 r8 g
+		a a g g g d g, c
+		a4 d2.~
+		d2 g,8 g b' b
+		a r a r a r r r16 a
+		f8 f f f d4 d8 g,
+		g es' es es c g c d
+		d4 b8 g d' d d g
+		g es es es a, r b r
+		d r r r16 a b8 g r4
+		a r a8.( b32 c) d8 a
+		b4\fermata r r8 b b b
+		c es d c b4 r8 f'
+		f4 f r2
+		r8 c c c d f es d
+		c4 r8 g' g4 g
+		g g8 as g4 g
+		g8 g g es c4 r8 c
+		b4 r8 b c c d d
+		d4 r8 b d d d g \bar "S-S"
+	}
+}
+
+JedochWasRegenViola = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoJedochWasRegen
 		
 	}
 }

@@ -1199,15 +1199,133 @@ EsFreutSchonSopranoLyrics = \lyricmode {
 	die wird für Freu -- den ſin -- gen. %6 finis
 }
 
-IhrHimmelKlagtSopranoNotes = {
+IhrHimmelKlagtSopranoINotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoIhrHimmelKlagt
+		R1*6 %6
+		r8 d' d c16([ b)] es4 r
+		r8 d g g fis16([ g)] e([ fis)] g8[ f] \bar "S-S"
+		es[ d] c16[ b a g] d'4 r
+		r8 f f16([ e)] f8 e4 r %10
+		r8 es es16([ d)] es8 d d g g
+		fis16([ g)] e([ fis)] g8[ f] es[ d] c16[ b a g]
+		d'8 a c16([ b)] b([ a)] a4 r
+		r2 r4 r8 g'
+		g r f r e r r r16 e %15
+		d4 r r8 f f([ g16)] d
+		es!4 r r8 es es d16([ c)]
+		b8 a b4 a8 d h8. h16
+		c4 r8 c c r b r
+		a r r r16 a g4 r %20
+		R1
+		r8\fermata d' d c16([ b)] f'2~
+		f8 c d es d2\trill
+		c r8 es es d16([ c)]
+		g'2~ g8 d es f %25
+		es2\trill d8 g, g' f
+		es([ d)] c4 c h
+		c8 es es4 r8 es d c
+		d4 r8 d16([ c)] c8 es d16([ c)] c8
+		b d g g fis16([ g)] e([ fis)] g8[ f] \bar "S-S" %30
+	}
+}
+
+IhrHimmelKlagtSopranoILyrics = \lyricmode {
+	Ihr Him -- mel, klagt, %7
+	ihr Wol -- cken, gie -- ßet Thrä --
+	_ _ nen!
+	Ihr Him -- mel, klagt, %10
+	ihr Him -- mel, klagt, ihr Wol -- cken,
+	gie -- ßet Thrä -- _ _
+	nen! Denn Gott iſt todt,
+	denn
+	Gott, denn Gott iſt %15
+	todt. Ihr Him -- mel,
+	klagt, ihr Wol -- cken,
+	gie -- ßet Thrä -- nen! Denn Gott iſt
+	todt, denn Gott, denn Gott
+	iſt todt. %20
+	
+	O gro -- ßes Wort! __
+	Gott wird ge -- quä --
+	let. O gro -- ßer
+	Mord! __ Gott wird ent -- %25
+	ſee -- let. O nie -- mals
+	noch er -- hör -- te
+	Noth! Wer iſt, der nicht er --
+	ſtaunt und ſagt: Ihr Him -- mel,
+	klagt, ihr Wol -- cken, gie -- ßet "Thrä -" %30 finis
+}
+
+IhrHimmelKlagtSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoIhrHimmelKlagt
+		R1*6 %6
+		r2 r8 es'8 es es
+		es([ d)] r d d d d d \bar "S-S"
+		c16([ b a8] g4) a r
+		r8 d d16([ c)] d8 c4 r %10
+		r8 c c16([ b)] c8 b4 r8 d
+		d d d d c16([ b a8] g4)
+		a4 r r c16([ b)] b([ a)]
+		a4 r r r8 e'
+		e r d r d r r r16 cis %15
+		d4 r r8 d d8. d16
+		c4 r r8 b a8. a16
+		g8 fis g4 fis8 a g8. g16
+		g4 r8 a a r g r
+		g r r r16 fis g4 r %20
+		R1
+		r2\fermata r8 d' d d
+		c a b c b2~
+		b4 a r2
+		r8 es' es es d h c d %25
+		c2~  c4 h8 h
+		c f es d es4 d
+		c8 c c4 r8 c f,8. f16
+		b4 r8 b b a a8. a16
+		a8([ g)] r d' d d d d \bar "S-S" %30
+	}
+}
+
+IhrHimmelKlagtSopranoIILyrics = \lyricmode {
+	Ihr Him -- mel, %7
+	klagt, ihr Wol -- cken, gie -- ßet
+	Thrä -- nen!
+	Ihr Him -- mel, klagt, %10
+	ihr Him -- mel, klagt, ihr
+	Wol -- cken, gie -- ßet Thrä --
+	nen! Gott iſt
+	todt, denn
+	Gott, denn Gott iſt %15
+	todt. Ihr Him -- mel,
+	klagt, ihr Wol -- cken,
+	gie -- ßet Thrä -- nen! Denn Gott iſt
+	todt, denn Gott, denn Gott
+	iſt todt. %20
+	
+	O gro -- ßes
+	Wort! Gott wird ge -- quä --
+	let.
+	O gro -- ßer Mord! Gott wird ent -- %25
+	ſee -- let. O
+	nie -- mals noch er -- hör -- te
+	Noth! Wer iſt, der nicht er --
+	ſtaunt und ſagt: Ihr Him -- mel,
+	klagt, ihr Wol -- cken, gie -- ßet %30 finis
+}
+
+JedochWasRegenSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \autoBeamOff \tempoJedochWasRegen
 		
 	}
 }
 
-IhrHimmelKlagtSopranoLyrics = \lyricmode {
+JedochWasRegenSopranoLyrics = \lyricmode {
 	
 }
 

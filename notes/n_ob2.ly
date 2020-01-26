@@ -187,6 +187,35 @@ IhrHimmelKlagtOboeII = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \tempoIhrHimmelKlagt
-		
+		r8 b'\fE b a16 g c4 r
+		r8 c c b16 a g4 r
+		r8 e' e d16 cis d4 r
+		r8 d d c16 h c4 r
+		r8 fis fis4 g8 g, g g %5
+		r g g g fis g4 fis8
+		g4 r r8 b b b
+		b4 r8 d d d d d \bar "S-S"
+		c16 b a8 g4 a r
+		r8 d d16 c d8 c4 r %10
+		r8 c c16 b c8 b4 r8 b
+		d d d d c16 b a8 g4
+		a r r2
+		r8 a a g16 fis g4 r8 e'
+		e? r d r d r r r16 cis %15
+		d4 r r8 d d h16 d
+		es4 r r8 b a a
+		d,4 g d d8. c16
+		c4 r8 a' a r g r
+		g r r r16 fis g8 g g g %20
+		r g g g fis g4 fis8
+		g4\fermata r r8 d' d d
+		c a b c f,2~
+		f r
+		r8 es' es es d h c d %25
+		\once \tieDashed g,2~ g4 g
+		g r8 as g4 g
+		g8 c c4 r8 c f,8. f16
+		f4 r8 f f4 a8 d,
+		d4 r8 d' d d d d \bar "S-S" %30 finis
 	}
 }

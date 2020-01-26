@@ -47,7 +47,7 @@
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "Das erſchrockene" "Schäflein" "(Canto 1)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Der Evangeliſte" \vspace #.5 "Das erſchrockene" "Schäflein" "(Canto I)" } }
 					\new Voice = "Tenore" { \dynamicUp \KaumGehtDerTenoreNotes }
 				}
 				\new Lyrics \lyricsto Tenore \KaumGehtDerTenoreLyrics
@@ -92,7 +92,7 @@
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene" "Schäflein" "(Canto 1)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das erſchrockene" "Schäflein" "(Canto I)" } }
 					\new Voice = "Soprano" { \dynamicUp \AchErhoereDochSopranoNotes }
 				}
 				\new Lyrics \lyricsto Soprano \AchErhoereDochSopranoLyrics
@@ -448,7 +448,7 @@
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto II)" } }
 					\new Voice = "Alto" { \dynamicUp \KommHerUndAltoNotes }
 				}
 				\new Lyrics \lyricsto Alto \KommHerUndAltoLyrics
@@ -482,7 +482,7 @@
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto 2)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto II)" } }
 					\new Voice = "Alto" { \dynamicUp \DiesenHonigsuessenAltoNotes }
 				}
 				\new Lyrics \lyricsto Alto \DiesenHonigsuessenAltoLyrics
@@ -786,7 +786,7 @@
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das wehmüthige" "Schäflein" "(Canto 2)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das wehmüthige" "Schäflein" "(Canto II)" } }
 					\new Voice = "Soprano" { \dynamicUp \IstsNichtGenugSopranoNotes }
 				}
 				\new Lyrics \lyricsto Soprano \IstsNichtGenugSopranoLyrics
@@ -830,7 +830,7 @@
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das wehmüthige" "Schäflein" "(Canto 2)" } }
+					\set Staff.instrumentName = \markup { \center-column { "Das wehmüthige" "Schäflein" "(Canto II)" } }
 					\new Voice = "Soprano" { \dynamicUp \WennMichNachSopranoNotes }
 				}
 				\new Lyrics \lyricsto Soprano \WennMichNachSopranoLyrics

@@ -1312,6 +1312,43 @@ IhrHimmelKlagtViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \tempoIhrHimmelKlagt
+		g'8\fE g, r4 r8 g''32( es f g) es([ c d es)] c( a b c)
+		fis,4 r r8 b'32( g a b) g([ e f g)] e( cis d e)
+		a,4 r r8 a'32( f g a) f([ d e f)] d( h c d)
+		g,4 r r8 g'32( es f g) es([ c d es)] c( a b c)
+		fis,8 c'' c b16 a b4 r %5
+		e, r d8 c16 b a8. g16
+		g4 r r8 b'32( g as b) g([ es f g)] es( g, as b)
+		f4 r8 b' a d4 d8 \bar "S-S"
+		g, fis g4 fis8 a32([ fis g a)] fis([ d e fis)] d( a h c)
+		h4 r8 h, c g''32([ e f g)] e([ c d e)] \once \slurDashed c( g a b) %10
+		a4 r8 a, b4 r8 b''
+		a d4 d8 g, fis g4
+		fis4 d,2.~
+		d2 g,8 b''32([ g a b)] g([ e f g)] e( cis d e)
+		a,2 a, %15
+		d8 a''32([ f g a)] f([ d e f)] d( h c d) g,4 g,
+		c8 g''32([ es f g)] es([ c d es)] c( a b c) fis,4 a'
+		g8 fis g4 fis f
+		es!8 g32([ es f g)] es([ c d es)] c( a b c) fis,8 r g r
+		d r r r16 d g,4 r %20
+		e'' r d8 c16 b a8. g16
+		g4\fermata r r8 b' b b
+		a4 r8 a, b f'32([ d es f)] d([ b c d)] f,16 b'~
+		b4 a r2
+		r8 c c c h4 r8 h, %25
+		c8 g'32([ es f g)] es([ c d es)] g,16 c' c4 h
+		c8 f, es d es4 d
+		c8 g'32([ es f g)] es([ c d es)] c( a b c) f,4 r8 f
+		b,8 f''32([ d es f)] d([ b c d)] f,16 b' b8 a a4~
+		a8 d, g b a d4 d8 \bar "S-S" %30 finis
+	}
+}
+
+JedochWasRegenViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoJedochWasRegen
 		
 	}
 }

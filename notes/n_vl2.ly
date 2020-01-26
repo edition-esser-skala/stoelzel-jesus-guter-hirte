@@ -886,6 +886,43 @@ IhrHimmelKlagtViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \tempoIhrHimmelKlagt
+		g'8\fE g, r4 r8 g''32( es f g) es([ c d es)] c( a b c)
+		fis,4 r r8 b'32( g a b) g([ e f g)] e( cis d e)
+		a,4 r r8 a'32( f g a) f([ d e f)] d( h c d)
+		g,4 r r8 g'32( es f g) es([ c d es)] c( a b c)
+		fis,8 a' a g16 fis g4 r %5
+		g, r d d
+		d r r8 es' es es
+		es( d) g g fis16 g e fis g8 f \bar "S-S"
+		es d c16( b) a( g) d'4 r
+		r8 f f16 e f8 e4 r %10
+		r8 es es16 d es8 d8 d g g
+		fis16 g e fis g8 f es d c16( b) a( g)
+		d'4 d,2.~
+		d2 g,8 b''32([ g a b)] g([ e f g)] e( cis d e)
+		a,2 a, %15
+		d8 a''32([ f g a)] f([ d e f)] d( h c d) g,4 g,
+		c8 g''32([ es f g)] es([ c d es)] c( a b c) fis,4 a'
+		g8 fis g4 fis f
+		es!8 g32([ es f g)] es([ c d es)] c( a b c) fis,8 r g r
+		d r r r16 b g4 r %20
+		g' r d d
+		d\fermata r r8 f' f f
+		f c d es d f32([ d es f)] d([ b c d)] f,16 d'
+		c4 f, r2
+		r8 g' g g g d es f %25
+		es8 g32([ es f g)] es([ c d es)] g,16 c' c4 h
+		c4 c,2 h4
+		c8 g'32([ es f g)] es([ c d es)] c( a b c) f,8 es' d c
+		d f32([ d es f)] d([ b c d)] f,16 d' c8 es d c
+		b d g g fis16 g e fis g8 f \bar "S-S" %30 finis
+	}
+}
+
+JedochWasRegenViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \lydian \time 4/4 \tempoJedochWasRegen
 		
 	}
 }
