@@ -946,3 +946,11 @@ JedochWasRegenViolinoII = {
 		R1\fermataMarkup \bar "|." %25 finis
 	}
 }
+
+DerAbendBrachViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \mixolydian \time 4/4 \tempoDerAbendBrach
+		
+	}
+}

@@ -4643,6 +4643,18 @@ DruecketEuchBassFigures = \figuremode {
 	<_+> <6 5> <4>2 <_+> r1 %8 finis
 }
 
+DerAbendBrachOrgano = {
+	\relative c {
+		\clef bass
+		\key c \mixolydian \time 4/4 \tempoDerAbendBrach
+		
+	}
+}
+
+DerAbendBrachBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

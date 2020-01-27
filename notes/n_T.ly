@@ -1789,6 +1789,18 @@ DruecketEuchTenoreLyrics = \lyricmode {
 	al -- les, was Ver -- gnü -- gung heißt. %8 finis
 }
 
+DerAbendBrachTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \mixolydian \time 4/4 \autoBeamOff \tempoDerAbendBrach
+		
+	}
+}
+
+DerAbendBrachTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

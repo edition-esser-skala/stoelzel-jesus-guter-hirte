@@ -731,48 +731,92 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.18" "C H O R A L" "Drücket euch an meine Lippen"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \DruecketEuchSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DruecketEuchSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DruecketEuchAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DruecketEuchAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \DruecketEuchTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DruecketEuchTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \DruecketEuchBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DruecketEuchBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DruecketEuchOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DruecketEuchBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.18" "C H O R A L" "Drücket euch an meine Lippen"
+			movement = \movementTitle "4.19" "R E C I T A T I V O" "Der Abend brach nun an"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
+		}
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new StaffGroup <<
+					\new GrandStaff \with { \violinGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\DerAbendBrachViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\DerAbendBrachViolinoII
+						}
+					>>
 					\new Staff {
-						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \DruecketEuchSopranoNotes }
+						\set Staff.instrumentName = "Viola"
+						\DerAbendBrachViola
 					}
-					\new Lyrics \lyricsto Soprano \DruecketEuchSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DruecketEuchAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \DruecketEuchAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \DruecketEuchTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \DruecketEuchTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \DruecketEuchBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \DruecketEuchBassoLyrics
 				>>
+				\new Staff {
+					\set Staff.instrumentName = "Der Evangeliſte"
+					\new Voice = "Tenore" { \dynamicUp \DerAbendBrachTenoreNotes }
+				}
+				\new Lyrics \lyricsto Tenore \DerAbendBrachTenoreLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DruecketEuchOrgano
+						\DerAbendBrachOrgano
 					}
 				>>
-				\new FiguredBass { \DruecketEuchBassFigures }
+				\new FiguredBass { \DerAbendBrachBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

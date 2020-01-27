@@ -1431,6 +1431,14 @@ AusDerNaturViolinoI = {
 	}
 }
 
+DerAbendBrachViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \mixolydian \time 4/4 \tempoDerAbendBrach
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
