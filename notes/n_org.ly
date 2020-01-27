@@ -4616,6 +4616,19 @@ FlieheNichtBassFigures = \figuremode {
 	r2 <6 4>8 <5 3> r4 %25 finis
 }
 
+DruecketEuchOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 5/1 \tempoDruecketEuch
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DruecketEuchBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

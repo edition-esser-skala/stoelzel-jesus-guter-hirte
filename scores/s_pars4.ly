@@ -703,32 +703,76 @@
 % 			\midi { \tempo 2 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.17" "A R I O S O" "Erſchrecktes Schäflein, fliehe nicht!"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #23
+% 			system-system-spacing.minimum-distance = #23
+% 			systems-per-page = #5
+% 		}
+% 		\score {
+% 			<<
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto II)" } }
+% 					\new Voice = "Alto" { \dynamicUp \FlieheNichtAltoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Alto \FlieheNichtAltoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\FlieheNichtOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \FlieheNichtBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.17" "A R I O S O" "Erſchrecktes Schäflein, fliehe nicht!"
+			movement = \movementTitle "4.18" "C H O R A L" "Drücket euch an meine Lippen"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #23
-			system-system-spacing.minimum-distance = #23
-			systems-per-page = #5
-		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto II)" } }
-					\new Voice = "Alto" { \dynamicUp \FlieheNichtAltoNotes }
-				}
-				\new Lyrics \lyricsto Alto \FlieheNichtAltoLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \DruecketEuchSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \DruecketEuchSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \DruecketEuchAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \DruecketEuchAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \DruecketEuchTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \DruecketEuchTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \DruecketEuchBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \DruecketEuchBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\FlieheNichtOrgano
+						\DruecketEuchOrgano
 					}
 				>>
-				\new FiguredBass { \FlieheNichtBassFigures }
+				\new FiguredBass { \DruecketEuchBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

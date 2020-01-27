@@ -1269,6 +1269,19 @@ FlieheNichtAltoLyrics = \lyricmode {
 	du zu -- vor em -- pfun -- den. %25 finis
 }
 
+DruecketEuchAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 5/1 \autoBeamOff \tempoDruecketEuch
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DruecketEuchAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

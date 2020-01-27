@@ -1168,6 +1168,19 @@ AusDerNaturBassoLyrics = \lyricmode {
 	hat. %55 finis
 }
 
+DruecketEuchBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 5/1 \autoBeamOff \tempoDruecketEuch
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DruecketEuchBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

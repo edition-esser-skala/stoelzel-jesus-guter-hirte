@@ -410,6 +410,7 @@ tempoJedochWasRegen = \tempoMarkup "Accompagnato"
 	tempoJedochWasRegenC = \tempoMarkup "Arioſo"
 tempoAusDerNatur = \tempoMarkup "Aria"
 tempoFlieheNicht = \tempoMarkup "[Arioſo]"
+tempoDruecketEuch = \tempoMarkup "Choral"
 
 
 

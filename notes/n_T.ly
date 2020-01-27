@@ -1762,6 +1762,19 @@ IhrHimmelKlagtTenoreLyrics = \lyricmode {
 	klagt, ihr Wol -- cken, gie -- ßet %30 finis
 }
 
+DruecketEuchTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \time 5/1 \autoBeamOff \tempoDruecketEuch
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DruecketEuchTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -1377,6 +1377,19 @@ JedochWasRegenSopranoLyrics = \lyricmode {
 	tra -- gen. %25 finis
 }
 
+DruecketEuchSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 5/1 \autoBeamOff \tempoDruecketEuch
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DruecketEuchSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
