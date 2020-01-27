@@ -1382,12 +1382,26 @@ DruecketEuchSopranoNotes = {
 		\clef treble
 		\key g \dorian \time 5/1 \autoBeamOff \tempoDruecketEuch
 			\set Staff.timeSignatureFraction = 4/4
-		
+		d'2 g, es' d c b a1 g\fermata
+		\time 4/1 b2 b a g fis g a1\fermata
+		\time 5/1 d2 g, es' d c b a1 g\fermata
+		\time 4/1 b2 b a g fis g a1\fermata
+		\time 5/1 a2 b c f, b a g1 f\fermata %5
+		\time 4/1 b2 c d es c2. b4 b1\fermata
+		\time 5/1 d2 g, es' es d c h1 c\fermata
+		\time 4/1 a2 b c b a2. g4 g1\fermata \bar "|." %8 finis
 	}
 }
 
 DruecketEuchSopranoLyrics = \lyricmode {
-	
+	Drü -- cket euch an mei -- ne Lip -- pen,
+	o, ihr wer -- then Wun -- den ihr!
+	Ro -- ſen -- ro -- the Pur -- pur Klip -- pen,
+	oeff -- net eu -- re Höh -- len mir.
+	Thaut mir Gna -- de, Heyl und Le -- ben, %5
+	hert -- zet euch mit mei -- nem Geiſt.
+	Eu -- re Fül -- le kan mir ge -- ben
+	al -- les, was Ver -- gnü -- gung heißt. %8 finis
 }
 
 % SopranoNotes = {

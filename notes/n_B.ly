@@ -1173,12 +1173,26 @@ DruecketEuchBassoNotes = {
 		\clef bass
 		\key g \dorian \time 5/1 \autoBeamOff \tempoDruecketEuch
 			\set Staff.timeSignatureFraction = 4/4
-		
+		g2 b c d e!4( fis) g2 d1 g,\fermata
+		\time 4/1 g2 g' c,4( d) es2 d g, d'1\fermata
+		\time 5/1 g,2 b c d e!4( fis) g2 d1 g,\fermata
+		\time 4/1 g2 g' c,4( d) es2 d g, d'1\fermata
+		\time 5/1 f!2 d a d g, a4( b) c1 f,\fermata %5
+		\time 4/1 d'2 a b es f f, b1\fermata
+		\time 5/1 g2 g' c, es f4( g) as2 g( g,) c1\fermata
+		\time 4/1 d2 g fis g d d, g1\fermata \bar "|." %8 finis
 	}
 }
 
 DruecketEuchBassoLyrics = \lyricmode {
-	
+	Drü -- cket euch an mei -- ne Lip -- pen,
+	o, ihr wer -- then Wun -- den ihr!
+	Ro -- ſen -- ro -- the Pur -- pur Klip -- pen,
+	oeff -- net eu -- re Höh -- len mir.
+	Thaut mir Gna -- de, Heyl und __ Le -- ben, %5
+	hert -- zet euch mit mei -- nem Geiſt.
+	Eu -- re Fül -- le kan __ mir ge -- ben
+	al -- les, was Ver -- gnü -- gung heißt. %8 finis
 }
 
 % BassoNotes = {

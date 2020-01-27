@@ -1274,12 +1274,26 @@ DruecketEuchAltoNotes = {
 		\clef treble
 		\key g \dorian \time 5/1 \autoBeamOff \tempoDruecketEuch
 			\set Staff.timeSignatureFraction = 4/4
-		
+		g'2 g g4( c) a2 g g g( fis) g1\fermata
+		\time 4/1 g2 g es es d2. g4 fis1\fermata
+		\time 5/1 g2 g g4( c) a2 g g g( fis) g1\fermata
+		\time 4/1 g2 g es es d2. g4 fis1\fermata
+		\time 5/1 f2 f f f g f f( e) f1\fermata %5
+		\time 4/1 f2 f4( c') b2 b b a b1\fermata
+		\time 5/1 b2 b c c4( b) as2 as d,( g) g1\fermata
+		\time 4/1 fis2 g a g g fis g1\fermata \bar "|." %8 finis
 	}
 }
 
 DruecketEuchAltoLyrics = \lyricmode {
-	
+	Drü -- cket euch an mei -- ne Lip -- pen,
+	o, ihr wer -- then Wun -- den ihr!
+	Ro -- ſen -- ro -- the Pur -- pur Klip -- pen,
+	oeff -- net eu -- re Höh -- len mir.
+	Thaut mir Gna -- de, Heyl und Le -- ben, %5
+	hert -- zet __ euch mit mei -- nem Geiſt.
+	Eu -- re Fül -- le __ kan mir ge -- ben
+	al -- les, was Ver -- gnü -- gung heißt. %8 finis
 }
 
 % AltoNotes = {

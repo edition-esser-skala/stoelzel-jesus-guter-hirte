@@ -1767,12 +1767,26 @@ DruecketEuchTenoreNotes = {
 		\clef "treble_8"
 		\key g \dorian \time 5/1 \autoBeamOff \tempoDruecketEuch
 			\set Staff.timeSignatureFraction = 4/4
-		
+		b2 b g fis g d' d1 b\fermata
+		\time 4/1 d2 d c b a b d1\fermata
+		\time 5/1 b2 b g fis g d' d1 b\fermata
+		\time 4/1 d2 d c b a b d1\fermata
+		\time 5/1 c2 b a a4( d) d2 c c1 a\fermata %5
+		\time 4/1 b2 f' f g f f d1\fermata
+		\time 5/1 g2 g g g f es4( f) g2( d) es1\fermata
+		\time 4/1 d2 d d d d2. d4 b1\fermata \bar "|." %8 finis
 	}
 }
 
 DruecketEuchTenoreLyrics = \lyricmode {
-	
+	Drü -- cket euch an mei -- ne Lip -- pen,
+	o, ihr wer -- then Wun -- den ihr!
+	Ro -- ſen -- ro -- the Pur -- pur Klip -- pen,
+	oeff -- net eu -- re Höh -- len mir.
+	Thaut mir Gna -- de, __ Heyl und Le -- ben, %5
+	hert -- zet euch mit mei -- nem Geiſt.
+	Eu -- re Fül -- le kan mir __ ge -- ben
+	al -- les, was Ver -- gnü -- gung heißt. %8 finis
 }
 
 % TenoreNotes = {

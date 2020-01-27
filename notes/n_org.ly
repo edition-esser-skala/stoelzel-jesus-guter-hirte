@@ -4621,12 +4621,26 @@ DruecketEuchOrgano = {
 		\clef bass
 		\key g \dorian \time 5/1 \tempoDruecketEuch
 			\set Staff.timeSignatureFraction = 4/4
-		
+		g2 b c d e!4( fis) g2 d1 g,\fermata
+		\time 4/1 g2 g' c,4( d) es2 d g, d'1\fermata
+		\time 5/1 g,2 b c d e!4( fis) g2 d1 g,\fermata
+		\time 4/1 g2 g' c,4( d) es2 d g, d'1\fermata
+		\time 5/1 f!2 d a d g, a4( b) c1 f,\fermata %5
+		\time 4/1 d'2 a b es f f, b1\fermata
+		\time 5/1 g2 g' c, es f4( g) as2 g( g,) c1\fermata
+		\time 4/1 d2 g fis g d d, g1\fermata \bar "|." %8 finis
 	}
 }
 
 DruecketEuchBassFigures = \figuremode {
-	
+	r2 <6> <_-> <_+> <6>4 <\t> r2 <4> <_+> r1
+	r <6 _->4 <\t \t> <6>2 <_+>1 q
+	r2 <6> <_-> <_+> <6>4 <\t> r2 <4> <_+> r1
+	r <6 _->4 <\t \t> <6>2 <_+>1 q
+	r2 <6> q r r <6>4 <\t> <4>2 <_!> r1 %5
+	<6>2 q r1 <4>2 <3> r1
+	r <_->2 <6> <6 _->4 <\t \t> <6>2 <_!>1 <_->
+	<_+> <6 5> <4>2 <_+> r1 %8 finis
 }
 
 % Organo = {
