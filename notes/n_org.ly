@@ -4560,12 +4560,60 @@ FlieheNichtOrgano = {
 	\relative c {
 		\clef bass
 		\key g \dorian \time 4/4 \tempoFlieheNicht
-		
+		r8 d' c16( b) a( g) fis8 d es c
+		d c b g d' es d c
+		b c d b es d16 c d8 d,
+		g16 g' f es d c b a g2
+		e!1 %5
+		f8 f f f f f f f
+		f f f f g g g g
+		a a a a b b b b
+		c c c c d d d d
+		es es es es c c c c %10
+		d d d d es d c f,
+		b16 b b b d d f f b8 b, r4
+		g16 g' g g c, e! e e f, f' f f b, d d d
+		es, es' es es a, c c c d, d' d d b b' b b
+		fis8 d' c16( b) a( g) fis8 d es c %15
+		d b fis g d' d'16 c b( a) g( f)
+		e!8 f b, g c b a f
+		c' d c b a4 d
+		c c, f8 f' d b
+		es, es' d b es as b b, %20
+		es es es es e e e e
+		e e e e f f f f
+		f f f f f f f f
+		f, f g a b c d b
+		es2 f4 b,\fermata \bar "|." %25 finis
 	}
 }
 
 FlieheNichtBassFigures = \figuremode {
-	
+	r8 <_+> <5 2> <\t \t> <6> <_+> <6> <6 _->16 <5 \t>
+	<_+>8 <\t> <6>4 <_+>8 <6> <6 4> <4+ 2>
+	<6> <6 _-> <_+> <6> r4 <6 4>8 <5 _+>
+	r4 <_+> r2
+	<6 5>1 %5
+	<5 3>2 <6 4>
+	<5 3> <6->
+	<6 5-> <4->8 <3>4.
+	<6 _->2 <6 5->
+	<4->8 <3>4. <6! _->2 %10
+	<5 _+>4. <6 4>8 <3> <6> <7 _-> <7->
+	r1
+	r4 <7> <4>8 <3> r <6>
+	r4 <5->8 <5 _-> <_+>4 <6>
+	<6>8 <_+> <5 2> <\t \t> <6> <_+> <6> <6 _->16 <5 \t> %15
+	<_+>8 <6> <6 5>4 <6 4>8 <5 _+> <6>4
+	<6 5> <6> <_!>8 <2> <6!>4
+	r8 <6> <6 4> <2> <6>4 q
+	<6 4> <5 3> r <6>
+	<5 3> <6 5->8 <7-> r <5-> <6 4-> <5 3> %20
+	r2 <6>
+	<\t> <_!>
+	<7- 3> <6 4>
+	<5 3>8 <6 4> <6-> <6 5-> r4 <6>
+	r2 <6 4>8 <5 3> r4 %25 finis
 }
 
 % Organo = {

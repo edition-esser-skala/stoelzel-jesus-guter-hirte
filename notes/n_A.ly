@@ -1213,12 +1213,60 @@ FlieheNichtAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \dorian \time 4/4 \autoBeamOff \tempoFlieheNicht
-		
+		r2 r8 d' c16([ b)] a([ g)]
+		fis8 d g b16([ a)] a8 c b a
+		g8. a16 d,8. b'16 g4 d8. b'16
+		g4 r r8 b b b
+		g4 r8 c, e! g b a %5
+		a4 r8 f d16([ f)] b8 d,16([ f)] b8
+		a4 r8 c es,4 g
+		es8. c'16 c8 es, es d r f
+		as4 c as8. f16 b,8 as'
+		as? g r g a8. b16 c8 a %10
+		fis d r b' g16([ a)] b8 es,4
+		d r r8 b d f
+		b b b b b a r b
+		g8. b16 a8 g fis r g\trill r
+		a4 r r8 d c16([ b)] a([ g)] %15
+		fis8 g c b b a r b
+		b16([ g)] a8 g([ a16)] b e,!8 d16([ c)] f8([ a16 g)]
+		g8 b a g c([ a)] f b
+		a16([ f)] e([ f)] b8 g f4 r8 b
+		g es16([ g)] f8 as g c16([ b)] as([ g)] f([ es)] %20
+		es?4 r8 g g([ e)] c4
+		g'( a!8) b a4 c8 f,
+		es4( c'8) es, d b'4 d,8
+		c d es es d4 r8 b'
+		g g a b b f r4\fermata \bar "|." %25 finis
 	}
 }
 
 FlieheNichtAltoLyrics = \lyricmode {
-	
+	Er -- ſchreck -- tes
+	Schäf -- lein, flie -- he nicht, er -- ſchreck -- tes
+	Schäf -- lein, flie -- he nicht, flie -- he
+	nicht! Zeigt die Na --
+	tur dir ihr er -- zürnt Ge -- %5
+	ſicht, ſo ſie -- he ü -- ber
+	dich nach Je -- ſu
+	zu -- ge -- ſchloß -- nen Au -- gen, nach
+	Je -- ſu zu -- ge -- ſchloß -- nen
+	Au -- gen, die wer -- den dir zum %10
+	Troſ -- te, zum Troſ -- te tau --
+	gen. Er -- bebt der
+	feſ -- te Grund der Er -- den und
+	ſprin -- gen Fel -- ſen auch ent --
+	zwey, laß dir da -- %15
+	rum nicht ban -- ge wer -- den, du
+	biſt in dei -- nes Hir -- ten Wun --
+	den vor al -- len Un -- fall, vor
+	al -- len Un -- fall frey. Da
+	ſchlie -- ße dich mit feſ -- ten Glau -- ben %20
+	ein und ru -- he
+	nach __ der Pein, ru -- he
+	nach __ der Pein, nach der
+	Pein, die du zu -- vor, die
+	du zu -- vor em -- pfun -- den. %25 finis
 }
 
 % AltoNotes = {
