@@ -1308,3 +1308,11 @@ DerAbendBrachViola = {
 		r c d r\fermata \bar "|." %20 finis
 	}
 }
+
+SoHatDichViola = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \tempoSoHatDich
+		
+	}
+}

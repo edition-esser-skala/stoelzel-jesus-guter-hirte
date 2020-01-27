@@ -1404,6 +1404,18 @@ DruecketEuchSopranoLyrics = \lyricmode {
 	al -- les, was Ver -- gnü -- gung heißt. %8 finis
 }
 
+SoHatDichSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \autoBeamOff \tempoSoHatDich
+		
+	}
+}
+
+SoHatDichSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -775,9 +775,53 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.19" "R E C I T A T I V O" "Der Abend brach nun an"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DerAbendBrachViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DerAbendBrachViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\DerAbendBrachViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = "Der Evangeliſte"
+% 					\new Voice = "Tenore" { \dynamicUp \DerAbendBrachTenoreNotes }
+% 				}
+% 				\new Lyrics \lyricsto Tenore \DerAbendBrachTenoreLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DerAbendBrachOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DerAbendBrachBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.19" "R E C I T A T I V O" "Der Abend brach nun an"
+			movement = \movementTitle "4.20" "R E C I T A T I V O" "So hat dich denn der Liebe Macht"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #35
@@ -790,30 +834,30 @@
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DerAbendBrachViolinoI
+							\SoHatDichViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DerAbendBrachViolinoII
+							\SoHatDichViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\DerAbendBrachViola
+						\SoHatDichViola
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = "Der Evangeliſte"
-					\new Voice = "Tenore" { \dynamicUp \DerAbendBrachTenoreNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das getröſtete" "Schäflein" "(Canto I)" } }
+					\new Voice = "Soprano" { \dynamicUp \SoHatDichSopranoNotes }
 				}
-				\new Lyrics \lyricsto Tenore \DerAbendBrachTenoreLyrics
+				\new Lyrics \lyricsto Soprano \SoHatDichSopranoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DerAbendBrachOrgano
+						\SoHatDichOrgano
 					}
 				>>
-				\new FiguredBass { \DerAbendBrachBassFigures }
+				\new FiguredBass { \SoHatDichBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 4 = 60 }

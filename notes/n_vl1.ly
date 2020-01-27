@@ -1447,6 +1447,14 @@ DerAbendBrachViolinoI = {
 	}
 }
 
+SoHatDichViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \tempoSoHatDich
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

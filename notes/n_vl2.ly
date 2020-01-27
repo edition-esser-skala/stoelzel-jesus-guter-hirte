@@ -962,3 +962,11 @@ DerAbendBrachViolinoII = {
 		r f f r\fermata \bar "|." %20 finis
 	}
 }
+
+SoHatDichViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \tempoSoHatDich
+		
+	}
+}

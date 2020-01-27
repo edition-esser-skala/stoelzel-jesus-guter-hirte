@@ -414,6 +414,7 @@ tempoFlieheNicht = \tempoMarkup "[Arioſo]"
 tempoDruecketEuch = \tempoMarkup "Choral"
 tempoDerAbendBrach = \tempoMarkup "Recitativo"
 	tempoDerAbendBrachB = \tempoMarkup "[Accompagnato]"
+tempoSoHatDich = \tempoMarkup "Recitativo"
 
 
 

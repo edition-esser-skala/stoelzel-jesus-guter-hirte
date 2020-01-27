@@ -4693,6 +4693,18 @@ DerAbendBrachBassFigures = \figuremode {
 	r
 }
 
+SoHatDichOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 4/4 \tempoSoHatDich
+		g2 a~
+	}
+}
+
+SoHatDichBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
