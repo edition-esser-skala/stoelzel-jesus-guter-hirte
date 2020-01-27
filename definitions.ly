@@ -148,6 +148,7 @@ tenutoE = \markup { \remarkE ten. }
 unisono = \markup { \remark "unisono" }
 unisonoE = \markup { \remarkE "unisono" }
 vlne = \markup { \remark "Vlne." }
+pizz = \markup { \remark "pizz." }
 
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
@@ -412,6 +413,7 @@ tempoAusDerNatur = \tempoMarkup "Aria"
 tempoFlieheNicht = \tempoMarkup "[Arioſo]"
 tempoDruecketEuch = \tempoMarkup "Choral"
 tempoDerAbendBrach = \tempoMarkup "Recitativo"
+	tempoDerAbendBrachB = \tempoMarkup "[Accompagnato]"
 
 
 

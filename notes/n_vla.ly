@@ -1295,8 +1295,16 @@ JedochWasRegenViola = {
 
 DerAbendBrachViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \mixolydian \time 4/4 \tempoDerAbendBrach
-		
+		R1*12 %12
+		\tempoDerAbendBrachB f4^\pizz f f f
+		f f f f
+		d d d d %15
+		d d d d
+		d d c c
+		c c c c
+		b d es? r
+		r c d r\fermata \bar "|." %20 finis
 	}
 }

@@ -1793,12 +1793,50 @@ DerAbendBrachTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \mixolydian \time 4/4 \autoBeamOff \tempoDerAbendBrach
-		
+		r4 r8 e d e f e
+		e4 r8 e e a, e' f
+		g8. g16 a8 e f4 r16 f es d
+		es8 g cis, d d a r4
+		r8 d es f f8. c16 c4 %5
+		r8 c c d es8. es16 g8 f
+		d d r16 d d es es8 c a d
+		b b r16 g' b e, f8. f16 d8 f
+		c4 r r8 f f e
+		e8. e16 e8 r16 e e8 e f g %10
+		cis,8. cis16 cis8 d d4 r16 d e f
+		g8 c, f e c4 r
+		\tempoDerAbendBrachB r8 f f g es8. es16 es8 c
+		es? g es8. d16 d8 d r4
+		r8 d d e fis8. fis16 fis8 g %15
+		g4 r r8 d d e
+		f f a16([ f)] f8 f16([ e)] e8 r4
+		r8 c c d es es g16([ es)] es8
+		es?16([ d)] d8 r f g g c, d
+		b4 r r2\fermata \bar "|." %20 finis
 	}
 }
 
 DerAbendBrachTenoreLyrics = \lyricmode {
-	
+	Der A -- bend brach nun
+	an, als Jo -- ſeph, der dem
+	HEr -- ren zu -- ge -- than, um den er --
+	blaß -- ten Leich -- nam ba -- te.
+	Pi -- la -- tus wun -- derns -- voll, %5
+	daß er be -- reits ver -- ſtor -- ben
+	wä -- re, gab die -- ſer Bit -- te gern Ge --
+	hö -- re. Und al -- ſo nahm er Ihn vom
+	Kreutz. Auch Ni -- co --
+	de -- mus kam, der vor -- mahls in der %10
+	Nacht bey Je -- ſu war, und brach -- te
+	Spe -- ce -- rey -- en dar.
+	Mit die -- ſen bun -- den ſie des
+	HErrn ent -- ſeel -- te Glie -- der
+	in rei -- ne Lei -- chen Tü -- cher %15
+	ein, ver -- deck -- ten
+	drauf des Gra -- bes Höh -- le,
+	ver -- deck -- ten drauf des Gra -- bes
+	Höh -- le mit ei -- nen gro -- ßen
+	Stein. %20 finis
 }
 
 % TenoreNotes = {

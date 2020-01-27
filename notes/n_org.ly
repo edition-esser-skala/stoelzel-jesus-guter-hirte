@@ -4647,12 +4647,50 @@ DerAbendBrachOrgano = {
 	\relative c {
 		\clef bass
 		\key c \mixolydian \time 4/4 \tempoDerAbendBrach
-		
+		c1~
+		c2 cis~
+		cis d
+		g, a4 d
+		b!2 a~ %5
+		a1
+		fis
+		g2 a4 b
+		c f, d'2~
+		d1~ %10
+		d
+		e4 f g c,
+		\tempoDerAbendBrachB a^\pizz a a a
+		f f b b
+		fis fis d d %15
+		h' h g g
+		g g c c
+		a a a a
+		b! b es r
+		r f b, r\fermata \bar "|." %20 finis
 	}
 }
 
 DerAbendBrachBassFigures = \figuremode {
-	
+	<8 3>2 <7! 4 2>
+	<8 3> <6>
+	<5> r2
+	<6->4 <6! 4+ 2> <6 4>8 <5 _+> r4
+	r2 <6 _!> %5
+	r <5->
+	<6>1
+	<5>4 <6!> <6>2
+	r1
+	<6 4 2> %10
+	<7+ \t \t>2 <8 3>
+	<6!> <6 4>8 <5 _!>4.
+	<6>2 <6 5->
+	<7->1
+	<6>2 <_+> %15
+	<6> <_!>
+	<7 _!>1
+	<6>2 <5->
+	r1
+	r
 }
 
 % Organo = {

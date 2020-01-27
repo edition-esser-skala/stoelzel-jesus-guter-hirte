@@ -951,6 +951,14 @@ DerAbendBrachViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \mixolydian \time 4/4 \tempoDerAbendBrach
-		
+		R1*12 %12
+		\tempoDerAbendBrachB c'4^\pizz c c c
+		a' a b b,
+		a a a a %15
+		g g g g
+		g g g g
+		f f f f
+		f f g r
+		r f f r\fermata \bar "|." %20 finis
 	}
 }
