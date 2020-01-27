@@ -1209,6 +1209,18 @@ IhrHimmelKlagtAltoIILyrics = \lyricmode {
 	klagt, ihr Wol -- cken, gie -- ßet %30 finis
 }
 
+FlieheNichtAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 4/4 \autoBeamOff \tempoFlieheNicht
+		
+	}
+}
+
+FlieheNichtAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

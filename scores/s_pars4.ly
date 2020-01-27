@@ -669,38 +669,66 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.16" "A R I A" "Aus der Natur erzürntem Blicke"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #30
+% 			system-system-spacing.minimum-distance = #30
+% 			systems-per-page = #3
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Violini" "ed Oboi" "uniſoni" } }
+% 						\AusDerNaturViolinoI
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
+% 					\new Voice = "Basso" { \dynamicUp \AusDerNaturBassoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Basso \AusDerNaturBassoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\AusDerNaturOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \AusDerNaturBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.16" "A R I A" "Aus der Natur erzürntem Blicke"
+			movement = \movementTitle "4.17" "A R I O S O" "Erſchrecktes Schäflein, fliehe nicht"
 		}
 		\paper {
-			system-system-spacing.basic-distance = #30
-			system-system-spacing.minimum-distance = #30
-			systems-per-page = #3
+			system-system-spacing.basic-distance = #35
+			system-system-spacing.minimum-distance = #35
+			systems-per-page = #2
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Violini" "ed Oboi" "uniſoni" } }
-						\AusDerNaturViolinoI
-					}
-				>>
 				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das Geſetze" "(Basſo)" } }
-					\new Voice = "Basso" { \dynamicUp \AusDerNaturBassoNotes }
+					\set Staff.instrumentName = \markup { \center-column { "Das Evangelium" "(Alto II)" } }
+					\new Voice = "Alto" { \dynamicUp \FlieheNichtAltoNotes }
 				}
-				\new Lyrics \lyricsto Basso \AusDerNaturBassoLyrics
+				\new Lyrics \lyricsto Alto \FlieheNichtAltoLyrics
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\AusDerNaturOrgano
+						\FlieheNichtOrgano
 					}
 				>>
-				\new FiguredBass { \AusDerNaturBassFigures }
+				\new FiguredBass { \FlieheNichtBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 100 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

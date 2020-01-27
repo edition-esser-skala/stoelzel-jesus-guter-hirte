@@ -4556,6 +4556,18 @@ AusDerNaturBassFigures = \figuremode {
 	r2 r4 r8 %55 finis
 }
 
+FlieheNichtOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 4/4 \tempoFlieheNicht
+		
+	}
+}
+
+FlieheNichtBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
