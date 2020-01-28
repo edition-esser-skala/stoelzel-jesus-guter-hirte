@@ -415,6 +415,9 @@ tempoDruecketEuch = \tempoMarkup "Choral"
 tempoDerAbendBrach = \tempoMarkup "Recitativo"
 	tempoDerAbendBrachB = \tempoMarkup "[Accompagnato]"
 tempoSoHatDich = \tempoMarkup "Recitativo"
+	tempoSoHatDichB = \tempoMarkup "[Accompagnato]"
+	tempoSoHatDichC = \tempoMarkup "[Recitativo]"
+	tempoSoHatDichD = \tempoMarkup "Arioſo"
 
 
 

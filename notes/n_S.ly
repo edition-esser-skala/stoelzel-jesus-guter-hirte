@@ -1408,12 +1408,54 @@ SoHatDichSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \dorian \time 4/4 \autoBeamOff \tempoSoHatDich
-		
+		r8 d' b g fis'8. fis16 g8 a
+		a([ c,)] r16 c c d es8 es es d
+		d d r d g4 r8 es
+		c4 r8 es fis, g c b
+		\tempoSoHatDichB g4 r r8 g' g e %5
+		cis4 r8 cis cis d e f
+		d d r d f8. f16 d e f e
+		e8 e r4 r8 e e g
+		e8. g16 b8 as f f r4
+		r8 f es d es4 r8 es %10
+		des c h a16([ g)] r4 es'8 c
+		c4 g r8 es' es c
+		\tempoSoHatDichC a!4 r8 f' f c c d
+		b b r16 b d f as8 as as g
+		g g r g g d d es %15
+		f4 r8 f as as as g
+		\tempoSoHatDichD es es r es es8. b!16 b8 c
+		des f des8. c16 c([ b)] c8 r c
+		c b des c as4 r8 f'
+		f c es([ d!16)] es d4 r16 d c b %20
+		es8 es r4 c8. c16 d8 es
+		b4 r r2\fermata \bar "|." %22 finis
 	}
 }
 
 SoHatDichSopranoLyrics = \lyricmode {
-	
+	So hat dich denn der Lie -- be
+	Macht, o Hirt und Bi -- ſchoff mei -- ner
+	See -- le, ans Kreutz zum
+	Todt, ja biß ins Grab ge --
+	bracht. Ach, daß ich %5
+	doch mit tau -- ſend Zun -- gen
+	red -- te! zu prei -- ſen, was du mir er --
+	wie -- ſen. Ach, daß ich
+	doch gnug Wa -- ßers hät -- te,
+	in ei -- ner See von %10
+	Lie -- bes Thrä -- nen zu zer --
+	flie -- ßen. Doch weil ich
+	weiß, daß ich für dei -- ne
+	Lie -- be dir kei -- nen grö -- ßern Danck kan
+	ge -- ben, als wenn ich mich be -- %15
+	fleiß, zu Eh -- ren dir zu
+	le -- ben. So ſol -- len jetzt aus
+	danck -- be -- ſeel -- ten Trie -- be auf
+	dei -- nem Lei -- chen Stein, auf
+	dei -- nem Lei -- chen Stein dir mei -- ne %20
+	Sin -- nen auf -- ge -- opf -- fert
+	ſeyn. %22 finis
 }
 
 % SopranoNotes = {

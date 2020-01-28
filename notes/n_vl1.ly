@@ -1451,7 +1451,17 @@ SoHatDichViolinoI = {
 	\relative c' {
 		\clef treble
 		\key g \dorian \time 4/4 \tempoSoHatDich
-		
+		R1*4
+		\tempoSoHatDichB r8 g'' g g b2 %5
+		a1
+		r8 a a a a4 h
+		r8 c! c c e,2~
+		e r8 f f f
+		f f f f es es es es %10
+		des c g' g g4 r
+		c,8 c h h c4 r
+		\tempoSoHatDichC R1*9 %21
+		R1\fermataMarkup \bar "|." %22 finis
 	}
 }
 

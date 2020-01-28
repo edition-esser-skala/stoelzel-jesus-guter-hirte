@@ -4698,11 +4698,53 @@ SoHatDichOrgano = {
 		\clef bass
 		\key g \dorian \time 4/4 \tempoSoHatDich
 		g2 a~
+		a fis~
+		fis f
+		es d
+		\tempoSoHatDichB r8 b' b b g2~ %5
+		g1
+		r8 f f f d2
+		r8 c! c c b'!2~
+		b r8 as as as
+		g g g g fis fis fis fis %10
+		f f f f es4 r
+		g8 g g g c2
+		\tempoSoHatDichC es1
+		d
+		h~ %15
+		h
+		\tempoSoHatDichD c8 c' c, c' g, g' g, g'
+		g, g' g, g' as, as' as, as'
+		e,! e'! e, e' f, f' f, f'
+		a,! a'! a, a' b, b' b, b' %20
+		g, g' g, g' as,2
+		b es,\fermata \bar "|." %22 finis
 	}
 }
 
 SoHatDichBassFigures = \figuremode {
-	
+	r2 <6\\>
+	r <7->
+	<6> <4! 2>
+	<6> <_+>
+	r8 <6>4. <5>4 <6!> %5
+	<4+ 2>1
+	r8 <6>4. <5>4 <6!>
+	r2 <2>
+	r r8 <6>4.
+	<7 _!>2 <7- _!> %10
+	<6- _->8 <5 \t> <4! 2>4 <6>2
+	<6- 4>4 <5 _!> <_->2
+	<4! 2>1
+	<6>2 <5->
+	<6>1 %15
+	<7->
+	<_->2 <6->
+	<6 5-> <5->
+	<6> <_->
+	<6>4 <5->2. %20
+	<6->2 <5->
+	<6 4->4 <5 3>2. %22 finis
 }
 
 % Organo = {

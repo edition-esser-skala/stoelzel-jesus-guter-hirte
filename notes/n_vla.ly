@@ -1311,8 +1311,18 @@ DerAbendBrachViola = {
 
 SoHatDichViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \dorian \time 4/4 \tempoSoHatDich
-		
+		R1*4
+		\tempoSoHatDichB r8 g' g g d'2 %5
+		cis1
+		r8 a a a a4 f
+		r8 g g g g2~
+		g r8 f f f
+		g g g g c, a'! a a %10
+		f f16 es d8 d c4 r
+		es8 es d d es4 r
+		\tempoSoHatDichC R1*9 %21
+		R1\fermataMarkup \bar "|." %22 finis
 	}
 }

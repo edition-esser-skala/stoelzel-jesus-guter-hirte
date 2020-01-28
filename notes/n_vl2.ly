@@ -967,6 +967,16 @@ SoHatDichViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \dorian \time 4/4 \tempoSoHatDich
-		
+		R1*4
+		\tempoSoHatDichB r8 d' d d g2 %5
+		e1
+		r8 d d d f2
+		r8 e e e c2~
+		c r8 c c c
+		h h h h c c c c %10
+		as as g g g4 r
+		g8 g g g g4 r
+		\tempoSoHatDichC R1*9 %21
+		R1\fermataMarkup \bar "|." %22 finis
 	}
 }
