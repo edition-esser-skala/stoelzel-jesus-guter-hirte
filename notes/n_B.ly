@@ -1199,12 +1199,133 @@ NimmHirteBassoNotes = {
 	\relative c {
 		\clef bass
 		\twofourtime \key es \lydian \time 2/4 \autoBeamOff \tempoNimmHirte
-		
+		R2*3
+		r4 r8 b\pp
+		es f g es %5
+		b'4 r8 g
+		as g f b,
+		es4 r
+		R2
+		r4 r8 f %10
+		b, b' g es
+		f4 r8 f
+		b g es f
+		b,4 r
+		R2 %15
+		r4 r8 as'
+		g f es d
+		c4 r8 c
+		f g as f
+		g4 r %20
+		R2
+		r4 r8 d
+		g f! es c
+		d4 r8 d
+		g es! c d %25
+		g,4 r
+		R2
+		r4 r8 es'
+		as g as f
+		b4 r8 g %30
+		as des, es8. es16
+		as,4 r
+		R2
+		r4 r8 g'
+		c b as f %35
+		g4 r8 g
+		c as f g
+		c,4 r
+		R2
+		r4 r8 es %40
+		b' b, c d
+		es4 r8 d
+		es f g as
+		b4 r
+		R2 %45
+		r4 r8 f
+		b as g es
+		f4 r8 f
+		b g es f
+		b,4 r %50
+		R2
+		r4 r8 b
+		es f g es
+		as4 r8 f
+		g es f b, %55
+		es4 r
+		R2
+		r4 r8 b'
+		es, f g es
+		as4 r %60
+		r r8 f\f 
+		g c as b
+		es,4 r
+		R2
+		R\fermataMarkup \bar "|." %65 finis
 	}
 }
 
 NimmHirteBassoLyrics = \lyricmode {
+	Nimm, %4
+	Hir -- te, mein Ge -- %5
+	ſicht durch
+	dei -- ne Schön -- heit
+	ein,
 	
+	daß %10
+	mei -- ne Au -- gen
+	blind zum
+	Au -- gen Lüſ -- ten 
+	ſeyn!
+	%15
+	Er --
+	fül -- le mein Ge --
+	hör mit 
+	dei -- nem Angſt -- ge --
+	ſchrey, %20
+	
+	daß
+	die -- ſe Stim -- me 
+	mir ſtets
+	vor den Oh -- ren %25
+	ſey!
+	
+	Dein 
+	bitt -- rer Gal -- len
+	Tranck ver -- %30
+	bitt -- re mir die
+	Welt,
+	
+	wenn
+	et -- wa dem Ge -- %35
+	ſchmack ihr
+	So -- doms Obſt ge --
+	fällt!
+	
+	Hilff, %40
+	ed -- le Saa -- rons
+	Blum, daß
+	im -- mer mein Ge --
+	ruch
+	%45
+	an
+	dei -- ner Lieb -- lich --
+	keit ſich
+	zu er -- get -- zen
+	ſuch! %50
+	
+	Durch --
+	drin -- ge mein Ge --
+	fühl mit
+	dei -- nem gu -- ten %55
+	Geiſt
+	
+	biß
+	es zum bö -- ſen
+	Todt %60
+	zum
+	Gu -- ten le -- bend
+	heißt! %63 finis
 }
 
 % BassoNotes = {

@@ -1843,12 +1843,133 @@ NimmHirteTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\twofourtime \key es \lydian \time 2/4 \autoBeamOff \tempoNimmHirte
-		
+		R2*3
+		r4 r8 d\pp
+		es es es b %5
+		b4 r8 b
+		as b c b
+		b4 r
+		R2
+		r4 r8 f' %10
+		f es16([ d)] es8 es
+		c4 r8 f
+		f es g f
+		f4 r
+		R2 %15
+		r4 r8 c
+		g' g g f
+		es4 r8 c
+		as g c f
+		d4 r %20
+		R2
+		r4 r8 d
+		d d c c16([ b)]
+		a4 r8 a
+		g es' es d %25
+		d4 r
+		R2
+		r4 r8 b
+		as8. as16 c8 c
+		b4 r8 b %30
+		as as as g
+		as4 r
+		R2
+		r4 r8 d
+		es es c f %35
+		d4 r8 h
+		c c c h
+		c4 r
+		R2
+		r4 r8 b %40
+		b d c16([ es)] d8
+		b4 r8 b
+		es es es es
+		b4 r
+		R2 %45
+		r4 r8 f'
+		f f es es
+		c4 r8 f
+		f g g f
+		f4 r %50
+		R2
+		r4 r8 d
+		es es es es
+		es4 r8 f
+		es es es d %55
+		es4 r
+		R2
+		r4 r8 d
+		es es es es
+		es4 r %60
+		r r8 f\f
+		es es es d
+		es4 r
+		R2
+		R\fermataMarkup \bar "|." %65 finis
 	}
 }
 
 NimmHirteTenoreLyrics = \lyricmode {
+	Nimm, %4
+	Hir -- te, mein Ge -- %5
+	ſicht durch
+	dei -- ne Schön -- heit
+	ein,
 	
+	daß %10
+	mei -- ne Au -- gen
+	blind zum
+	Au -- gen Lüſ -- ten 
+	ſeyn!
+	%15
+	Er --
+	fül -- le mein Ge --
+	hör mit 
+	dei -- nem Angſt -- ge --
+	ſchrey, %20
+	
+	daß
+	die -- ſe Stim -- me 
+	mir ſtets
+	vor den Oh -- ren %25
+	ſey!
+	
+	Dein 
+	bitt -- rer Gal -- len
+	Tranck ver -- %30
+	bitt -- re mir die
+	Welt,
+	
+	wenn
+	et -- wa dem Ge -- %35
+	ſchmack ihr
+	So -- doms Obſt ge --
+	fällt!
+	
+	Hilff, %40
+	ed -- le Saa -- rons
+	Blum, daß
+	im -- mer mein Ge --
+	ruch
+	%45
+	an
+	dei -- ner Lieb -- lich --
+	keit ſich
+	zu er -- get -- zen
+	ſuch! %50
+	
+	Durch --
+	drin -- ge mein Ge --
+	fühl mit
+	dei -- nem gu -- ten %55
+	Geiſt
+	
+	biß
+	es zum bö -- ſen
+	Todt %60
+	zum
+	Gu -- ten le -- bend
+	heißt! %63 finis
 }
 
 % TenoreNotes = {

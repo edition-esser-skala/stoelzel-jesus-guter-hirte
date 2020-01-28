@@ -4751,12 +4751,140 @@ NimmHirteOrgano = {
 	\relative c {
 		\clef bass
 		\twofourtime \key es \lydian \time 2/4 \tempoNimmHirte
-		es8\fE f g es
+		es8\pp f g es
+		d es g, es
+		b' as b g
+		as g f b,
+		es f g es %5
+		b' as b g
+		as g f b,
+		es f g es
+		f g a! f
+		b g es f %10
+		b b' g es
+		f g a f
+		b g es f
+		b, b' g d
+		es d c b %15
+		as g f as
+		g f es d
+		c' d es c
+		f g as f
+		g f es c %20
+		d e fis d
+		g es c d
+		g f! es c
+		d e fis d
+		g es c d %25
+		g, a h g
+		c h c g'
+		as des, es es,
+		as g as f
+		b as b g %30
+		as' des, es es,
+		as g as f
+		g' a! h g
+		c as f g
+		c, b as f %35
+		g a h g
+		c as f g
+		c b as g
+		f' es! d b
+		es f g es %40
+		b' b, c d
+		es f g d
+		es f g as
+		b b, g es
+		f' g a! f %45
+		b g es f
+		b, as g es
+		f g a f
+		b' g es f
+		b, as? g es %50
+		as g as f'
+		g es f b,
+		es f g es
+		as g as f
+		g es f b, %55
+		es f g es
+		as g as f
+		g c as b
+		es, f g es
+		as4 r %60
+		r r8 f\f
+		g c as b
+		es, r g r
+		as r b r
+		es,4 r\fermata \bar "|." %65 finis
 	}
 }
 
 NimmHirteBassFigures = \figuremode {
-	
+	r2
+	<6>4 q
+	<4>8 <2> r <6>
+	r <6> <7 _-> <7>
+	r4 <6> %5
+	<4>8 <2> r <6>
+	r <6> <7 _-> <7>
+	r4 <6>
+	<_!> <6>8 <7>
+	r8 <6> <6 5>4 %10
+	r4 <6>
+	<_!>4 <6>8 <7>
+	r <6> <6 5>4
+	r <6>8 q
+	r4 <5 3>8 <\t \t> %15
+	<6> q <6 _-> <5>
+	<_!> <\t> <6> <6!>
+	r4 <6>
+	<6 _->8 <6> q <_->
+	<_!> <\t> <6>4 %20
+	<5! _+> <6>8 <7 _+>
+	r <6> <6 5> <_+>
+	r <2> <6>4
+	<_+> <6>8 <7 _+>
+	r <6> <6 5> <_+> %25
+	<_!> <\t> <6> <7 _!>
+	r4. <6 _->8
+	r <5->4.
+	<5>4 <6>8 <7 _->
+	<_!>4. <6>8 %30
+	r <5-> <4-> <3>
+	r4 <6>8 <6 _->
+	<_!>4 <6>8 <7 _!>
+	r <6> <6 _-> <_!>
+	r <2> <6> <6 _-> %35
+	<_!>4 <6>8 <7 _!>
+	r <6> <6 _-> <_!>
+	<_!> <\t> <6> <6!>
+	<_-> <\t> <6 5->4
+	r <6> %40
+	<4>8 <3> <6-> <6>
+	r4 <6>8 q
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<4>8 <3> <6>4
+	<_!> <6>8 <7> %45
+	r <6> <6 5>4
+	r8 <2> <6>4
+	<_!> <6>8 <7>
+	r <6> <6 5>4
+	r8 <2> <6> <7-> %50
+	r4. <6! _->8
+	<6> q <7 _-> <7>
+	r4 <6>8 <7->
+	r4. <6! _->8
+	<6> q <7 _-> <7> %55
+	r4 <6>
+	r4. <6 _->8
+	<6> <6-> <6 5>4
+	r <6>
+	r2 %60
+	r4. <6 _->8
+	<6> <6-> <6 5>4
+	r <6>
+	<6 5>2
+	r %65 finis
 }
 
 % Organo = {

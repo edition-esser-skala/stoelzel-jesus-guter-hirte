@@ -1462,24 +1462,271 @@ NimmHirteSopranoINotes = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key es \lydian \time 2/4 \autoBeamOff \tempoNimmHirte
-		
+		r4 r8 b'\pp
+		b g16([ as)] b8 es
+		\appoggiatura es d4 r8 es
+		c16([ d)] es8 \appoggiatura b as8. b16
+		g4 r %5
+		R2
+		r4 r8 b
+		b as16([ g)] es'8 \tuplet 3/2 8 { g16([ f g)] }
+		\appoggiatura b,8 a4 r8 es'
+		\appoggiatura es d8. es16 c8. b16 %10
+		b4 r
+		R2
+		r4 r8 f'
+		d c16([ b)] es8 f\trill
+		g4 r8 g, %15
+		c es d([ \tuplet 3/2 8 { c16 h)] c }
+		h4 r
+		R2
+		r4 r8 d
+		d16([ h)] g8 c([ d16)] es %20
+		\appoggiatura g,8 fis4 r8 c'
+		b8. c16 a8. g16
+		g4 r
+		R2
+		r4 r8 d' %25
+		h a16([ g)] g'([ f!)] f8
+		es4 r8 b
+		c des b8. as16
+		as4 r
+		R2 %30
+		r4 r8 es'
+		c b16([ as)] f'8 d!
+		h4 r8 d
+		es8. f16 d8. c16
+		c4 r %35
+		R2
+		r4 r8 g
+		g f16([ e)] c'8 b
+		as4 r8 b
+		g f16([ es)] es'8 es %40
+		es([ d)] r4
+		R2
+		r4 r8 g
+		f b, es([ f16)] g
+		a,!4 r8 es' %45
+		d8. es16 c8. b16
+		b4 r
+		R2
+		r4 r8 f'
+		d c16([ b)] es([ des)] des8 %50
+		c4 r8 d
+		es c as8. b16
+		g4 r
+		R2
+		r4 r8 b %55
+		b as16([ g)] es'8 g
+		c,4 r8 d
+		es as f8. es16
+		es4 r
+		R2 %60
+		r4 r8 d\f
+		es as f8. es16
+		es4 r
+		R2
+		R\fermataMarkup \bar "|." %65 finis
 	}
 }
 
 NimmHirteSopranoILyrics = \lyricmode {
+	Nimm,
+	Hir -- te, mein Ge --
+	ſicht durch
+	dei -- ne Schön -- heit
+	ein, %5
 	
+	daß
+	mei -- ne Au -- gen
+	blind zum
+	Au -- gen Lüſ -- ten %10
+	ſeyn!
+	
+	Er --
+	fül -- le mein Ge --
+	hör mit %15
+	dei -- nem Angſt -- ge --
+	ſchrey,
+	
+	daß
+	die -- ſe Stim -- me %20
+	mir ſtets
+	vor den Oh -- ren
+	ſey!
+	
+	Dein %25
+	bitt -- rer Gal -- len
+	Tranck ver --
+	bitt -- re mir die
+	Welt,
+	%30
+	wenn
+	et -- wa dem Ge --
+	ſchmack ihr
+	So -- doms Obſt ge --
+	fällt! %35
+	
+	Hilff,
+	ed -- le Saa -- rons
+	Blum, daß
+	im -- mer mein Ge -- %40
+	ruch
+	
+	an
+	dei -- ner Lieb -- lich --
+	keit ſich %45
+	zu er -- get -- zen
+	ſuch!
+	
+	Durch --
+	drin -- ge mein Ge -- %50
+	fühl mit
+	dei -- nem gu -- ten
+	Geiſt
+	
+	biß %55
+	es zum bö -- ſen
+	Todt zum
+	Gu -- ten le -- bend
+	heißt,
+	%60
+	zum
+	Gu -- ten le -- bend
+	heißt! %63 finis
 }
 
 NimmHirteSopranoIINotes = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key es \lydian \time 2/4 \autoBeamOff \tempoNimmHirte
-		
+		R2*3
+		r4 r8 b'\pp
+		b as16([ b)] b8 es %5
+		\appoggiatura es d4 r8 es
+		c16([ d)] es8 \appoggiatura b as8. b16
+		g4 r
+		R2
+		r4 r8 f' %10
+		d c16([ b)] es8 \tuplet 3/2 8 { g16([ f g)] }
+		\appoggiatura b,8 a!4 r8 es'
+		\appoggiatura es d8. es16 c8. b16
+		b4 r
+		R2 %15
+		r4 r8 c
+		d g, c d\trill
+		es4 r8 es
+		d es f([ g16)] as
+		h,4 r %20
+		R2
+		r4 r8 d
+		b a16([ g)] c8([ d16)] es
+		fis,4 r8 c'
+		b8. c16 a8. g16 %25
+		g4 r
+		R2
+		r4 r8 es'
+		c b16([ as)] f'([ es)] es8
+		d!4 r8 es %30
+		c des b8. as16
+		as4 r
+		R2
+		r4 r8 g'
+		es d16([ c)] f8 d %35
+		h4 r8 d
+		es8. f16 d8. c16
+		c4 r
+		R2
+		r4 r8 b %40
+		b f16([ g)] as([ c)] b8
+		g4 r8 b
+		b as16([ g)] es'8 es
+		es([ d)] r4
+		R2 %45
+		r4 r8 f
+		d c16([ b)] es8([ f16)] g
+		a,!4 r8 es'
+		d8. es16 c8. b16
+		b4 r %50
+		R2
+		r4 r8 b
+		b g es des'
+		c4 r8 d
+		es c as8. b16 %55
+		g4 r
+		R2
+		r4 r8 b
+		b as16([ g)] es'8 g
+		c,4 r %60
+		r r8 d\f
+		es as f8. es16
+		es4 r
+		R2
+		R\fermataMarkup \bar "|." %65 finis
 	}
 }
 
 NimmHirteSopranoIILyrics = \lyricmode {
+	Nimm, %4
+	Hir -- te, mein Ge -- %5
+	ſicht durch
+	dei -- ne Schön -- heit
+	ein,
 	
+	daß %10
+	mei -- ne Au -- gen
+	blind zum
+	Au -- gen Lüſ -- ten 
+	ſeyn!
+	%15
+	Er --
+	fül -- le mein Ge --
+	hör mit 
+	dei -- nem Angſt -- ge --
+	ſchrey, %20
+	
+	daß
+	die -- ſe Stim -- me 
+	mir ſtets
+	vor den Oh -- ren %25
+	ſey!
+	
+	Dein 
+	bitt -- rer Gal -- len
+	Tranck ver -- %30
+	bitt -- re mir die
+	Welt,
+	
+	wenn
+	et -- wa dem Ge -- %35
+	ſchmack ihr
+	So -- doms Obſt ge --
+	fällt!
+	
+	Hilff, %40
+	ed -- le Saa -- rons
+	Blum, daß
+	im -- mer mein Ge --
+	ruch
+	%45
+	an
+	dei -- ner Lieb -- lich --
+	keit ſich
+	zu er -- get -- zen
+	ſuch! %50
+	
+	Durch --
+	drin -- ge mein Ge --
+	fühl mit
+	dei -- nem gu -- ten %55
+	Geiſt
+	
+	biß
+	es zum bö -- ſen
+	Todt %60
+	zum
+	Gu -- ten le -- bend
+	heißt! %63 finis
 }
 
 % SopranoNotes = {

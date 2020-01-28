@@ -1300,12 +1300,133 @@ NimmHirteAltoNotes = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key es \lydian \time 2/4 \autoBeamOff \tempoNimmHirte
-		
+		R2*3
+		r4 r8 f\pp
+		g g16([ f)] es8 g %5
+		f4 r8 es
+		es es es d
+		es4 r
+		R2
+		r4 r8 a! %10
+		b f b g
+		f4 r8 a
+		b b b a
+		b4 r
+		R2 %15
+		r4 r8 f
+		d d es f
+		g4 r8 g
+		as b c as
+		g4 r %20
+		R2
+		r4 r8 fis
+		g g g es
+		d4 r8 fis
+		g g g fis %25
+		g4 r
+		R2
+		r4 r8 g
+		es es f f
+		f4 r8 g %30
+		es f es es
+		es4 r
+		R2
+		r4 r8 h'
+		g8. c16 c8 as %35
+		g4 r8 g
+		g as as g
+		e4 r
+		R2
+		r4 r8 g %40
+		f f es f
+		es4 r8 f
+		g as b b
+		b4 r
+		R2 %45
+		r4 r8 a!
+		b b b g
+		f4 r8 a!
+		b b b a
+		b4 r %50
+		R2
+		r4 r8 f
+		g g g g
+		as4 r8 as
+		b g f f %55
+		es4 r
+		R2
+		r4 r8 f
+		g as b b
+		as4 r %60
+		r r8 as\f
+		b c c b
+		g4 r
+		R2
+		R\fermataMarkup \bar "|." %65 finis
 	}
 }
 
 NimmHirteAltoLyrics = \lyricmode {
+	Nimm, %4
+	Hir -- te, mein Ge -- %5
+	ſicht durch
+	dei -- ne Schön -- heit
+	ein,
 	
+	daß %10
+	mei -- ne Au -- gen
+	blind zum
+	Au -- gen Lüſ -- ten 
+	ſeyn!
+	%15
+	Er --
+	fül -- le mein Ge --
+	hör mit 
+	dei -- nem Angſt -- ge --
+	ſchrey, %20
+	
+	daß
+	die -- ſe Stim -- me 
+	mir ſtets
+	vor den Oh -- ren %25
+	ſey!
+	
+	Dein 
+	bitt -- rer Gal -- len
+	Tranck ver -- %30
+	bitt -- re mir die
+	Welt,
+	
+	wenn
+	et -- wa dem Ge -- %35
+	ſchmack ihr
+	So -- doms Obſt ge --
+	fällt!
+	
+	Hilff, %40
+	ed -- le Saa -- rons
+	Blum, daß
+	im -- mer mein Ge --
+	ruch
+	%45
+	an
+	dei -- ner Lieb -- lich --
+	keit ſich
+	zu er -- get -- zen
+	ſuch! %50
+	
+	Durch --
+	drin -- ge mein Ge --
+	fühl mit
+	dei -- nem gu -- ten %55
+	Geiſt
+	
+	biß
+	es zum bö -- ſen
+	Todt %60
+	zum
+	Gu -- ten le -- bend
+	heißt! %63 finis
 }
 
 % AltoNotes = {
