@@ -1296,6 +1296,18 @@ DruecketEuchAltoLyrics = \lyricmode {
 	al -- les, was Ver -- gnü -- gung heißt. %8 finis
 }
 
+NimmHirteAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \lydian \time 2/4 \autoBeamOff \tempoNimmHirte
+		
+	}
+}
+
+NimmHirteAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

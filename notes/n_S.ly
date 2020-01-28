@@ -1458,6 +1458,30 @@ SoHatDichSopranoLyrics = \lyricmode {
 	ſeyn. %22 finis
 }
 
+NimmHirteSopranoINotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \lydian \time 2/4 \autoBeamOff \tempoNimmHirte
+		
+	}
+}
+
+NimmHirteSopranoILyrics = \lyricmode {
+	
+}
+
+NimmHirteSopranoIINotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \lydian \time 2/4 \autoBeamOff \tempoNimmHirte
+		
+	}
+}
+
+NimmHirteSopranoIILyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -38,3 +38,11 @@ IhrKommtMitOboeIII = {
 		d4 r r2\fermata \bar "|." %29 finis
 	}
 }
+
+NimmHirteOboeIII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \lydian \time 2/4 \tempoNimmHirte
+		
+	}
+}

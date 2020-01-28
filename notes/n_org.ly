@@ -4747,6 +4747,18 @@ SoHatDichBassFigures = \figuremode {
 	<6 4->4 <5 3>2. %22 finis
 }
 
+NimmHirteOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key es \lydian \time 2/4 \tempoNimmHirte
+		es8\fE f g es
+	}
+}
+
+NimmHirteBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

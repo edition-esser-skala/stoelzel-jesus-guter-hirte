@@ -279,3 +279,11 @@ IhrHimmelKlagtOboeI = {
 		b4 r8 g' fis16 g e fis g8 f \bar "S-S" %30 finis
 	}
 }
+
+NimmHirteOboeI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \lydian \time 2/4 \tempoNimmHirte
+		
+	}
+}

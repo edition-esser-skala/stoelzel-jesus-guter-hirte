@@ -1839,6 +1839,18 @@ DerAbendBrachTenoreLyrics = \lyricmode {
 	Stein. %20 finis
 }
 
+NimmHirteTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\twofourtime \key es \lydian \time 2/4 \autoBeamOff \tempoNimmHirte
+		
+	}
+}
+
+NimmHirteTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

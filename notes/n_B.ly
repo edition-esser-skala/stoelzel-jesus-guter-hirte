@@ -1195,6 +1195,18 @@ DruecketEuchBassoLyrics = \lyricmode {
 	al -- les, was Ver -- gnü -- gung heißt. %8 finis
 }
 
+NimmHirteBassoNotes = {
+	\relative c {
+		\clef bass
+		\twofourtime \key es \lydian \time 2/4 \autoBeamOff \tempoNimmHirte
+		
+	}
+}
+
+NimmHirteBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

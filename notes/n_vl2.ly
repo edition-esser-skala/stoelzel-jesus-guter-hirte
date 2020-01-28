@@ -980,3 +980,11 @@ SoHatDichViolinoII = {
 		R1\fermataMarkup \bar "|." %22 finis
 	}
 }
+
+NimmHirteViolinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \lydian \time 2/4 \tempoNimmHirte
+		
+	}
+}

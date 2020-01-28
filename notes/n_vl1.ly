@@ -1465,6 +1465,14 @@ SoHatDichViolinoI = {
 	}
 }
 
+NimmHirteViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \lydian \time 2/4 \tempoNimmHirte
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

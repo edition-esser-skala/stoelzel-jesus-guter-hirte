@@ -819,48 +819,130 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.20" "R E C I T A T I V O" "So hat dich denn der Liebe Macht"
+% 		}
+% 		\paper {
+% 			system-system-spacing.basic-distance = #35
+% 			system-system-spacing.minimum-distance = #35
+% 			systems-per-page = #2
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\SoHatDichViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\SoHatDichViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\SoHatDichViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Das getröſtete" "Schäflein" "(Canto I)" } }
+% 					\new Voice = "Soprano" { \dynamicUp \SoHatDichSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \SoHatDichSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SoHatDichOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \SoHatDichBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.20" "R E C I T A T I V O" "So hat dich denn der Liebe Macht"
+			movement = \movementTitle "4.21" "C O R O" "Nimm, Hirte, mein Geſicht"
 		}
-		\paper {
-			system-system-spacing.basic-distance = #35
-			system-system-spacing.minimum-distance = #35
-			systems-per-page = #2
-		}
+		\paper { systems-per-page = #1 }
 		\score {
 			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Oboe I"
+							\NimmHirteOboeI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe II"
+							\NimmHirteOboeII
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Oboe III"
+							\NimmHirteOboeIII
+						}
+					>>
+				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\SoHatDichViolinoI
+							\NimmHirteViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\SoHatDichViolinoII
+							\NimmHirteViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\SoHatDichViola
+						\NimmHirteViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Das getröſtete" "Schäflein" "(Canto I)" } }
-					\new Voice = "Soprano" { \dynamicUp \SoHatDichSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \SoHatDichSopranoLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Canto I"
+						\new Voice = "SopranoI" { \dynamicUp \NimmHirteSopranoINotes }
+					}
+					\new Lyrics \lyricsto SopranoI \NimmHirteSopranoILyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Canto II"
+						\new Voice = "SopranoII" { \dynamicUp \NimmHirteSopranoIINotes }
+					}
+					\new Lyrics \lyricsto SopranoII \NimmHirteSopranoIILyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto I, II"
+						\new Voice = "Alto" { \dynamicUp \NimmHirteAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \NimmHirteAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \NimmHirteTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \NimmHirteTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basſo"
+						\new Voice = "Basso" { \dynamicUp \NimmHirteBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \NimmHirteBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SoHatDichOrgano
+						\NimmHirteOrgano
 					}
 				>>
-				\new FiguredBass { \SoHatDichBassFigures }
+				\new FiguredBass { \NimmHirteBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }
