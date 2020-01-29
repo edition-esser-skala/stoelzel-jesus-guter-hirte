@@ -1329,8 +1329,72 @@ SoHatDichViola = {
 
 NimmHirteViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\twofourtime \key es \lydian \time 2/4 \tempoNimmHirte
-		
+		g'8-!\pp^\pizz g-! es-! b-!
+		b-! b-! es-! g-!
+		d-! c-! d-! es-!
+		es b c b
+		b4 r8 b' %5
+		b4 r8 es,
+		es g as f
+		g g g b,
+		f' f f f
+		f g g f %10
+		f4 r8 g
+		f4 r8 f
+		f g g f
+		f f es d
+		b d g g %15
+		es es f c
+		g'4 r8 f
+		g4 r8 c
+		as b as as
+		g g g g %20
+		fis e d d
+		d es es d
+		d4 r8 g
+		fis4 r8 a
+		b c a a %25
+		h a g g
+		g g g es
+		es f es es
+		c4 r8 c
+		b4 r8 es %30
+		c f es es
+		es es f f
+		d! d d d
+		es c as' g
+		g4 r8 as %35
+		g4 r8 h
+		g f as g
+		e g as b
+		c c, f d
+		b b g g' %40
+		f4 r8 f
+		es4 r8 b
+		es es es es
+		b f' g es
+		c b a! a %45
+		b b g' f
+		d4 r8 g
+		f4 r8 f
+		f g g f
+		f f es es %50
+		es es es f
+		es es es d
+		es4 r8 es
+		es4 r8 as
+		g g f f %55
+		es es b es
+		es es es f
+		es es es d
+		es4 r8 es
+		es4 r %60
+		r r8 f\f^\arco
+		es es es d
+		es r es r
+		f, r f r
+		g4 r\fermata \bar "|." %65 finis
 	}
 }

@@ -1483,7 +1483,7 @@ NimmHirteSopranoINotes = {
 		r4 r8 d
 		d16([ h)] g8 c([ d16)] es %20
 		\appoggiatura g,8 fis4 r8 c'
-		b8. c16 a8. g16
+		b!8. c16 a8. g16
 		g4 r
 		R2
 		r4 r8 d' %25
@@ -1620,7 +1620,7 @@ NimmHirteSopranoIINotes = {
 		h,4 r %20
 		R2
 		r4 r8 d
-		b a16([ g)] c8([ d16)] es
+		b! a16([ g)] c8([ d16)] es
 		fis,4 r8 c'
 		b8. c16 a8. g16 %25
 		g4 r

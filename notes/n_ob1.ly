@@ -284,6 +284,68 @@ NimmHirteOboeI = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key es \lydian \time 2/4 \tempoNimmHirte
-		
+		R2*3
+		r4 r8 b'\pp
+		b as16 b b8 es %5
+		\appoggiatura es d8 c d es
+		c b as8. b16
+		g4 r
+		R2
+		r4 r8 f' %10
+		d c16 b es8 \tuplet 3/2 8 { g16 f g }
+		\appoggiatura b,8 a! b c d16( es)
+		\appoggiatura es d8. es16 c8. b16
+		b4 r
+		R2 %15
+		r4 r8 c
+		d g, c d
+		es f g es
+		d es f g16 as
+		h,4 r %20
+		R2
+		r4 r8 d
+		b! a16 g c8 d16 es
+		fis,4 r8 c'
+		b8. c16 a8. g16 %25
+		g4 r
+		R2
+		r4 r8 es'
+		c b16 as f' es es8
+		d!4 r8 es %30
+		c des b8. as16
+		as4 r
+		R2
+		r4 r8 g'
+		es d16 c f8 d %35
+		h c d d
+		es8. f16 d8. c16
+		c4 r
+		R2
+		r4 r8 b %40
+		b f16 g as c b8
+		g4 r8 b
+		b as16 g es'8 es
+		es d r4
+		R2 %45
+		r4 r8 f
+		d c16 b es8 f16 g
+		a,!8 b c d16 es
+		d8. es16 c8. b16
+		b4 r %50
+		R2
+		r4 r8 b
+		b g es des'
+		c b c d
+		es c as8. b16 %55
+		g4 r
+		R2
+		r4 r8 b
+		b as16 g es'8 g
+		c,4 r %60
+		r r8 d\f
+		es as f8. es16
+		es8 r b r
+		c r b r
+		b4 r\fermata \bar "|." %65 finis
 	}
 }

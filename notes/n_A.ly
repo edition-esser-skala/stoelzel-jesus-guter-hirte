@@ -1316,7 +1316,7 @@ NimmHirteAltoNotes = {
 		r4 r8 f
 		d d es f
 		g4 r8 g
-		as b c as
+		as b! c as
 		g4 r %20
 		R2
 		r4 r8 fis

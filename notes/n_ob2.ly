@@ -224,6 +224,68 @@ NimmHirteOboeII = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key es \lydian \time 2/4 \tempoNimmHirte
-		
+		R2*3
+		r4 r8 f\pp
+		g r g b %5
+		b4 r8 b
+		as g f8. f16
+		es4 r
+		R2
+		r4 r8 a! %10
+		b f b es
+		f,4 r8 a
+		b b b8. a16
+		f4 r
+		R2 %15
+		r4 r8 as
+		d, g4 h8
+		c4 r8 c
+		as b c as
+		g4 r %20
+		R2
+		r4 r8 a!
+		g4 g8 es
+		d4 r8 fis
+		g g g8. fis16 %25
+		g4 r
+		R2
+		r4 r8 b
+		as4 c8 c
+		b4 r8 b %30
+		as as as g
+		as4 r
+		R2
+		r4 r8 d
+		c4 c8 as %35
+		g4 r8 h
+		c c c h
+		g4 r
+		R2
+		r4 r8 g %40
+		f4 f8 f
+		g4 r8 f
+		g4 b8 c
+		b4 r
+		R2 %45
+		r4 r8 c
+		b4 b8 g
+		f4 f8 c'
+		b b b a
+		b4 r %50
+		R2
+		r4 r8 f
+		g4 r8 b
+		as4 r8 as
+		b g f f %55
+		es4 r
+		R2
+		r4 r8 f
+		g4 b8 b
+		as4 r %60
+		r r8 as\f
+		b c c b
+		b r g r
+		f r f r
+		g4 r\fermata \bar "|." %65 finis
 	}
 }

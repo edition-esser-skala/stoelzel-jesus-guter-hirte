@@ -1469,7 +1469,71 @@ NimmHirteViolinoI = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key es \lydian \time 2/4 \tempoNimmHirte
-		
+		es'8-!\pp^\pizz es-! es-! es-!
+		b-! g-! b-! es-!
+		f-! f-! f-! g-!
+		c, es as, as
+		g4 r8 g' %5
+		f4 r8 g
+		c, es es d
+		es es es g
+		a,! b c a
+		b b b a %10
+		b4 r8 es
+		c4 r8 a
+		b b b a
+		b d es f
+		g f es d %15
+		c es d c
+		h4 r8 d
+		es4 r8 g
+		as g f as
+		d, d es es %20
+		d d d c
+		b! c a a
+		g4 r8 es'
+		d4 r8 fis
+		g g g fis %25
+		g g g f
+		es d es es
+		c des b b
+		as4 r8 f'
+		f4 r8 es %30
+		es f b, es
+		c as f' f
+		h, c d g
+		g f d d
+		c4 r8 f %35
+		d4 r8 g
+		g as d, d
+		c e f g
+		as g f b,
+		g es es' es %40
+		es d r f
+		g4 r8 f
+		g as b g
+		f b, es g
+		a,! b c es %45
+		d es c c
+		b4 r8 es
+		c4 r8 a'!
+		b b, b a
+		b d es des %50
+		c b c d
+		es c as as
+		g4 r8 des'
+		c4 r8 d
+		es es es d %55
+		es b es g
+		c, b c d
+		es as f b
+		g4 r8 g
+		c,4 r %60
+		r r8 d\f^\arco
+		es as f8. es16
+		es8 r es, r
+		es r d r
+		es4 r\fermata \bar "|." %65 finis
 	}
 }
 
