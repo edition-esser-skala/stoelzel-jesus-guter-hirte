@@ -105,6 +105,6 @@ NimmHirteOboeIII = {
 		es es es d
 		g r es r
 		es r d r
-		es4 r\fermata \bar "|." %65 finis
+		es4 r\fermata \bar "|." %65 FINIS
 	}
 }

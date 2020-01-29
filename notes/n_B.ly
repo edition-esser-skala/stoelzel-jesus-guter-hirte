@@ -1373,7 +1373,7 @@ DiesAllesOssiaBassoLyricsA = \lyricmode {
 	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
 	wirſt du es doch nicht gar bey Sei -- te ſet -- zen.
 	In Gna -- den wirſt du diß von mir an -- neh -- men,
-	mich nicht be -- ſchä -- men.
+	mich nicht be -- ſchä -- men. %4 finis
 }
 
 DiesAllesOssiaBassoLyricsB = \lyricmode {
@@ -1381,17 +1381,5 @@ DiesAllesOssiaBassoLyricsB = \lyricmode {
 	Wenn dort, HErr Je -- ſu, __ wird vor dei -- nem Thro -- ne
 	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
 	da will ich dir, wenn al -- les wird wohl klin -- gen,
-	Lob und Danck ſin -- gen.
+	Lob und Danck ſin -- gen. %4 FINIS
 }
-
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }

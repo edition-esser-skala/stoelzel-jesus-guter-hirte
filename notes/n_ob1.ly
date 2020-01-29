@@ -346,6 +346,6 @@ NimmHirteOboeI = {
 		es as f8. es16
 		es8 r b r
 		c r b r
-		b4 r\fermata \bar "|." %65 finis
+		b4 r\fermata \bar "|." %65 FINIS
 	}
 }

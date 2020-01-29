@@ -286,6 +286,6 @@ NimmHirteOboeII = {
 		b c c b
 		b r g r
 		f r f r
-		g4 r\fermata \bar "|." %65 finis
+		g4 r\fermata \bar "|." %65 FINIS
 	}
 }

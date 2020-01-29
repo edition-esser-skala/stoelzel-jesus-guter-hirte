@@ -422,6 +422,7 @@ tempoSoHatDich = \tempoMarkup "Recitativo"
 tempoNimmHirte = \tempoMarkup "Coro"
 tempoDiesAlles = \tempoMarkup "Choral"
 tempoDiesAllesOssia = \tempoMarkup "Choral"
+tempoErGabSogar = \tempoMarkup "Terzetto"
 
 
 

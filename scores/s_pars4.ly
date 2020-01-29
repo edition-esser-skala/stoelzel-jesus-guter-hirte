@@ -993,49 +993,91 @@
 % 			\midi { \tempo 2 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.22a" "C H O R A L" "Diß alles, obs für ſchlecht zwar iſt zu ſchätzen"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff \with { \twoStanzaDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \DiesAllesOssiaSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DiesAllesOssiaSopranoLyricsA
+% 					\new Lyrics \lyricsto Soprano \DiesAllesOssiaSopranoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DiesAllesOssiaAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DiesAllesOssiaAltoLyricsA
+% 					\new Lyrics \lyricsto Alto \DiesAllesOssiaAltoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \DiesAllesOssiaTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DiesAllesOssiaTenoreLyricsA
+% 					\new Lyrics \lyricsto Tenore \DiesAllesOssiaTenoreLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \DiesAllesOssiaBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DiesAllesOssiaBassoLyricsA
+% 					\new Lyrics \lyricsto Basso \DiesAllesOssiaBassoLyricsB
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DiesAllesOssiaOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DiesAllesOssiaBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.22a" "C H O R A L" "Diß alles, obs für ſchlecht zwar iſt zu ſchätzen"
+			movement = \movementTitle "4.x" "T E R Z E T T O" "Er gab ſogar ſein eignes Leben"
 		}
-		\paper { systems-per-page = #2 }
+		\paper {
+			system-system-spacing.basic-distance = #22
+			system-system-spacing.minimum-distance = #22
+			systems-per-page = #3
+		}
 		\score {
 			<<
 				\new ChoirStaff \with { \twoStanzaDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \DiesAllesOssiaSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \ErGabSogarSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DiesAllesOssiaSopranoLyricsA
-					\new Lyrics \lyricsto Soprano \DiesAllesOssiaSopranoLyricsB
+					\new Lyrics \lyricsto Soprano \ErGabSogarSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DiesAllesOssiaAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \ErGabSogarAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DiesAllesOssiaAltoLyricsA
-					\new Lyrics \lyricsto Alto \DiesAllesOssiaAltoLyricsB
+					\new Lyrics \lyricsto Alto \ErGabSogarAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \DiesAllesOssiaTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \ErGabSogarTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \DiesAllesOssiaTenoreLyricsA
-					\new Lyrics \lyricsto Tenore \DiesAllesOssiaTenoreLyricsB
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \DiesAllesOssiaBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \DiesAllesOssiaBassoLyricsA
-					\new Lyrics \lyricsto Basso \DiesAllesOssiaBassoLyricsB
+					\new Lyrics \lyricsto Tenore \ErGabSogarTenoreLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DiesAllesOssiaOrgano
+						\ErGabSogarOrgano
 					}
 				>>
-				\new FiguredBass { \DiesAllesOssiaBassFigures }
+				\new FiguredBass { \ErGabSogarBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 2 = 90 }

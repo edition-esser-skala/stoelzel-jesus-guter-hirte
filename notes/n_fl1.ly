@@ -123,6 +123,6 @@ KommSetzeDichFlautoI = {
 		fis4 r8 r4 fis8
 		g4. g,4 r8
 		R2.*3 %51
-		r4. r4 a'8\fE \markDaCapo \bar "S-S" %52 finis
+		r4. r4 a'8\fE \markDaCapo \bar "S-S" %52 FINIS
 	}
 }

@@ -1395,6 +1395,6 @@ NimmHirteViola = {
 		es es es d
 		es r es r
 		f, r f r
-		g4 r\fermata \bar "|." %65 finis
+		g4 r\fermata \bar "|." %65 FINIS
 	}
 }

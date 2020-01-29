@@ -1533,14 +1533,6 @@ NimmHirteViolinoI = {
 		es as f8. es16
 		es8 r es, r
 		es r d r
-		es4 r\fermata \bar "|." %65 finis
+		es4 r\fermata \bar "|." %65 FINIS
 	}
 }
-
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }

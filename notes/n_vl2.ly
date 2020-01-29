@@ -1049,6 +1049,6 @@ NimmHirteViolinoII = {
 		b c c b
 		b r b, r
 		c r b r
-		b4 r\fermata \bar "|." %65 finis
+		b4 r\fermata \bar "|." %65 FINIS
 	}
 }

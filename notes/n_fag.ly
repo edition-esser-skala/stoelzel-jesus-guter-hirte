@@ -32,10 +32,10 @@ IhrKommtMitFagotto = {
 		d d, r d' e e, r e'
 		fis fis, r fis' g g, r g'
 		a4 fis g8 g, r c
-		d4 d, g\fE r8 h
+		d4 d, g\fE r8 h %25
 		c c, r c' d d, r d'
 		e e, r e' fis fis, r fis'
 		g4 r8 c, d4 d,
-		g r r2\fermata \bar "|."
+		g r r2\fermata \bar "|." %29 FINIS
 	}
 }

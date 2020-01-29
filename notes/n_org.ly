@@ -4925,14 +4925,14 @@ DiesAllesOssiaBassFigures = \figuremode {
 	r r <6 5 _->2 <_!> r1 %4 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+ErGabSogarOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoErGabSogar
+		r8 e'\fE d16 c h a gis8 a d, e \bar "S-S"
+	}
+}
+
+ErGabSogarBassFigures = \figuremode {
+	
+}
