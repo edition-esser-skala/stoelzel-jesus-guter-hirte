@@ -1052,7 +1052,7 @@
 		}
 		\score {
 			<<
-				\new ChoirStaff \with { \twoStanzaDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Canto"
 						\new Voice = "Soprano" { \dynamicUp \ErGabSogarSopranoNotes }
@@ -1080,7 +1080,7 @@
 				\new FiguredBass { \ErGabSogarBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 90 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

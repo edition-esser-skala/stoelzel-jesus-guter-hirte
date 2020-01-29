@@ -4930,9 +4930,56 @@ ErGabSogarOrgano = {
 		\clef bass
 		\key a \minor \time 4/4 \tempoErGabSogar
 		r8 e'\fE d16 c h a gis8 a d, e \bar "S-S"
+		a,4 r e'\pE r
+		e e, a8 e'' d16 c h a
+		gis4 e a8 g f4
+		e8 e'\fE d16 c h a gis8 a d, e %5
+		a,4 r r8 a'\pE g16 f e d
+		cis8 d e a, d a' r a,
+		d4 r g, r
+		c r f, r
+		h r e r %10
+		a,8 c e e, a a'16 g! f!8 e
+		d4 r8 d e4 e,
+		a8 d e e, a e''\fE d16 c h a
+		gis8 a d, e a,4\fermata r8 h\pE
+		c4 r8 d e4 fis %15
+		g8 g, a4 h c
+		h8 h'\fE a!16 g fis e dis8 e\pE fis dis
+		e4 r8 a, e' fis gis e
+		a4 h c8 c, d4
+		e f! g! r8 f %20
+		e4 r8 d c c'4 h8
+		a4 r8 a, d4 r
+		g, r8 g c f g g,
+		c e'\fE d16 c h a gis8 a d, e \bar "S-S" %24 finis
+		
 	}
 }
 
 ErGabSogarBassFigures = \figuremode {
-	
+	r8 <_+> <5 2> <\t \t> <6>4 <6 5>8 <_+>
+	r2 <_+>
+	<5 _+>8 <6 4> <7 5> <6 4>16 <5 _+> r8 <_+> <5 2> <\t \t>
+	<6 5>4 <7 _+> <5 3>8 <\t \t> <6>4
+	<_+> <5 2>8 <\t \t> <6>4 <6 5>8 <_+> %5
+	r2 r8 <_+> <5 2> <\t \t>
+	<6>4 <6\\>8 <_+> r <_+> r <_+>
+	r2 <7 _!>
+	<7> q
+	q <7 _+> %10
+	r8 <6> <_+>4 r8 <3 1>16 <\t \t> <6 4>8 <8 6>
+	<7>4 <6>8 <5> <9 7 _+>4 \bassFigureExtendersOn <8 6 _+>8 <7 5 _+> \bassFigureExtendersOff
+	r8 <6> <_+>4 r8 <_+> <5 2> <\t \t>
+	<6>4 <6 5>8 <_+> r4. <6!>8
+	r4. <_+>8 <5 3>4 <6> %15
+	r <6\\>8 <5> <9 5+ _+>8 <8 \t \t> <7>8. <6>16
+	<_+>4 <5 2>8 <\t \t> <6 _+>4 <6\\>8 <6 5 _+>
+	<_+>4. <_!>8 <_+>4 <6>8 <_+>
+	r4 <6> r <_+>
+	<5>8 <6> q4 r4. <6>8 %20
+	q4. q8 r <3> <4+> <6\\>
+	r2 <_!>
+	<7> r8 <6> r4
+	r8 <_+> <5 2> <\t \t> <6>4 <6 5>8 <_+> %24 finis
 }

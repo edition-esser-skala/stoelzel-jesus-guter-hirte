@@ -1489,10 +1489,48 @@ ErGabSogarAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoErGabSogar
-		
+		R1 \bar "S-S"
+		R1*4 %5
+		r8 a' g!16([ f)] e([ d)] cis4 r8 d
+		e([ f g)] f16([ e)] f([ e)] e8 r4
+		r8 a h c! h2~
+		h8 a16([ h)] c([ h)] a([ gis)] a([ gis)] a4.~
+		a8 gis16([ a)] h([ a)] gis([ fis)] gis4 e %10
+		e4. e8 c4 r
+		r8 c' h a gis4. gis8
+		a([ f] e8.) d16 c4 r
+		R1\fermataMarkup
+		r2 r8 g' fis16([ e)] d([ c)] %15
+		h4 r8 c c([ h] e8.) e16
+		dis16([ cis)] dis8 r4 r2
+		R1
+		r8 c'! h16([ a)] g!([ f!)] e8([ fis16)] g fis8. fis16
+		g([ fis)] g8 r4 r8 d e f %20
+		g4. f8 e4. d8
+		c4 r r8 a' h c
+		h4 g g4. g8
+		e4 r r2 \bar "S-S" %24 finis
 	}
 }
 
 ErGabSogarAltoLyrics = \lyricmode {
+	Er gab ſo -- gar ſein %6
+	eig -- en Le -- ben,
+	er gab ſo -- gar __
+	ſein eig -- en Le -- ben __
+	für die ver -- loh -- ren %10
+	Schaa -- fe hin,
+	für die ver -- loh -- ren
+	Schaa -- fe hin.
 	
+	Halt ich mich %15
+	nur zu ſei -- ner
+	Wei -- de,
+	
+	ſo weiß ich, daß ich al -- lem
+	Lei -- de durch ſei -- nen %20
+	Schutz ent -- nom -- men
+	bin, durch ſei -- nen
+	Schutz ent -- nom -- men
+	bin. %24 finis
 }
