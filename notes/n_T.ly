@@ -1839,6 +1839,63 @@ DerAbendBrachTenoreLyrics = \lyricmode {
 	Stein. %20 finis
 }
 
+ErGabSogarTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key a \minor \time 4/4 \autoBeamOff \tempoErGabSogar
+		R1 \bar "S-S"
+		r2 r8 e d16([ c)] h([ a)]
+		gis8 a h a16([ gis)] a([ gis)] gis8 r a
+		h h h a16([ gis)] a4. a8
+		gis4 r r2 %5
+		R1
+		r2 r8 a h cis
+		d2~ d8 c16([ d)] e([ d)] c([ h)]
+		c([ h)] c2 h16([ c)] d([ c)] h([ a)]
+		h[ a] h2 a16[ h] c[ h a gis] %10
+		a8. h16 gis8. a16 a8 a h c
+		d2. c8[( h])
+		a8.([ h16] gis8.) a16 a4 r
+		R1\fermataMarkup
+		r8 e' d16([ c)] h([ a)] g4 r %15
+		r8 h a16([ g)] fis([ e)] dis8 h' h8. a16
+		h([ ais)] h8 r4 r2
+		r8 e d!16([ c!)] h([ a)] gis8 a h e
+		c16([ h)] a8 r4 r8 e' d16([ c)] h([ a)]
+		g8 c a16([ g)] f!([ e)] d([ c)] d8 r4 %20
+		r8 g a h c4. h8
+		a8[ a h c] d2~
+		d8[ c16 d] e[ d c h] c8.[ d16] h8. c16
+		c4 r r2 \bar "S-S" %24 finis
+	}
+}
+
+ErGabSogarTenoreLyrics = \lyricmode {
+	Er gab ſo -- %2
+	gar ſein eig -- en Le -- ben für
+	die ver -- loh -- ren Schaa -- fe
+	hin, %5
+	
+	er gab ſo --
+	gar __ ſein eig -- en
+	Le -- ben für die ver --
+	loh -- _ _ _ %10
+	_ ren Schaa -- fe hin, für die ver --
+	loh -- ren __
+	Schaa -- fe hin.
+	
+	Halt ich mich nur, %15
+	halt ich mich nur zu ſei -- ner
+	Wei -- de,
+	ſo weiß ich, daß ich al -- lem
+	Lei -- de, ſo weiß ich,
+	daß ich al -- lem Lei -- de %20
+	durch ſei -- nen Schutz ent --
+	nom -- _
+	_ _ _ men
+	bin. %24 finis
+}
+
 NimmHirteTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
@@ -2017,7 +2074,7 @@ DiesAllesOssiaTenoreLyricsA = \lyricmode {
 	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
 	wirſt du es doch nicht gar bey Sei -- te ſet -- zen.
 	In Gna -- den wirſt du diß von mir an -- neh -- men,
-	mich nicht be -- ſchä -- men. %4 finis
+	mich nicht be -- ſchä -- men. %4 FINIS
 }
 
 DiesAllesOssiaTenoreLyricsB = \lyricmode {
@@ -2025,62 +2082,5 @@ DiesAllesOssiaTenoreLyricsB = \lyricmode {
 	Wenn dort, HErr Je -- ſu, wird vor dei -- nem Thro -- ne
 	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
 	da will ich dir, wenn al -- les wird wohl klin -- gen,
-	Lob und Danck ſin -- gen. %4 finis
-}
-
-ErGabSogarTenoreNotes = {
-	\relative c' {
-		\clef "treble_8"
-		\key a \minor \time 4/4 \autoBeamOff \tempoErGabSogar
-		R1 \bar "S-S"
-		r2 r8 e d16([ c)] h([ a)]
-		gis8 a h a16([ gis)] a([ gis)] gis8 r a
-		h h h a16([ gis)] a4. a8
-		gis4 r r2 %5
-		R1
-		r2 r8 a h cis
-		d2~ d8 c16([ d)] e([ d)] c([ h)]
-		c([ h)] c2 h16([ c)] d([ c)] h([ a)]
-		h[ a] h2 a16[ h] c[ h a gis] %10
-		a8. h16 gis8. a16 a8 a h c
-		d2. c8[( h])
-		a8.([ h16] gis8.) a16 a4 r
-		R1\fermataMarkup
-		r8 e' d16([ c)] h([ a)] g4 r %15
-		r8 h a16([ g)] fis([ e)] dis8 h' h8. a16
-		h([ ais)] h8 r4 r2
-		r8 e d!16([ c!)] h([ a)] gis8 a h e
-		c16([ h)] a8 r4 r8 e' d16([ c)] h([ a)]
-		g8 c a16([ g)] f!([ e)] d([ c)] d8 r4 %20
-		r8 g a h c4. h8
-		a8[ a h c] d2~
-		d8[ c16 d] e[ d c h] c8.[ d16] h8. c16
-		c4 r r2 \bar "S-S" %24 finis
-	}
-}
-
-ErGabSogarTenoreLyrics = \lyricmode {
-	Er gab ſo -- %2
-	gar ſein eig -- en Le -- ben für
-	die ver -- loh -- ren Schaa -- fe
-	hin, %5
-	
-	er gab ſo --
-	gar __ ſein eig -- en
-	Le -- ben für die ver --
-	loh -- _ _ _ %10
-	_ ren Schaa -- fe hin, für die ver --
-	loh -- ren __
-	Schaa -- fe hin.
-	
-	Halt ich mich nur, %15
-	halt ich mich nur zu ſei -- ner
-	Wei -- de,
-	ſo weiß ich, daß ich al -- lem
-	Lei -- de, ſo weiß ich,
-	daß ich al -- lem Lei -- de %20
-	durch ſei -- nen Schutz ent --
-	nom -- _
-	_ _ _ men
-	bin. %24 finis
+	Lob und Danck ſin -- gen. %4 FINIS
 }

@@ -1404,6 +1404,63 @@ DruecketEuchSopranoLyrics = \lyricmode {
 	al -- les, was Ver -- gnü -- gung heißt. %8 finis
 }
 
+ErGabSogarSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoErGabSogar
+		R1 \bar "S-S"
+		r8 e' d16([ c)] h([ a)] gis4 r8 a
+		h([ c d)] c16([ h)] c([ h)] h8 r c
+		d d d c16([ h)] c4 d
+		e r r2 %5
+		R1
+		r2 r8 cis d e
+		f2~ f8 e16([ f)] g([ f)] e([ d)]
+		e([ d)] e2 d16([ e)] f([ e)] d([ c)]
+		d[ c] d2 c16[ d] e[ d c h] %10
+		c8. d16 h8. a16 a8 c d e
+		f2. e8[( d])
+		c8.([ d16] h8.) a16 a4 r
+		r2\fermata r8 c h16([ a)] g!([ f)]
+		e4 r8 fis g4 a %15
+		h16([ a)] h8 r4 r2
+		r r8 e dis?16([ cis?)] h([ a)]
+		gis8 a h c h e, r4
+		R1
+		g8. g'16 f!([ e)] d([ c)] h([ a)] h8 r4 %20
+		r2 r8 e, fis gis
+		a c d e f!2~
+		f8 e16([ f)] g[ f e d] e8.[ f16] d8. c16
+		c4 r r2 \bar "S-S" %24 finis
+	}
+}
+
+ErGabSogarSopranoLyrics = \lyricmode {
+	Er gab ſo -- gar ſein %2
+	eig -- en Le -- ben für
+	die ver -- loh -- ren Schaa -- fe
+	hin, %5
+
+	er gab ſo --
+	gar ſein eig -- en
+	Le -- ben für die ver --
+	loh -- _ _ _ %10
+	_ ren Schaa -- fe hin, für die ver --
+	loh -- ren __
+	Schaa -- fe hin.
+	Halt ich mich
+	nur zu ſei -- ner %15
+	Wei -- de,
+	ſo weiß ich,
+	daß ich al -- lem Lei -- de,
+	
+	daß ich al -- lem Lei -- de %20
+	durch ſei -- nen
+	Schutz, durch ſei -- nen Schutz __
+	ent -- nom -- _ _ men
+	bin. %24 finis
+}
+
 SoHatDichSopranoNotes = {
 	\relative c' {
 		\clef treble
@@ -1774,7 +1831,7 @@ DiesAllesOssiaSopranoLyricsA = \lyricmode {
 	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
 	wirſt du es doch nicht gar bey Sei -- te ſet -- zen.
 	In Gna -- den wirſt du diß von mir an -- neh -- men,
-	mich nicht be -- ſchä -- men. %4 finis
+	mich nicht be -- ſchä -- men. %4 FINIS
 }
 
 DiesAllesOssiaSopranoLyricsB = \lyricmode {
@@ -1782,62 +1839,5 @@ DiesAllesOssiaSopranoLyricsB = \lyricmode {
 	Wenn dort, HErr Je -- ſu, wird vor dei -- nem Thro -- ne
 	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
 	da will ich dir, wenn al -- les wird wohl klin -- gen,
-	Lob und Danck ſin -- gen. %4 finis
-}
-
-ErGabSogarSopranoNotes = {
-	\relative c' {
-		\clef treble
-		\key a \minor \time 4/4 \autoBeamOff \tempoErGabSogar
-		R1 \bar "S-S"
-		r8 e' d16([ c)] h([ a)] gis4 r8 a
-		h([ c d)] c16([ h)] c([ h)] h8 r c
-		d d d c16([ h)] c4 d
-		e r r2 %5
-		R1
-		r2 r8 cis d e
-		f2~ f8 e16([ f)] g([ f)] e([ d)]
-		e([ d)] e2 d16([ e)] f([ e)] d([ c)]
-		d[ c] d2 c16[ d] e[ d c h] %10
-		c8. d16 h8. a16 a8 c d e
-		f2. e8[( d])
-		c8.([ d16] h8.) a16 a4 r
-		r2\fermata r8 c h16([ a)] g!([ f)]
-		e4 r8 fis g4 a %15
-		h16([ a)] h8 r4 r2
-		r r8 e dis?16([ cis?)] h([ a)]
-		gis8 a h c h e, r4
-		R1
-		g8. g'16 f!([ e)] d([ c)] h([ a)] h8 r4 %20
-		r2 r8 e, fis gis
-		a c d e f!2~
-		f8 e16([ f)] g[ f e d] e8.[ f16] d8. c16
-		c4 r r2 \bar "S-S" %24 finis
-	}
-}
-
-ErGabSogarSopranoLyrics = \lyricmode {
-	Er gab ſo -- gar ſein %2
-	eig -- en Le -- ben für
-	die ver -- loh -- ren Schaa -- fe
-	hin, %5
-
-	er gab ſo --
-	gar ſein eig -- en
-	Le -- ben für die ver --
-	loh -- _ _ _ %10
-	_ ren Schaa -- fe hin, für die ver --
-	loh -- ren __
-	Schaa -- fe hin.
-	Halt ich mich
-	nur zu ſei -- ner %15
-	Wei -- de,
-	ſo weiß ich,
-	daß ich al -- lem Lei -- de,
-	
-	daß ich al -- lem Lei -- de %20
-	durch ſei -- nen
-	Schutz, durch ſei -- nen Schutz __
-	ent -- nom -- _ _ men
-	bin. %24 finis
+	Lob und Danck ſin -- gen. %4 FINIS
 }
