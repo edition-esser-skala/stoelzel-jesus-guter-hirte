@@ -4887,6 +4887,19 @@ NimmHirteBassFigures = \figuremode {
 	r %65 finis
 }
 
+DiesAllesOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 8/1 \tempoDiesAlles
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DiesAllesBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -1328,6 +1328,19 @@ NimmHirteBassoLyrics = \lyricmode {
 	heißt! %63 finis
 }
 
+DiesAllesBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAlles
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DiesAllesBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -420,6 +420,7 @@ tempoSoHatDich = \tempoMarkup "Recitativo"
 	tempoSoHatDichC = \tempoMarkup "[Recitativo]"
 	tempoSoHatDichD = \tempoMarkup "Arioſo"
 tempoNimmHirte = \tempoMarkup "Coro"
+tempoDiesAlles = \tempoMarkup "Choral"
 
 
 

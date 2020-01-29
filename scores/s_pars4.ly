@@ -863,86 +863,130 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.21" "C O R O" "Nimm, Hirte, mein Geſicht"
+% 		}
+% 		\paper { systems-per-page = #1 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe I"
+% 							\NimmHirteOboeI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe II"
+% 							\NimmHirteOboeII
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Oboe III"
+% 							\NimmHirteOboeIII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\NimmHirteViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\NimmHirteViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\NimmHirteViola
+% 					}
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto I"
+% 						\new Voice = "SopranoI" { \dynamicUp \NimmHirteSopranoINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoI \NimmHirteSopranoILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto II"
+% 						\new Voice = "SopranoII" { \dynamicUp \NimmHirteSopranoIINotes }
+% 					}
+% 					\new Lyrics \lyricsto SopranoII \NimmHirteSopranoIILyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto I, II"
+% 						\new Voice = "Alto" { \dynamicUp \NimmHirteAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \NimmHirteAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \NimmHirteTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \NimmHirteTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \NimmHirteBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \NimmHirteBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\NimmHirteOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \NimmHirteBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.21" "C O R O" "Nimm, Hirte, mein Geſicht"
+			movement = \movementTitle "4.22" "C H O R A L" "Diß alles, obs für ſchlecht zwar iſt zu ſchätzen"
 		}
-		\paper { systems-per-page = #1 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\NimmHirteOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\NimmHirteOboeII
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe III"
-							\NimmHirteOboeIII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff \with { \violinGroupDistance } <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\NimmHirteViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\NimmHirteViolinoII
-						}
-					>>
-					\new Staff {
-						\set Staff.instrumentName = "Viola"
-						\NimmHirteViola
-					}
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Canto I"
-						\new Voice = "SopranoI" { \dynamicUp \NimmHirteSopranoINotes }
+						\set Staff.instrumentName = "Canto"
+						\new Voice = "Soprano" { \dynamicUp \DiesAllesSopranoNotes }
 					}
-					\new Lyrics \lyricsto SopranoI \NimmHirteSopranoILyrics
+					\new Lyrics \lyricsto Soprano \DiesAllesSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Canto II"
-						\new Voice = "SopranoII" { \dynamicUp \NimmHirteSopranoIINotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \DiesAllesAltoNotes }
 					}
-					\new Lyrics \lyricsto SopranoII \NimmHirteSopranoIILyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto I, II"
-						\new Voice = "Alto" { \dynamicUp \NimmHirteAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \NimmHirteAltoLyrics
+					\new Lyrics \lyricsto Alto \DiesAllesAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \NimmHirteTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \DiesAllesTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \NimmHirteTenoreLyrics
+					\new Lyrics \lyricsto Tenore \DiesAllesTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \NimmHirteBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \DiesAllesBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \NimmHirteBassoLyrics
+					\new Lyrics \lyricsto Basso \DiesAllesBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\NimmHirteOrgano
+						\DiesAllesOrgano
 					}
 				>>
-				\new FiguredBass { \NimmHirteBassFigures }
+				\new FiguredBass { \DiesAllesBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 2 = 90 }
 		}
 	}
 }

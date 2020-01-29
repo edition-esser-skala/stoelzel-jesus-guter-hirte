@@ -1429,6 +1429,19 @@ NimmHirteAltoLyrics = \lyricmode {
 	heißt! %63 finis
 }
 
+DiesAllesAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAlles
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DiesAllesAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

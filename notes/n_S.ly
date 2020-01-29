@@ -1729,6 +1729,19 @@ NimmHirteSopranoIILyrics = \lyricmode {
 	heißt! %63 finis
 }
 
+DiesAllesSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAlles
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DiesAllesSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

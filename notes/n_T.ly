@@ -1972,6 +1972,19 @@ NimmHirteTenoreLyrics = \lyricmode {
 	heißt! %63 finis
 }
 
+DiesAllesTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAlles
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DiesAllesTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
