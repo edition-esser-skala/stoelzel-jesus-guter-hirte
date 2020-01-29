@@ -1760,9 +1760,12 @@ DiesAllesSopranoLyricsB = \lyricmode {
 DiesAllesOssiaSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAllesOssia
+		\key c \dorian \time 7/1 \autoBeamOff \tempoDiesAllesOssia
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 c' c es d b c d es d c1 b\fermata
+		r2 d es f g es es es d es f1 es
+		r2 es d c d b c d es es f1 es
+		\time 4/1 r2 g f es d1 c\fermata \bar "|." %4 finis
 	}
 }
 

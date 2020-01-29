@@ -2003,16 +2003,19 @@ DiesAllesTenoreLyricsB = \lyricmode {
 DiesAllesOssiaTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAllesOssia
+		\key c \dorian \time 7/1 \autoBeamOff \tempoDiesAllesOssia
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 es c c b d es h c b b( a4 c) d1\fermata
+		r2 f es d es es c b b2. es4 es2( d) g1\fermata
+		r2 g f f f es es f es g4( es) es2( d) es1\fermata
+		\time 4/1 r2 es d c c( h) es1\fermata \bar "|."
 	}
 }
 
 DiesAllesOssiaTenoreLyricsA = \lyricmode {
 	\set stanza = #"1 "
 	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
-	wirſt du __ es doch nicht gar bey Sei -- te ſet -- zen.
+	wirſt du es doch nicht gar bey Sei -- te ſet -- zen.
 	In Gna -- den wirſt du diß von mir an -- neh -- men,
 	mich nicht be -- ſchä -- men.
 }

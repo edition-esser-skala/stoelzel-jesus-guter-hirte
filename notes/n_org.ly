@@ -4909,14 +4909,20 @@ DiesAllesBassFigures = \figuremode {
 DiesAllesOssiaOrgano = {
 	\relative c {
 		\clef bass
-		\key c \dorian \time 8/1 \tempoDiesAlles
+		\key c \dorian \time 7/1 \tempoDiesAlles
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 c es c g' g4( f) es2 d c d es( f) b,1\fermata
+		r2 b' g f es g as es \bar "" b' g as( b) es,1\fermata
+		r2 es b' f b, es as f g es b1 es\fermata
+		\time 4/1 r2 es b c f( g) c,1\fermata \bar "|." %4 finis
 	}
 }
 
 DiesAllesOssiaBassFigures = \figuremode {
-	
+	r1 <6> r2. <\t>4 <6>2 <6!> r <6-> <6 5>1 r
+	r <6>2 <6 _-> r <6> r1 r2 <6> <6 5>1 r
+	r1 r2 <_!> r1 r2 <6 _-> <6> r <4> <3> r1
+	r r <6 5 _->2 <_!> r1 %4 finis
 }
 
 % Organo = {

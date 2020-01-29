@@ -1359,9 +1359,12 @@ DiesAllesBassoLyricsB = \lyricmode {
 DiesAllesOssiaBassoNotes = {
 	\relative c {
 		\clef bass
-		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAllesOssia
+		\key c \dorian \time 7/1 \autoBeamOff \tempoDiesAllesOssia
 			\set Staff.timeSignatureFraction = 4/4
-		
+		r2 c es c g' g4( f) es2 d c d es( f) b,1\fermata
+		r2 b' g f es g \bar "" as es b' g as( b) es,1\fermata
+		r2 es b' f b, es as f g es b1 es\fermata
+		\time 4/1 r2 es b c f( g) c,1\fermata \bar "|." %4 finis
 	}
 }
 
@@ -1375,7 +1378,7 @@ DiesAllesOssiaBassoLyricsA = \lyricmode {
 
 DiesAllesOssiaBassoLyricsB = \lyricmode {
 	\set stanza = #"2 "
-	Wenn dort, HErr Je -- ſu, wird vor dei -- nem Thro -- ne
+	Wenn dort, HErr Je -- ſu, __ wird vor dei -- nem Thro -- ne
 	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
 	da will ich dir, wenn al -- les wird wohl klin -- gen,
 	Lob und Danck ſin -- gen.
