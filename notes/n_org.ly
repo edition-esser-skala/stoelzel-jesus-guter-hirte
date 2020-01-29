@@ -4892,12 +4892,18 @@ DiesAllesOrgano = {
 		\clef bass
 		\key c \dorian \time 8/1 \tempoDiesAlles
 			\set Staff.timeSignatureFraction = 4/4
-		
+		c1 es2 c g'1 f es2 d c as f1 g\fermata
+		g' g2 f es1 as \bar "" f2 d es g b1 es,\fermata
+		es b2 c g1 g'2( f) es d c g d'1 g,\fermata
+		\time 4/1 es' b2 c g1 c\fermata \bar "|." %4 finis
 	}
 }
 
 DiesAllesBassFigures = \figuremode {
-	
+	r1 <6> <_!> <\t> <6>2 <6!> r1 <_-> <_!>
+	<_-> <6>2 <6 _-> r1 r <_->2 <6 5-> r <6> <4> <3> r1
+	r r r r2 <\t> r <6> r1 <4>2 <_+> <_!>1
+	r r <4>2 <_!> r1 %4 finis
 }
 
 % Organo = {

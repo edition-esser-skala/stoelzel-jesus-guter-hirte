@@ -1434,12 +1434,27 @@ DiesAllesAltoNotes = {
 		\clef treble
 		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAlles
 			\set Staff.timeSignatureFraction = 4/4
-		
+		g'1 g2 g g1 g g2 h c c c1 h\fermata
+		b b2 as b1 as c2 b b b b1 g\fermata
+		g f2 g g1 g g2 f g g g( fis) d1\fermata
+		\time 4/1 b b'2 g g1 es\fermata \bar "|." %4 finis
 	}
 }
 
-DiesAllesAltoLyrics = \lyricmode {
-	
+DiesAllesAltoLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
+	wirſt du es doch nicht gar bey Sei -- te ſet -- zen.
+	In Gna -- den wirſt du diß von mir an -- neh -- men,
+	mich nicht be -- ſchä -- men.
+}
+
+DiesAllesAltoLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Wenn dort, HErr Je -- ſu, wird vor dei -- nem Thro -- ne
+	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
+	da will ich dir, wenn al -- les wird wohl klin -- gen,
+	Lob und Danck ſin -- gen.
 }
 
 % AltoNotes = {

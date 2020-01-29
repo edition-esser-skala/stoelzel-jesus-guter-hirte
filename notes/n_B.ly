@@ -1333,12 +1333,27 @@ DiesAllesBassoNotes = {
 		\clef bass
 		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAlles
 			\set Staff.timeSignatureFraction = 4/4
-		
+		c1 es2 c g'1 f es2 d c as f1 g\fermata
+		g' g2 f es1 as f2 d es g b1 es,\fermata
+		es b2 c g1 g es'2 d c g d'1 g,\fermata
+		\time 4/1 es' b2 c g1 c\fermata \bar "|." %4 finis
 	}
 }
 
-DiesAllesBassoLyrics = \lyricmode {
-	
+DiesAllesBassoLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
+	wirſt du es doch nicht gar bey Sei -- te ſet -- zen.
+	In Gna -- den wirſt du diß von mir an -- neh -- men,
+	mich nicht be -- ſchä -- men.
+}
+
+DiesAllesBassoLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Wenn dort, HErr Je -- ſu, wird vor dei -- nem Thro -- ne
+	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
+	da will ich dir, wenn al -- les wird wohl klin -- gen,
+	Lob und Danck ſin -- gen.
 }
 
 % BassoNotes = {

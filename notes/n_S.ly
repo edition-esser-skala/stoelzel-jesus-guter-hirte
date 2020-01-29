@@ -1734,12 +1734,27 @@ DiesAllesSopranoNotes = {
 		\clef treble
 		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAlles
 			\set Staff.timeSignatureFraction = 4/4
-		
+		c'1 c2 c2 h1 g c2 d es es f1 d\fermata
+		d es2 f g1 es as2 as g g f1 es\fermata
+		r2 es d c b1 g b2 b c b a1 g\fermata
+		\time 4/1 g' f2 es d1 c\fermata \bar "|." %4 finis
 	}
 }
 
-DiesAllesSopranoLyrics = \lyricmode {
-	
+DiesAllesSopranoLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
+	wirſt du es doch nicht gar bey Sei -- te ſet -- zen.
+	In Gna -- den wirſt du diß von mir an -- neh -- men,
+	mich nicht be -- ſchä -- men.
+}
+
+DiesAllesSopranoLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Wenn dort, HErr Je -- ſu, wird vor dei -- nem Thro -- ne
+	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
+	da will ich dir, wenn al -- les wird wohl klin -- gen,
+	Lob und Danck ſin -- gen.
 }
 
 % SopranoNotes = {

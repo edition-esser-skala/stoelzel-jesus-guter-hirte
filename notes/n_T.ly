@@ -1977,12 +1977,27 @@ DiesAllesTenoreNotes = {
 		\clef "treble_8"
 		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAlles
 			\set Staff.timeSignatureFraction = 4/4
-		
+		es1 es2 es d1 d c2 f g as as1 g\fermata
+		g es4( b) d2 es1 c f2 f es es es( d) b1\fermata
+		b b2 es d1 b g2 b es d d1 h\fermata
+		\time 4/1 es d2 c c( h) c1\fermata
 	}
 }
 
-DiesAllesTenoreLyrics = \lyricmode {
-	
+DiesAllesTenoreLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
+	wirſt du __ es doch nicht gar bey Sei -- te ſet -- zen.
+	In Gna -- den wirſt du diß von mir an -- neh -- men,
+	mich nicht be -- ſchä -- men.
+}
+
+DiesAllesTenoreLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Wenn dort, HErr Je -- ſu, wird vor dei -- nem Thro -- ne
+	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
+	da will ich dir, wenn al -- les wird wohl klin -- gen,
+	Lob und Danck ſin -- gen.
 }
 
 % TenoreNotes = {

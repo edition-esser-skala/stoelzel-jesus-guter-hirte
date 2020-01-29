@@ -952,30 +952,34 @@
 		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \twoStanzaDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Canto"
 						\new Voice = "Soprano" { \dynamicUp \DiesAllesSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DiesAllesSopranoLyrics
+					\new Lyrics \lyricsto Soprano \DiesAllesSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \DiesAllesSopranoLyricsB
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \DiesAllesAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DiesAllesAltoLyrics
+					\new Lyrics \lyricsto Alto \DiesAllesAltoLyricsA
+					\new Lyrics \lyricsto Alto \DiesAllesAltoLyricsB
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \DiesAllesTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \DiesAllesTenoreLyrics
+					\new Lyrics \lyricsto Tenore \DiesAllesTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \DiesAllesTenoreLyricsB
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basſo"
 						\new Voice = "Basso" { \dynamicUp \DiesAllesBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DiesAllesBassoLyrics
+					\new Lyrics \lyricsto Basso \DiesAllesBassoLyricsA
+					\new Lyrics \lyricsto Basso \DiesAllesBassoLyricsB
 				>>
 				\new StaffGroup <<
 					\new Staff {
