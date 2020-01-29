@@ -1356,6 +1356,31 @@ DiesAllesBassoLyricsB = \lyricmode {
 	Lob und Danck ſin -- gen.
 }
 
+DiesAllesOssiaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAllesOssia
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DiesAllesOssiaBassoLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
+	wirſt du es doch nicht gar bey Sei -- te ſet -- zen.
+	In Gna -- den wirſt du diß von mir an -- neh -- men,
+	mich nicht be -- ſchä -- men.
+}
+
+DiesAllesOssiaBassoLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Wenn dort, HErr Je -- ſu, wird vor dei -- nem Thro -- ne
+	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
+	da will ich dir, wenn al -- les wird wohl klin -- gen,
+	Lob und Danck ſin -- gen.
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

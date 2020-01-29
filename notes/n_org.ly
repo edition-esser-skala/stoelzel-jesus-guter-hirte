@@ -4906,6 +4906,19 @@ DiesAllesBassFigures = \figuremode {
 	r r <4>2 <_!> r1 %4 finis
 }
 
+DiesAllesOssiaOrgano = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 8/1 \tempoDiesAlles
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DiesAllesOssiaBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -945,9 +945,57 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = \movementTitle "4.22" "C H O R A L" "Diß alles, obs für ſchlecht zwar iſt zu ſchätzen"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new ChoirStaff \with { \twoStanzaDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Canto"
+% 						\new Voice = "Soprano" { \dynamicUp \DiesAllesSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DiesAllesSopranoLyricsA
+% 					\new Lyrics \lyricsto Soprano \DiesAllesSopranoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DiesAllesAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DiesAllesAltoLyricsA
+% 					\new Lyrics \lyricsto Alto \DiesAllesAltoLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \DiesAllesTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DiesAllesTenoreLyricsA
+% 					\new Lyrics \lyricsto Tenore \DiesAllesTenoreLyricsB
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basſo"
+% 						\new Voice = "Basso" { \dynamicUp \DiesAllesBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DiesAllesBassoLyricsA
+% 					\new Lyrics \lyricsto Basso \DiesAllesBassoLyricsB
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DiesAllesOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass { \DiesAllesBassFigures }
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = \movementTitle "4.22" "C H O R A L" "Diß alles, obs für ſchlecht zwar iſt zu ſchätzen"
+			movement = \movementTitle "4.22a" "C H O R A L" "Diß alles, obs für ſchlecht zwar iſt zu ſchätzen"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
@@ -955,39 +1003,39 @@
 				\new ChoirStaff \with { \twoStanzaDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Canto"
-						\new Voice = "Soprano" { \dynamicUp \DiesAllesSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \DiesAllesOssiaSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DiesAllesSopranoLyricsA
-					\new Lyrics \lyricsto Soprano \DiesAllesSopranoLyricsB
+					\new Lyrics \lyricsto Soprano \DiesAllesOssiaSopranoLyricsA
+					\new Lyrics \lyricsto Soprano \DiesAllesOssiaSopranoLyricsB
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DiesAllesAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \DiesAllesOssiaAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DiesAllesAltoLyricsA
-					\new Lyrics \lyricsto Alto \DiesAllesAltoLyricsB
+					\new Lyrics \lyricsto Alto \DiesAllesOssiaAltoLyricsA
+					\new Lyrics \lyricsto Alto \DiesAllesOssiaAltoLyricsB
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \DiesAllesTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \DiesAllesOssiaTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \DiesAllesTenoreLyricsA
-					\new Lyrics \lyricsto Tenore \DiesAllesTenoreLyricsB
+					\new Lyrics \lyricsto Tenore \DiesAllesOssiaTenoreLyricsA
+					\new Lyrics \lyricsto Tenore \DiesAllesOssiaTenoreLyricsB
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basſo"
-						\new Voice = "Basso" { \dynamicUp \DiesAllesBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \DiesAllesOssiaBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DiesAllesBassoLyricsA
-					\new Lyrics \lyricsto Basso \DiesAllesBassoLyricsB
+					\new Lyrics \lyricsto Basso \DiesAllesOssiaBassoLyricsA
+					\new Lyrics \lyricsto Basso \DiesAllesOssiaBassoLyricsB
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DiesAllesOrgano
+						\DiesAllesOssiaOrgano
 					}
 				>>
-				\new FiguredBass { \DiesAllesBassFigures }
+				\new FiguredBass { \DiesAllesOssiaBassFigures }
 			>>
 			\layout { }
 			\midi { \tempo 2 = 90 }

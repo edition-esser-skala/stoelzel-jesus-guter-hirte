@@ -2000,6 +2000,31 @@ DiesAllesTenoreLyricsB = \lyricmode {
 	Lob und Danck ſin -- gen.
 }
 
+DiesAllesOssiaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAllesOssia
+			\set Staff.timeSignatureFraction = 4/4
+		
+	}
+}
+
+DiesAllesOssiaTenoreLyricsA = \lyricmode {
+	\set stanza = #"1 "
+	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
+	wirſt du __ es doch nicht gar bey Sei -- te ſet -- zen.
+	In Gna -- den wirſt du diß von mir an -- neh -- men,
+	mich nicht be -- ſchä -- men.
+}
+
+DiesAllesOssiaTenoreLyricsB = \lyricmode {
+	\set stanza = #"2 "
+	Wenn dort, HErr Je -- ſu, wird vor dei -- nem Thro -- ne
+	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
+	da will ich dir, wenn al -- les wird wohl klin -- gen,
+	Lob und Danck ſin -- gen.
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
