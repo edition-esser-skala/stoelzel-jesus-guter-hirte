@@ -48,14 +48,6 @@
 
 \book {
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "I"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
-	}
-	\bookpart {
 		\header {
 			movement = \movementTitle "1.1" "C H O R A L" "Jeſu! frommer Menschenheerden"
 		}
@@ -270,14 +262,6 @@
 		}
 	}
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "II"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
-	}
-	\bookpart {
 		\header {
 			movement = \movementTitle "2.6" "C H O R A L" "Suche mich, dein Schäflein, wieder"
 		}
@@ -401,14 +385,6 @@
 		}
 	}
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "III"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
-	}
-	\bookpart {
 		\header {
 			movement = \movementTitle "3.7" "C H O R A L" "Rede durch dein Stilleſchweigen"
 		}
@@ -530,14 +506,6 @@
 				\new FiguredBass { \LassDeineLiebeBassFigures }
 			>>
 		}
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "IV"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
 	}
 	\bookpart {
 		\header {

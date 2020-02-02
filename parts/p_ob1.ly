@@ -48,14 +48,6 @@
 
 \book {
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "I"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
-	}
-	\bookpart {
 		\header {
 			movement = \movementTitle "1.1" "C H O R A L" "Jeſu! frommer Menschenheerden"
 		}
@@ -155,14 +147,6 @@
 		}
 	}
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "II"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
-	}
-	\bookpart {
 		\header {
 			movement = \movementTitle "2.2" "A R I A" "Ihr kommt mit Schwerdtern und mit Stangen"
 		}
@@ -240,14 +224,6 @@
 				\new Staff { \MeinHirtIchSopranoNotes }
 			>>
 		}
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "III"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
 	}
 	\bookpart {
 		\header {
@@ -342,14 +318,6 @@
 				\new Staff { \LassDeineLiebeViolinoI }
 			>>
 		}
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "IV"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
 	}
 	\bookpart {
 		\header {

@@ -1,4 +1,4 @@
-# (c) 2019 by Wolfgang Esser-Skala.
+# (c) 2020 by Wolfgang Esser-Skala.
 # This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 # To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -6,8 +6,8 @@
 # change the following variables according to your project
 project = Stoelzel_Jesus_Guter_Hirte
 zipname = Stoelzel_Jesus_Guter_Hirte_Engraving_Files
-notes = fl1 fl2 ob1 ob2 vl1 vl2 vla S A T B org
-parts = fl1 fl2 ob1 ob2 vl1 vl2 vla coro org b
+notes = fl1 fl2 ob1 ob2 ob3 fag vl1 vl2 vla S A T B org
+parts = fl1 fl2 ob1 ob2 ob3 vl1 vl2 vla soli coro org b
 movements = pars1 pars2 pars3 pars4
 
 

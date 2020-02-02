@@ -55,14 +55,6 @@
 
 \book {
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "I"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
-	}
-	\bookpart {
 		\header {
 			movement = \movementTitle "1.1" "C H O R A L" "Jeſu! frommer Menschenheerden"
 		}
@@ -386,14 +378,6 @@
 		}
 	}
 	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "II"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
-	}
-	\bookpart {
 		\header {
 			movement = \movementTitle "2.1" "R E C I T A T I V O" "Nun ſtellt ſich der Verräther ein"
 		}
@@ -617,14 +601,6 @@
 				\new Staff { \MeinHirtIchOrgano }
 			>>
 		}
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "III"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
 	}
 	\bookpart {
 		\header {
@@ -932,14 +908,6 @@
 				\new Staff { \LassDeineLiebeOrgano }
 			>>
 		}
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "P A R S" "IV"
-	}
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\markup \null
 	}
 	\bookpart {
 		\header {

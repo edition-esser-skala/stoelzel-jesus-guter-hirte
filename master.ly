@@ -23,4 +23,4 @@
 % \include "parts/p_soli.ly"
 % \include "parts/p_coro.ly"
 % \include "parts/p_org.ly"
-\include "parts/p_b.ly"
+% \include "parts/p_b.ly"
