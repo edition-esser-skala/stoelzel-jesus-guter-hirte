@@ -216,19 +216,19 @@
 			<<
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+						\set Staff.instrumentName = \markup \center-column { "Canto" "Violino I" "Oboe I" }
 						\new Voice = "Soprano" { \dynamicUp \SucheMichSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \SucheMichSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+						\set Staff.instrumentName = \markup \center-column { "Alto" "Violino II" "Oboe II" }
 						\new Voice = "Alto" { \dynamicUp \SucheMichAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \SucheMichAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+						\set Staff.instrumentName = \markup \center-column { "Tenore" "Viola" }
 						\new Voice = "Tenore" { \dynamicUp \SucheMichTenoreNotes }
 					}
 					\new Lyrics \lyricsto Tenore \SucheMichTenoreLyrics
@@ -335,19 +335,19 @@
 			<<
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+						\set Staff.instrumentName = \markup \center-column { "Canto" "Violino I" "Oboe I" }
 						\new Voice = "Soprano" { \dynamicUp \IchBittIchRufSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \IchBittIchRufSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+						\set Staff.instrumentName = \markup \center-column { "Alto" "Violino II" "Oboe II" }
 						\new Voice = "Alto" { \dynamicUp \IchBittIchRufAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \IchBittIchRufAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+						\set Staff.instrumentName = \markup \center-column { "Tenore" "Viola" }
 						\new Voice = "Tenore" { \dynamicUp \IchBittIchRufTenoreNotes }
 					}
 					\new Lyrics \lyricsto Tenore \IchBittIchRufTenoreLyrics
@@ -612,19 +612,19 @@
 			<<
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Canto" "[Violino I]" "[Oboe I]" }
+						\set Staff.instrumentName = \markup \center-column { "Canto" "Violino I" "Oboe I" }
 						\new Voice = "Soprano" { \dynamicUp \MeinHirtIchSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \MeinHirtIchSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Alto" "[Violino II]" "[Oboe II]" }
+						\set Staff.instrumentName = \markup \center-column { "Alto" "Violino II" "Oboe II" }
 						\new Voice = "Alto" { \dynamicUp \MeinHirtIchAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \MeinHirtIchAltoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \markup \center-column { "Tenore" "[Viola]" }
+						\set Staff.instrumentName = \markup \center-column { "Tenore" "Viola" }
 						\new Voice = "Tenore" { \dynamicUp \MeinHirtIchTenoreNotes }
 					}
 					\new Lyrics \lyricsto Tenore \MeinHirtIchTenoreLyrics

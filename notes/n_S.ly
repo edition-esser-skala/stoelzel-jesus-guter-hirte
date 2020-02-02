@@ -5,7 +5,7 @@
 \version "2.18.0"
 
 SopranoIncipit = \markup {
-	\center-column { "Canto" "[Violino I]" "[Oboe I]" } \hspace #-20.5 \score {
+	\center-column { "Canto" "Violino I" "Oboe I" } \hspace #-20.5 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {

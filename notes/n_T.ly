@@ -5,7 +5,7 @@
 \version "2.18.0"
 
 TenoreIncipit = \markup {
-	\center-column { "Tenore" "[Viola]" } \hspace #-19.5 \score {
+	\center-column { "Tenore" "Viola" } \hspace #-19.5 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
@@ -2037,7 +2037,7 @@ DiesAllesTenoreNotes = {
 		es1 es2 es d1 d c2 f g as as1 g\fermata
 		g es4( b) d2 es1 c f2 f es es es( d) b1\fermata
 		b b2 es d1 b g2 b es d d1 h\fermata
-		\time 4/1 es d2 c c( h) c1\fermata
+		\time 4/1 es d2 c c( h) c1\fermata %4 finis
 	}
 }
 
@@ -2046,7 +2046,7 @@ DiesAllesTenoreLyricsA = \lyricmode {
 	Diß al -- les, obs für ſchlecht zwar iſt zu ſchät -- zen,
 	wirſt du __ es doch nicht gar bey Sei -- te ſet -- zen.
 	In Gna -- den wirſt du diß von mir an -- neh -- men,
-	mich nicht be -- ſchä -- men.
+	mich nicht be -- ſchä -- men. %4 finis
 }
 
 DiesAllesTenoreLyricsB = \lyricmode {
@@ -2054,7 +2054,7 @@ DiesAllesTenoreLyricsB = \lyricmode {
 	Wenn dort, HErr Je -- ſu, wird vor dei -- nem Thro -- ne
 	auf mei -- nem Haup -- te ſtehn die Eh -- ren -- kro -- ne,
 	da will ich dir, wenn al -- les wird wohl klin -- gen,
-	Lob und Danck ſin -- gen.
+	Lob und Danck ſin -- gen. %4 finis
 }
 
 DiesAllesOssiaTenoreNotes = {
@@ -2065,7 +2065,7 @@ DiesAllesOssiaTenoreNotes = {
 		r2 es c c b d es h c b b( a4 c) d1\fermata
 		r2 f es d es es c b b2. es4 es2( d) g1\fermata
 		r2 g f f f es es f es g4( es) es2( d) es1\fermata
-		\time 4/1 r2 es d c c( h) es1\fermata \bar "|."
+		\time 4/1 r2 es d c c( h) es1\fermata \bar "|." %4 FINIS
 	}
 }
 

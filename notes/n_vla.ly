@@ -66,6 +66,22 @@ SeinHertzeViola = {
 	}
 }
 
+HungrigDurstigViola = {
+	\relative c' {
+		\clef alto
+		\key g \major \time 4/1 \autoBeamOff \tempoJesuFrommer
+			\set Staff.timeSignatureFraction = 4/4
+		d2 d c g c d d1\fermata
+		\time 5/1 d2 d c c d d d2.( c4) h1\fermata
+		\time 4/1 d2 d c g c d d1\fermata
+		\time 5/1 d2 d c c d d d2.( c4) h1\fermata
+		\time 2/1 d2 d d1\fermata %5
+		e2 e e1\fermata
+		\time 4/1 e2 h g c h2. h4 h1\fermata
+		e4( h) d2 d d d2. d4 h1\fermata \bar "|." %8 finis
+	}
+}
+
 NimmHinViola = {
 	\relative c' {
 		\clef alto
@@ -94,6 +110,22 @@ NimmHinViola = {
 		R1
 		fis4 r8 fis fis4 r
 		R1 \markDaCapo \bar "||" %24 finis
+	}
+}
+
+KeinHirtViola = {
+	\relative c' {
+		\clef alto
+		\key a \major \time 5/1 \tempoKeinHirt
+			\set Staff.timeSignatureFraction = 4/4
+		cis2 h a d cis h h2.( a4) gis1\fermata
+		\time 4/1 a2 e a gis4( fis) e2 e'4( d) cis1\fermata
+		\time 5/1 cis2 h a d cis h h2.( a4) gis1\fermata
+		\time 4/1 a2 e a gis4( fis) e2 e'4( d) cis1\fermata
+		e2 d a fis' e e e1\fermata %5
+		cis2 a4( e') d2 cis h e e1\fermata
+		\time 5/1 e2 e fis e d d e1 d\fermata
+		e2 e fis e e e e2.( d4) cis1\fermata \bar "|." %8 finis
 	}
 }
 
@@ -267,6 +299,22 @@ AchHaettIchViola = {
 	}
 }
 
+SoVielJahrViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 5/1 \autoBeamOff \tempoSoVielJahr
+			\set Staff.timeSignatureFraction = 4/4
+		e2 d c h a d d1 h\fermata
+		\time 4/1 c2 g c c c h e1\fermata
+		\time 5/1 e2 d c h a d d1 h\fermata
+		\time 4/1 c2 g c c c h e1\fermata
+		c2 c4( d) e2 a g g g1\fermata %5
+		e2 e f4( e) d2 c c h1\fermata
+		\time 5/1 c2 d c c f,4( g) a( h) c1 a\fermata
+		c2 d c c h c c( h4 f') e1\fermata \bar "|." %8 finis
+	}
+}
+
 DieseSchoenenViola = {
 	\relative c' {
 		\clef alto
@@ -340,6 +388,22 @@ DieseSchoenenViola = {
 	}
 }
 
+WaerenTausendViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 5/1 \autoBeamOff \tempoWaerenTausend
+			\set Staff.timeSignatureFraction = 4/4
+		e2 d c h a d d1 h\fermata
+		\time 4/1 c2 g c c c h e1\fermata
+		\time 5/1 e2 d c h a d d1 h\fermata
+		\time 4/1 c2 g c c c h e1\fermata
+		c2 c4( d) e2 a g g g1\fermata %5
+		e2 e f4( e) d2 c c h1\fermata
+		\time 5/1 c2 d c c f,4( g) a( h) c1 a\fermata
+		c2 d c c h c c( h4 f') e1\fermata \bar "|." %8 finis
+	}
+}
+
 IhrSuenderDenketViola = {
 	\relative c' {
 		\clef alto
@@ -358,6 +422,22 @@ IhrSuenderDenketViola = {
 		g e4 c
 		h2 c4 r8 a'
 		fis2 r\fermata \bar "|." %20 finis
+	}
+}
+
+SucheMichViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 5/1 \autoBeamOff \tempoSucheMich
+			\set Staff.timeSignatureFraction = 4/4
+		e2 d c a g d' d2.( c4) h1\fermata
+		\time 4/1 c2 g c c c h4( d) e1\fermata
+		\time 5/1 e2 d c a g d' d2.( c4) h1\fermata
+		\time 4/1 c2 g c c c h4( d) e1\fermata
+		g2 f e4( d) c2 c h c1\fermata %5
+		e2 e f e d4( h) c2 h1\fermata
+		\time 5/1 c2 d c c f f g1 f\fermata
+		g2 g c, c h c c( h4 d) e1\fermata \bar "|." %8 finis
 	}
 }
 
@@ -385,6 +465,22 @@ MeinHirtAufViola = {
 		b c b b g g' g g
 		c, c c c f f f f
 		es es b b' g4 r\fermata \bar "|." %20 finis
+	}
+}
+
+IchBittIchRufViola = {
+	\relative c' {
+		\clef alto
+		\key es \lydian \time 5/1 \autoBeamOff \tempoIchBittIchRuf
+			\set Staff.timeSignatureFraction = 4/4
+		r2 es es es as,4( f) b2 b1 b\fermata
+		\time 4/1 r2 g c c c h c1\fermata
+		\time 5/1 r2 es es es as,4( f) b2 b1 b\fermata
+		\time 4/1 r2 g c c c h c1\fermata
+		\time 5/1 r2 c b4( d) es2 es f g1 g\fermata %5
+		\time 4/1 r2 es es es c2. c4 c1\fermata
+		\time 5/1 r2 c b c4( d) es2 b b( a!) b1\fermata
+		\time 4/1 r2 b c b b b b1\fermata \bar "|." %8 finis
 	}
 }
 
@@ -561,6 +657,22 @@ GuterHirteDiesesViola = {
 	}
 }
 
+MeinHirtIchViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 5/1 \autoBeamOff \tempoMeinHirtIch
+			\set Staff.timeSignatureFraction = 4/4
+		e2 d c a g d' d2.( c4) h1\fermata
+		\time 4/1 c2 g c c c h4( d) e1\fermata
+		\time 5/1 e2 d c a g d' d2.( c4) h1\fermata
+		\time 4/1 c2 g c c c h4( d) e1\fermata
+		g2 f e4( d) c2 c h c1\fermata %5
+		e2 e f e d4( h) c2 h1\fermata
+		\time 5/1 c2 d c c f f g1 f\fermata
+		g2 g c, c h c c( h4 d) e1\fermata \bar "|." %8 finis
+	}
+}
+
 KaumGehtDerViola = {
 	\relative c' {
 		\clef alto
@@ -727,6 +839,22 @@ DasSchafVerstummtViola = {
 	}
 }
 
+RedeDurchDeinViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/1 \autoBeamOff \tempoRedeDurchDein
+			\set Staff.timeSignatureFraction = 4/4
+		d2 d c b b2. es4 d2 d\fermata
+		f g g f f f f1\fermata
+		d2 d c b b2. es4 d2 d\fermata
+		f g g f f f f1\fermata
+		f2 g f d4( es) f2 d4( b) a2 a\fermata %5
+		b f' f d d d d d\fermata
+		d d f! f f f g1\fermata
+		f2 f f d4( b) b2 a4( es') d1\fermata \bar "|." %8 finis
+	}
+}
+
 DiesIstDasKleidViola = {
 	\relative c' {
 		\clef alto
@@ -786,7 +914,20 @@ DiesenHonigsuessenViola = {
 		r r4. gis4 fis8
 		\slurDashed eis( fis) gis cis,( dis) eis \slurSolid fis4 h,8 h4 ais8
 		h4. h'8(\fE a!) gis cis( h) a gis( fis) e \bar "S-S" %24 finis
-		
+	}
+}
+
+EySoRichteViola = {
+	\relative c' {
+		\clef alto
+		\key e \major \time 4/1 \autoBeamOff \tempoEySoRichte
+			\set Staff.timeSignatureFraction = 4/4
+		h2 h a e' dis dis h1\fermata
+		h2 a e e' cis h h1\fermata
+		dis2 dis e e cis fis fis1\fermata
+		dis2 cis h fis' fis2. e4 dis1\fermata
+		gis2 gis e e e fis gis1\fermata %5
+		e2 e h h h h4( a) gis1\fermata %6 finis
 	}
 }
 
@@ -965,6 +1106,20 @@ LassDeineLiebeViola = {
 	}
 }
 
+SeeleGehAufViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/1 \autoBeamOff \tempoSeeleGehAuf
+			\set Staff.timeSignatureFraction = 4/4
+		d2 d c b b c4( es) d1\fermata
+		\time 5/1 f2 f f f g f f2.( es4) d1\fermata
+		\time 4/1 d2 d c b b c4( es) d1\fermata
+		\time 5/1 f2 f f f g f f2.( es4) d1\fermata
+		\time 4/1 f2 f d4( b) f'2 f f f1\fermata %5
+		f2 f g f f f d1\fermata \bar "|." %6 finis
+	}
+}
+
 IhrToechterJerusalemsViola = {
 	\relative c' {
 		\clef alto
@@ -1130,6 +1285,20 @@ KommSetzeDichViola = {
 	}
 }
 
+RuhNurAufViola = {
+	\relative c' {
+		\clef alto
+		\key d \minor \time 5/1 \autoBeamOff \tempoRuhNurAuf
+			\set Staff.timeSignatureFraction = 4/4
+		r2 d d cis d c b b a cis^\critnote\fermata
+		r f c e c f e e f1\fermata
+		r2 d d cis d c b b a cis^\critnote\fermata
+		r f c e c f e e f1\fermata
+		r2 cis d e f f f e f1\fermata %5
+		r2 f e d cis d d cis d1\fermata \bar "|." %6 finis
+	}
+}
+
 OLippenDieViola = {
 	\relative c' {
 		\clef alto
@@ -1214,6 +1383,20 @@ AchVonDiesemViola = {
 	}
 }
 
+EsFreutSchonViola = {
+	\relative c' {
+		\clef alto
+		\key es \lydian \time 4/1 \autoBeamOff \tempoEsFreutSchon
+			\set Staff.timeSignatureFraction = 4/4
+		r2 b b as g4( as) b2 g1\fermata
+		r2 b4( f) c'2 d4( es) f2. f4 d1\fermata
+		r2 d b es d2. d4 es2 es\fermata
+		r es es4( f) g2 f2. f4 g2 g\fermata
+		r b, b as es'4( d) c2 f, b\fermata %5
+		r b as g f f g g\fermata \bar "|." %6 finis
+	}
+}
+
 UndUmDieViola = {
 	\relative c' {
 		\clef alto
@@ -1290,6 +1473,22 @@ JedochWasRegenViola = {
 		es8 g r4 r8 r16 f f4
 		R1*5 %24
 		R1\fermataMarkup \bar "|." %25 finis
+	}
+}
+
+DruecketEuchViola = {
+	\relative c' {
+		\clef alto
+		\key g \dorian \time 5/1 \autoBeamOff \tempoDruecketEuch
+			\set Staff.timeSignatureFraction = 4/4
+		b2 b g fis g d' d1 b\fermata
+		\time 4/1 d2 d c b a b d1\fermata
+		\time 5/1 b2 b g fis g d' d1 b\fermata
+		\time 4/1 d2 d c b a b d1\fermata
+		\time 5/1 c2 b a a4( d) d2 c c1 a\fermata %5
+		\time 4/1 b2 f' f g f f d1\fermata
+		\time 5/1 g2 g g g f es4( f) g2( d) es1\fermata
+		\time 4/1 d2 d d d d2. d4 b1\fermata \bar "|." %8 finis
 	}
 }
 
@@ -1395,6 +1594,30 @@ NimmHirteViola = {
 		es es es d
 		es r es r
 		f, r f r
-		g4 r\fermata \bar "|." %65 FINIS
+		g4 r\fermata \bar "|." %65 finis
+	}
+}
+
+DiesAllesViola = {
+	\relative c' {
+		\clef alto
+		\key c \dorian \time 8/1 \autoBeamOff \tempoDiesAlles
+			\set Staff.timeSignatureFraction = 4/4
+		es1 es2 es d1 d c2 f g as as1 g\fermata
+		g es4( b) d2 es1 c f2 f es es es( d) b1\fermata
+		b b2 es d1 b g2 b es d d1 h\fermata
+		\time 4/1 es d2 c c( h) c1\fermata
+	}
+}
+
+DiesAllesOssiaViola = {
+	\relative c' {
+		\clef alto
+		\key c \dorian \time 7/1 \autoBeamOff \tempoDiesAllesOssia
+			\set Staff.timeSignatureFraction = 4/4
+		r2 es c c b d es h c b b( a4 c) d1\fermata
+		r2 f es d es es c b b2. es4 es2( d) g1\fermata
+		r2 g f f f es es f es g4( es) es2( d) es1\fermata
+		\time 4/1 r2 es d c c( h) es1\fermata \bar "|." %4 FINIS
 	}
 }

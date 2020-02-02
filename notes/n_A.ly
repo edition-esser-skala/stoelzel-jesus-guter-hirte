@@ -5,7 +5,7 @@
 \version "2.18.0"
 
 AltoIncipit = \markup {
-	\center-column { "Alto" "[Violino II]" "[Oboe II]" } \hspace #-21 \score {
+	\center-column { "Alto" "Violino II" "Oboe II" } \hspace #-21 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
