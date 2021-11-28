@@ -1,17 +1,23 @@
 composer: Stölzel, Gottfried Heinrich
 title: Der gute Hirte
-id: (D-B Mus.ms. 21400)
+subtitle: JESUS, als der für das verlohrene Schäflein\\leidend- und ſterbende Gute Hirte
 genre: passion
-scoring: 2 S, 2 A, 2 T, B (solo), 2 S, 2 A, T, B (coro), 2 fl, 3 ob, fag, 2 vl, vla, vlc, b, org
+scoring:
+  - 2 S, 2 A, T, B (solo), 2 S, 2 A, T, B (coro),
+  - 2 fl, 3 ob, fag, 2 vl, vla, vlc, b, org
 sources:
-  1:
+  A1:
     siglum: D-B
     shelfmark: Mus.ms. 21400
-    type: autograph manuscript
     date: 1727
     rism: 452511101
     url: http://resolver.staatsbibliothek-berlin.de/SBB00022B3E00000000
-github: stoelzel-jesus-guter-hirte
+    principal: true
+    notes: also includes a handwritten and printed libretto (J. A. Reyher, Gotha)
 imslp: Jesus,_als_der_für_das_verlohrne_Schäflein_leidende_und_sterbende_Gute_Hirte_(Stölzel,_Gottfried_Heinrich)
-notes:
-
+parts:
+  fag: Fagotto\\Violoncello
+  vla: Viola I, II
+extra_abbreviations:
+  fond:
+  vlne:
