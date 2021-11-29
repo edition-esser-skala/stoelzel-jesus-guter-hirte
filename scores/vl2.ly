@@ -86,9 +86,19 @@
   \bookpart {
     \section "1.17" "Accompagnato" "O Liebe die nicht zu ermeßen"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper {
+      systems-per-page = #5
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Das bewegte" "Schäflein" "(S 1)" }
+            \new Voice = "Soprano" { \dynamicUp \OLiebeDieNichtSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \OLiebeDieNichtSopranoLyrics
+        >>
         \new Staff { \OLiebeDieNichtViolinoII }
       >>
     }
@@ -105,9 +115,21 @@
   \bookpart {
     \section "1.20" "Accompagnato" "Ach Sünder! Nun gehen mir die Augen auf"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper {
+      system-system-spacing.basic-distance = #16
+      system-system-spacing.minimum-distance = #16
+      systems-per-page = #6
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff \with { \smallGroupDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Das reuige" "Schäflein" "(S 1)" }
+            \new Voice = "Soprano" { \dynamicUp \AchSuenderSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \AchSuenderSopranoLyrics
+        >>
         \new Staff { \AchSuenderViolinoII }
       >>
     }
@@ -163,9 +185,19 @@
   \bookpart {
     \section "2.4" "Accompagnato" "Ihr Sünder, denket nach"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper {
+      systems-per-page = #5
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Das Gesetze"
+            \new Voice = "Basso" { \dynamicUp \IhrSuenderDenketBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \IhrSuenderDenketBassoLyrics
+        >>
         \new Staff { \IhrSuenderDenketViolinoII }
       >>
     }
@@ -221,9 +253,19 @@
   \bookpart {
     \section "2.12" "Recitativo" "Diß Wort wird auf der Feinde Zungen"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper {
+      systems-per-page = #5
+      indent = 6\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Das erschrockene Schäflein (S 2)" "Das Evangelium (A 2)" "Der Evangeliste" "Das Gesetze" }
+            \new Voice = "Tenore" { \dynamicUp \DiesWortWirdTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \DiesWortWirdTenoreLyrics
+        >>
         \new Staff { \DiesWortWirdViolinoII }
       >>
     }
@@ -259,9 +301,19 @@
   \bookpart {
     \section "3.1" "Recitativo" "Kaum geht der Sonnen Licht"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper {
+      systems-per-page = #5
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Der Evangeliste" \vspace #.5 "Das erschrockene" "Schäflein" "(S 1)" }
+            \new Voice = "Tenore" { \dynamicUp \KaumGehtDerTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \KaumGehtDerTenoreLyrics
+        >>
         \new Staff { \KaumGehtDerViolinoII }
       >>
     }
@@ -297,9 +349,19 @@
   \bookpart {
     \section "3.9" "Accompagnato" "Diß iſt das Kleid, das Satan dir geraubt"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper {
+      systems-per-page = #4
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Das Gesetze"
+            \new Voice = "Basso" { \dynamicUp \DiesIstDasKleidBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \DiesIstDasKleidBassoLyrics
+        >>
         \new Staff { \DiesIstDasKleidViolinoII }
       >>
     }
@@ -316,9 +378,19 @@
   \bookpart {
     \section "3.12" "Accompagnato" "Komm her und ſiehe deinen Hirten"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper {
+      systems-per-page = #4
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Das Evangelium" "(A 2)" }
+            \new Voice = "Alto" { \dynamicUp \KommHerUndAltoNotes }
+          }
+          \new Lyrics \lyricsto Alto \KommHerUndAltoLyrics
+        >>
         \new Staff { \KommHerUndViolinoII }
       >>
     }
@@ -345,9 +417,19 @@
   \bookpart {
     \section "3.16" "Accompagnato" "Beſpiegelt euch, geſchminckte Pfauen"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper {
+      systems-per-page = #5
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = "Das Gesetze"
+            \new Voice = "Basso" { \dynamicUp \BespiegeltEuchBassoNotes }
+          }
+          \new Lyrics \lyricsto Basso \BespiegeltEuchBassoLyrics
+        >>
         \new Staff { \BespiegeltEuchViolinoII }
       >>
     }
@@ -374,9 +456,21 @@
   \bookpart {
     \section "3.21" "Accompagnato" "Iſts nicht genug, daß mein getreuer Hirte"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper {
+      system-system-spacing.basic-distance = #16
+      system-system-spacing.minimum-distance = #16
+      systems-per-page = #6
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff \with { \smallGroupDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Das wehmüthige" "Schäflein" "(S 2)" }
+            \new Voice = "Soprano" { \dynamicUp \IstsNichtGenugSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \IstsNichtGenugSopranoLyrics
+        >>
         \new Staff { \IstsNichtGenugViolinoII }
       >>
     }
@@ -413,9 +507,19 @@
   \bookpart {
     \section "4.3" "Accompagnato" "Ihr Töchter von Jeruſalem"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper {
+      systems-per-page = #5
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "JESUS, der" "gute Hirte" }
+            \new Voice = "Tenore" { \dynamicUp \IhrToechterJerusalemsTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \IhrToechterJerusalemsTenoreLyrics
+        >>
         \new Staff { \IhrToechterJerusalemsViolinoII }
       >>
     }
@@ -432,9 +536,19 @@
   \bookpart {
     \section "4.6" "Accompagnato" "Erſchrocknes Schäflein, komm nach Golgatha"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper {
+      systems-per-page = #4
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Das Evangelium" "(A 1)" }
+            \new Voice = "Alto" { \dynamicUp \ErschrocknesSchaefleinAltoNotes }
+          }
+          \new Lyrics \lyricsto Alto \ErschrocknesSchaefleinAltoLyrics
+        >>
         \new Staff { \ErschrocknesSchaefleinViolinoII }
       >>
     }
@@ -461,9 +575,19 @@
   \bookpart {
     \section "4.10" "Accompagnato" "O Lippen! die von Honig triefen"
     \addTocEntry
-    \paper { systems-per-page = #5 }
+    \paper {
+      systems-per-page = #5
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Das glaubende" "Schäflein" "(S 1)" }
+            \new Voice = "Soprano" { \dynamicUp \OLippenDieSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \OLippenDieSopranoLyrics
+        >>
         \new Staff { \OLippenDieViolinoII }
       >>
     }
@@ -490,9 +614,19 @@
   \bookpart {
     \section "4.13" "Recitativo" "Und um die ſechſte Stunde"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper {
+      systems-per-page = #5
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Der Evangeliste" \vspace #.5 "JESUS, der" "gute Hirte" }
+            \new Voice = "Tenore" { \dynamicUp \UndUmDieTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \UndUmDieTenoreLyrics
+        >>
         \new Staff { \UndUmDieViolinoII }
       >>
     }
@@ -510,8 +644,19 @@
   \bookpart {
     \section "4.15" "Accompagnato" "Jedoch was regen ſich bey dieſem Todt"
     \addTocEntry
+    \paper {
+      systems-per-page = #5
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Das erschreckte" "Schäflein" "(S 2)" }
+            \new Voice = "Soprano" { \dynamicUp \JedochWasRegenSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \JedochWasRegenSopranoLyrics
+        >>
         \new Staff { \JedochWasRegenViolinoII }
       >>
     }
@@ -538,9 +683,21 @@
   \bookpart {
     \section "4.19" "Recitativo" "Der Abend brach nun an"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper {
+      system-system-spacing.basic-distance = #16
+      system-system-spacing.minimum-distance = #16
+      systems-per-page = #6
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff \with { \smallGroupDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = "Der Evangeliste"
+            \new Voice = "Tenore" { \dynamicUp \DerAbendBrachTenoreNotes }
+          }
+          \new Lyrics \lyricsto Tenore \DerAbendBrachTenoreLyrics
+        >>
         \new Staff { \DerAbendBrachViolinoII }
       >>
     }
@@ -548,9 +705,21 @@
   \bookpart {
     \section "4.20" "Recitativo" "So hat dich denn der Liebe Macht"
     \addTocEntry
-    \paper { systems-per-page = #3 }
+    \paper {
+      system-system-spacing.basic-distance = #16
+      system-system-spacing.minimum-distance = #16
+      systems-per-page = #6
+      indent = 2.5\cm
+    }
     \score {
       <<
+        \new ChoirStaff \with { \smallGroupDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Das getröstete" "Schäflein" "(S 1)" }
+            \new Voice = "Soprano" { \dynamicUp \SoHatDichSopranoNotes }
+          }
+          \new Lyrics \lyricsto Soprano \SoHatDichSopranoLyrics
+        >>
         \new Staff { \SoHatDichViolinoII }
       >>
     }
